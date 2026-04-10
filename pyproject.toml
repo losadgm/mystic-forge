@@ -1,7 +1,12 @@
 [project]
 name = "mystic-forge"
 version = "0.1.0"
-description = "Add your description here"
+description = "Synthetic trading card data generation experiments in Python."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "loguru>=0.7.3",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "requests>=2.33.1",
+]
