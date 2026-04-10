@@ -1,16 +1,16 @@
-2026-04-10 21:45:16 | INFO | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-10 21:45:18 | INFO | Fetched 771 cards successfully
-2026-04-10 21:45:18 | DEBUG | Building DataFrame from card data
-2026-04-10 21:45:18 | INFO | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-10 22:05:35 | INFO | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-10 22:05:37 | INFO | Fetched 771 cards successfully
-2026-04-10 22:05:37 | DEBUG | Building DataFrame from card data
-2026-04-10 22:05:37 | INFO | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-10 22:07:55 | INFO | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-10 22:07:57 | INFO | Fetched 771 cards successfully
-2026-04-10 22:07:57 | DEBUG | Building DataFrame from card data
-2026-04-10 22:07:57 | INFO | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-10 22:10:43 | INFO | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-10 22:10:45 | INFO | Fetched 771 cards successfully
-2026-04-10 22:10:45 | DEBUG | Building DataFrame from card data
-2026-04-10 22:10:45 | INFO | Saved 771 rows to data/raw/cards_seed.csv
+2026-04-11 00:04:00 | INFO     | === pipeline start (2 stages) ===
+2026-04-11 00:04:00 | INFO     | [1/2] stage 'fetch_cards' starting
+2026-04-11 00:04:00 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
+2026-04-11 00:04:02 | INFO     | Fetched 771 cards successfully
+2026-04-11 00:04:02 | DEBUG    | Building DataFrame from 771 cards
+2026-04-11 00:04:02 | DEBUG    | DataFrame shape: 771 rows x 8 columns
+2026-04-11 00:04:02 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
+2026-04-11 00:04:02 | INFO     | [1/2] stage 'fetch_cards' done
+2026-04-11 00:04:02 | INFO     | [2/2] stage 'preprocess' starting
+2026-04-11 00:04:02 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
+2026-04-11 00:04:02 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
+2026-04-11 00:04:02 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
+2026-04-11 00:04:02 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
+2026-04-11 00:04:02 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
+2026-04-11 00:04:02 | INFO     | [2/2] stage 'preprocess' done
+2026-04-11 00:04:02 | SUCCESS  | === pipeline complete ===

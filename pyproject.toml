@@ -1,3 +1,10 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
 [project]
 name = "mystic-forge"
 version = "0.0.1"
@@ -9,4 +16,12 @@ dependencies = [
     "numpy>=2.4.4",
     "pandas>=3.0.2",
     "requests>=2.33.1",
+]
+
+[project.scripts]
+mystic-forge = "mystic_forge.run:main"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
 ]

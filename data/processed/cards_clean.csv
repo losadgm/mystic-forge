@@ -1,0 +1,772 @@
+name,type,mana_cost,power,toughness,rarity,colors
+Sire of Seven Deaths,Creature — Eldrazi,{7},7.0,7.0,mythic,C
+"Arahbo, the First Fang",Legendary Creature — Cat Avatar,{2}{W},2.0,2.0,rare,W
+Armasaur Guide,Creature — Dinosaur,{4}{W},4.0,4.0,common,W
+Cat Collector,Creature — Human Citizen,{2}{W},3.0,2.0,uncommon,W
+Celestial Armor,Artifact — Equipment,{2}{W},,,rare,W
+Claws Out,Instant,{3}{W}{W},,,uncommon,W
+Crystal Barricade,Artifact Creature — Wall,{1}{W},0.0,4.0,rare,W
+Dauntless Veteran,Creature — Human Soldier,{1}{W}{W},2.0,2.0,uncommon,W
+Dazzling Angel,Creature — Angel,{2}{W},2.0,3.0,common,W
+Divine Resilience,Instant,{W},,,uncommon,W
+Exemplar of Light,Creature — Angel,{2}{W}{W},3.0,3.0,rare,W
+Felidar Savior,Creature — Cat Beast,{3}{W},2.0,3.0,common,W
+Fleeting Flight,Instant,{W},,,common,W
+Guarded Heir,Creature — Human Noble,{5}{W},1.0,1.0,uncommon,W
+Hare Apparent,Creature — Rabbit Noble,{1}{W},2.0,2.0,common,W
+Helpful Hunter,Creature — Cat,{1}{W},1.0,1.0,common,W
+Herald of Eternal Dawn,Creature — Angel,{4}{W}{W}{W},6.0,6.0,mythic,W
+Inspiring Paladin,Creature — Human Knight,{2}{W},3.0,3.0,common,W
+Joust Through,Instant,{W},,,uncommon,W
+Luminous Rebuke,Instant,{4}{W},,,common,W
+Prideful Parent,Creature — Cat,{2}{W},2.0,2.0,common,W
+Raise the Past,Sorcery,{2}{W}{W},,,rare,W
+Skyknight Squire,Creature — Cat Scout,{1}{W},1.0,1.0,rare,W
+Squad Rallier,Creature — Human Scout,{3}{W},3.0,4.0,common,W
+Sun-Blessed Healer,Creature — Human Cleric,{1}{W},3.0,1.0,uncommon,W
+Twinblade Blessing,Enchantment — Aura,{1}{W}{W},,,uncommon,W
+Valkyrie's Call,Enchantment,{3}{W}{W},,,mythic,W
+Vanguard Seraph,Creature — Angel Warrior,{3}{W},3.0,3.0,common,W
+Arcane Epiphany,Instant,{3}{U}{U},,,uncommon,U
+Archmage of Runes,Creature — Giant Wizard,{3}{U}{U},3.0,6.0,rare,U
+Bigfin Bouncer,Creature — Shark Pirate,{3}{U},3.0,2.0,common,U
+Cephalid Inkmage,Creature — Octopus Wizard,{2}{U},2.0,2.0,uncommon,U
+Clinquant Skymage,Creature — Bird Wizard,{3}{U},1.0,1.0,uncommon,U
+Curator of Destinies,Creature — Sphinx,{4}{U}{U},5.0,5.0,rare,U
+Drake Hatcher,Creature — Human Wizard,{1}{U},1.0,3.0,rare,U
+Elementalist Adept,Creature — Human Wizard,{1}{U},2.0,1.0,common,U
+Erudite Wizard,Creature — Human Wizard,{2}{U},2.0,3.0,common,U
+Faebloom Trick,Instant,{2}{U},,,uncommon,U
+Grappling Kraken,Creature — Kraken,{4}{U}{U},5.0,6.0,uncommon,U
+High Fae Trickster,Creature — Faerie Wizard,{3}{U},4.0,2.0,rare,U
+Homunculus Horde,Creature — Homunculus,{3}{U},2.0,2.0,rare,U
+Icewind Elemental,Creature — Elemental,{4}{U},3.0,4.0,common,U
+Inspiration from Beyond,Sorcery,{2}{U},,,uncommon,U
+"Kaito, Cunning Infiltrator",Legendary Planeswalker — Kaito,{1}{U}{U},,,mythic,U
+"Kiora, the Rising Tide",Legendary Creature — Merfolk Noble,{2}{U},3.0,2.0,rare,U
+Lunar Insight,Sorcery,{2}{U},,,rare,U
+Mischievous Mystic,Creature — Human Wizard,{1}{U},2.0,1.0,uncommon,U
+Refute,Instant,{1}{U}{U},,,common,U
+Rune-Sealed Wall,Artifact Creature — Wall,{2}{U},0.0,6.0,uncommon,U
+Skyship Buccaneer,Creature — Human Pirate,{3}{U}{U},4.0,3.0,uncommon,U
+Sphinx of Forgotten Lore,Creature — Sphinx,{2}{U}{U},3.0,3.0,mythic,U
+Strix Lookout,Creature — Bird,{1}{U},1.0,2.0,common,U
+Uncharted Voyage,Instant,{3}{U},,,common,U
+Abyssal Harvester,Creature — Demon Warlock,{1}{B}{B},3.0,2.0,rare,B
+Arbiter of Woe,Creature — Demon,{4}{B}{B},5.0,4.0,uncommon,B
+Billowing Shriekmass,Creature — Spirit,{3}{B},2.0,3.0,uncommon,B
+Blasphemous Edict,Sorcery,{3}{B}{B},,,rare,B
+Bloodthirsty Conqueror,Creature — Vampire Knight,{3}{B}{B},5.0,5.0,mythic,B
+Crypt Feaster,Creature — Zombie,{3}{B},3.0,4.0,common,B
+Gutless Plunderer,Creature — Skeleton Pirate,{2}{B},2.0,2.0,common,B
+High-Society Hunter,Creature — Vampire Noble,{3}{B}{B},5.0,3.0,rare,B
+Hungry Ghoul,Creature — Zombie,{1}{B},2.0,2.0,common,B
+Infernal Vessel,Creature — Human Cleric,{2}{B},2.0,1.0,uncommon,B
+Infestation Sage,Creature — Elf Warlock,{B},1.0,1.0,common,B
+Midnight Snack,Enchantment,{2}{B},,,uncommon,B
+Nine-Lives Familiar,Creature — Cat,{1}{B}{B},1.0,1.0,rare,B
+Revenge of the Rats,Sorcery,{2}{B}{B},,,uncommon,B
+Sanguine Syphoner,Creature — Vampire Warlock,{1}{B},1.0,3.0,common,B
+Seeker's Folly,Sorcery,{2}{B},,,uncommon,B
+Soul-Shackled Zombie,Creature — Zombie,{3}{B},4.0,2.0,common,B
+Stab,Instant,{B},,,common,B
+"Tinybones, Bauble Burglar",Legendary Creature — Skeleton Rogue,{1}{B},1.0,3.0,rare,B
+Tragic Banshee,Creature — Spirit,{4}{B},5.0,3.0,uncommon,B
+Vampire Gourmand,Creature — Vampire,{1}{B},2.0,2.0,uncommon,B
+Vampire Soulcaller,Creature — Vampire Warlock,{4}{B},3.0,2.0,common,B
+Vengeful Bloodwitch,Creature — Vampire Warlock,{1}{B},1.0,1.0,uncommon,B
+"Zul Ashur, Lich Lord",Legendary Creature — Zombie Warlock,{1}{B},2.0,2.0,rare,B
+Battlesong Berserker,Creature — Human Berserker,{3}{R},3.0,4.0,uncommon,R
+Boltwave,Sorcery,{R},,,uncommon,R
+Bulk Up,Instant,{1}{R},,,uncommon,R
+"Chandra, Flameshaper",Legendary Planeswalker — Chandra,{5}{R}{R},,,mythic,R
+Courageous Goblin,Creature — Goblin,{1}{R},2.0,2.0,common,R
+Crackling Cyclops,Creature — Cyclops Wizard,{2}{R},0.0,4.0,common,R
+Dragon Trainer,Creature — Human,{3}{R}{R},1.0,1.0,uncommon,R
+Electroduplicate,Sorcery,{2}{R},,,rare,R
+Fiery Annihilation,Instant,{2}{R},,,uncommon,R
+Goblin Boarders,Creature — Goblin Pirate,{2}{R},3.0,2.0,common,R
+Goblin Negotiation,Sorcery,{X}{R}{R},,,uncommon,R
+Gorehorn Raider,Creature — Minotaur Pirate,{4}{R},4.0,4.0,common,R
+Incinerating Blast,Sorcery,{4}{R},,,common,R
+"Kellan, Planar Trailblazer",Legendary Creature — Human Faerie Scout,{R},2.0,1.0,rare,R
+Rite of the Dragoncaller,Enchantment,{4}{R}{R},,,mythic,R
+Searslicer Goblin,Creature — Goblin Warrior,{1}{R},2.0,1.0,rare,R
+Slumbering Cerberus,Creature — Dog,{1}{R},4.0,2.0,uncommon,R
+Sower of Chaos,Creature — Devil,{3}{R},4.0,3.0,common,R
+Strongbox Raider,Creature — Orc Pirate,{2}{R}{R},5.0,2.0,uncommon,R
+Twinflame Tyrant,Creature — Dragon,{3}{R}{R},3.0,5.0,mythic,R
+Ambush Wolf,Creature — Wolf,{2}{G},4.0,2.0,common,G
+Apothecary Stomper,Creature — Elephant,{4}{G}{G},4.0,4.0,common,G
+Beast-Kin Ranger,Creature — Elf Ranger,{2}{G},3.0,3.0,common,G
+Cackling Prowler,Creature — Hyena Rogue,{3}{G},4.0,3.0,common,G
+Eager Trufflesnout,Creature — Boar,{2}{G},4.0,2.0,uncommon,G
+Elfsworn Giant,Creature — Giant,{3}{G}{G},5.0,3.0,common,G
+Elvish Regrower,Creature — Elf Druid,{2}{G}{G},4.0,3.0,uncommon,G
+Felling Blow,Sorcery,{2}{G},,,uncommon,G
+"Loot, Exuberant Explorer",Legendary Creature — Beast Noble,{2}{G},1.0,4.0,rare,G
+Mossborn Hydra,Creature — Elemental Hydra,{2}{G},0.0,0.0,rare,G
+Needletooth Pack,Creature — Dinosaur,{3}{G}{G},4.0,5.0,uncommon,G
+Preposterous Proportions,Sorcery,{5}{G}{G},,,rare,G
+Quakestrider Ceratops,Creature — Dinosaur,{3}{G}{G}{G},12.0,8.0,uncommon,G
+Quilled Greatwurm,Creature — Wurm,{4}{G}{G},7.0,7.0,mythic,G
+Spinner of Souls,Creature — Spider Spirit,{2}{G},4.0,3.0,rare,G
+Sylvan Scavenging,Enchantment,{1}{G}{G},,,rare,G
+Treetop Snarespinner,Creature — Spider,{3}{G},1.0,4.0,common,G
+"Alesha, Who Laughs at Fate",Legendary Creature — Human Warrior,{1}{B}{R},2.0,2.0,rare,"B,R"
+Anthem of Champions,Enchantment,{G}{W},,,rare,"G,W"
+Ashroot Animist,Creature — Lizard Druid,{2}{R}{G},4.0,4.0,rare,"G,R"
+Dreadwing Scavenger,Creature — Nightmare Bird,{1}{U}{B},2.0,2.0,uncommon,"B,U"
+"Elenda, Saint of Dusk",Legendary Creature — Vampire Knight,{2}{W}{B},4.0,4.0,rare,"B,W"
+Fiendish Panda,Creature — Bear Demon,{2}{W}{B},3.0,2.0,uncommon,"B,W"
+"Koma, World-Eater",Legendary Creature — Serpent,{3}{G}{G}{U}{U},8.0,12.0,rare,"G,U"
+"Kykar, Zephyr Awakener",Legendary Creature — Bird Wizard,{2}{W}{U},3.0,4.0,rare,"U,W"
+"Niv-Mizzet, Visionary",Legendary Creature — Dragon Wizard,{4}{U}{R},5.0,5.0,mythic,"R,U"
+Perforating Artist,Creature — Devil,{1}{B}{R},3.0,2.0,uncommon,"B,R"
+Wardens of the Cycle,Creature — Elf Warlock,{1}{B}{G}{G},3.0,4.0,uncommon,"B,G"
+"Zimone, Paradox Sculptor",Legendary Creature — Human Wizard,{2}{G}{U},1.0,4.0,mythic,"G,U"
+Banner of Kinship,Artifact,{5},,,rare,C
+Fishing Pole,Artifact — Equipment,{1},,,uncommon,C
+Leyline Axe,Artifact — Equipment,{4},,,rare,C
+Quick-Draw Katana,Artifact — Equipment,{2},,,common,C
+Ravenous Amulet,Artifact,{2},,,uncommon,C
+Scrawling Crawler,Artifact Creature — Phyrexian Construct,{3},3.0,2.0,rare,C
+Soulstone Sanctuary,Land,,,,rare,C
+"Ajani, Caller of the Pride",Legendary Planeswalker — Ajani,{1}{W}{W},,,mythic,W
+Ajani's Pridemate,Creature — Cat Soldier,{1}{W},2.0,2.0,uncommon,W
+Angel of Finality,Creature — Angel,{3}{W},3.0,4.0,uncommon,W
+Authority of the Consuls,Enchantment,{W},,,rare,W
+Banishing Light,Enchantment,{2}{W},,,common,W
+Cathar Commando,Creature — Human Soldier,{1}{W},3.0,1.0,common,W
+Day of Judgment,Sorcery,{2}{W}{W},,,rare,W
+"Giada, Font of Hope",Legendary Creature — Angel,{1}{W},2.0,2.0,rare,W
+Healer's Hawk,Creature — Bird,{W},1.0,1.0,common,W
+Make Your Move,Instant,{2}{W},,,common,W
+Mischievous Pup,Creature — Dog,{2}{W},3.0,1.0,uncommon,W
+Resolute Reinforcements,Creature — Human Soldier,{1}{W},1.0,1.0,uncommon,W
+Savannah Lions,Creature — Cat,{W},2.0,1.0,uncommon,W
+Serra Angel,Creature — Angel,{3}{W}{W},4.0,4.0,uncommon,W
+Stroke of Midnight,Instant,{2}{W},,,uncommon,W
+Youthful Valkyrie,Creature — Angel,{1}{W},1.0,3.0,uncommon,W
+Aegis Turtle,Creature — Turtle,{U},0.0,5.0,common,U
+Aetherize,Instant,{3}{U},,,uncommon,U
+Brineborn Cutthroat,Creature — Merfolk Pirate,{1}{U},2.0,1.0,uncommon,U
+Essence Scatter,Instant,{1}{U},,,uncommon,U
+Extravagant Replication,Enchantment,{4}{U}{U},,,rare,U
+Fleeting Distraction,Instant,{U},,,common,U
+Imprisoned in the Moon,Enchantment — Aura,{2}{U},,,uncommon,U
+Lightshell Duo,Creature — Rat Otter,{3}{U},3.0,4.0,common,U
+Micromancer,Creature — Human Wizard,{3}{U},3.0,3.0,uncommon,U
+Mocking Sprite,Creature — Faerie Rogue,{2}{U},2.0,1.0,common,U
+An Offer You Can't Refuse,Instant,{U},,,uncommon,U
+Omniscience,Enchantment,{7}{U}{U}{U},,,mythic,U
+Run Away Together,Instant,{1}{U},,,common,U
+Self-Reflection,Sorcery,{4}{U}{U},,,uncommon,U
+Spectral Sailor,Creature — Spirit Pirate,{U},1.0,1.0,uncommon,U
+Think Twice,Instant,{1}{U},,,common,U
+Time Stop,Instant,{4}{U}{U},,,rare,U
+Tolarian Terror,Creature — Serpent,{6}{U},5.0,5.0,common,U
+Witness Protection,Enchantment — Aura,{U},,,common,U
+Bake into a Pie,Instant,{2}{B}{B},,,common,B
+Burglar Rat,Creature — Rat,{1}{B},1.0,1.0,common,B
+Diregraf Ghoul,Creature — Zombie,{B},2.0,2.0,uncommon,B
+Eaten Alive,Sorcery,{B},,,common,B
+Exsanguinate,Sorcery,{X}{B}{B},,,uncommon,B
+Fake Your Own Death,Instant,{1}{B},,,common,B
+Hero's Downfall,Instant,{1}{B}{B},,,uncommon,B
+"Liliana, Dreadhorde General",Legendary Planeswalker — Liliana,{4}{B}{B},,,mythic,B
+Macabre Waltz,Sorcery,{1}{B},,,common,B
+Marauding Blight-Priest,Creature — Vampire Cleric,{2}{B},3.0,2.0,common,B
+Painful Quandary,Enchantment,{3}{B}{B},,,rare,B
+Phyrexian Arena,Enchantment,{1}{B}{B},,,rare,B
+Pilfer,Sorcery,{1}{B},,,common,B
+Reassembling Skeleton,Creature — Skeleton Warrior,{1}{B},1.0,1.0,uncommon,B
+Rise of the Dark Realms,Sorcery,{7}{B}{B},,,mythic,B
+Rune-Scarred Demon,Creature — Demon,{5}{B}{B},6.0,6.0,rare,B
+Stromkirk Bloodthief,Creature — Vampire Rogue,{2}{B},2.0,2.0,uncommon,B
+Vampire Nighthawk,Creature — Vampire Shaman,{1}{B}{B},2.0,3.0,uncommon,B
+Zombify,Sorcery,{3}{B},,,uncommon,B
+Abrade,Instant,{1}{R},,,uncommon,R
+Axgard Cavalry,Creature — Dwarf Berserker,{1}{R},2.0,2.0,common,R
+Brass's Bounty,Sorcery,{6}{R},,,rare,R
+Brazen Scourge,Creature — Gremlin,{1}{R}{R},3.0,3.0,uncommon,R
+Burst Lightning,Instant,{R},,,common,R
+"Drakuseth, Maw of Flames",Legendary Creature — Dragon,{4}{R}{R}{R},7.0,7.0,rare,R
+"Etali, Primal Storm",Legendary Creature — Elder Dinosaur,{4}{R}{R},6.0,6.0,rare,R
+Fanatical Firebrand,Creature — Goblin Pirate,{R},1.0,1.0,common,R
+Firebrand Archer,Creature — Human Archer,{1}{R},2.0,1.0,common,R
+Firespitter Whelp,Creature — Dragon,{2}{R},2.0,2.0,uncommon,R
+Flamewake Phoenix,Creature — Phoenix,{1}{R}{R},2.0,2.0,rare,R
+Frenzied Goblin,Creature — Goblin Berserker,{R},1.0,1.0,uncommon,R
+Goblin Surprise,Instant,{2}{R},,,common,R
+Heartfire Immolator,Creature — Human Wizard,{1}{R},2.0,2.0,uncommon,R
+Hidetsugu's Second Rite,Instant,{3}{R},,,uncommon,R
+Involuntary Employment,Sorcery,{3}{R},,,common,R
+"Krenko, Mob Boss",Legendary Creature — Goblin Warrior,{2}{R}{R},3.0,3.0,rare,R
+Seismic Rupture,Sorcery,{2}{R},,,uncommon,R
+Shivan Dragon,Creature — Dragon,{4}{R}{R},5.0,5.0,uncommon,R
+Slagstorm,Sorcery,{1}{R}{R},,,rare,R
+Spitfire Lagac,Creature — Lizard,{3}{R},3.0,4.0,common,R
+Sure Strike,Instant,{1}{R},,,common,R
+Thrill of Possibility,Instant,{1}{R},,,common,R
+Affectionate Indrik,Creature — Beast,{5}{G},4.0,4.0,uncommon,G
+Bite Down,Instant,{1}{G},,,common,G
+Blanchwood Armor,Enchantment — Aura,{2}{G},,,uncommon,G
+Broken Wings,Instant,{2}{G},,,common,G
+Bushwhack,Sorcery,{G},,,common,G
+Doubling Season,Enchantment,{4}{G},,,mythic,G
+"Dwynen, Gilt-Leaf Daen",Legendary Creature — Elf Warrior,{2}{G}{G},3.0,4.0,uncommon,G
+Dwynen's Elite,Creature — Elf Warrior,{1}{G},2.0,2.0,common,G
+Elvish Archdruid,Creature — Elf Druid,{1}{G}{G},2.0,2.0,rare,G
+Garruk's Uprising,Enchantment,{2}{G},,,uncommon,G
+Genesis Wave,Sorcery,{X}{G}{G}{G},,,rare,G
+"Ghalta, Primal Hunger",Legendary Creature — Elder Dinosaur,{10}{G}{G},12.0,12.0,rare,G
+Giant Growth,Instant,{G},,,common,G
+Gnarlid Colony,Creature — Beast,{1}{G},2.0,2.0,common,G
+Grow from the Ashes,Sorcery,{2}{G},,,common,G
+Inspiring Call,Instant,{2}{G},,,uncommon,G
+Llanowar Elves,Creature — Elf Druid,{G},1.0,1.0,common,G
+Mild-Mannered Librarian,Creature — Human,{G},1.0,1.0,uncommon,G
+Nessian Hornbeetle,Creature — Insect,{1}{G},2.0,2.0,uncommon,G
+Overrun,Sorcery,{2}{G}{G}{G},,,uncommon,G
+Reclamation Sage,Creature — Elf Shaman,{2}{G},2.0,1.0,uncommon,G
+Scavenging Ooze,Creature — Ooze,{1}{G},2.0,2.0,rare,G
+Snakeskin Veil,Instant,{G},,,uncommon,G
+Vivien Reid,Legendary Planeswalker — Vivien,{3}{G}{G},,,mythic,G
+Wary Thespian,Creature — Cat Druid,{1}{G},3.0,1.0,common,G
+Wildwood Scourge,Creature — Hydra,{X}{G},0.0,0.0,uncommon,G
+"Balmor, Battlemage Captain",Legendary Creature — Bird Wizard,{U}{R},1.0,3.0,uncommon,"R,U"
+Consuming Aberration,Creature — Horror,{3}{U}{B},,,rare,"B,U"
+Empyrean Eagle,Creature — Bird Spirit,{1}{W}{U},2.0,3.0,uncommon,"U,W"
+Good-Fortune Unicorn,Creature — Unicorn,{1}{G}{W},2.0,2.0,uncommon,"G,W"
+Heroic Reinforcements,Sorcery,{2}{R}{W},,,uncommon,"R,W"
+"Lathril, Blade of the Elves",Legendary Creature — Elf Noble,{2}{B}{G},2.0,3.0,rare,"B,G"
+"Muldrotha, the Gravetide",Legendary Creature — Elemental Avatar,{3}{B}{G}{U},6.0,6.0,mythic,"B,G,U"
+Progenitus,Legendary Creature — Hydra Avatar,{W}{W}{U}{U}{B}{B}{R}{R}{G}{G},10.0,10.0,mythic,"B,G,R,U,W"
+"Ruby, Daring Tracker",Legendary Creature — Human Scout,{R}{G},1.0,2.0,uncommon,"G,R"
+Swiftblade Vindicator,Creature — Human Soldier,{R}{W},1.0,1.0,rare,"R,W"
+"Tatyova, Benthic Druid",Legendary Creature — Merfolk Druid,{3}{G}{U},3.0,3.0,uncommon,"G,U"
+Thousand-Year Storm,Enchantment,{4}{U}{R},,,rare,"R,U"
+Adventuring Gear,Artifact — Equipment,{1},,,uncommon,C
+Burnished Hart,Artifact Creature — Elk,{3},2.0,2.0,uncommon,C
+Campus Guide,Artifact Creature — Golem,{2},2.0,1.0,common,C
+Gleaming Barrier,Artifact Creature — Wall,{2},0.0,4.0,common,C
+Goldvein Pick,Artifact — Equipment,{2},,,common,C
+Heraldic Banner,Artifact,{3},,,uncommon,C
+Juggernaut,Artifact Creature — Juggernaut,{4},5.0,3.0,uncommon,C
+Meteor Golem,Artifact Creature — Golem,{7},3.0,3.0,uncommon,C
+Solemn Simulacrum,Artifact Creature — Golem,{4},2.0,2.0,rare,C
+Swiftfoot Boots,Artifact — Equipment,{2},,,uncommon,C
+Bloodfell Caves,Land,,,,common,C
+Blossoming Sands,Land,,,,common,C
+Dismal Backwater,Land,,,,common,C
+Evolving Wilds,Land,,,,common,C
+Jungle Hollow,Land,,,,common,C
+Rogue's Passage,Land,,,,uncommon,C
+Rugged Highlands,Land,,,,common,C
+Scoured Barrens,Land,,,,common,C
+Secluded Courtyard,Land,,,,uncommon,C
+Swiftwater Cliffs,Land,,,,common,C
+Thornwood Falls,Land,,,,common,C
+Tranquil Cove,Land,,,,common,C
+Wind-Scarred Crag,Land,,,,common,C
+Plains,Basic Land — Plains,,,,common,C
+Plains,Basic Land — Plains,,,,common,C
+Island,Basic Land — Island,,,,common,C
+Island,Basic Land — Island,,,,common,C
+Swamp,Basic Land — Swamp,,,,common,C
+Swamp,Basic Land — Swamp,,,,common,C
+Mountain,Basic Land — Mountain,,,,common,C
+Mountain,Basic Land — Mountain,,,,common,C
+Forest,Basic Land — Forest,,,,common,C
+Forest,Basic Land — Forest,,,,common,C
+Plains,Basic Land — Plains,,,,common,C
+Plains,Basic Land — Plains,,,,common,C
+Island,Basic Land — Island,,,,common,C
+Island,Basic Land — Island,,,,common,C
+Swamp,Basic Land — Swamp,,,,common,C
+Swamp,Basic Land — Swamp,,,,common,C
+Mountain,Basic Land — Mountain,,,,common,C
+Mountain,Basic Land — Mountain,,,,common,C
+Forest,Basic Land — Forest,,,,common,C
+Forest,Basic Land — Forest,,,,common,C
+Sire of Seven Deaths,Creature — Eldrazi,{7},7.0,7.0,mythic,C
+Ajani's Pridemate,Creature — Cat Soldier,{1}{W},2.0,2.0,uncommon,W
+"Arahbo, the First Fang",Legendary Creature — Cat Avatar,{2}{W},2.0,2.0,rare,W
+Celestial Armor,Artifact — Equipment,{2}{W},,,rare,W
+Crystal Barricade,Artifact Creature — Wall,{1}{W},0.0,4.0,rare,W
+Exemplar of Light,Creature — Angel,{2}{W}{W},3.0,3.0,rare,W
+"Giada, Font of Hope",Legendary Creature — Angel,{1}{W},2.0,2.0,rare,W
+Herald of Eternal Dawn,Creature — Angel,{4}{W}{W}{W},6.0,6.0,mythic,W
+Raise the Past,Sorcery,{2}{W}{W},,,rare,W
+Skyknight Squire,Creature — Cat Scout,{1}{W},1.0,1.0,rare,W
+Valkyrie's Call,Enchantment,{3}{W}{W},,,mythic,W
+Youthful Valkyrie,Creature — Angel,{1}{W},1.0,3.0,uncommon,W
+Archmage of Runes,Creature — Giant Wizard,{3}{U}{U},3.0,6.0,rare,U
+Curator of Destinies,Creature — Sphinx,{4}{U}{U},5.0,5.0,rare,U
+Drake Hatcher,Creature — Human Wizard,{1}{U},1.0,3.0,rare,U
+High Fae Trickster,Creature — Faerie Wizard,{3}{U},4.0,2.0,rare,U
+Homunculus Horde,Creature — Homunculus,{3}{U},2.0,2.0,rare,U
+"Kiora, the Rising Tide",Legendary Creature — Merfolk Noble,{2}{U},3.0,2.0,rare,U
+Lunar Insight,Sorcery,{2}{U},,,rare,U
+An Offer You Can't Refuse,Instant,{U},,,uncommon,U
+Omniscience,Enchantment,{7}{U}{U}{U},,,mythic,U
+Refute,Instant,{1}{U}{U},,,common,U
+Sphinx of Forgotten Lore,Creature — Sphinx,{2}{U}{U},3.0,3.0,mythic,U
+Think Twice,Instant,{1}{U},,,common,U
+Abyssal Harvester,Creature — Demon Warlock,{1}{B}{B},3.0,2.0,rare,B
+Blasphemous Edict,Sorcery,{3}{B}{B},,,rare,B
+Bloodthirsty Conqueror,Creature — Vampire Knight,{3}{B}{B},5.0,5.0,mythic,B
+Hero's Downfall,Instant,{1}{B}{B},,,uncommon,B
+High-Society Hunter,Creature — Vampire Noble,{3}{B}{B},5.0,3.0,rare,B
+Nine-Lives Familiar,Creature — Cat,{1}{B}{B},1.0,1.0,rare,B
+Phyrexian Arena,Enchantment,{1}{B}{B},,,rare,B
+Rise of the Dark Realms,Sorcery,{7}{B}{B},,,mythic,B
+"Tinybones, Bauble Burglar",Legendary Creature — Skeleton Rogue,{1}{B},1.0,3.0,rare,B
+Vengeful Bloodwitch,Creature — Vampire Warlock,{1}{B},1.0,1.0,uncommon,B
+"Zul Ashur, Lich Lord",Legendary Creature — Zombie Warlock,{1}{B},2.0,2.0,rare,B
+Abrade,Instant,{1}{R},,,uncommon,R
+Electroduplicate,Sorcery,{2}{R},,,rare,R
+"Etali, Primal Storm",Legendary Creature — Elder Dinosaur,{4}{R}{R},6.0,6.0,rare,R
+"Kellan, Planar Trailblazer",Legendary Creature — Human Faerie Scout,{R},2.0,1.0,rare,R
+Rite of the Dragoncaller,Enchantment,{4}{R}{R},,,mythic,R
+Searslicer Goblin,Creature — Goblin Warrior,{1}{R},2.0,1.0,rare,R
+Twinflame Tyrant,Creature — Dragon,{3}{R}{R},3.0,5.0,mythic,R
+Genesis Wave,Sorcery,{X}{G}{G}{G},,,rare,G
+"Ghalta, Primal Hunger",Legendary Creature — Elder Dinosaur,{10}{G}{G},12.0,12.0,rare,G
+"Loot, Exuberant Explorer",Legendary Creature — Beast Noble,{2}{G},1.0,4.0,rare,G
+Mossborn Hydra,Creature — Elemental Hydra,{2}{G},0.0,0.0,rare,G
+Preposterous Proportions,Sorcery,{5}{G}{G},,,rare,G
+Quilled Greatwurm,Creature — Wurm,{4}{G}{G},7.0,7.0,mythic,G
+Reclamation Sage,Creature — Elf Shaman,{2}{G},2.0,1.0,uncommon,G
+Spinner of Souls,Creature — Spider Spirit,{2}{G},4.0,3.0,rare,G
+Sylvan Scavenging,Enchantment,{1}{G}{G},,,rare,G
+"Alesha, Who Laughs at Fate",Legendary Creature — Human Warrior,{1}{B}{R},2.0,2.0,rare,"B,R"
+Anthem of Champions,Enchantment,{G}{W},,,rare,"G,W"
+Ashroot Animist,Creature — Lizard Druid,{2}{R}{G},4.0,4.0,rare,"G,R"
+"Elenda, Saint of Dusk",Legendary Creature — Vampire Knight,{2}{W}{B},4.0,4.0,rare,"B,W"
+"Koma, World-Eater",Legendary Creature — Serpent,{3}{G}{G}{U}{U},8.0,12.0,rare,"G,U"
+"Kykar, Zephyr Awakener",Legendary Creature — Bird Wizard,{2}{W}{U},3.0,4.0,rare,"U,W"
+"Lathril, Blade of the Elves",Legendary Creature — Elf Noble,{2}{B}{G},2.0,3.0,rare,"B,G"
+"Niv-Mizzet, Visionary",Legendary Creature — Dragon Wizard,{4}{U}{R},5.0,5.0,mythic,"R,U"
+"Zimone, Paradox Sculptor",Legendary Creature — Human Wizard,{2}{G}{U},1.0,4.0,mythic,"G,U"
+Banner of Kinship,Artifact,{5},,,rare,C
+Leyline Axe,Artifact — Equipment,{4},,,rare,C
+Scrawling Crawler,Artifact Creature — Phyrexian Construct,{3},3.0,2.0,rare,C
+Swiftfoot Boots,Artifact — Equipment,{2},,,uncommon,C
+Soulstone Sanctuary,Land,,,,rare,C
+"Ajani, Caller of the Pride",Legendary Planeswalker — Ajani,{1}{W}{W},,,mythic,W
+"Kaito, Cunning Infiltrator",Legendary Planeswalker — Kaito,{1}{U}{U},,,mythic,U
+"Liliana, Dreadhorde General",Legendary Planeswalker — Liliana,{4}{B}{B},,,mythic,B
+"Chandra, Flameshaper",Legendary Planeswalker — Chandra,{5}{R}{R},,,mythic,R
+Vivien Reid,Legendary Planeswalker — Vivien,{3}{G}{G},,,mythic,G
+Sire of Seven Deaths,Creature — Eldrazi,{7},7.0,7.0,mythic,C
+"Arahbo, the First Fang",Legendary Creature — Cat Avatar,{2}{W},2.0,2.0,rare,W
+Celestial Armor,Artifact — Equipment,{2}{W},,,rare,W
+Crystal Barricade,Artifact Creature — Wall,{1}{W},0.0,4.0,rare,W
+Exemplar of Light,Creature — Angel,{2}{W}{W},3.0,3.0,rare,W
+"Giada, Font of Hope",Legendary Creature — Angel,{1}{W},2.0,2.0,rare,W
+Herald of Eternal Dawn,Creature — Angel,{4}{W}{W}{W},6.0,6.0,mythic,W
+Raise the Past,Sorcery,{2}{W}{W},,,rare,W
+Skyknight Squire,Creature — Cat Scout,{1}{W},1.0,1.0,rare,W
+Valkyrie's Call,Enchantment,{3}{W}{W},,,mythic,W
+Archmage of Runes,Creature — Giant Wizard,{3}{U}{U},3.0,6.0,rare,U
+Curator of Destinies,Creature — Sphinx,{4}{U}{U},5.0,5.0,rare,U
+Drake Hatcher,Creature — Human Wizard,{1}{U},1.0,3.0,rare,U
+High Fae Trickster,Creature — Faerie Wizard,{3}{U},4.0,2.0,rare,U
+Homunculus Horde,Creature — Homunculus,{3}{U},2.0,2.0,rare,U
+"Kiora, the Rising Tide",Legendary Creature — Merfolk Noble,{2}{U},3.0,2.0,rare,U
+Lunar Insight,Sorcery,{2}{U},,,rare,U
+Omniscience,Enchantment,{7}{U}{U}{U},,,mythic,U
+Sphinx of Forgotten Lore,Creature — Sphinx,{2}{U}{U},3.0,3.0,mythic,U
+Abyssal Harvester,Creature — Demon Warlock,{1}{B}{B},3.0,2.0,rare,B
+Blasphemous Edict,Sorcery,{3}{B}{B},,,rare,B
+Bloodthirsty Conqueror,Creature — Vampire Knight,{3}{B}{B},5.0,5.0,mythic,B
+High-Society Hunter,Creature — Vampire Noble,{3}{B}{B},5.0,3.0,rare,B
+Nine-Lives Familiar,Creature — Cat,{1}{B}{B},1.0,1.0,rare,B
+Phyrexian Arena,Enchantment,{1}{B}{B},,,rare,B
+Rise of the Dark Realms,Sorcery,{7}{B}{B},,,mythic,B
+"Tinybones, Bauble Burglar",Legendary Creature — Skeleton Rogue,{1}{B},1.0,3.0,rare,B
+"Zul Ashur, Lich Lord",Legendary Creature — Zombie Warlock,{1}{B},2.0,2.0,rare,B
+Electroduplicate,Sorcery,{2}{R},,,rare,R
+"Etali, Primal Storm",Legendary Creature — Elder Dinosaur,{4}{R}{R},6.0,6.0,rare,R
+"Kellan, Planar Trailblazer",Legendary Creature — Human Faerie Scout,{R},2.0,1.0,rare,R
+Rite of the Dragoncaller,Enchantment,{4}{R}{R},,,mythic,R
+Searslicer Goblin,Creature — Goblin Warrior,{1}{R},2.0,1.0,rare,R
+Twinflame Tyrant,Creature — Dragon,{3}{R}{R},3.0,5.0,mythic,R
+Genesis Wave,Sorcery,{X}{G}{G}{G},,,rare,G
+"Ghalta, Primal Hunger",Legendary Creature — Elder Dinosaur,{10}{G}{G},12.0,12.0,rare,G
+"Loot, Exuberant Explorer",Legendary Creature — Beast Noble,{2}{G},1.0,4.0,rare,G
+Mossborn Hydra,Creature — Elemental Hydra,{2}{G},0.0,0.0,rare,G
+Preposterous Proportions,Sorcery,{5}{G}{G},,,rare,G
+Quilled Greatwurm,Creature — Wurm,{4}{G}{G},7.0,7.0,mythic,G
+Spinner of Souls,Creature — Spider Spirit,{2}{G},4.0,3.0,rare,G
+Sylvan Scavenging,Enchantment,{1}{G}{G},,,rare,G
+"Alesha, Who Laughs at Fate",Legendary Creature — Human Warrior,{1}{B}{R},2.0,2.0,rare,"B,R"
+Anthem of Champions,Enchantment,{G}{W},,,rare,"G,W"
+Ashroot Animist,Creature — Lizard Druid,{2}{R}{G},4.0,4.0,rare,"G,R"
+"Elenda, Saint of Dusk",Legendary Creature — Vampire Knight,{2}{W}{B},4.0,4.0,rare,"B,W"
+"Koma, World-Eater",Legendary Creature — Serpent,{3}{G}{G}{U}{U},8.0,12.0,rare,"G,U"
+"Kykar, Zephyr Awakener",Legendary Creature — Bird Wizard,{2}{W}{U},3.0,4.0,rare,"U,W"
+"Lathril, Blade of the Elves",Legendary Creature — Elf Noble,{2}{B}{G},2.0,3.0,rare,"B,G"
+"Niv-Mizzet, Visionary",Legendary Creature — Dragon Wizard,{4}{U}{R},5.0,5.0,mythic,"R,U"
+"Zimone, Paradox Sculptor",Legendary Creature — Human Wizard,{2}{G}{U},1.0,4.0,mythic,"G,U"
+Banner of Kinship,Artifact,{5},,,rare,C
+Leyline Axe,Artifact — Equipment,{4},,,rare,C
+Scrawling Crawler,Artifact Creature — Phyrexian Construct,{3},3.0,2.0,rare,C
+Soulstone Sanctuary,Land,,,,rare,C
+"Ajani, Caller of the Pride",Legendary Planeswalker — Ajani,{1}{W}{W},,,mythic,W
+"Kaito, Cunning Infiltrator",Legendary Planeswalker — Kaito,{1}{U}{U},,,mythic,U
+"Liliana, Dreadhorde General",Legendary Planeswalker — Liliana,{4}{B}{B},,,mythic,B
+"Chandra, Flameshaper",Legendary Planeswalker — Chandra,{5}{R}{R},,,mythic,R
+Vivien Reid,Legendary Planeswalker — Vivien,{3}{G}{G},,,mythic,G
+Day of Judgment,Sorcery,{2}{W}{W},,,mythic,W
+Herald of Eternal Dawn,Creature — Angel,{4}{W}{W}{W},6.0,6.0,mythic,W
+"Kaito, Cunning Infiltrator",Legendary Planeswalker — Kaito,{1}{U}{U},,,mythic,U
+Think Twice,Instant,{1}{U},,,mythic,U
+Bloodthirsty Conqueror,Creature — Vampire Knight,{3}{B}{B},5.0,5.0,mythic,B
+Twinflame Tyrant,Creature — Dragon,{3}{R}{R},3.0,5.0,mythic,R
+Doubling Season,Enchantment,{4}{G},,,mythic,G
+Llanowar Elves,Creature — Elf Druid,{G},1.0,1.0,mythic,G
+"Muldrotha, the Gravetide",Legendary Creature — Elemental Avatar,{3}{B}{G}{U},6.0,6.0,mythic,"B,G,U"
+Progenitus,Legendary Creature — Hydra Avatar,{W}{W}{U}{U}{B}{B}{R}{R}{G}{G},10.0,10.0,mythic,"B,G,R,U,W"
+Day of Judgment,Sorcery,{2}{W}{W},,,mythic,W
+Herald of Eternal Dawn,Creature — Angel,{4}{W}{W}{W},6.0,6.0,mythic,W
+"Kaito, Cunning Infiltrator",Legendary Planeswalker — Kaito,{1}{U}{U},,,mythic,U
+Think Twice,Instant,{1}{U},,,mythic,U
+Bloodthirsty Conqueror,Creature — Vampire Knight,{3}{B}{B},5.0,5.0,mythic,B
+Twinflame Tyrant,Creature — Dragon,{3}{R}{R},3.0,5.0,mythic,R
+Doubling Season,Enchantment,{4}{G},,,mythic,G
+Llanowar Elves,Creature — Elf Druid,{G},1.0,1.0,mythic,G
+"Muldrotha, the Gravetide",Legendary Creature — Elemental Avatar,{3}{B}{G}{U},6.0,6.0,mythic,"B,G,U"
+Progenitus,Legendary Creature — Hydra Avatar,{W}{W}{U}{U}{B}{B}{R}{R}{G}{G},10.0,10.0,mythic,"B,G,R,U,W"
+"Arahbo, the First Fang",Legendary Creature — Cat Avatar,{2}{W},2.0,2.0,rare,W
+Celestial Armor,Artifact — Equipment,{2}{W},,,rare,W
+Crystal Barricade,Artifact Creature — Wall,{1}{W},0.0,4.0,rare,W
+Exemplar of Light,Creature — Angel,{2}{W}{W},3.0,3.0,rare,W
+Herald of Eternal Dawn,Creature — Angel,{4}{W}{W}{W},6.0,6.0,mythic,W
+Raise the Past,Sorcery,{2}{W}{W},,,rare,W
+Skyknight Squire,Creature — Cat Scout,{1}{W},1.0,1.0,rare,W
+Valkyrie's Call,Enchantment,{3}{W}{W},,,mythic,W
+Archmage of Runes,Creature — Giant Wizard,{3}{U}{U},3.0,6.0,rare,U
+Curator of Destinies,Creature — Sphinx,{4}{U}{U},5.0,5.0,rare,U
+Drake Hatcher,Creature — Human Wizard,{1}{U},1.0,3.0,rare,U
+High Fae Trickster,Creature — Faerie Wizard,{3}{U},4.0,2.0,rare,U
+Homunculus Horde,Creature — Homunculus,{3}{U},2.0,2.0,rare,U
+"Kiora, the Rising Tide",Legendary Creature — Merfolk Noble,{2}{U},3.0,2.0,rare,U
+Lunar Insight,Sorcery,{2}{U},,,rare,U
+Sphinx of Forgotten Lore,Creature — Sphinx,{2}{U}{U},3.0,3.0,mythic,U
+Abyssal Harvester,Creature — Demon Warlock,{1}{B}{B},3.0,2.0,rare,B
+Blasphemous Edict,Sorcery,{3}{B}{B},,,rare,B
+Bloodthirsty Conqueror,Creature — Vampire Knight,{3}{B}{B},5.0,5.0,mythic,B
+High-Society Hunter,Creature — Vampire Noble,{3}{B}{B},5.0,3.0,rare,B
+Nine-Lives Familiar,Creature — Cat,{1}{B}{B},1.0,1.0,rare,B
+"Tinybones, Bauble Burglar",Legendary Creature — Skeleton Rogue,{1}{B},1.0,3.0,rare,B
+"Zul Ashur, Lich Lord",Legendary Creature — Zombie Warlock,{1}{B},2.0,2.0,rare,B
+Electroduplicate,Sorcery,{2}{R},,,rare,R
+"Kellan, Planar Trailblazer",Legendary Creature — Human Faerie Scout,{R},2.0,1.0,rare,R
+Rite of the Dragoncaller,Enchantment,{4}{R}{R},,,mythic,R
+Searslicer Goblin,Creature — Goblin Warrior,{1}{R},2.0,1.0,rare,R
+Twinflame Tyrant,Creature — Dragon,{3}{R}{R},3.0,5.0,mythic,R
+"Loot, Exuberant Explorer",Legendary Creature — Beast Noble,{2}{G},1.0,4.0,rare,G
+Mossborn Hydra,Creature — Elemental Hydra,{2}{G},0.0,0.0,rare,G
+Preposterous Proportions,Sorcery,{5}{G}{G},,,rare,G
+Quilled Greatwurm,Creature — Wurm,{4}{G}{G},7.0,7.0,mythic,G
+Spinner of Souls,Creature — Spider Spirit,{2}{G},4.0,3.0,rare,G
+Sylvan Scavenging,Enchantment,{1}{G}{G},,,rare,G
+"Alesha, Who Laughs at Fate",Legendary Creature — Human Warrior,{1}{B}{R},2.0,2.0,rare,"B,R"
+Anthem of Champions,Enchantment,{G}{W},,,rare,"G,W"
+Ashroot Animist,Creature — Lizard Druid,{2}{R}{G},4.0,4.0,rare,"G,R"
+"Elenda, Saint of Dusk",Legendary Creature — Vampire Knight,{2}{W}{B},4.0,4.0,rare,"B,W"
+"Koma, World-Eater",Legendary Creature — Serpent,{3}{G}{G}{U}{U},8.0,12.0,rare,"G,U"
+"Kykar, Zephyr Awakener",Legendary Creature — Bird Wizard,{2}{W}{U},3.0,4.0,rare,"U,W"
+"Niv-Mizzet, Visionary",Legendary Creature — Dragon Wizard,{4}{U}{R},5.0,5.0,mythic,"R,U"
+"Zimone, Paradox Sculptor",Legendary Creature — Human Wizard,{2}{G}{U},1.0,4.0,mythic,"G,U"
+Banner of Kinship,Artifact,{5},,,rare,C
+Leyline Axe,Artifact — Equipment,{4},,,rare,C
+Scrawling Crawler,Artifact Creature — Phyrexian Construct,{3},3.0,2.0,rare,C
+Soulstone Sanctuary,Land,,,,rare,C
+Adamant Will,Instant,{1}{W},,,common,W
+Ancestor Dragon,Creature — Dragon,{4}{W}{W},5.0,6.0,rare,W
+Angelic Edict,Sorcery,{4}{W},,,common,W
+Bishop's Soldier,Creature — Vampire Soldier,{1}{W},2.0,2.0,common,W
+Deadly Riposte,Instant,{1}{W},,,common,W
+Elspeth's Smite,Instant,{W},,,uncommon,W
+Herald of Faith,Creature — Angel,{3}{W}{W},4.0,3.0,uncommon,W
+Ingenious Leonin,Creature — Cat Soldier,{4}{W},4.0,4.0,uncommon,W
+Inspiring Overseer,Creature — Angel Cleric,{2}{W},2.0,1.0,common,W
+Jazal Goldmane,Legendary Creature — Cat Warrior,{2}{W}{W},4.0,4.0,rare,W
+Leonin Skyhunter,Creature — Cat Knight,{W}{W},2.0,2.0,uncommon,W
+Leonin Vanguard,Creature — Cat Soldier,{W},1.0,1.0,uncommon,W
+Moment of Triumph,Instant,{W},,,common,W
+Pacifism,Enchantment — Aura,{1}{W},,,common,W
+Prayer of Binding,Enchantment,{3}{W},,,uncommon,W
+Twinblade Paladin,Creature — Human Knight,{3}{W},3.0,3.0,uncommon,W
+Burrog Befuddler,Creature — Frog Wizard,{1}{U},2.0,1.0,common,U
+Cancel,Instant,{1}{U}{U},,,common,U
+Corsair Captain,Creature — Human Pirate,{2}{U},2.0,2.0,rare,U
+Eaten by Piranhas,Enchantment — Aura,{1}{U},,,uncommon,U
+Exclusion Mage,Creature — Human Wizard,{2}{U},2.0,2.0,uncommon,U
+Into the Roil,Instant,{1}{U},,,common,U
+Kitesail Corsair,Creature — Human Pirate,{1}{U},2.0,1.0,common,U
+Mystic Archaeologist,Creature — Human Wizard,{1}{U},2.0,1.0,rare,U
+Opt,Instant,{U},,,common,U
+Quick Study,Instant,{2}{U},,,common,U
+Starlight Snare,Enchantment — Aura,{2}{U},,,common,U
+Storm Fleet Spy,Creature — Human Pirate,{2}{U},2.0,2.0,uncommon,U
+Bloodtithe Collector,Creature — Vampire Noble,{4}{B},3.0,4.0,uncommon,B
+Cemetery Recruitment,Sorcery,{1}{B},,,common,B
+Crossway Troublemakers,Creature — Vampire,{5}{B},5.0,5.0,rare,B
+Crow of Dark Tidings,Creature — Zombie Bird,{2}{B},2.0,1.0,common,B
+Deadly Plot,Instant,{3}{B},,,uncommon,B
+Death Baron,Creature — Zombie Wizard,{1}{B}{B},2.0,2.0,rare,B
+Highborn Vampire,Creature — Vampire Warrior,{3}{B},4.0,3.0,common,B
+Maalfeld Twins,Creature — Zombie,{5}{B},4.0,4.0,uncommon,B
+Moment of Craving,Instant,{1}{B},,,common,B
+Offer Immortality,Instant,{1}{B},,,common,B
+Skeleton Archer,Creature — Skeleton Archer,{3}{B},3.0,3.0,common,B
+Suspicious Shambler,Creature — Zombie,{3}{B},4.0,2.0,common,B
+Undying Malice,Instant,{B},,,common,B
+Untamed Hunger,Enchantment — Aura,{2}{B},,,common,B
+Vampire Interloper,Creature — Vampire Scout,{1}{B},2.0,1.0,common,B
+Vampire Neonate,Creature — Vampire,{B},0.0,3.0,common,B
+Vampire Spawn,Creature — Vampire,{2}{B},2.0,3.0,common,B
+Battle-Rattle Shaman,Creature — Goblin Shaman,{3}{R},2.0,2.0,uncommon,R
+Carnelian Orb of Dragonkind,Artifact,{2}{R},,,common,R
+Dragon Fodder,Sorcery,{1}{R},,,common,R
+Dragonlord's Servant,Creature — Goblin Shaman,{1}{R},1.0,3.0,uncommon,R
+Dropkick Bomber,Creature — Goblin Warrior,{2}{R},2.0,3.0,rare,R
+Fire Elemental,Creature — Elemental,{3}{R}{R},5.0,4.0,common,R
+Goblin Oriflamme,Enchantment,{1}{R},,,uncommon,R
+Goblin Smuggler,Creature — Goblin Rogue,{2}{R},2.0,2.0,common,R
+Kargan Dragonrider,Creature — Human Warrior,{1}{R},2.0,2.0,common,R
+Kindled Fury,Instant,{R},,,common,R
+Raging Redcap,Creature — Goblin Knight,{2}{R},1.0,2.0,common,R
+Rapacious Dragon,Creature — Dragon,{4}{R},3.0,3.0,common,R
+Scorching Dragonfire,Instant,{1}{R},,,common,R
+Seize the Spoils,Sorcery,{2}{R},,,common,R
+Skyraker Giant,Creature — Giant,{2}{R}{R},4.0,3.0,common,R
+Swab Goblin,Creature — Goblin Pirate,{1}{R},2.0,2.0,common,R
+Terror of Mount Velus,Creature — Dragon,{5}{R}{R},5.0,5.0,rare,R
+Volley Veteran,Creature — Goblin Warrior,{3}{R},4.0,2.0,uncommon,R
+Aggressive Mammoth,Creature — Elephant,{3}{G}{G}{G},8.0,8.0,rare,G
+Bear Cub,Creature — Bear,{1}{G},2.0,2.0,common,G
+Biogenic Upgrade,Sorcery,{4}{G}{G},,,uncommon,G
+Druid of the Cowl,Creature — Elf Druid,{1}{G},1.0,3.0,common,G
+Joraga Invocation,Sorcery,{4}{G}{G},,,uncommon,G
+Magnigoth Sentry,Creature — Treefolk,{3}{G},4.0,4.0,common,G
+New Horizons,Enchantment — Aura,{2}{G},,,common,G
+Tajuru Pathwarden,Creature — Elf Warrior Ally,{4}{G},5.0,4.0,common,G
+Thornweald Archer,Creature — Elf Archer,{1}{G},2.0,1.0,common,G
+Thrashing Brontodon,Creature — Dinosaur,{1}{G}{G},3.0,4.0,uncommon,G
+Wildheart Invoker,Creature — Elf Shaman,{2}{G}{G},4.0,3.0,common,G
+Goblin Firebomb,Artifact,{1},,,common,C
+Pirate's Cutlass,Artifact — Equipment,{3},,,common,C
+Uncharted Haven,Land,,,,common,C
+Angelic Destiny,Enchantment — Aura,{2}{W}{W},,,mythic,W
+Archway Angel,Creature — Angel,{5}{W},3.0,4.0,uncommon,W
+Ballyrush Banneret,Creature — Kithkin Soldier,{1}{W},2.0,1.0,common,W
+Charming Prince,Creature — Human Noble,{1}{W},2.0,2.0,rare,W
+Crusader of Odric,Creature — Human Soldier,{2}{W},,,common,W
+Dawnwing Marshal,Creature — Cat Soldier,{1}{W},2.0,2.0,uncommon,W
+Devout Decree,Sorcery,{1}{W},,,uncommon,W
+Disenchant,Instant,{1}{W},,,common,W
+Felidar Cub,Creature — Cat Beast,{1}{W},2.0,2.0,common,W
+Felidar Retreat,Enchantment,{3}{W},,,rare,W
+Fumigate,Sorcery,{3}{W}{W},,,rare,W
+Knight of Grace,Creature — Human Knight,{1}{W},2.0,2.0,uncommon,W
+"Linden, the Steadfast Queen",Legendary Creature — Human Noble,{W}{W}{W},3.0,3.0,rare,W
+Mentor of the Meek,Creature — Human Soldier,{2}{W},2.0,2.0,rare,W
+Regal Caracal,Creature — Cat,{3}{W}{W},3.0,3.0,rare,W
+Release the Dogs,Sorcery,{3}{W},,,uncommon,W
+Stasis Snare,Enchantment,{1}{W}{W},,,uncommon,W
+"Syr Alin, the Lion's Claw",Legendary Creature — Human Knight,{3}{W}{W},4.0,4.0,uncommon,W
+Valorous Stance,Instant,{1}{W},,,uncommon,W
+"Zetalpa, Primal Dawn",Legendary Creature — Elder Dinosaur,{6}{W}{W},4.0,8.0,rare,W
+Arcanis the Omnipotent,Legendary Creature — Wizard,{3}{U}{U}{U},3.0,4.0,rare,U
+Chart a Course,Sorcery,{1}{U},,,uncommon,U
+Dictate of Kruphix,Enchantment,{1}{U}{U},,,rare,U
+Dive Down,Instant,{U},,,common,U
+Finale of Revelation,Sorcery,{X}{U}{U},,,mythic,U
+Flashfreeze,Instant,{1}{U},,,uncommon,U
+Fog Bank,Creature — Wall,{1}{U},0.0,2.0,uncommon,U
+Gateway Sneak,Creature — Vedalken Rogue,{2}{U},1.0,3.0,uncommon,U
+Harbinger of the Tides,Creature — Merfolk Wizard,{U}{U},2.0,2.0,rare,U
+Mystical Teachings,Instant,{3}{U},,,uncommon,U
+River's Rebuke,Sorcery,{4}{U}{U},,,rare,U
+Shipwreck Dowser,Creature — Merfolk Wizard,{3}{U}{U},3.0,3.0,uncommon,U
+Sphinx of the Final Word,Creature — Sphinx,{5}{U}{U},5.0,5.0,mythic,U
+Tempest Djinn,Creature — Djinn,{U}{U}{U},0.0,4.0,rare,U
+Unsummon,Instant,{U},,,common,U
+Voracious Greatshark,Creature — Shark,{3}{U}{U},5.0,4.0,rare,U
+Deathmark,Sorcery,{B},,,uncommon,B
+Demonic Pact,Enchantment,{2}{B}{B},,,mythic,B
+Desecration Demon,Creature — Demon,{2}{B}{B},6.0,6.0,rare,B
+Dread Summons,Sorcery,{X}{B}{B},,,rare,B
+Driver of the Dead,Creature — Vampire,{3}{B},3.0,2.0,common,B
+Duress,Sorcery,{B},,,common,B
+Kalastria Highborn,Creature — Vampire Shaman,{B}{B},2.0,2.0,rare,B
+Knight of Malice,Creature — Human Knight,{1}{B},2.0,2.0,uncommon,B
+Midnight Reaper,Creature — Zombie Knight,{2}{B},3.0,2.0,rare,B
+Myojin of Night's Reach,Legendary Creature — Spirit,{5}{B}{B}{B},5.0,2.0,rare,B
+Nullpriest of Oblivion,Creature — Vampire Cleric,{1}{B},2.0,1.0,rare,B
+Pulse Tracker,Creature — Vampire Rogue,{B},1.0,1.0,common,B
+Sanguine Indulgence,Sorcery,{3}{B},,,common,B
+Tribute to Hunger,Instant,{2}{B},,,uncommon,B
+Vampiric Rites,Enchantment,{B},,,uncommon,B
+Vile Entomber,Creature — Zombie Warlock,{2}{B}{B},2.0,2.0,uncommon,B
+Wishclaw Talisman,Artifact,{1}{B},,,rare,B
+Ball Lightning,Creature — Elemental,{R}{R}{R},6.0,1.0,rare,R
+Bolt Bend,Instant,{3}{R},,,uncommon,R
+Crash Through,Sorcery,{R},,,common,R
+Dragon Mage,Creature — Dragon Wizard,{5}{R}{R},5.0,5.0,uncommon,R
+Dragonmaster Outcast,Creature — Human Shaman,{R},1.0,1.0,mythic,R
+Ghitu Lavarunner,Creature — Human Wizard,{R},1.0,2.0,common,R
+Giant Cindermaw,Creature — Dinosaur Beast,{2}{R},4.0,3.0,uncommon,R
+Harmless Offering,Sorcery,{2}{R},,,rare,R
+Hoarding Dragon,Creature — Dragon,{3}{R}{R},4.0,4.0,uncommon,R
+"Lathliss, Dragon Queen",Legendary Creature — Dragon,{4}{R}{R},6.0,6.0,rare,R
+Mindsparker,Creature — Elemental,{1}{R}{R},3.0,2.0,uncommon,R
+Obliterating Bolt,Sorcery,{1}{R},,,uncommon,R
+Ravenous Giant,Creature — Giant,{2}{R}{R},5.0,5.0,uncommon,R
+Redcap Gutter-Dweller,Creature — Goblin Warrior,{2}{R}{R},3.0,3.0,rare,R
+Stromkirk Noble,Creature — Vampire Noble,{R},1.0,1.0,rare,R
+Taurean Mauler,Creature — Shapeshifter,{2}{R},2.0,2.0,rare,R
+Viashino Pyromancer,Creature — Lizard Wizard,{1}{R},2.0,1.0,common,R
+Circuitous Route,Sorcery,{3}{G},,,uncommon,G
+Fierce Empath,Creature — Elf,{2}{G},1.0,1.0,common,G
+"Fynn, the Fangbearer",Legendary Creature — Human Warrior,{1}{G},1.0,3.0,uncommon,G
+Gnarlback Rhino,Creature — Rhino,{2}{G}{G},4.0,4.0,uncommon,G
+Heroes' Bane,Creature — Hydra,{3}{G}{G},0.0,0.0,rare,G
+Mold Adder,Creature — Fungus Snake,{G},1.0,1.0,uncommon,G
+Ordeal of Nylea,Enchantment — Aura,{1}{G},,,uncommon,G
+Predator Ooze,Creature — Ooze,{G}{G}{G},1.0,1.0,rare,G
+Primal Might,Sorcery,{X}{G},,,rare,G
+Primeval Bounty,Enchantment,{5}{G},,,mythic,G
+Rampaging Baloths,Creature — Beast,{4}{G}{G},6.0,6.0,rare,G
+Springbloom Druid,Creature — Elf Druid,{2}{G},1.0,1.0,common,G
+"Surrak, the Hunt Caller",Legendary Creature — Human Warrior,{2}{G}{G},5.0,4.0,rare,G
+Venom Connoisseur,Creature — Human Druid,{1}{G},2.0,2.0,uncommon,G
+Vizier of the Menagerie,Creature — Snake Cleric,{3}{G},3.0,4.0,mythic,G
+Wildborn Preserver,Creature — Elf Archer,{1}{G},2.0,2.0,rare,G
+"Aurelia, the Warleader",Legendary Creature — Angel,{2}{R}{R}{W}{W},3.0,4.0,mythic,"R,W"
+"Ayli, Eternal Pilgrim",Legendary Creature — Kor Cleric,{W}{B},2.0,3.0,rare,"B,W"
+Cloudblazer,Creature — Human Scout,{3}{W}{U},2.0,2.0,uncommon,"U,W"
+Deadly Brew,Sorcery,{B}{G},,,uncommon,"B,G"
+Drogskol Reaver,Creature — Spirit,{5}{W}{U},3.0,5.0,rare,"U,W"
+Dryad Militant,Creature — Dryad Soldier,{G/W},2.0,1.0,uncommon,"G,W"
+Enigma Drake,Creature — Drake,{1}{U}{R},,4.0,uncommon,"R,U"
+"Garna, Bloodfist of Keld",Legendary Creature — Human Berserker,{1}{B}{R}{R},4.0,3.0,uncommon,"B,R"
+"Halana and Alena, Partners",Legendary Creature — Human Ranger,{2}{R}{G},2.0,3.0,rare,"G,R"
+Immersturm Predator,Creature — Vampire Dragon,{2}{B}{R},3.0,3.0,rare,"B,R"
+Maelstrom Pulse,Sorcery,{1}{B}{G},,,rare,"B,G"
+Mortify,Instant,{1}{W}{B},,,uncommon,"B,W"
+"Ovika, Enigma Goliath",Legendary Creature — Phyrexian Nightmare,{5}{U}{R},6.0,6.0,rare,"R,U"
+Prime Speaker Zegana,Legendary Creature — Merfolk Wizard,{2}{G}{G}{U}{U},1.0,1.0,rare,"G,U"
+Savage Ventmaw,Creature — Dragon,{4}{R}{G},4.0,4.0,uncommon,"G,R"
+Teach by Example,Instant,{U/R}{U/R},,,uncommon,"R,U"
+Trygon Predator,Creature — Beast,{1}{G}{U},2.0,3.0,uncommon,"G,U"
+Wilt-Leaf Liege,Creature — Elf Knight,{1}{G/W}{G/W}{G/W},4.0,4.0,rare,"G,W"
+Basilisk Collar,Artifact — Equipment,{1},,,rare,C
+Cultivator's Caravan,Artifact — Vehicle,{3},5.0,5.0,rare,C
+Darksteel Colossus,Artifact Creature — Golem,{11},11.0,11.0,mythic,C
+Diamond Mare,Artifact Creature — Horse,{2},1.0,3.0,uncommon,C
+Feldon's Cane,Artifact,{1},,,uncommon,C
+Fireshrieker,Artifact — Equipment,{3},,,uncommon,C
+Gate Colossus,Artifact Creature — Construct,{8},8.0,8.0,uncommon,C
+Mazemind Tome,Artifact,{2},,,rare,C
+Pyromancer's Goggles,Legendary Artifact,{5},,,mythic,C
+"Ramos, Dragon Engine",Legendary Artifact Creature — Dragon,{6},4.0,4.0,mythic,C
+Sorcerous Spyglass,Artifact,{2},,,uncommon,C
+Soul-Guide Lantern,Artifact,{1},,,uncommon,C
+Steel Hellkite,Artifact Creature — Dragon,{6},5.0,5.0,rare,C
+Three Tree Mascot,Artifact Creature — Shapeshifter,{2},2.0,1.0,common,C
+Azorius Guildgate,Land — Gate,,,,common,C
+Boros Guildgate,Land — Gate,,,,common,C
+Crawling Barrens,Land,,,,rare,C
+Cryptic Caves,Land,,,,uncommon,C
+Demolition Field,Land,,,,uncommon,C
+Dimir Guildgate,Land — Gate,,,,common,C
+Golgari Guildgate,Land — Gate,,,,common,C
+Gruul Guildgate,Land — Gate,,,,common,C
+Izzet Guildgate,Land — Gate,,,,common,C
+Orzhov Guildgate,Land — Gate,,,,common,C
+Rakdos Guildgate,Land — Gate,,,,common,C
+Selesnya Guildgate,Land — Gate,,,,common,C
+Simic Guildgate,Land — Gate,,,,common,C
+Temple of Abandon,Land,,,,rare,C
+Temple of Deceit,Land,,,,rare,C
+Temple of Enlightenment,Land,,,,rare,C
+Temple of Epiphany,Land,,,,rare,C
+Temple of Malady,Land,,,,rare,C
+Temple of Malice,Land,,,,rare,C
+Temple of Mystery,Land,,,,rare,C
+Temple of Plenty,Land,,,,rare,C
+Temple of Silence,Land,,,,rare,C
+Temple of Triumph,Land,,,,rare,C
+Angel of Vitality,Creature — Angel,{2}{W},2.0,2.0,uncommon,W
+Lyra Dawnbringer,Legendary Creature — Angel,{3}{W}{W},5.0,5.0,mythic,W
+Make a Stand,Instant,{2}{W},,,uncommon,W
+Confiscate,Enchantment — Aura,{4}{U}{U},,,uncommon,U
+Negate,Instant,{1}{U},,,common,U
+Rite of Replication,Sorcery,{2}{U}{U},,,rare,U
+Feed the Swarm,Sorcery,{1}{B},,,common,B
+Gatekeeper of Malakir,Creature — Vampire Warrior,{B}{B},2.0,2.0,uncommon,B
+Massacre Wurm,Creature — Phyrexian Wurm,{3}{B}{B}{B},6.0,5.0,mythic,B
+Gratuitous Violence,Enchantment,{2}{R}{R}{R},,,rare,R
+Guttersnipe,Creature — Goblin Shaman,{2}{R},2.0,2.0,uncommon,R
+Impact Tremors,Enchantment,{1}{R},,,common,R
+Gigantosaurus,Creature — Dinosaur,{G}{G}{G}{G}{G},10.0,10.0,rare,G
+Imperious Perfect,Creature — Elf Warrior,{2}{G},2.0,2.0,uncommon,G
+Pelakka Wurm,Creature — Wurm,{4}{G}{G}{G},7.0,7.0,uncommon,G
+Boros Charm,Instant,{R}{W},,,uncommon,"R,W"
+Unflinching Courage,Enchantment — Aura,{1}{G}{W},,,uncommon,"G,W"
+Adaptive Automaton,Artifact Creature — Construct,{3},2.0,2.0,rare,C
+Expedition Map,Artifact,{1},,,common,C
+Gilded Lotus,Artifact,{5},,,rare,C
+Hedron Archive,Artifact,{4},,,uncommon,C
+Maze's End,Land,,,,mythic,C
+Phyrexian Arena,Enchantment,{1}{B}{B},,,rare,B
+Solemn Simulacrum,Artifact Creature — Golem,{4},2.0,2.0,rare,C
+Hinterland Sanctifier,Creature — Rabbit Cleric,{W},1.0,2.0,common,W
+Crusader of Odric,Creature — Human Soldier,{2}{W},,,common,W
+Dazzling Angel,Creature — Angel,{2}{W},2.0,3.0,common,W
+Exemplar of Light,Creature — Angel,{2}{W}{W},3.0,3.0,rare,W
+Healer's Hawk,Creature — Bird,{W},1.0,1.0,common,W
+Herald of Faith,Creature — Angel,{3}{W}{W},4.0,3.0,uncommon,W
+Inspiring Overseer,Creature — Angel Cleric,{2}{W},2.0,1.0,common,W
+"Linden, the Steadfast Queen",Legendary Creature — Human Noble,{W}{W}{W},3.0,3.0,rare,W
+Lyra Dawnbringer,Legendary Creature — Angel,{3}{W}{W},5.0,5.0,mythic,W
+Prayer of Binding,Enchantment,{3}{W},,,uncommon,W
+Serra Angel,Creature — Angel,{3}{W}{W},4.0,4.0,uncommon,W
+Arcanis the Omnipotent,Legendary Creature — Wizard,{3}{U}{U}{U},3.0,4.0,rare,U
+Icewind Elemental,Creature — Elemental,{4}{U},3.0,4.0,common,U
+Kitesail Corsair,Creature — Human Pirate,{1}{U},2.0,1.0,common,U
+Mocking Sprite,Creature — Faerie Rogue,{2}{U},2.0,1.0,common,U
+Rune-Sealed Wall,Artifact Creature — Wall,{2}{U},0.0,6.0,uncommon,U
+Spectral Sailor,Creature — Spirit Pirate,{U},1.0,1.0,uncommon,U
+Sphinx of the Final Word,Creature — Sphinx,{5}{U}{U},5.0,5.0,mythic,U
+Strix Lookout,Creature — Bird,{1}{U},1.0,2.0,common,U
+Tempest Djinn,Creature — Djinn,{U}{U}{U},0.0,4.0,rare,U
+Unsummon,Instant,{U},,,common,U
+Bloodtithe Collector,Creature — Vampire Noble,{4}{B},3.0,4.0,uncommon,B
+Gatekeeper of Malakir,Creature — Vampire Warrior,{B}{B},2.0,2.0,uncommon,B
+Kalastria Highborn,Creature — Vampire Shaman,{B}{B},2.0,2.0,rare,B
+Massacre Wurm,Creature — Phyrexian Wurm,{3}{B}{B}{B},6.0,5.0,mythic,B
+Pulse Tracker,Creature — Vampire Rogue,{B},1.0,1.0,common,B
+Vampire Interloper,Creature — Vampire Scout,{1}{B},2.0,1.0,common,B
+Vampire Nighthawk,Creature — Vampire Shaman,{1}{B}{B},2.0,3.0,uncommon,B
+Vampire Soulcaller,Creature — Vampire Warlock,{4}{B},3.0,2.0,common,B
+Carnelian Orb of Dragonkind,Artifact,{2}{R},,,common,R
+"Drakuseth, Maw of Flames",Legendary Creature — Dragon,{4}{R}{R}{R},7.0,7.0,rare,R
+Firespitter Whelp,Creature — Dragon,{2}{R},2.0,2.0,uncommon,R
+Kargan Dragonrider,Creature — Human Warrior,{1}{R},2.0,2.0,common,R
+Shivan Dragon,Creature — Dragon,{4}{R}{R},5.0,5.0,uncommon,R
+Terror of Mount Velus,Creature — Dragon,{5}{R}{R},5.0,5.0,rare,R
+Pelakka Wurm,Creature — Wurm,{4}{G}{G}{G},7.0,7.0,uncommon,G
+Primal Might,Sorcery,{X}{G},,,rare,G
+Springbloom Druid,Creature — Elf Druid,{2}{G},1.0,1.0,common,G
+"Surrak, the Hunt Caller",Legendary Creature — Human Warrior,{2}{G}{G},5.0,4.0,rare,G
+Vizier of the Menagerie,Creature — Snake Cleric,{3}{G},3.0,4.0,mythic,G
+Diamond Mare,Artifact Creature — Horse,{2},1.0,3.0,uncommon,C
+Cryptic Caves,Land,,,,uncommon,C
