@@ -10,3 +10,7 @@
 2026-04-10 22:07:57 | INFO | Fetched 771 cards successfully
 2026-04-10 22:07:57 | DEBUG | Building DataFrame from card data
 2026-04-10 22:07:57 | INFO | Saved 771 rows to data/raw/cards_seed.csv
+2026-04-10 22:10:43 | INFO | Fetching card data from https://mtgjson.com/api/v5/FDN.json
+2026-04-10 22:10:45 | INFO | Fetched 771 cards successfully
+2026-04-10 22:10:45 | DEBUG | Building DataFrame from card data
+2026-04-10 22:10:45 | INFO | Saved 771 rows to data/raw/cards_seed.csv
