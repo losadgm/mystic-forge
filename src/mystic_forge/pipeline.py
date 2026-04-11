@@ -30,7 +30,11 @@ class Pipeline:
         logger.info("=== pipeline start ({} stages) ===", total)
         for i, stage in enumerate(self._stages, 1):
             logger.info("[{}/{}] stage '{}' starting", i, total, stage.name)
-            ctx = stage.run(ctx)
+            try:
+                ctx = stage.run(ctx)
+            except Exception:
+                logger.exception("[{}/{}] stage '{}' failed", i, total, stage.name)
+                raise
             logger.info("[{}/{}] stage '{}' done", i, total, stage.name)
         logger.success("=== pipeline complete ===")
         return ctx
