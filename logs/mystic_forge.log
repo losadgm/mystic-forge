@@ -1,850 +1,1603 @@
-2026-04-11 00:04:00 | INFO     | === pipeline start (2 stages) ===
-2026-04-11 00:04:00 | INFO     | [1/2] stage 'fetch_cards' starting
-2026-04-11 00:04:00 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:04:02 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:04:02 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:04:02 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:04:02 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:04:02 | INFO     | [1/2] stage 'fetch_cards' done
-2026-04-11 00:04:02 | INFO     | [2/2] stage 'preprocess' starting
-2026-04-11 00:04:02 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:04:02 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:04:02 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:04:02 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:04:02 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:04:02 | INFO     | [2/2] stage 'preprocess' done
-2026-04-11 00:04:02 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:19:02 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:19:02 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:19:02 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:19:04 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:19:04 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:19:04 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:19:04 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:19:04 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:19:04 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:19:04 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:19:04 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:19:04 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:19:04 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:19:04 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:19:04 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:19:04 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:19:04 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:19:04 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost', 'name']
-2026-04-11 00:19:04 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:20:01 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:20:01 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:20:01 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:20:03 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:20:03 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:20:03 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:20:03 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:20:03 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:20:03 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:20:03 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:20:03 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:20:03 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:20:03 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:20:03 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:20:03 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:20:03 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:20:03 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:20:55 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:20:55 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:20:55 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:20:57 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:20:57 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:20:57 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:20:57 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:20:57 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:20:57 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:20:57 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:20:58 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:20:58 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:20:58 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:20:58 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:20:58 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:20:58 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:20:58 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:21:37 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:21:37 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:21:37 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:21:38 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:21:38 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:21:38 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:21:38 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:21:38 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:21:38 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:21:38 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:21:38 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:21:38 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:21:38 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:21:38 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:21:38 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:21:38 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:21:38 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:21:38 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost']
-2026-04-11 00:21:38 | DEBUG    | 'name' set as id (excluded from synthesis)
-2026-04-11 00:21:38 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:21:49 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:21:49 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:21:49 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:21:51 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:21:51 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:21:51 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:21:51 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:21:51 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:21:51 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:21:51 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:21:51 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:21:51 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:21:51 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:21:51 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:21:51 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:21:51 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:21:51 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:21:51 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost']
-2026-04-11 00:21:51 | DEBUG    | 'name' set as id (excluded from synthesis)
-2026-04-11 00:21:51 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:22:47 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:22:47 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:22:47 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:22:49 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:22:49 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:22:49 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:22:49 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:22:49 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:22:49 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:22:49 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:22:49 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:22:49 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:22:49 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:22:49 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:22:49 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:22:49 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:22:49 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:22:49 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost']
-2026-04-11 00:22:49 | DEBUG    | Excluded columns from training: ['name']
-2026-04-11 00:22:49 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:23:16 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:23:16 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:23:16 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:23:17 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:23:17 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:23:17 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:23:17 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:23:17 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:23:17 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:23:17 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:23:17 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:23:17 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:23:17 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:23:17 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:23:17 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:23:17 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:23:17 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 00:23:17 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:23:17 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost']
-2026-04-11 00:23:17 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:23:53 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:23:53 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:23:53 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:23:55 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:23:55 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:23:55 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:23:55 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:23:55 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:23:55 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:23:55 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:23:55 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:23:55 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:23:55 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:23:55 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:23:55 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:23:55 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:23:55 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:23:55 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:24:08 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:24:08 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:24:08 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:24:09 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:24:09 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:24:09 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:24:09 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:24:09 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:24:09 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:24:09 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:24:09 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:24:09 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:24:09 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:24:09 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:24:09 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:24:09 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:24:09 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:24:09 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:24:09 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:24:09 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:24:10 | INFO     | Training complete
-2026-04-11 00:24:10 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:24:10 | INFO     | [3/3] stage 'train' done
-2026-04-11 00:24:10 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:24:28 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:24:28 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:24:28 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:24:30 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:24:30 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:24:30 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:24:30 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:24:30 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:24:30 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:24:30 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:24:30 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:24:30 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:24:30 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:24:30 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:24:30 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:24:30 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:24:30 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:24:30 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:24:30 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:24:30 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:24:30 | INFO     | Training complete
-2026-04-11 00:24:30 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:24:30 | INFO     | [3/3] stage 'train' done
-2026-04-11 00:24:30 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:26:14 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:26:14 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:26:14 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:26:15 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:26:15 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:26:15 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:26:15 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:26:15 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:26:15 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:26:15 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:26:15 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:26:15 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:26:15 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:26:15 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:26:15 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:26:15 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:26:15 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:26:15 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:26:15 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:26:15 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:26:16 | INFO     | Training complete
-2026-04-11 00:26:16 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:26:16 | INFO     | [3/3] stage 'train' done
-2026-04-11 00:26:16 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:29:08 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:29:08 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:29:08 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:29:10 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:29:10 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:29:10 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:29:10 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:29:10 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:29:10 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:29:10 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:29:10 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:29:10 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:29:10 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:29:10 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:29:10 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:29:10 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:29:10 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:29:10 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:29:10 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:29:10 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:29:10 | INFO     | Training complete
-2026-04-11 00:29:10 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:29:10 | INFO     | [3/3] stage 'train' done
-2026-04-11 00:29:10 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:29:21 | INFO     | === pipeline start (3 stages) ===
-2026-04-11 00:29:21 | INFO     | [1/3] stage 'fetch_cards' starting
-2026-04-11 00:29:21 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:29:23 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:29:23 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:29:23 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:29:23 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:29:23 | INFO     | [1/3] stage 'fetch_cards' done
-2026-04-11 00:29:23 | INFO     | [2/3] stage 'preprocess' starting
-2026-04-11 00:29:23 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:29:23 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:29:23 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:29:23 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:29:23 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:29:23 | INFO     | [2/3] stage 'preprocess' done
-2026-04-11 00:29:23 | INFO     | [3/3] stage 'train' starting
-2026-04-11 00:29:23 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:29:23 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:29:23 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:29:23 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:29:23 | INFO     | Training complete
-2026-04-11 00:29:23 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:29:23 | INFO     | [3/3] stage 'train' done
-2026-04-11 00:29:23 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:34:44 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 00:34:44 | INFO     | [1/4] stage 'fetch_cards' starting
-2026-04-11 00:34:44 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:34:46 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:34:46 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:34:46 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:34:46 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:34:46 | INFO     | [1/4] stage 'fetch_cards' done
-2026-04-11 00:34:46 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 00:34:46 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:34:46 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:34:46 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:34:46 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:34:46 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:34:46 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 00:34:46 | INFO     | [3/4] stage 'train' starting
-2026-04-11 00:34:46 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:34:46 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:34:46 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:34:46 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:34:46 | INFO     | Training complete
-2026-04-11 00:34:46 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:34:46 | INFO     | [3/4] stage 'train' done
-2026-04-11 00:34:46 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 00:34:46 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 00:34:46 | INFO     | Sampling 300 synthetic rows
-2026-04-11 00:34:46 | DEBUG    | Synthetic DataFrame shape: 300 rows x 5 columns
-2026-04-11 00:34:46 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 00:34:46 | INFO     | [4/4] stage 'sample' done
-2026-04-11 00:34:46 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:35:41 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 00:35:41 | INFO     | [1/4] stage 'fetch_cards' starting
-2026-04-11 00:35:41 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:35:42 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:35:42 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:35:42 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:35:42 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:35:42 | INFO     | [1/4] stage 'fetch_cards' done
-2026-04-11 00:35:42 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 00:35:42 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:35:42 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:35:42 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:35:42 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:35:42 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:35:42 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 00:35:42 | INFO     | [3/4] stage 'train' starting
-2026-04-11 00:35:42 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:35:42 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:35:42 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:35:42 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:35:43 | INFO     | Training complete
-2026-04-11 00:35:43 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:35:43 | INFO     | [3/4] stage 'train' done
-2026-04-11 00:35:43 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 00:35:43 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 00:35:43 | INFO     | Sampling 300 synthetic rows
-2026-04-11 00:35:43 | DEBUG    | Synthetic DataFrame shape: 300 rows x 5 columns
-2026-04-11 00:35:43 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 00:35:43 | INFO     | [4/4] stage 'sample' done
-2026-04-11 00:35:43 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:38:14 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 00:38:14 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 00:38:14 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:38:15 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:38:15 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:38:15 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:38:15 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:38:15 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 00:38:15 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 00:38:15 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:38:15 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:38:15 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:38:15 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:38:15 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:38:15 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 00:38:15 | INFO     | [3/4] stage 'train' starting
-2026-04-11 00:38:15 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:38:15 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:38:15 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:38:15 | INFO     | Training GaussianCopulaSynthesizer on 771 rows
-2026-04-11 00:38:16 | INFO     | Training complete
-2026-04-11 00:38:16 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:38:16 | INFO     | [3/4] stage 'train' done
-2026-04-11 00:38:16 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 00:38:16 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 00:38:16 | INFO     | Sampling 300 synthetic rows
-2026-04-11 00:38:16 | DEBUG    | Synthetic DataFrame shape: 300 rows x 5 columns
-2026-04-11 00:38:16 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 00:38:16 | INFO     | [4/4] stage 'sample' done
-2026-04-11 00:38:16 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:52:13 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 00:52:13 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 00:52:13 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:52:15 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:52:15 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:52:15 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:52:15 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:52:15 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 00:52:15 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 00:52:15 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:52:15 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:52:15 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:52:15 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:52:15 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:52:15 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 00:52:15 | INFO     | [3/4] stage 'train' starting
-2026-04-11 00:52:15 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:52:15 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:52:15 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:52:15 | INFO     | Training CTGANSynthesizer on 771 rows (100 epochs)
-2026-04-11 00:52:27 | INFO     | Training complete
-2026-04-11 00:52:27 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:52:27 | INFO     | [3/4] stage 'train' done
-2026-04-11 00:52:27 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 00:52:27 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 00:52:27 | INFO     | Sampling 300 synthetic rows
-2026-04-11 00:52:27 | DEBUG    | Synthetic DataFrame shape: 300 rows x 5 columns
-2026-04-11 00:52:27 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 00:52:27 | INFO     | [4/4] stage 'sample' done
-2026-04-11 00:52:27 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:53:29 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 00:53:29 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 00:53:29 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:53:30 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:53:30 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:53:30 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:53:30 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:53:30 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 00:53:30 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 00:53:30 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:53:30 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:53:30 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:53:30 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:53:30 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:53:30 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 00:53:30 | INFO     | [3/4] stage 'train' starting
-2026-04-11 00:53:30 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:53:30 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:53:30 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:53:30 | INFO     | Training CTGANSynthesizer on 771 rows (100 epochs)
-2026-04-11 00:53:39 | INFO     | Training complete
-2026-04-11 00:53:39 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:53:39 | INFO     | [3/4] stage 'train' done
-2026-04-11 00:53:39 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 00:53:39 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 00:53:39 | INFO     | Sampling 300 synthetic rows
-2026-04-11 00:53:39 | DEBUG    | Synthetic DataFrame shape: 300 rows x 5 columns
-2026-04-11 00:53:39 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 00:53:39 | INFO     | [4/4] stage 'sample' done
-2026-04-11 00:53:39 | SUCCESS  | === pipeline complete ===
-2026-04-11 00:55:08 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 00:55:08 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 00:55:08 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 00:55:10 | INFO     | Fetched 771 cards successfully
-2026-04-11 00:55:10 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 00:55:10 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 00:55:10 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 00:55:10 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 00:55:10 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 00:55:10 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 00:55:10 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 00:55:10 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 00:55:10 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 00:55:10 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 00:55:10 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 00:55:10 | INFO     | [3/4] stage 'train' starting
-2026-04-11 00:55:10 | DEBUG    | Excluded columns before training: ['name', 'mana_cost']
-2026-04-11 00:55:10 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 00:55:10 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 00:55:10 | INFO     | Training CTGANSynthesizer on 771 rows (500 epochs)
-2026-04-11 00:55:50 | INFO     | Training complete
-2026-04-11 00:55:50 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 00:55:50 | INFO     | [3/4] stage 'train' done
-2026-04-11 00:55:50 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 00:55:50 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 00:55:50 | INFO     | Sampling 300 synthetic rows
-2026-04-11 00:55:50 | DEBUG    | Synthetic DataFrame shape: 300 rows x 5 columns
-2026-04-11 00:55:50 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 00:55:50 | INFO     | [4/4] stage 'sample' done
-2026-04-11 00:55:50 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:01:41 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:01:41 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:01:41 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 01:01:43 | INFO     | Fetched 771 cards successfully
-2026-04-11 01:01:43 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 01:01:43 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 01:01:43 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 01:01:43 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 01:01:43 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 01:01:43 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:01:43 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:01:43 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:01:43 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 01:01:43 | DEBUG    | Column 'has_stats': 452 creatures, 319 non-creatures
-2026-04-11 01:01:43 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 01:01:43 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 01:01:43 | INFO     | [3/4] stage 'train' starting
-2026-04-11 01:01:43 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 01:01:43 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:01:43 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'has_stats']
-2026-04-11 01:01:43 | INFO     | Training CTGANSynthesizer on 771 rows (1000 epochs)
-2026-04-11 01:03:45 | INFO     | Training complete
-2026-04-11 01:03:45 | SUCCESS  | Saved model to output/synthesizer.pkl
-2026-04-11 01:03:45 | INFO     | [3/4] stage 'train' done
-2026-04-11 01:03:45 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 01:03:45 | INFO     | Loading model from output/synthesizer.pkl
-2026-04-11 01:03:45 | INFO     | Sampling 300 synthetic rows
-2026-04-11 01:03:45 | DEBUG    | Synthetic DataFrame shape: 300 rows x 7 columns
-2026-04-11 01:03:45 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 01:03:45 | INFO     | [4/4] stage 'sample' done
-2026-04-11 01:03:45 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:12:50 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:12:50 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:12:50 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 01:12:52 | INFO     | Fetched 771 cards successfully
-2026-04-11 01:12:52 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 01:12:52 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 01:12:52 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 01:12:52 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 01:12:52 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 01:12:52 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:12:52 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:12:52 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:12:52 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 01:12:52 | DEBUG    | Column 'has_stats': 449 cards with stats, 322 without
-2026-04-11 01:12:52 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 01:12:52 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 01:12:52 | INFO     | [3/4] stage 'train' starting
-2026-04-11 01:12:52 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 01:12:52 | INFO     | Stratified split: 449 with stats, 322 without
-2026-04-11 01:12:52 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:12:52 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 01:12:52 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:12:52 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost']
-2026-04-11 01:12:52 | INFO     | Training 'with_stats' model on 449 rows (1000 epochs)
-2026-04-11 01:14:51 | INFO     | Training 'with_stats' complete
-2026-04-11 01:14:51 | INFO     | Training 'no_stats' model on 322 rows (1000 epochs)
-2026-04-11 01:15:50 | INFO     | Training 'no_stats' complete
-2026-04-11 01:15:50 | SUCCESS  | Saved model to output/synth_with_stats.pkl
-2026-04-11 01:15:50 | SUCCESS  | Saved model to output/synth_no_stats.pkl
-2026-04-11 01:15:50 | INFO     | [3/4] stage 'train' done
-2026-04-11 01:15:50 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 01:15:50 | INFO     | Sampling ratio: 58.2% with stats, 41.8% without
-2026-04-11 01:15:50 | INFO     | Loading model from output/synth_with_stats.pkl
-2026-04-11 01:15:50 | INFO     | Loading model from output/synth_no_stats.pkl
-2026-04-11 01:15:50 | INFO     | Sampling 175 'with_stats' rows
-2026-04-11 01:15:50 | DEBUG    | 'with_stats' shape: 175 rows x 6 columns
-2026-04-11 01:15:50 | INFO     | Sampling 125 'no_stats' rows
-2026-04-11 01:15:50 | DEBUG    | 'no_stats' shape: 125 rows x 4 columns
-2026-04-11 01:15:50 | INFO     | Merged 300 synthetic rows (175 with stats, 125 without)
-2026-04-11 01:15:50 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 01:15:50 | INFO     | [4/4] stage 'sample' done
-2026-04-11 01:15:50 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:20:14 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:20:14 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:20:14 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:20:14 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 01:20:26 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:20:26 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:20:26 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 01:20:28 | INFO     | Fetched 771 cards successfully
-2026-04-11 01:20:28 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 01:20:28 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 01:20:28 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 01:20:28 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 01:20:28 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 01:20:28 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:20:28 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:20:28 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:20:28 | DEBUG    | Column 'colors': 114 missing value(s) filled with 'C'
-2026-04-11 01:20:28 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 01:20:28 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 01:20:28 | INFO     | [3/4] stage 'train' starting
-2026-04-11 01:20:28 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 01:20:28 | INFO     | Stratified split: 449 with stats, 322 without
-2026-04-11 01:20:28 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:20:28 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type']
-2026-04-11 01:20:28 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:20:28 | DEBUG    | Categorical columns set: ['rarity', 'colors', 'type', 'mana_cost']
-2026-04-11 01:20:28 | INFO     | Training 'with_stats' model on 449 rows (1000 epochs)
-2026-04-11 01:22:07 | INFO     | Training 'with_stats' complete
-2026-04-11 01:22:07 | INFO     | Training 'no_stats' model on 322 rows (1000 epochs)
-2026-04-11 01:23:02 | INFO     | Training 'no_stats' complete
-2026-04-11 01:23:02 | SUCCESS  | Saved model to output/synth_with_stats.pkl
-2026-04-11 01:23:02 | SUCCESS  | Saved model to output/synth_no_stats.pkl
-2026-04-11 01:23:02 | INFO     | [3/4] stage 'train' done
-2026-04-11 01:23:02 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 01:23:02 | INFO     | Sampling ratio: 58.2% with stats, 41.8% without
-2026-04-11 01:23:02 | INFO     | Loading model from output/synth_with_stats.pkl
-2026-04-11 01:23:02 | INFO     | Loading model from output/synth_no_stats.pkl
-2026-04-11 01:23:02 | INFO     | Sampling 175 'with_stats' rows
-2026-04-11 01:23:02 | DEBUG    | 'with_stats' shape: 175 rows x 6 columns
-2026-04-11 01:23:02 | INFO     | Sampling 125 'no_stats' rows
-2026-04-11 01:23:02 | DEBUG    | 'no_stats' shape: 125 rows x 4 columns
-2026-04-11 01:23:02 | INFO     | Merged 300 synthetic rows (175 with stats, 125 without)
-2026-04-11 01:23:02 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 01:23:02 | INFO     | [4/4] stage 'sample' done
-2026-04-11 01:23:02 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:27:44 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:27:44 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:27:44 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:27:44 | INFO     | Engineering mana features from 'mana_cost'
-2026-04-11 01:27:44 | DEBUG    | Added columns: ['cmc', 'pips_W', 'pips_U', 'pips_B', 'pips_R', 'pips_G']
-2026-04-11 01:27:44 | DEBUG    | CMC range: 0–12, mean: 3.3
-2026-04-11 01:28:02 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:28:02 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:28:02 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 01:28:04 | INFO     | Fetched 771 cards successfully
-2026-04-11 01:28:04 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 01:28:04 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 01:28:04 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 01:28:04 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 01:28:04 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 01:28:04 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:28:04 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:28:04 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:28:04 | INFO     | Engineering mana features from 'mana_cost'
-2026-04-11 01:28:04 | DEBUG    | Added columns: ['cmc', 'pips_W', 'pips_U', 'pips_B', 'pips_R', 'pips_G']
-2026-04-11 01:28:04 | DEBUG    | CMC range: 0–12, mean: 3.3
-2026-04-11 01:28:04 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 01:28:04 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 01:28:04 | INFO     | [3/4] stage 'train' starting
-2026-04-11 01:28:04 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 01:28:04 | INFO     | Stratified split: 449 with stats, 322 without
-2026-04-11 01:28:04 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:28:04 | DEBUG    | Categorical columns set: ['rarity', 'type']
-2026-04-11 01:28:04 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:28:04 | DEBUG    | Categorical columns set: ['rarity', 'type']
-2026-04-11 01:28:04 | INFO     | Training 'with_stats' model on 449 rows (1000 epochs)
-2026-04-11 01:29:35 | INFO     | Training 'with_stats' complete
-2026-04-11 01:29:35 | INFO     | Training 'no_stats' model on 322 rows (1000 epochs)
-2026-04-11 01:30:27 | INFO     | Training 'no_stats' complete
-2026-04-11 01:30:27 | SUCCESS  | Saved model to output/synth_with_stats.pkl
-2026-04-11 01:30:27 | SUCCESS  | Saved model to output/synth_no_stats.pkl
-2026-04-11 01:30:27 | INFO     | [3/4] stage 'train' done
-2026-04-11 01:30:27 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 01:30:27 | INFO     | Sampling ratio: 58.2% with stats, 41.8% without
-2026-04-11 01:30:27 | INFO     | Loading model from output/synth_with_stats.pkl
-2026-04-11 01:30:27 | INFO     | Loading model from output/synth_no_stats.pkl
-2026-04-11 01:30:27 | INFO     | Sampling 175 'with_stats' rows
-2026-04-11 01:30:27 | DEBUG    | 'with_stats' shape: 175 rows x 10 columns
-2026-04-11 01:30:27 | INFO     | Sampling 125 'no_stats' rows
-2026-04-11 01:30:27 | DEBUG    | 'no_stats' shape: 125 rows x 8 columns
-2026-04-11 01:30:27 | INFO     | Merged 300 synthetic rows (175 with stats, 125 without)
-2026-04-11 01:30:27 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 01:30:27 | INFO     | [4/4] stage 'sample' done
-2026-04-11 01:30:27 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:40:50 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:40:50 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:40:50 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 01:40:52 | INFO     | Fetched 771 cards successfully
-2026-04-11 01:40:52 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 01:40:52 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 01:40:52 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 01:40:52 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 01:40:52 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 01:40:52 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:40:52 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:40:52 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:40:52 | INFO     | Engineering type features from 'type'
-2026-04-11 01:40:52 | DEBUG    | card_type distribution:
+2026-04-11 12:00:20 | INFO     | === pipeline start (5 stages) ===
+2026-04-11 12:00:20 | INFO     | [1/5] stage 'fetch' starting
+2026-04-11 12:00:20 | INFO     | Fetching set 'FDN' from https://mtgjson.com/api/v5/FDN.json
+2026-04-11 12:00:21 | INFO     | Set 'FDN': 771 cards fetched
+2026-04-11 12:00:21 | INFO     | Fetching set 'MKM' from https://mtgjson.com/api/v5/MKM.json
+2026-04-11 12:00:23 | INFO     | Set 'MKM': 458 cards fetched
+2026-04-11 12:00:23 | INFO     | Fetching set 'BLB' from https://mtgjson.com/api/v5/BLB.json
+2026-04-11 12:00:24 | INFO     | Set 'BLB': 398 cards fetched
+2026-04-11 12:00:24 | INFO     | Fetching set 'DSK' from https://mtgjson.com/api/v5/DSK.json
+2026-04-11 12:00:26 | INFO     | Set 'DSK': 453 cards fetched
+2026-04-11 12:00:26 | INFO     | Total cards fetched across 4 set(s): 2,080
+2026-04-11 12:00:26 | DEBUG    | Building DataFrame from 2,080 raw card records
+2026-04-11 12:00:26 | INFO     | Deduplicated by name: 752 duplicate(s) dropped — 1,328 unique cards
+2026-04-11 12:00:26 | DEBUG    | DataFrame shape: 1328 rows x 8 columns
+2026-04-11 12:00:26 | SUCCESS  | Saved 1,328 rows to data/raw/cards_seed.csv
+2026-04-11 12:00:26 | INFO     | [1/5] stage 'fetch' done
+2026-04-11 12:00:26 | INFO     | [2/5] stage 'preprocess' starting
+2026-04-11 12:00:26 | DEBUG    | Selected 7 columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
+2026-04-11 12:00:26 | INFO     | Filter: removing cards with non-integer power or toughness
+2026-04-11 12:00:26 | INFO     |   → 7 excluded (non-integer stat value, e.g. '*'), 1,321 remain
+2026-04-11 12:00:26 | DEBUG    | Excluded cards: ['Consuming Aberration', 'Crusader of Odric', 'Enigma Drake', 'Melek, Reforged Researcher', 'Eluge, the Shoreless Sea', 'Lumra, Bellow of the Woods', 'Burrowguard Mentor']
+2026-04-11 12:00:26 | DEBUG    | Casting power/toughness to numeric dtype
+2026-04-11 12:00:26 | DEBUG    | power dtype: float64, toughness dtype: float64
+2026-04-11 12:00:26 | INFO     | Filter: removing cards with {{X}} in mana cost
+2026-04-11 12:00:26 | INFO     |   → 23 removed, 1,298 remain
+2026-04-11 12:00:26 | INFO     | Filter: removing cards with hybrid/phyrexian mana costs
+2026-04-11 12:00:26 | DEBUG    | Hybrid/phyrexian cards: ['Dryad Militant', 'Teach by Example', 'Wilt-Leaf Liege', 'Leyline of the Guildpact', 'Trostani, Three Whispers', 'Cease // Desist', 'Flotsam // Jetsam', 'Fuss // Bother', 'Hustle // Bustle', 'Push // Pull', 'Cindering Cutthroat', 'Corpseberry Cultivator', 'Head of the Homestead', 'Junkblade Bruiser', 'Mind Drill Assailant', 'Moonrise Cleric', 'Pond Prophet', 'Seedpod Squire', 'Tempest Angler', 'Veteran Guardmouse']
+2026-04-11 12:00:26 | INFO     |   → 20 removed, 1,278 remain
+2026-04-11 12:00:26 | INFO     | Engineering type features from 'type'
+2026-04-11 12:00:26 | DEBUG    | card_type distribution:
 card_type
-Creature        452
-Sorcery          76
-Instant          70
-Land             63
-Enchantment      57
-Artifact         36
-Planeswalker     17
-2026-04-11 01:40:52 | INFO     | Engineering mana features from 'mana_cost'
-2026-04-11 01:40:52 | DEBUG    | CMC range: 0–12, mean: 3.3
-2026-04-11 01:40:52 | DEBUG    | power_per_cmc — mean: 0.81, max: 2.00
-2026-04-11 01:40:52 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 01:40:52 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 01:40:52 | INFO     | [3/4] stage 'train' starting
-2026-04-11 01:40:52 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 01:40:52 | INFO     | Stratified split: 449 with stats, 322 without
-2026-04-11 01:40:52 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:40:52 | DEBUG    | Categorical columns set: ['rarity', 'card_type', 'subtype']
-2026-04-11 01:40:52 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:40:52 | DEBUG    | Categorical columns set: ['rarity', 'card_type', 'subtype']
-2026-04-11 01:40:52 | INFO     | Training 'with_stats' model on 449 rows (1000 epochs)
-2026-04-11 01:42:00 | INFO     | Training 'with_stats' complete
-2026-04-11 01:42:00 | INFO     | Training 'no_stats' model on 322 rows (1000 epochs)
-2026-04-11 01:42:53 | INFO     | Training 'no_stats' complete
-2026-04-11 01:42:53 | SUCCESS  | Saved model to output/synth_with_stats.pkl
-2026-04-11 01:42:53 | SUCCESS  | Saved model to output/synth_no_stats.pkl
-2026-04-11 01:42:53 | INFO     | [3/4] stage 'train' done
-2026-04-11 01:42:53 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 01:42:53 | INFO     | Sampling ratio: 58.2% with stats, 41.8% without
-2026-04-11 01:42:53 | INFO     | Loading model from output/synth_with_stats.pkl
-2026-04-11 01:42:53 | INFO     | Loading model from output/synth_no_stats.pkl
-2026-04-11 01:42:53 | INFO     | Sampling 175 'with_stats' rows
-2026-04-11 01:42:53 | DEBUG    | 'with_stats' shape: 175 rows x 14 columns
-2026-04-11 01:42:53 | INFO     | Sampling 125 'no_stats' rows
-2026-04-11 01:42:53 | DEBUG    | 'no_stats' shape: 125 rows x 10 columns
-2026-04-11 01:42:53 | INFO     | Merged 300 synthetic rows (175 with stats, 125 without)
-2026-04-11 01:42:53 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 01:42:53 | INFO     | [4/4] stage 'sample' done
-2026-04-11 01:42:53 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:52:53 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:52:53 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:52:53 | INFO     | Fetching card data from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 01:52:55 | INFO     | Fetched 771 cards successfully
-2026-04-11 01:52:55 | DEBUG    | Building DataFrame from 771 cards
-2026-04-11 01:52:55 | DEBUG    | DataFrame shape: 771 rows x 8 columns
-2026-04-11 01:52:55 | SUCCESS  | Saved 771 rows to data/raw/cards_seed.csv
-2026-04-11 01:52:55 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 01:52:55 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 01:52:55 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 01:52:55 | DEBUG    | Column 'power': 4 non-numeric value(s) coerced to NaN
-2026-04-11 01:52:55 | DEBUG    | Column 'toughness': 3 non-numeric value(s) coerced to NaN
-2026-04-11 01:52:55 | INFO     | Engineering type features from 'type'
-2026-04-11 01:52:55 | DEBUG    | card_type distribution:
-card_type
-Creature        452
-Sorcery          76
-Instant          70
-Land             63
-Enchantment      57
-Artifact         36
-Planeswalker     17
-2026-04-11 01:52:55 | INFO     | Engineering mana features from 'mana_cost'
-2026-04-11 01:52:55 | DEBUG    | CMC range: 0–12, mean: 3.3
-2026-04-11 01:52:55 | DEBUG    | color_identity distribution:
-color_identity
-W            127
-U            120
-B            120
-colorless    114
-R            109
-G            107
-UG            11
-UR             9
-WG             8
-BR             7
-RG             7
-WB             7
-WU             7
-BG             6
-WR             4
-UBG            3
-WUBRG          3
-UB             2
-2026-04-11 01:52:55 | DEBUG    | power_per_cmc — mean: 0.81, max: 2.00
-2026-04-11 01:52:55 | SUCCESS  | Saved 771 rows to data/processed/cards_clean.csv
-2026-04-11 01:52:55 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 01:52:55 | INFO     | [3/4] stage 'train' starting
-2026-04-11 01:52:55 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 01:52:55 | INFO     | Stratified split: 449 with stats, 322 without
-2026-04-11 01:52:55 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:52:55 | DEBUG    | Categorical columns set: ['rarity', 'card_type', 'subtype', 'color_identity']
-2026-04-11 01:52:55 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 01:52:55 | DEBUG    | Categorical columns set: ['rarity', 'card_type', 'subtype', 'color_identity']
-2026-04-11 01:52:55 | INFO     | Training 'with_stats' model on 449 rows (1000 epochs)
-2026-04-11 01:53:45 | INFO     | Training 'with_stats' complete
-2026-04-11 01:53:45 | INFO     | Training 'no_stats' model on 322 rows (1000 epochs)
-2026-04-11 01:54:33 | INFO     | Training 'no_stats' complete
-2026-04-11 01:54:33 | SUCCESS  | Saved model to output/synth_with_stats.pkl
-2026-04-11 01:54:33 | SUCCESS  | Saved model to output/synth_no_stats.pkl
-2026-04-11 01:54:33 | INFO     | [3/4] stage 'train' done
-2026-04-11 01:54:33 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 01:54:33 | INFO     | Sampling ratio: 58.2% with stats, 41.8% without
-2026-04-11 01:54:33 | INFO     | Loading model from output/synth_with_stats.pkl
-2026-04-11 01:54:33 | INFO     | Loading model from output/synth_no_stats.pkl
-2026-04-11 01:54:33 | INFO     | Sampling 175 'with_stats' rows
-2026-04-11 01:54:33 | DEBUG    | 'with_stats' shape: 175 rows x 7 columns
-2026-04-11 01:54:33 | INFO     | Sampling 125 'no_stats' rows
-2026-04-11 01:54:33 | DEBUG    | 'no_stats' shape: 125 rows x 5 columns
-2026-04-11 01:54:33 | INFO     | Merged 300 synthetic rows (175 with stats, 125 without)
-2026-04-11 01:54:33 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 01:54:33 | INFO     | [4/4] stage 'sample' done
-2026-04-11 01:54:33 | SUCCESS  | === pipeline complete ===
-2026-04-11 01:57:30 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 01:57:30 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 01:57:30 | INFO     | Fetching card data from https://mtgjson.com/api/v5/AtomicCards.json
-2026-04-11 01:58:21 | ERROR    | Unexpected API response structure — missing 'data.cards' key (src/mystic_forge/stages/fetch.py:23)
-2026-04-11 01:58:21 | ERROR    | [1/4] stage 'fetch' failed (src/mystic_forge/pipeline.py:36)
-2026-04-11 01:58:21 | ERROR    | Pipeline aborted (src/mystic_forge/run.py:18)
-2026-04-11 02:02:31 | INFO     | === pipeline start (4 stages) ===
-2026-04-11 02:02:31 | INFO     | [1/4] stage 'fetch' starting
-2026-04-11 02:02:31 | INFO     | Fetching set 'FDN' from https://mtgjson.com/api/v5/FDN.json
-2026-04-11 02:02:33 | INFO     | Set 'FDN': 771 cards fetched
-2026-04-11 02:02:33 | INFO     | Fetching set 'MKM' from https://mtgjson.com/api/v5/MKM.json
-2026-04-11 02:02:35 | INFO     | Set 'MKM': 458 cards fetched
-2026-04-11 02:02:35 | INFO     | Fetching set 'BLB' from https://mtgjson.com/api/v5/BLB.json
-2026-04-11 02:02:36 | INFO     | Set 'BLB': 398 cards fetched
-2026-04-11 02:02:36 | INFO     | Fetching set 'DSK' from https://mtgjson.com/api/v5/DSK.json
-2026-04-11 02:02:38 | INFO     | Set 'DSK': 453 cards fetched
-2026-04-11 02:02:38 | INFO     | Total cards fetched across 4 set(s): 2,080
-2026-04-11 02:02:38 | DEBUG    | Building DataFrame from 2,080 cards
-2026-04-11 02:02:38 | DEBUG    | Dropped 752 duplicate card name(s) — 1,328 unique cards remain
-2026-04-11 02:02:38 | DEBUG    | DataFrame shape: 1328 rows x 8 columns
-2026-04-11 02:02:38 | SUCCESS  | Saved 1,328 rows to data/raw/cards_seed.csv
-2026-04-11 02:02:38 | INFO     | [1/4] stage 'fetch' done
-2026-04-11 02:02:38 | INFO     | [2/4] stage 'preprocess' starting
-2026-04-11 02:02:38 | DEBUG    | Selected columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
-2026-04-11 02:02:38 | DEBUG    | Column 'power': 7 non-numeric value(s) coerced to NaN
-2026-04-11 02:02:38 | DEBUG    | Column 'toughness': 6 non-numeric value(s) coerced to NaN
-2026-04-11 02:02:38 | INFO     | Engineering type features from 'type'
-2026-04-11 02:02:38 | DEBUG    | card_type distribution:
-card_type
-Creature        737
-Instant         158
-Enchantment     141
-Sorcery         133
+Creature        714
+Instant         150
+Enchantment     137
+Sorcery         118
 Land             82
 Artifact         69
 Planeswalker      8
-2026-04-11 02:02:38 | INFO     | Engineering mana features from 'mana_cost'
-2026-04-11 02:02:38 | DEBUG    | CMC range: 0–12, mean: 3.0
-2026-04-11 02:02:38 | DEBUG    | color_identity distribution:
-color_identity
-R            204
-W            200
-B            197
-U            195
-G            195
+2026-04-11 12:00:26 | DEBUG    | Filling 408 null subtype(s) → 'none' (870 cards already have a subtype)
+2026-04-11 12:00:26 | DEBUG    | Subtype cardinality after fill: 129 unique values
+2026-04-11 12:00:26 | INFO     | Bucketing 84 rare subtype(s) (< 5 occurrences) into 'Other' — 158 card(s) affected
+2026-04-11 12:00:26 | DEBUG    | Subtypes being bucketed: ['Ajani', 'Ape', 'Archon', 'Bear', 'Boar', 'Centaur', 'Chandra', 'Crab', 'Crocodile', 'Cyclops', 'Devil', 'Djinn', 'Drake', 'Dryad', 'Dwarf', 'Elder', 'Eldrazi', 'Elephant', 'Elk', 'Eye', 'Faerie', 'Fish', 'Food', 'Forest', 'Fox', 'Fungus', 'Gargoyle', 'Goat', 'Gorgon', 'Gremlin', 'Hamster', 'Hellion', 'Homunculus', 'Horror', 'Horse', 'Hydra', 'Hyena', 'Island', 'Juggernaut', 'Kaito', 'Kaya', 'Kithkin', 'Kor', 'Kraken', 'Lammasu', 'Leech', 'Liliana', 'Minotaur', 'Mole', 'Monkey', 'Mountain', 'Mutant', 'Octopus', 'Ogre', 'Ooze', 'Orc', 'Phoenix', 'Phyrexian', 'Plains', 'Plant', 'Possum', 'Ral', 'Rhino', 'Saga', 'Scarecrow', 'Serpent', 'Shapeshifter', 'Shark', 'Sheep', 'Skunk', 'Snake', 'Swamp', 'Thrull', 'Treefolk', 'Troll', 'Turtle', 'Unicorn', 'Vedalken', 'Vivien', 'Weasel', 'Weird', 'Wizard', 'Wolf', 'Wurm']
+2026-04-11 12:00:26 | INFO     | Subtype cardinality: 129 → 46 unique values
+2026-04-11 12:00:26 | DEBUG    | Subtype distribution after bucketing:
+subtype
+none         408
+Other        158
+Human        118
+Aura          38
+Vampire       34
+Elf           32
+Equipment     24
+Lizard        23
+Room          23
+Goblin        21
+Elemental     20
+Cat           19
+Spirit        19
+Angel         18
+Bird          18
+Frog          18
+Dragon        16
+Nightmare     16
+Rat           16
+Rabbit        15
+Zombie        15
+Mouse         14
+Merfolk       12
+Beast         12
+Case          12
+Otter         12
+Squirrel      12
+Bat           11
+Raccoon       11
+Gate          10
+Class         10
+Insect         9
+Demon          8
+Clue           8
+Golem          7
+Toy            7
+Dinosaur       6
+Giant          6
+Dog            6
+Construct      6
+Wall           5
+Sphinx         5
+Skeleton       5
+Spider         5
+Vehicle        5
+Avatar         5
+2026-04-11 12:00:26 | INFO     | Engineering mana features from 'mana_cost'
+2026-04-11 12:00:27 | DEBUG    | CMC — range: 0-12, mean: 3.0
+2026-04-11 12:00:27 | DEBUG    | Mean pip counts per card — W:0.25 U:0.24 B:0.25 R:0.25 G:0.25 generic:1.76
+2026-04-11 12:00:27 | INFO     | Stat ratios: 719 cards with stats, 559 without
+2026-04-11 12:00:27 | DEBUG    | power_per_cmc — mean: 0.84, max: 3.33
+2026-04-11 12:00:27 | INFO     | Preprocessing complete: 1,278 rows, 15 columns
+2026-04-11 12:00:27 | SUCCESS  | Saved 1,278 rows to data/processed/cards_clean.csv
+2026-04-11 12:00:27 | INFO     | [2/5] stage 'preprocess' done
+2026-04-11 12:00:27 | INFO     | [3/5] stage 'train' starting
+2026-04-11 12:00:27 | DEBUG    | Dropping non-training columns: ['name', 'cmc']
+2026-04-11 12:00:27 | INFO     | Stratified split: 719 with stats, 559 without
+2026-04-11 12:00:27 | DEBUG    | Stats/no-stats ratio: 56.3% / 43.7%
+2026-04-11 12:00:27 | DEBUG    | Stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 12:00:27 | DEBUG    | No-stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic']
+2026-04-11 12:00:27 | DEBUG    | Building metadata from 719 rows, 11 columns
+2026-04-11 12:00:27 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype']
+2026-04-11 12:00:27 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 12:00:27 | DEBUG    | Building metadata from 559 rows, 9 columns
+2026-04-11 12:00:27 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype']
+2026-04-11 12:00:27 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic']
+2026-04-11 12:00:27 | INFO     | Training 'with_stats' model on 719 rows (2000 epochs)
+2026-04-11 12:02:24 | INFO     | Training 'with_stats' complete
+2026-04-11 12:02:24 | INFO     | Training 'no_stats' model on 559 rows (2000 epochs)
+2026-04-11 12:04:06 | INFO     | Training 'no_stats' complete
+2026-04-11 12:04:06 | SUCCESS  | Saved model to output/synth_with_stats.pkl
+2026-04-11 12:04:06 | SUCCESS  | Saved model to output/synth_no_stats.pkl
+2026-04-11 12:04:06 | INFO     | Training complete — models saved to output
+2026-04-11 12:04:06 | INFO     | [3/5] stage 'train' done
+2026-04-11 12:04:06 | INFO     | [4/5] stage 'sample' starting
+2026-04-11 12:04:06 | INFO     | Target: 300 total rows — 169 with stats (56.3%), 131 without (43.7%)
+2026-04-11 12:04:06 | DEBUG    | Loading model from output/synth_with_stats.pkl
+2026-04-11 12:04:06 | DEBUG    | Loading model from output/synth_no_stats.pkl
+2026-04-11 12:04:06 | INFO     | Sampling 169 'with_stats' rows
+2026-04-11 12:04:06 | DEBUG    | 'with_stats' shape: 169 rows x 11 columns
+2026-04-11 12:04:06 | INFO     | Sampling 131 'no_stats' rows
+2026-04-11 12:04:06 | DEBUG    | 'no_stats' shape: 131 rows x 9 columns
+2026-04-11 12:04:06 | INFO     | [4/5] stage 'sample' done
+2026-04-11 12:04:06 | INFO     | [5/5] stage 'validate' starting
+2026-04-11 12:04:06 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 12:04:06 | DEBUG    | CMC — range: 0—11, mean: 4.6
+2026-04-11 12:04:06 | DEBUG    | Color distribution:
+color
+colorless    23
+U            23
+W            20
+B            17
+WU           17
+WR           12
+G            11
+R             7
+BR            6
+RG            5
+WG            5
+WB            5
+UG            3
+UR            3
+BG            3
+WURG          2
+WUR           2
+UB            2
+URG           1
+UBG           1
+WRG           1
+2026-04-11 12:04:06 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 12:04:06 | DEBUG    | CMC — range: 0—9, mean: 2.8
+2026-04-11 12:04:06 | DEBUG    | Color distribution:
+color
+colorless    52
+W            18
+U            17
+G             9
+B             9
+R             8
+UG            3
+UR            3
+UB            2
+WG            2
+WB            2
+WR            2
+WU            1
+WUB           1
+BR            1
+BG            1
+2026-04-11 12:04:06 | INFO     | Reconstructing power/toughness from per-cmc ratios
+2026-04-11 12:04:06 | DEBUG    | Stats reconstructed — power range: 0–18, toughness range: 0–16
+2026-04-11 12:04:06 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 12:04:06 | DEBUG    | Top mana costs in sample: {'{3}': 8, '{1}': 5, '{2}{W}{U}': 5, '{1}{B}': 4, '{W}': 4}
+2026-04-11 12:04:06 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 12:04:06 | DEBUG    | Top mana costs in sample: {'{0}': 18, '{3}': 14, '{1}': 10, '{2}': 8, '{2}{W}': 7}
+2026-04-11 12:04:06 | INFO     | Merged 300 synthetic rows (169 with stats, 131 without)
+2026-04-11 12:04:06 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
+2026-04-11 12:04:06 | INFO     | [5/5] stage 'validate' done
+2026-04-11 12:04:06 | SUCCESS  | === pipeline complete ===
+2026-04-11 16:40:24 | INFO     | === pipeline start (5 stages) ===
+2026-04-11 16:40:24 | INFO     | [1/5] stage 'fetch' starting
+2026-04-11 16:40:24 | INFO     | Fetching set 'FDN' from https://mtgjson.com/api/v5/FDN.json
+2026-04-11 16:40:26 | INFO     | Set 'FDN': 771 cards fetched
+2026-04-11 16:40:26 | INFO     | Fetching set 'MKM' from https://mtgjson.com/api/v5/MKM.json
+2026-04-11 16:40:28 | INFO     | Set 'MKM': 458 cards fetched
+2026-04-11 16:40:28 | INFO     | Fetching set 'BLB' from https://mtgjson.com/api/v5/BLB.json
+2026-04-11 16:40:29 | INFO     | Set 'BLB': 398 cards fetched
+2026-04-11 16:40:29 | INFO     | Fetching set 'DSK' from https://mtgjson.com/api/v5/DSK.json
+2026-04-11 16:40:31 | INFO     | Set 'DSK': 453 cards fetched
+2026-04-11 16:40:31 | INFO     | Total cards fetched across 4 set(s): 2,080
+2026-04-11 16:40:31 | DEBUG    | Building DataFrame from 2,080 raw card records
+2026-04-11 16:40:31 | INFO     | Deduplicated by name: 752 duplicate(s) dropped — 1,328 unique cards
+2026-04-11 16:40:31 | DEBUG    | DataFrame shape: 1328 rows x 8 columns
+2026-04-11 16:40:31 | SUCCESS  | Saved 1,328 rows to data/raw/cards_seed.csv
+2026-04-11 16:40:31 | INFO     | [1/5] stage 'fetch' done
+2026-04-11 16:40:31 | INFO     | [2/5] stage 'preprocess' starting
+2026-04-11 16:40:31 | DEBUG    | Selected 7 columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
+2026-04-11 16:40:31 | INFO     | Filter: removing cards with non-integer power or toughness
+2026-04-11 16:40:31 | INFO     |   → 7 excluded (non-integer stat value, e.g. '*'), 1,321 remain
+2026-04-11 16:40:31 | DEBUG    | Excluded cards: ['Consuming Aberration', 'Crusader of Odric', 'Enigma Drake', 'Melek, Reforged Researcher', 'Eluge, the Shoreless Sea', 'Lumra, Bellow of the Woods', 'Burrowguard Mentor']
+2026-04-11 16:40:31 | DEBUG    | Casting power/toughness to numeric dtype
+2026-04-11 16:40:31 | DEBUG    | power dtype: float64, toughness dtype: float64
+2026-04-11 16:40:31 | INFO     | Filter: removing cards with {{X}} in mana cost
+2026-04-11 16:40:31 | INFO     |   → 23 removed, 1,298 remain
+2026-04-11 16:40:31 | INFO     | Filter: removing cards with hybrid/phyrexian mana costs
+2026-04-11 16:40:31 | DEBUG    | Hybrid/phyrexian cards: ['Dryad Militant', 'Teach by Example', 'Wilt-Leaf Liege', 'Leyline of the Guildpact', 'Trostani, Three Whispers', 'Cease // Desist', 'Flotsam // Jetsam', 'Fuss // Bother', 'Hustle // Bustle', 'Push // Pull', 'Cindering Cutthroat', 'Corpseberry Cultivator', 'Head of the Homestead', 'Junkblade Bruiser', 'Mind Drill Assailant', 'Moonrise Cleric', 'Pond Prophet', 'Seedpod Squire', 'Tempest Angler', 'Veteran Guardmouse']
+2026-04-11 16:40:31 | INFO     |   → 20 removed, 1,278 remain
+2026-04-11 16:40:31 | INFO     | Engineering type features from 'type'
+2026-04-11 16:40:31 | DEBUG    | card_type distribution:
+card_type
+Creature        714
+Instant         150
+Enchantment     137
+Sorcery         118
+Land             82
+Artifact         69
+Planeswalker      8
+2026-04-11 16:40:31 | DEBUG    | Filling 408 null subtype(s) → 'none' (870 cards already have a subtype)
+2026-04-11 16:40:31 | DEBUG    | Subtype cardinality after fill: 129 unique values
+2026-04-11 16:40:31 | INFO     | Bucketing 84 rare subtype(s) (< 5 occurrences) into 'Other' — 158 card(s) affected
+2026-04-11 16:40:31 | DEBUG    | Subtypes being bucketed: ['Ajani', 'Ape', 'Archon', 'Bear', 'Boar', 'Centaur', 'Chandra', 'Crab', 'Crocodile', 'Cyclops', 'Devil', 'Djinn', 'Drake', 'Dryad', 'Dwarf', 'Elder', 'Eldrazi', 'Elephant', 'Elk', 'Eye', 'Faerie', 'Fish', 'Food', 'Forest', 'Fox', 'Fungus', 'Gargoyle', 'Goat', 'Gorgon', 'Gremlin', 'Hamster', 'Hellion', 'Homunculus', 'Horror', 'Horse', 'Hydra', 'Hyena', 'Island', 'Juggernaut', 'Kaito', 'Kaya', 'Kithkin', 'Kor', 'Kraken', 'Lammasu', 'Leech', 'Liliana', 'Minotaur', 'Mole', 'Monkey', 'Mountain', 'Mutant', 'Octopus', 'Ogre', 'Ooze', 'Orc', 'Phoenix', 'Phyrexian', 'Plains', 'Plant', 'Possum', 'Ral', 'Rhino', 'Saga', 'Scarecrow', 'Serpent', 'Shapeshifter', 'Shark', 'Sheep', 'Skunk', 'Snake', 'Swamp', 'Thrull', 'Treefolk', 'Troll', 'Turtle', 'Unicorn', 'Vedalken', 'Vivien', 'Weasel', 'Weird', 'Wizard', 'Wolf', 'Wurm']
+2026-04-11 16:40:31 | INFO     | Subtype cardinality: 129 → 46 unique values
+2026-04-11 16:40:31 | DEBUG    | Subtype distribution after bucketing:
+subtype
+none         408
+Other        158
+Human        118
+Aura          38
+Vampire       34
+Elf           32
+Equipment     24
+Lizard        23
+Room          23
+Goblin        21
+Elemental     20
+Cat           19
+Spirit        19
+Angel         18
+Bird          18
+Frog          18
+Dragon        16
+Nightmare     16
+Rat           16
+Rabbit        15
+Zombie        15
+Mouse         14
+Merfolk       12
+Beast         12
+Case          12
+Otter         12
+Squirrel      12
+Bat           11
+Raccoon       11
+Gate          10
+Class         10
+Insect         9
+Demon          8
+Clue           8
+Golem          7
+Toy            7
+Dinosaur       6
+Giant          6
+Dog            6
+Construct      6
+Wall           5
+Sphinx         5
+Skeleton       5
+Spider         5
+Vehicle        5
+Avatar         5
+2026-04-11 16:40:31 | INFO     | Engineering mana features from 'mana_cost'
+2026-04-11 16:40:31 | DEBUG    | CMC — range: 0-12, mean: 3.0
+2026-04-11 16:40:31 | DEBUG    | Mean pip counts per card — W:0.25 U:0.24 B:0.25 R:0.25 G:0.25 generic:1.76
+2026-04-11 16:40:31 | INFO     | Stat ratios: 719 cards with stats, 559 without
+2026-04-11 16:40:31 | DEBUG    | power_per_cmc — mean: 0.84, max: 3.33
+2026-04-11 16:40:31 | INFO     | Preprocessing complete: 1,278 rows, 15 columns
+2026-04-11 16:40:31 | SUCCESS  | Saved 1,278 rows to data/processed/cards_clean.csv
+2026-04-11 16:40:31 | INFO     | [2/5] stage 'preprocess' done
+2026-04-11 16:40:31 | INFO     | [3/5] stage 'train' starting
+2026-04-11 16:40:31 | DEBUG    | Dropping non-training columns: ['name', 'cmc']
+2026-04-11 16:40:31 | INFO     | Stratified split: 719 with stats, 559 without
+2026-04-11 16:40:31 | DEBUG    | Stats/no-stats ratio: 56.3% / 43.7%
+2026-04-11 16:40:31 | DEBUG    | Stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 16:40:31 | DEBUG    | No-stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic']
+2026-04-11 16:40:31 | DEBUG    | Building metadata from 719 rows, 11 columns
+2026-04-11 16:40:31 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype']
+2026-04-11 16:40:31 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 16:40:31 | DEBUG    | Building metadata from 559 rows, 9 columns
+2026-04-11 16:40:31 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype']
+2026-04-11 16:40:31 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic']
+2026-04-11 16:40:31 | INFO     | Training 'with_stats' model on 719 rows (2000 epochs)
+2026-04-11 16:42:03 | INFO     | Training 'with_stats' complete
+2026-04-11 16:42:03 | INFO     | Training 'no_stats' model on 559 rows (2000 epochs)
+2026-04-11 16:43:23 | INFO     | Training 'no_stats' complete
+2026-04-11 16:43:23 | SUCCESS  | Saved model to output/synth_with_stats.pkl
+2026-04-11 16:43:23 | SUCCESS  | Saved model to output/synth_no_stats.pkl
+2026-04-11 16:43:23 | INFO     | Training complete — models saved to output
+2026-04-11 16:43:23 | INFO     | [3/5] stage 'train' done
+2026-04-11 16:43:23 | INFO     | [4/5] stage 'sample' starting
+2026-04-11 16:43:23 | INFO     | Target: 300 total rows — 169 with stats (56.3%), 131 without (43.7%)
+2026-04-11 16:43:23 | DEBUG    | Loading model from output/synth_with_stats.pkl
+2026-04-11 16:43:23 | DEBUG    | Loading model from output/synth_no_stats.pkl
+2026-04-11 16:43:23 | INFO     | Sampling 169 'with_stats' rows
+2026-04-11 16:43:23 | DEBUG    | 'with_stats' shape: 169 rows x 11 columns
+2026-04-11 16:43:23 | INFO     | Sampling 131 'no_stats' rows
+2026-04-11 16:43:23 | DEBUG    | 'no_stats' shape: 131 rows x 9 columns
+2026-04-11 16:43:23 | INFO     | [4/5] stage 'sample' done
+2026-04-11 16:43:23 | INFO     | [5/5] stage 'validate' starting
+2026-04-11 16:43:23 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 16:43:23 | DEBUG    | CMC — range: 0—10, mean: 4.1
+2026-04-11 16:43:23 | DEBUG    | Color distribution:
+color
+U            30
+colorless    24
+G            17
+W            17
+B            11
+WU           11
+R            10
+UR            9
+UB            7
+BR            6
+RG            5
+WR            4
+BG            3
+WUR           3
+WB            3
+WUB           2
+UG            2
+WG            2
+UBG           1
+URG           1
+WUG           1
+2026-04-11 16:43:23 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 16:43:23 | DEBUG    | CMC — range: 0—8, mean: 2.9
+2026-04-11 16:43:23 | DEBUG    | Color distribution:
+color
+colorless    43
+B            16
+G            13
+U            13
+W            10
+R             7
+BG            6
+UG            5
+UB            4
+WR            2
+WU            2
+WG            2
+UR            1
+RG            1
+UBG           1
+URG           1
+WBG           1
+WB            1
+WUB           1
+WBR           1
+2026-04-11 16:43:23 | INFO     | Reconstructing power/toughness from per-cmc ratios
+2026-04-11 16:43:23 | DEBUG    | Stats reconstructed — power range: 0-22, toughness range: 1-13
+2026-04-11 16:43:23 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 16:43:23 | DEBUG    | Top mana costs in sample: {'{1}': 8, '{2}': 6, '{2}{U}': 6, '{4}{U}': 5, '{1}{B}': 4}
+2026-04-11 16:43:23 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 16:43:23 | DEBUG    | Top mana costs in sample: {'{1}': 15, '{0}': 13, '{3}': 6, '{1}{G}': 6, '{2}': 5}
+2026-04-11 16:43:23 | INFO     | Merged 300 synthetic rows (169 with stats, 131 without)
+2026-04-11 16:43:23 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
+2026-04-11 16:43:23 | INFO     | [5/5] stage 'validate' done
+2026-04-11 16:43:23 | SUCCESS  | === pipeline complete ===
+2026-04-11 16:56:19 | INFO     | === pipeline start (5 stages) ===
+2026-04-11 16:56:19 | INFO     | [1/5] stage 'fetch' starting
+2026-04-11 16:56:19 | INFO     | Fetching set 'FDN' from https://mtgjson.com/api/v5/FDN.json
+2026-04-11 16:56:21 | INFO     | Set 'FDN': 771 cards fetched
+2026-04-11 16:56:21 | INFO     | Fetching set 'MKM' from https://mtgjson.com/api/v5/MKM.json
+2026-04-11 16:56:23 | INFO     | Set 'MKM': 458 cards fetched
+2026-04-11 16:56:23 | INFO     | Fetching set 'BLB' from https://mtgjson.com/api/v5/BLB.json
+2026-04-11 16:56:24 | INFO     | Set 'BLB': 398 cards fetched
+2026-04-11 16:56:24 | INFO     | Fetching set 'DSK' from https://mtgjson.com/api/v5/DSK.json
+2026-04-11 16:56:25 | INFO     | Set 'DSK': 453 cards fetched
+2026-04-11 16:56:25 | INFO     | Total cards fetched across 4 set(s): 2,080
+2026-04-11 16:56:25 | DEBUG    | Building DataFrame from 2,080 raw card records
+2026-04-11 16:56:25 | INFO     | Deduplicated by name: 752 duplicate(s) dropped — 1,328 unique cards
+2026-04-11 16:56:25 | DEBUG    | DataFrame shape: 1328 rows x 8 columns
+2026-04-11 16:56:25 | SUCCESS  | Saved 1,328 rows to data/raw/cards_seed.csv
+2026-04-11 16:56:25 | INFO     | [1/5] stage 'fetch' done
+2026-04-11 16:56:25 | INFO     | [2/5] stage 'preprocess' starting
+2026-04-11 16:56:25 | DEBUG    | Selected 7 columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
+2026-04-11 16:56:25 | INFO     | Filter: removing cards with non-integer power or toughness
+2026-04-11 16:56:25 | INFO     |   → 7 excluded (non-integer stat value, e.g. '*'), 1,321 remain
+2026-04-11 16:56:25 | DEBUG    | Excluded cards: ['Consuming Aberration', 'Crusader of Odric', 'Enigma Drake', 'Melek, Reforged Researcher', 'Eluge, the Shoreless Sea', 'Lumra, Bellow of the Woods', 'Burrowguard Mentor']
+2026-04-11 16:56:25 | DEBUG    | Casting power/toughness to numeric dtype
+2026-04-11 16:56:25 | DEBUG    | power dtype: float64, toughness dtype: float64
+2026-04-11 16:56:25 | INFO     | Filter: removing cards with {{X}} in mana cost
+2026-04-11 16:56:25 | INFO     |   → 23 removed, 1,298 remain
+2026-04-11 16:56:25 | INFO     | Filter: removing cards with hybrid/phyrexian mana costs
+2026-04-11 16:56:25 | DEBUG    | Hybrid/phyrexian cards: ['Dryad Militant', 'Teach by Example', 'Wilt-Leaf Liege', 'Leyline of the Guildpact', 'Trostani, Three Whispers', 'Cease // Desist', 'Flotsam // Jetsam', 'Fuss // Bother', 'Hustle // Bustle', 'Push // Pull', 'Cindering Cutthroat', 'Corpseberry Cultivator', 'Head of the Homestead', 'Junkblade Bruiser', 'Mind Drill Assailant', 'Moonrise Cleric', 'Pond Prophet', 'Seedpod Squire', 'Tempest Angler', 'Veteran Guardmouse']
+2026-04-11 16:56:25 | INFO     |   → 20 removed, 1,278 remain
+2026-04-11 16:56:25 | INFO     | Engineering type features from 'type'
+2026-04-11 16:56:26 | DEBUG    | card_type distribution:
+card_type
+Creature        714
+Instant         150
+Enchantment     137
+Sorcery         118
+Land             82
+Artifact         69
+Planeswalker      8
+2026-04-11 16:56:26 | DEBUG    | Filling 408 null subtype(s) → 'none' (870 cards already have a subtype)
+2026-04-11 16:56:26 | DEBUG    | Subtype cardinality after fill: 129 unique values
+2026-04-11 16:56:26 | INFO     | Bucketing 84 rare subtype(s) (< 5 occurrences) into 'Other' — 158 card(s) affected
+2026-04-11 16:56:26 | DEBUG    | Subtypes being bucketed: ['Ajani', 'Ape', 'Archon', 'Bear', 'Boar', 'Centaur', 'Chandra', 'Crab', 'Crocodile', 'Cyclops', 'Devil', 'Djinn', 'Drake', 'Dryad', 'Dwarf', 'Elder', 'Eldrazi', 'Elephant', 'Elk', 'Eye', 'Faerie', 'Fish', 'Food', 'Forest', 'Fox', 'Fungus', 'Gargoyle', 'Goat', 'Gorgon', 'Gremlin', 'Hamster', 'Hellion', 'Homunculus', 'Horror', 'Horse', 'Hydra', 'Hyena', 'Island', 'Juggernaut', 'Kaito', 'Kaya', 'Kithkin', 'Kor', 'Kraken', 'Lammasu', 'Leech', 'Liliana', 'Minotaur', 'Mole', 'Monkey', 'Mountain', 'Mutant', 'Octopus', 'Ogre', 'Ooze', 'Orc', 'Phoenix', 'Phyrexian', 'Plains', 'Plant', 'Possum', 'Ral', 'Rhino', 'Saga', 'Scarecrow', 'Serpent', 'Shapeshifter', 'Shark', 'Sheep', 'Skunk', 'Snake', 'Swamp', 'Thrull', 'Treefolk', 'Troll', 'Turtle', 'Unicorn', 'Vedalken', 'Vivien', 'Weasel', 'Weird', 'Wizard', 'Wolf', 'Wurm']
+2026-04-11 16:56:26 | INFO     | Subtype cardinality: 129 → 46 unique values
+2026-04-11 16:56:26 | DEBUG    | Subtype distribution after bucketing:
+subtype
+none         408
+Other        158
+Human        118
+Aura          38
+Vampire       34
+Elf           32
+Equipment     24
+Lizard        23
+Room          23
+Goblin        21
+Elemental     20
+Cat           19
+Spirit        19
+Angel         18
+Bird          18
+Frog          18
+Dragon        16
+Nightmare     16
+Rat           16
+Rabbit        15
+Zombie        15
+Mouse         14
+Merfolk       12
+Beast         12
+Case          12
+Otter         12
+Squirrel      12
+Bat           11
+Raccoon       11
+Gate          10
+Class         10
+Insect         9
+Demon          8
+Clue           8
+Golem          7
+Toy            7
+Dinosaur       6
+Giant          6
+Dog            6
+Construct      6
+Wall           5
+Sphinx         5
+Skeleton       5
+Spider         5
+Vehicle        5
+Avatar         5
+2026-04-11 16:56:26 | INFO     | Engineering mana features from 'mana_cost'
+2026-04-11 16:56:26 | DEBUG    | CMC — range: 0-12, mean: 3.0
+2026-04-11 16:56:26 | DEBUG    | color distribution:
+color
+R            201
+W            199
+B            191
+U            189
+G            189
 colorless    151
-UR            20
-WB            19
-UG            19
-WG            18
-BG            18
-BR            17
-RG            17
-WR            17
-WU            16
-UB            15
-WUBRG          4
+WB            17
+BR            16
+BG            16
+UG            15
+WU            15
+UR            15
+WR            15
+RG            14
+WG            13
+UB            13
+WUBRG          3
 UBG            2
 WRG            2
 WUG            1
 BRG            1
-2026-04-11 02:02:38 | DEBUG    | power_per_cmc — mean: 0.84, max: 3.33
-2026-04-11 02:02:38 | SUCCESS  | Saved 1,328 rows to data/processed/cards_clean.csv
-2026-04-11 02:02:38 | INFO     | [2/4] stage 'preprocess' done
-2026-04-11 02:02:38 | INFO     | [3/4] stage 'train' starting
-2026-04-11 02:02:38 | DEBUG    | Excluded columns before training: ['name']
-2026-04-11 02:02:38 | INFO     | Stratified split: 735 with stats, 593 without
-2026-04-11 02:02:38 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 02:02:38 | DEBUG    | Categorical columns set: ['rarity', 'card_type', 'subtype', 'color_identity']
-2026-04-11 02:02:38 | DEBUG    | Detecting metadata from DataFrame
-2026-04-11 02:02:38 | DEBUG    | Categorical columns set: ['rarity', 'card_type', 'subtype', 'color_identity']
-2026-04-11 02:02:38 | INFO     | Training 'with_stats' model on 735 rows (1000 epochs)
-2026-04-11 02:03:46 | INFO     | Training 'with_stats' complete
-2026-04-11 02:03:46 | INFO     | Training 'no_stats' model on 593 rows (1000 epochs)
-2026-04-11 02:04:36 | INFO     | Training 'no_stats' complete
-2026-04-11 02:04:36 | SUCCESS  | Saved model to output/synth_with_stats.pkl
-2026-04-11 02:04:36 | SUCCESS  | Saved model to output/synth_no_stats.pkl
-2026-04-11 02:04:36 | INFO     | [3/4] stage 'train' done
-2026-04-11 02:04:36 | INFO     | [4/4] stage 'sample' starting
-2026-04-11 02:04:36 | INFO     | Sampling ratio: 55.3% with stats, 44.7% without
-2026-04-11 02:04:36 | INFO     | Loading model from output/synth_with_stats.pkl
-2026-04-11 02:04:36 | INFO     | Loading model from output/synth_no_stats.pkl
-2026-04-11 02:04:36 | INFO     | Sampling 167 'with_stats' rows
-2026-04-11 02:04:36 | DEBUG    | 'with_stats' shape: 167 rows x 7 columns
-2026-04-11 02:04:36 | INFO     | Sampling 133 'no_stats' rows
-2026-04-11 02:04:36 | DEBUG    | 'no_stats' shape: 133 rows x 5 columns
-2026-04-11 02:04:36 | INFO     | Merged 300 synthetic rows (167 with stats, 133 without)
-2026-04-11 02:04:36 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
-2026-04-11 02:04:36 | INFO     | [4/4] stage 'sample' done
-2026-04-11 02:04:36 | SUCCESS  | === pipeline complete ===
+2026-04-11 16:56:26 | DEBUG    | Mean pip counts per card — W:0.25 U:0.24 B:0.25 R:0.25 G:0.25 generic:1.76
+2026-04-11 16:56:26 | INFO     | Stat ratios: 719 cards with stats, 559 without
+2026-04-11 16:56:26 | DEBUG    | power_per_cmc — mean: 0.84, max: 3.33
+2026-04-11 16:56:26 | INFO     | Preprocessing complete: 1,278 rows, 16 columns
+2026-04-11 16:56:26 | SUCCESS  | Saved 1,278 rows to data/processed/cards_clean.csv
+2026-04-11 16:56:26 | INFO     | [2/5] stage 'preprocess' done
+2026-04-11 16:56:26 | INFO     | [3/5] stage 'train' starting
+2026-04-11 16:56:26 | DEBUG    | Dropping non-training columns: ['name', 'cmc']
+2026-04-11 16:56:26 | INFO     | Stratified split: 719 with stats, 559 without
+2026-04-11 16:56:26 | DEBUG    | Stats/no-stats ratio: 56.3% / 43.7%
+2026-04-11 16:56:26 | DEBUG    | Stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 16:56:26 | DEBUG    | No-stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color']
+2026-04-11 16:56:26 | DEBUG    | Building metadata from 719 rows, 12 columns
+2026-04-11 16:56:26 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype', 'color']
+2026-04-11 16:56:26 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 16:56:26 | DEBUG    | Building metadata from 559 rows, 10 columns
+2026-04-11 16:56:26 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype', 'color']
+2026-04-11 16:56:26 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color']
+2026-04-11 16:56:26 | INFO     | Training 'with_stats' model on 719 rows (2000 epochs)
+2026-04-11 16:58:15 | INFO     | Training 'with_stats' complete
+2026-04-11 16:58:15 | INFO     | Training 'no_stats' model on 559 rows (2000 epochs)
+2026-04-11 16:59:55 | INFO     | Training 'no_stats' complete
+2026-04-11 16:59:56 | SUCCESS  | Saved model to output/synth_with_stats.pkl
+2026-04-11 16:59:56 | SUCCESS  | Saved model to output/synth_no_stats.pkl
+2026-04-11 16:59:56 | INFO     | Training complete — models saved to output
+2026-04-11 16:59:56 | INFO     | [3/5] stage 'train' done
+2026-04-11 16:59:56 | INFO     | [4/5] stage 'sample' starting
+2026-04-11 16:59:56 | INFO     | Target: 300 total rows — 169 with stats (56.3%), 131 without (43.7%)
+2026-04-11 16:59:56 | DEBUG    | Loading model from output/synth_with_stats.pkl
+2026-04-11 16:59:56 | DEBUG    | Loading model from output/synth_no_stats.pkl
+2026-04-11 16:59:56 | INFO     | Sampling 169 'with_stats' rows
+2026-04-11 16:59:56 | DEBUG    | 'with_stats' shape: 169 rows x 12 columns
+2026-04-11 16:59:56 | INFO     | Sampling 131 'no_stats' rows
+2026-04-11 16:59:56 | DEBUG    | 'no_stats' shape: 131 rows x 10 columns
+2026-04-11 16:59:56 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 16:59:56 | DEBUG    | CMC — range: 0–13, mean: 3.4
+2026-04-11 16:59:56 | DEBUG    | Color distribution:
+color
+W            32
+G            23
+B            22
+R            14
+WB           10
+colorless     9
+U             9
+WR            7
+RG            6
+BR            6
+UB            6
+WG            6
+WU            3
+UG            3
+UR            2
+WUG           2
+BRG           2
+WBR           2
+BG            2
+WRG           1
+UBR           1
+URG           1
+2026-04-11 16:59:56 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 16:59:56 | DEBUG    | CMC — range: 0–9, mean: 2.8
+2026-04-11 16:59:56 | DEBUG    | Color distribution:
+color
+colorless    36
+U            32
+B            15
+G            10
+W            10
+R             8
+BG            3
+UB            3
+WR            2
+UR            2
+WB            2
+WG            1
+WU            1
+WUG           1
+UBR           1
+WUB           1
+WBRG          1
+UG            1
+BR            1
+2026-04-11 16:59:56 | INFO     | Reconstructing power/toughness from per-cmc ratios
+2026-04-11 16:59:56 | DEBUG    | Stats reconstructed — power range: 0–10, toughness range: 0–13
+2026-04-11 16:59:56 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 16:59:56 | DEBUG    | Top mana costs in sample: {'{2}{W}': 14, '{1}{W}': 8, '{2}{B}': 7, '{1}{B}': 7, '{2}': 5}
+2026-04-11 16:59:56 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 16:59:56 | DEBUG    | Top mana costs in sample: {'{0}': 20, '{2}{U}': 7, '{U}': 6, '{1}': 6, '{2}': 5}
+2026-04-11 16:59:56 | INFO     | Merged 300 synthetic rows (169 with stats, 131 without)
+2026-04-11 16:59:56 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
+2026-04-11 16:59:56 | INFO     | [4/5] stage 'sample' done
+2026-04-11 16:59:56 | INFO     | [5/5] stage 'validate' starting
+2026-04-11 16:59:56 | INFO     | Validating 300 synthetic rows
+2026-04-11 16:59:56 | WARNING  | Missing required columns: ['cmc'] (src/mystic_forge/stages/validate.py:34)
+2026-04-11 16:59:56 | DEBUG    | Column 'card_type' — no nulls
+2026-04-11 16:59:56 | DEBUG    | Column 'subtype' — no nulls
+2026-04-11 16:59:56 | DEBUG    | Column 'mana_cost' — no nulls
+2026-04-11 16:59:56 | DEBUG    | Column 'color' — no nulls
+2026-04-11 16:59:56 | DEBUG    | Column 'rarity' — no nulls
+2026-04-11 16:59:56 | DEBUG    | Column 'rarity' — all values within expected set
+2026-04-11 16:59:56 | DEBUG    | Column 'card_type' — all values within expected set
+2026-04-11 16:59:56 | DEBUG    | Column 'power' — all values in [0, 20]
+2026-04-11 16:59:56 | DEBUG    | Column 'toughness' — all values in [0, 20]
+2026-04-11 16:59:56 | DEBUG    | Stats symmetry OK — power and toughness always co-present
+2026-04-11 16:59:56 | WARNING  | Domain rules — 1 violation(s) found (src/mystic_forge/stages/validate.py:216)
+2026-04-11 16:59:56 | INFO     | Comparing distributions against training baseline
+2026-04-11 16:59:56 | INFO     | Color distribution — max drift vs training: 8.4%
+2026-04-11 16:59:56 | DEBUG    | Color — synthetic:
+color
+B            0.123333
+BG           0.016667
+BR           0.023333
+BRG          0.006667
+G            0.110000
+R            0.073333
+RG           0.020000
+U            0.136667
+UB           0.030000
+UBG          0.000000
+UBR          0.006667
+UG           0.013333
+UR           0.013333
+URG          0.003333
+W            0.140000
+WB           0.040000
+WBR          0.006667
+WBRG         0.003333
+WG           0.023333
+WR           0.030000
+WRG          0.003333
+WU           0.013333
+WUB          0.003333
+WUBRG        0.000000
+WUG          0.010000
+colorless    0.150000
+training:
+color
+B            0.149452
+BG           0.012520
+BR           0.012520
+BRG          0.000782
+G            0.147887
+R            0.157277
+RG           0.010955
+U            0.147887
+UB           0.010172
+UBG          0.001565
+UBR          0.000000
+UG           0.011737
+UR           0.011737
+URG          0.000000
+W            0.155712
+WB           0.013302
+WBR          0.000000
+WBRG         0.000000
+WG           0.010172
+WR           0.011737
+WRG          0.001565
+WU           0.011737
+WUB          0.000000
+WUBRG        0.002347
+WUG          0.000782
+colorless    0.118153
+2026-04-11 16:59:56 | INFO     | Rarity distribution — max drift vs training: 12.5%
+2026-04-11 16:59:56 | DEBUG    | Rarity — synthetic:
+rarity
+common      0.236667
+mythic      0.086667
+rare        0.186667
+uncommon    0.490000
+training:
+rarity
+common      0.321596
+mythic      0.071205
+rare        0.242567
+uncommon    0.364632
+2026-04-11 16:59:56 | INFO     | Card type distribution — max drift vs training: 3.6%
+2026-04-11 16:59:56 | DEBUG    | Card type — synthetic:
+card_type
+Artifact        0.090000
+Creature        0.536667
+Enchantment     0.096667
+Instant         0.106667
+Land            0.036667
+Planeswalker    0.010000
+Sorcery         0.123333
+training:
+card_type
+Artifact        0.053991
+Creature        0.558685
+Enchantment     0.107199
+Instant         0.117371
+Land            0.064163
+Planeswalker    0.006260
+Sorcery         0.092332
+2026-04-11 16:59:56 | INFO     | Subtype distribution — max drift vs training: 2.3%
+2026-04-11 16:59:56 | DEBUG    | Subtype — synthetic:
+subtype
+Angel        0.013333
+Aura         0.026667
+Avatar       0.006667
+Bat          0.006667
+Beast        0.020000
+Bird         0.003333
+Case         0.020000
+Cat          0.020000
+Class        0.013333
+Clue         0.003333
+Construct    0.000000
+Demon        0.010000
+Dinosaur     0.006667
+Dog          0.006667
+Dragon       0.020000
+Elemental    0.010000
+Elf          0.026667
+Equipment    0.016667
+Frog         0.006667
+Gate         0.013333
+Giant        0.000000
+Goblin       0.013333
+Golem        0.006667
+Human        0.090000
+Insect       0.000000
+Lizard       0.010000
+Merfolk      0.013333
+Mouse        0.006667
+Nightmare    0.006667
+Other        0.116667
+Otter        0.010000
+Rabbit       0.006667
+Raccoon      0.013333
+Rat          0.006667
+Room         0.016667
+Skeleton     0.000000
+Sphinx       0.003333
+Spider       0.003333
+Spirit       0.010000
+Squirrel     0.000000
+Toy          0.003333
+Vampire      0.050000
+Vehicle      0.026667
+Wall         0.010000
+Zombie       0.016667
+none         0.310000
+training:
+subtype
+Angel        0.014085
+Aura         0.029734
+Avatar       0.003912
+Bat          0.008607
+Beast        0.009390
+Bird         0.014085
+Case         0.009390
+Cat          0.014867
+Class        0.007825
+Clue         0.006260
+Construct    0.004695
+Demon        0.006260
+Dinosaur     0.004695
+Dog          0.004695
+Dragon       0.012520
+Elemental    0.015649
+Elf          0.025039
+Equipment    0.018779
+Frog         0.014085
+Gate         0.007825
+Giant        0.004695
+Goblin       0.016432
+Golem        0.005477
+Human        0.092332
+Insect       0.007042
+Lizard       0.017997
+Merfolk      0.009390
+Mouse        0.010955
+Nightmare    0.012520
+Other        0.123631
+Otter        0.009390
+Rabbit       0.011737
+Raccoon      0.008607
+Rat          0.012520
+Room         0.017997
+Skeleton     0.003912
+Sphinx       0.003912
+Spider       0.003912
+Spirit       0.014867
+Squirrel     0.009390
+Toy          0.005477
+Vampire      0.026604
+Vehicle      0.003912
+Wall         0.003912
+Zombie       0.011737
+none         0.319249
+2026-04-11 16:59:56 | INFO     | Power — synthetic mean: 2.99 (±1.83), training mean: 2.82 (±1.69)
+2026-04-11 16:59:56 | INFO     | Toughness — synthetic mean: 3.25 (±2.01), training mean: 2.99 (±1.72)
+2026-04-11 16:59:56 | INFO     | Stats ratio — synthetic: 56.3%, training: 56.3%
+2026-04-11 16:59:56 | INFO     | [5/5] stage 'validate' done
+2026-04-11 16:59:56 | SUCCESS  | === pipeline complete ===
+2026-04-11 17:03:22 | INFO     | === pipeline start (5 stages) ===
+2026-04-11 17:03:22 | INFO     | [1/5] stage 'fetch' starting
+2026-04-11 17:03:22 | INFO     | Fetching set 'FDN' from https://mtgjson.com/api/v5/FDN.json
+2026-04-11 17:03:24 | INFO     | Set 'FDN': 771 cards fetched
+2026-04-11 17:03:24 | INFO     | Fetching set 'MKM' from https://mtgjson.com/api/v5/MKM.json
+2026-04-11 17:03:25 | INFO     | Set 'MKM': 458 cards fetched
+2026-04-11 17:03:25 | INFO     | Fetching set 'BLB' from https://mtgjson.com/api/v5/BLB.json
+2026-04-11 17:03:27 | INFO     | Set 'BLB': 398 cards fetched
+2026-04-11 17:03:27 | INFO     | Fetching set 'DSK' from https://mtgjson.com/api/v5/DSK.json
+2026-04-11 17:03:28 | INFO     | Set 'DSK': 453 cards fetched
+2026-04-11 17:03:28 | INFO     | Total cards fetched across 4 set(s): 2,080
+2026-04-11 17:03:28 | DEBUG    | Building DataFrame from 2,080 raw card records
+2026-04-11 17:03:28 | INFO     | Deduplicated by name: 752 duplicate(s) dropped — 1,328 unique cards
+2026-04-11 17:03:28 | DEBUG    | DataFrame shape: 1328 rows x 8 columns
+2026-04-11 17:03:28 | SUCCESS  | Saved 1,328 rows to data/raw/cards_seed.csv
+2026-04-11 17:03:28 | INFO     | [1/5] stage 'fetch' done
+2026-04-11 17:03:28 | INFO     | [2/5] stage 'preprocess' starting
+2026-04-11 17:03:28 | DEBUG    | Selected 7 columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
+2026-04-11 17:03:28 | INFO     | Filter: removing cards with non-integer power or toughness
+2026-04-11 17:03:28 | INFO     |   → 7 excluded (non-integer stat value, e.g. '*'), 1,321 remain
+2026-04-11 17:03:28 | DEBUG    | Excluded cards: ['Consuming Aberration', 'Crusader of Odric', 'Enigma Drake', 'Melek, Reforged Researcher', 'Eluge, the Shoreless Sea', 'Lumra, Bellow of the Woods', 'Burrowguard Mentor']
+2026-04-11 17:03:28 | DEBUG    | Casting power/toughness to numeric dtype
+2026-04-11 17:03:28 | DEBUG    | power dtype: float64, toughness dtype: float64
+2026-04-11 17:03:28 | INFO     | Filter: removing cards with {{X}} in mana cost
+2026-04-11 17:03:28 | INFO     |   → 23 removed, 1,298 remain
+2026-04-11 17:03:28 | INFO     | Filter: removing cards with hybrid/phyrexian mana costs
+2026-04-11 17:03:28 | DEBUG    | Hybrid/phyrexian cards: ['Dryad Militant', 'Teach by Example', 'Wilt-Leaf Liege', 'Leyline of the Guildpact', 'Trostani, Three Whispers', 'Cease // Desist', 'Flotsam // Jetsam', 'Fuss // Bother', 'Hustle // Bustle', 'Push // Pull', 'Cindering Cutthroat', 'Corpseberry Cultivator', 'Head of the Homestead', 'Junkblade Bruiser', 'Mind Drill Assailant', 'Moonrise Cleric', 'Pond Prophet', 'Seedpod Squire', 'Tempest Angler', 'Veteran Guardmouse']
+2026-04-11 17:03:28 | INFO     |   → 20 removed, 1,278 remain
+2026-04-11 17:03:28 | INFO     | Engineering type features from 'type'
+2026-04-11 17:03:28 | DEBUG    | card_type distribution:
+card_type
+Creature        714
+Instant         150
+Enchantment     137
+Sorcery         118
+Land             82
+Artifact         69
+Planeswalker      8
+2026-04-11 17:03:28 | DEBUG    | Filling 408 null subtype(s) → 'none' (870 cards already have a subtype)
+2026-04-11 17:03:28 | DEBUG    | Subtype cardinality after fill: 129 unique values
+2026-04-11 17:03:28 | INFO     | Bucketing 84 rare subtype(s) (< 5 occurrences) into 'Other' — 158 card(s) affected
+2026-04-11 17:03:28 | DEBUG    | Subtypes being bucketed: ['Ajani', 'Ape', 'Archon', 'Bear', 'Boar', 'Centaur', 'Chandra', 'Crab', 'Crocodile', 'Cyclops', 'Devil', 'Djinn', 'Drake', 'Dryad', 'Dwarf', 'Elder', 'Eldrazi', 'Elephant', 'Elk', 'Eye', 'Faerie', 'Fish', 'Food', 'Forest', 'Fox', 'Fungus', 'Gargoyle', 'Goat', 'Gorgon', 'Gremlin', 'Hamster', 'Hellion', 'Homunculus', 'Horror', 'Horse', 'Hydra', 'Hyena', 'Island', 'Juggernaut', 'Kaito', 'Kaya', 'Kithkin', 'Kor', 'Kraken', 'Lammasu', 'Leech', 'Liliana', 'Minotaur', 'Mole', 'Monkey', 'Mountain', 'Mutant', 'Octopus', 'Ogre', 'Ooze', 'Orc', 'Phoenix', 'Phyrexian', 'Plains', 'Plant', 'Possum', 'Ral', 'Rhino', 'Saga', 'Scarecrow', 'Serpent', 'Shapeshifter', 'Shark', 'Sheep', 'Skunk', 'Snake', 'Swamp', 'Thrull', 'Treefolk', 'Troll', 'Turtle', 'Unicorn', 'Vedalken', 'Vivien', 'Weasel', 'Weird', 'Wizard', 'Wolf', 'Wurm']
+2026-04-11 17:03:28 | INFO     | Subtype cardinality: 129 → 46 unique values
+2026-04-11 17:03:28 | DEBUG    | Subtype distribution after bucketing:
+subtype
+none         408
+Other        158
+Human        118
+Aura          38
+Vampire       34
+Elf           32
+Equipment     24
+Lizard        23
+Room          23
+Goblin        21
+Elemental     20
+Cat           19
+Spirit        19
+Angel         18
+Bird          18
+Frog          18
+Dragon        16
+Nightmare     16
+Rat           16
+Rabbit        15
+Zombie        15
+Mouse         14
+Merfolk       12
+Beast         12
+Case          12
+Otter         12
+Squirrel      12
+Bat           11
+Raccoon       11
+Gate          10
+Class         10
+Insect         9
+Demon          8
+Clue           8
+Golem          7
+Toy            7
+Dinosaur       6
+Giant          6
+Dog            6
+Construct      6
+Wall           5
+Sphinx         5
+Skeleton       5
+Spider         5
+Vehicle        5
+Avatar         5
+2026-04-11 17:03:28 | INFO     | Engineering mana features from 'mana_cost'
+2026-04-11 17:03:29 | DEBUG    | CMC — range: 0-12, mean: 3.0
+2026-04-11 17:03:29 | DEBUG    | color distribution:
+color
+R            201
+W            199
+B            191
+U            189
+G            189
+colorless    151
+WB            17
+BR            16
+BG            16
+UG            15
+WU            15
+UR            15
+WR            15
+RG            14
+WG            13
+UB            13
+WUBRG          3
+UBG            2
+WRG            2
+WUG            1
+BRG            1
+2026-04-11 17:03:29 | DEBUG    | Mean pip counts per card — W:0.25 U:0.24 B:0.25 R:0.25 G:0.25 generic:1.76
+2026-04-11 17:03:29 | INFO     | Stat ratios: 719 cards with stats, 559 without
+2026-04-11 17:03:29 | DEBUG    | power_per_cmc — mean: 0.84, max: 3.33
+2026-04-11 17:03:29 | INFO     | Preprocessing complete: 1,278 rows, 16 columns
+2026-04-11 17:03:29 | SUCCESS  | Saved 1,278 rows to data/processed/cards_clean.csv
+2026-04-11 17:03:29 | INFO     | [2/5] stage 'preprocess' done
+2026-04-11 17:03:29 | INFO     | [3/5] stage 'train' starting
+2026-04-11 17:03:29 | DEBUG    | Dropping non-training columns: ['name', 'cmc']
+2026-04-11 17:03:29 | INFO     | Stratified split: 719 with stats, 559 without
+2026-04-11 17:03:29 | DEBUG    | Stats/no-stats ratio: 56.3% / 43.7%
+2026-04-11 17:03:29 | DEBUG    | Stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 17:03:29 | DEBUG    | No-stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color']
+2026-04-11 17:03:29 | DEBUG    | Building metadata from 719 rows, 12 columns
+2026-04-11 17:03:29 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype', 'color']
+2026-04-11 17:03:29 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-11 17:03:29 | DEBUG    | Building metadata from 559 rows, 10 columns
+2026-04-11 17:03:29 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype', 'color']
+2026-04-11 17:03:29 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color']
+2026-04-11 17:03:29 | INFO     | Training 'with_stats' model on 719 rows (2000 epochs)
+2026-04-11 17:05:16 | INFO     | Training 'with_stats' complete
+2026-04-11 17:05:16 | INFO     | Training 'no_stats' model on 559 rows (2000 epochs)
+2026-04-11 17:06:41 | INFO     | Training 'no_stats' complete
+2026-04-11 17:06:41 | SUCCESS  | Saved model to output/synth_with_stats.pkl
+2026-04-11 17:06:41 | SUCCESS  | Saved model to output/synth_no_stats.pkl
+2026-04-11 17:06:41 | INFO     | Training complete — models saved to output
+2026-04-11 17:06:41 | INFO     | [3/5] stage 'train' done
+2026-04-11 17:06:41 | INFO     | [4/5] stage 'sample' starting
+2026-04-11 17:06:41 | INFO     | Target: 300 total rows — 169 with stats (56.3%), 131 without (43.7%)
+2026-04-11 17:06:41 | DEBUG    | Loading model from output/synth_with_stats.pkl
+2026-04-11 17:06:41 | DEBUG    | Loading model from output/synth_no_stats.pkl
+2026-04-11 17:06:41 | INFO     | Sampling 169 'with_stats' rows
+2026-04-11 17:06:41 | DEBUG    | 'with_stats' shape: 169 rows x 12 columns
+2026-04-11 17:06:41 | INFO     | Sampling 131 'no_stats' rows
+2026-04-11 17:06:41 | DEBUG    | 'no_stats' shape: 131 rows x 10 columns
+2026-04-11 17:06:41 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 17:06:41 | DEBUG    | CMC — range: 0–10, mean: 3.9
+2026-04-11 17:06:41 | DEBUG    | Color distribution:
+color
+B            26
+G            22
+colorless    21
+R            21
+W            19
+U            13
+WR            8
+BR            6
+WB            5
+RG            5
+WU            5
+UG            4
+BG            4
+UR            3
+UB            3
+WUG           2
+WG            2
+2026-04-11 17:06:41 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-11 17:06:41 | DEBUG    | CMC — range: 0–10, mean: 2.8
+2026-04-11 17:06:41 | DEBUG    | Color distribution:
+color
+colorless    29
+U            23
+W            14
+R            12
+B            11
+G            11
+WU            7
+BR            5
+WR            5
+WB            4
+UR            3
+UG            3
+RG            2
+WG            2
+2026-04-11 17:06:41 | INFO     | Reconstructing power/toughness from per-cmc ratios
+2026-04-11 17:06:41 | DEBUG    | Stats reconstructed — power range: 0–14, toughness range: 0–10
+2026-04-11 17:06:41 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 17:06:41 | DEBUG    | Top mana costs in sample: {'{2}{W}': 8, '{2}': 7, '{2}{R}': 5, '{R}': 5, '{3}{B}': 5}
+2026-04-11 17:06:41 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-11 17:06:42 | DEBUG    | Top mana costs in sample: {'{0}': 17, '{1}{W}': 8, '{1}{U}': 8, '{U}': 5, '{1}{R}': 4}
+2026-04-11 17:06:42 | INFO     | Merged 300 synthetic rows (169 with stats, 131 without)
+2026-04-11 17:06:42 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
+2026-04-11 17:06:42 | INFO     | [4/5] stage 'sample' done
+2026-04-11 17:06:42 | INFO     | [5/5] stage 'validate' starting
+2026-04-11 17:06:42 | INFO     | Validating 300 synthetic rows
+2026-04-11 17:06:42 | DEBUG    | All required columns present
+2026-04-11 17:06:42 | DEBUG    | Column 'card_type' — no nulls
+2026-04-11 17:06:42 | DEBUG    | Column 'subtype' — no nulls
+2026-04-11 17:06:42 | DEBUG    | Column 'mana_cost' — no nulls
+2026-04-11 17:06:42 | DEBUG    | Column 'cmc' — no nulls
+2026-04-11 17:06:42 | DEBUG    | Column 'color' — no nulls
+2026-04-11 17:06:42 | DEBUG    | Column 'rarity' — no nulls
+2026-04-11 17:06:42 | DEBUG    | Column 'rarity' — all values within expected set
+2026-04-11 17:06:42 | DEBUG    | Column 'card_type' — all values within expected set
+2026-04-11 17:06:42 | DEBUG    | Column 'cmc' — all values in [0, 16]
+2026-04-11 17:06:42 | DEBUG    | Column 'power' — all values in [0, 20]
+2026-04-11 17:06:42 | DEBUG    | Column 'toughness' — all values in [0, 20]
+2026-04-11 17:06:42 | DEBUG    | Stats symmetry OK — power and toughness always co-present
+2026-04-11 17:06:42 | INFO     | Domain rules — no violations found
+2026-04-11 17:06:42 | INFO     | Comparing distributions against training baseline
+2026-04-11 17:06:42 | INFO     | Color distribution — max drift vs training: 4.9%
+2026-04-11 17:06:42 | DEBUG    | Color — synthetic:
+color
+B            0.123333
+BG           0.013333
+BR           0.036667
+BRG          0.000000
+G            0.110000
+R            0.110000
+RG           0.023333
+U            0.120000
+UB           0.010000
+UBG          0.000000
+UG           0.023333
+UR           0.020000
+W            0.110000
+WB           0.030000
+WG           0.013333
+WR           0.043333
+WRG          0.000000
+WU           0.040000
+WUBRG        0.000000
+WUG          0.006667
+colorless    0.166667
+training:
+color
+B            0.149452
+BG           0.012520
+BR           0.012520
+BRG          0.000782
+G            0.147887
+R            0.157277
+RG           0.010955
+U            0.147887
+UB           0.010172
+UBG          0.001565
+UG           0.011737
+UR           0.011737
+W            0.155712
+WB           0.013302
+WG           0.010172
+WR           0.011737
+WRG          0.001565
+WU           0.011737
+WUBRG        0.002347
+WUG          0.000782
+colorless    0.118153
+2026-04-11 17:06:42 | INFO     | Rarity distribution — max drift vs training: 8.5%
+2026-04-11 17:06:42 | DEBUG    | Rarity — synthetic:
+rarity
+common      0.236667
+mythic      0.103333
+rare        0.306667
+uncommon    0.353333
+training:
+rarity
+common      0.321596
+mythic      0.071205
+rare        0.242567
+uncommon    0.364632
+2026-04-11 17:06:42 | INFO     | Card type distribution — max drift vs training: 4.9%
+2026-04-11 17:06:42 | DEBUG    | Card type — synthetic:
+card_type
+Artifact        0.080000
+Creature        0.540000
+Enchantment     0.156667
+Instant         0.086667
+Land            0.043333
+Planeswalker    0.013333
+Sorcery         0.080000
+training:
+card_type
+Artifact        0.053991
+Creature        0.558685
+Enchantment     0.107199
+Instant         0.117371
+Land            0.064163
+Planeswalker    0.006260
+Sorcery         0.092332
+2026-04-11 17:06:42 | INFO     | Subtype distribution — max drift vs training: 4.2%
+2026-04-11 17:06:42 | DEBUG    | Subtype — synthetic:
+subtype
+Angel        0.020000
+Aura         0.020000
+Avatar       0.010000
+Bat          0.000000
+Beast        0.016667
+Bird         0.006667
+Case         0.016667
+Cat          0.026667
+Class        0.013333
+Clue         0.003333
+Construct    0.006667
+Demon        0.000000
+Dinosaur     0.006667
+Dog          0.003333
+Dragon       0.023333
+Elemental    0.010000
+Elf          0.016667
+Equipment    0.033333
+Frog         0.010000
+Gate         0.013333
+Giant        0.000000
+Goblin       0.006667
+Golem        0.006667
+Human        0.050000
+Insect       0.006667
+Lizard       0.020000
+Merfolk      0.013333
+Mouse        0.003333
+Nightmare    0.006667
+Other        0.140000
+Otter        0.010000
+Rabbit       0.013333
+Raccoon      0.010000
+Rat          0.010000
+Room         0.033333
+Skeleton     0.000000
+Sphinx       0.000000
+Spider       0.003333
+Spirit       0.010000
+Squirrel     0.000000
+Toy          0.006667
+Vampire      0.060000
+Vehicle      0.020000
+Wall         0.000000
+Zombie       0.023333
+none         0.290000
+training:
+subtype
+Angel        0.014085
+Aura         0.029734
+Avatar       0.003912
+Bat          0.008607
+Beast        0.009390
+Bird         0.014085
+Case         0.009390
+Cat          0.014867
+Class        0.007825
+Clue         0.006260
+Construct    0.004695
+Demon        0.006260
+Dinosaur     0.004695
+Dog          0.004695
+Dragon       0.012520
+Elemental    0.015649
+Elf          0.025039
+Equipment    0.018779
+Frog         0.014085
+Gate         0.007825
+Giant        0.004695
+Goblin       0.016432
+Golem        0.005477
+Human        0.092332
+Insect       0.007042
+Lizard       0.017997
+Merfolk      0.009390
+Mouse        0.010955
+Nightmare    0.012520
+Other        0.123631
+Otter        0.009390
+Rabbit       0.011737
+Raccoon      0.008607
+Rat          0.012520
+Room         0.017997
+Skeleton     0.003912
+Sphinx       0.003912
+Spider       0.003912
+Spirit       0.014867
+Squirrel     0.009390
+Toy          0.005477
+Vampire      0.026604
+Vehicle      0.003912
+Wall         0.003912
+Zombie       0.011737
+none         0.319249
+2026-04-11 17:06:42 | INFO     | CMC — synthetic mean: 3.42 (±2.03), training mean: 3.00 (±1.74)
+2026-04-11 17:06:42 | INFO     | Power — synthetic mean: 3.74 (±2.55), training mean: 2.82 (±1.69)
+2026-04-11 17:06:42 | INFO     | Toughness — synthetic mean: 3.43 (±2.05), training mean: 2.99 (±1.72)
+2026-04-11 17:06:42 | INFO     | Stats ratio — synthetic: 56.3%, training: 56.3%
+2026-04-11 17:06:42 | INFO     | [5/5] stage 'validate' done
+2026-04-11 17:06:42 | SUCCESS  | === pipeline complete ===
+2026-04-12 13:23:45 | INFO     | === pipeline start (5 stages) ===
+2026-04-12 13:23:45 | INFO     | [1/5] stage 'fetch' starting
+2026-04-12 13:23:45 | INFO     | Fetching set 'FDN' from https://mtgjson.com/api/v5/FDN.json
+2026-04-12 13:23:47 | INFO     | Set 'FDN': 771 cards fetched
+2026-04-12 13:23:47 | INFO     | Fetching set 'MKM' from https://mtgjson.com/api/v5/MKM.json
+2026-04-12 13:23:49 | INFO     | Set 'MKM': 458 cards fetched
+2026-04-12 13:23:49 | INFO     | Fetching set 'BLB' from https://mtgjson.com/api/v5/BLB.json
+2026-04-12 13:23:50 | INFO     | Set 'BLB': 398 cards fetched
+2026-04-12 13:23:50 | INFO     | Fetching set 'DSK' from https://mtgjson.com/api/v5/DSK.json
+2026-04-12 13:23:51 | INFO     | Set 'DSK': 453 cards fetched
+2026-04-12 13:23:51 | INFO     | Total cards fetched across 4 set(s): 2,080
+2026-04-12 13:23:51 | DEBUG    | Building DataFrame from 2,080 raw card records
+2026-04-12 13:23:51 | INFO     | Deduplicated by name: 752 duplicate(s) dropped — 1,328 unique cards
+2026-04-12 13:23:51 | DEBUG    | DataFrame shape: 1328 rows x 8 columns
+2026-04-12 13:23:51 | SUCCESS  | Saved 1,328 rows to data/raw/cards_seed.csv
+2026-04-12 13:23:51 | INFO     | [1/5] stage 'fetch' done
+2026-04-12 13:23:51 | INFO     | [2/5] stage 'preprocess' starting
+2026-04-12 13:23:51 | DEBUG    | Selected 7 columns: ['name', 'type', 'mana_cost', 'power', 'toughness', 'rarity', 'colors']
+2026-04-12 13:23:51 | INFO     | Filter: removing cards with non-integer power or toughness
+2026-04-12 13:23:51 | INFO     |   → 7 excluded (non-integer stat value, e.g. '*'), 1,321 remain
+2026-04-12 13:23:51 | DEBUG    | Excluded cards: ['Consuming Aberration', 'Crusader of Odric', 'Enigma Drake', 'Melek, Reforged Researcher', 'Eluge, the Shoreless Sea', 'Lumra, Bellow of the Woods', 'Burrowguard Mentor']
+2026-04-12 13:23:51 | DEBUG    | Casting power/toughness to numeric dtype
+2026-04-12 13:23:51 | DEBUG    | power dtype: float64, toughness dtype: float64
+2026-04-12 13:23:51 | INFO     | Filter: removing cards with {{X}} in mana cost
+2026-04-12 13:23:51 | INFO     |   → 23 removed, 1,298 remain
+2026-04-12 13:23:51 | INFO     | Filter: removing cards with hybrid/phyrexian mana costs
+2026-04-12 13:23:51 | DEBUG    | Hybrid/phyrexian cards: ['Dryad Militant', 'Teach by Example', 'Wilt-Leaf Liege', 'Leyline of the Guildpact', 'Trostani, Three Whispers', 'Cease // Desist', 'Flotsam // Jetsam', 'Fuss // Bother', 'Hustle // Bustle', 'Push // Pull', 'Cindering Cutthroat', 'Corpseberry Cultivator', 'Head of the Homestead', 'Junkblade Bruiser', 'Mind Drill Assailant', 'Moonrise Cleric', 'Pond Prophet', 'Seedpod Squire', 'Tempest Angler', 'Veteran Guardmouse']
+2026-04-12 13:23:51 | INFO     |   → 20 removed, 1,278 remain
+2026-04-12 13:23:51 | INFO     | Engineering type features from 'type'
+2026-04-12 13:23:52 | DEBUG    | card_type distribution:
+card_type
+Creature        714
+Instant         150
+Enchantment     137
+Sorcery         118
+Land             82
+Artifact         69
+Planeswalker      8
+2026-04-12 13:23:52 | DEBUG    | Filling 408 null subtype(s) → 'none' (870 cards already have a subtype)
+2026-04-12 13:23:52 | DEBUG    | Subtype cardinality after fill: 129 unique values
+2026-04-12 13:23:52 | INFO     | Bucketing 84 rare subtype(s) (< 5 occurrences) into 'Other' — 158 card(s) affected
+2026-04-12 13:23:52 | DEBUG    | Subtypes being bucketed: ['Ajani', 'Ape', 'Archon', 'Bear', 'Boar', 'Centaur', 'Chandra', 'Crab', 'Crocodile', 'Cyclops', 'Devil', 'Djinn', 'Drake', 'Dryad', 'Dwarf', 'Elder', 'Eldrazi', 'Elephant', 'Elk', 'Eye', 'Faerie', 'Fish', 'Food', 'Forest', 'Fox', 'Fungus', 'Gargoyle', 'Goat', 'Gorgon', 'Gremlin', 'Hamster', 'Hellion', 'Homunculus', 'Horror', 'Horse', 'Hydra', 'Hyena', 'Island', 'Juggernaut', 'Kaito', 'Kaya', 'Kithkin', 'Kor', 'Kraken', 'Lammasu', 'Leech', 'Liliana', 'Minotaur', 'Mole', 'Monkey', 'Mountain', 'Mutant', 'Octopus', 'Ogre', 'Ooze', 'Orc', 'Phoenix', 'Phyrexian', 'Plains', 'Plant', 'Possum', 'Ral', 'Rhino', 'Saga', 'Scarecrow', 'Serpent', 'Shapeshifter', 'Shark', 'Sheep', 'Skunk', 'Snake', 'Swamp', 'Thrull', 'Treefolk', 'Troll', 'Turtle', 'Unicorn', 'Vedalken', 'Vivien', 'Weasel', 'Weird', 'Wizard', 'Wolf', 'Wurm']
+2026-04-12 13:23:52 | INFO     | Subtype cardinality: 129 → 46 unique values
+2026-04-12 13:23:52 | DEBUG    | Subtype distribution after bucketing:
+subtype
+none         408
+Other        158
+Human        118
+Aura          38
+Vampire       34
+Elf           32
+Equipment     24
+Lizard        23
+Room          23
+Goblin        21
+Elemental     20
+Cat           19
+Spirit        19
+Angel         18
+Bird          18
+Frog          18
+Dragon        16
+Nightmare     16
+Rat           16
+Rabbit        15
+Zombie        15
+Mouse         14
+Merfolk       12
+Beast         12
+Case          12
+Otter         12
+Squirrel      12
+Bat           11
+Raccoon       11
+Gate          10
+Class         10
+Insect         9
+Demon          8
+Clue           8
+Golem          7
+Toy            7
+Dinosaur       6
+Giant          6
+Dog            6
+Construct      6
+Wall           5
+Sphinx         5
+Skeleton       5
+Spider         5
+Vehicle        5
+Avatar         5
+2026-04-12 13:23:52 | INFO     | Engineering mana features from 'mana_cost'
+2026-04-12 13:23:52 | DEBUG    | CMC — range: 0-12, mean: 3.0
+2026-04-12 13:23:52 | DEBUG    | color distribution:
+color
+R            201
+W            199
+B            191
+U            189
+G            189
+colorless    151
+WB            17
+BR            16
+BG            16
+UG            15
+WU            15
+UR            15
+WR            15
+RG            14
+WG            13
+UB            13
+WUBRG          3
+UBG            2
+WRG            2
+WUG            1
+BRG            1
+2026-04-12 13:23:52 | DEBUG    | Mean pip counts per card — W:0.25 U:0.24 B:0.25 R:0.25 G:0.25 generic:1.76
+2026-04-12 13:23:52 | INFO     | Stat ratios: 719 cards with stats, 559 without
+2026-04-12 13:23:52 | DEBUG    | power_per_cmc — mean: 0.84, max: 3.33
+2026-04-12 13:23:52 | INFO     | Preprocessing complete: 1,278 rows, 16 columns
+2026-04-12 13:23:52 | SUCCESS  | Saved 1,278 rows to data/processed/cards_clean.csv
+2026-04-12 13:23:52 | INFO     | [2/5] stage 'preprocess' done
+2026-04-12 13:23:52 | INFO     | [3/5] stage 'train' starting
+2026-04-12 13:23:52 | DEBUG    | Dropping non-training columns: ['name', 'cmc']
+2026-04-12 13:23:52 | INFO     | Stratified split: 719 with stats, 559 without
+2026-04-12 13:23:52 | DEBUG    | Stats/no-stats ratio: 56.3% / 43.7%
+2026-04-12 13:23:52 | DEBUG    | Stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-12 13:23:52 | DEBUG    | No-stats model training columns: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color']
+2026-04-12 13:23:52 | DEBUG    | Building metadata from 719 rows, 12 columns
+2026-04-12 13:23:52 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype', 'color']
+2026-04-12 13:23:52 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color', 'power_per_cmc', 'toughness_per_cmc']
+2026-04-12 13:23:52 | DEBUG    | Building metadata from 559 rows, 10 columns
+2026-04-12 13:23:52 | DEBUG    | Categorical columns registered: ['rarity', 'card_type', 'subtype', 'color']
+2026-04-12 13:23:52 | DEBUG    | All columns in training set: ['rarity', 'card_type', 'subtype', 'pip_W', 'pip_U', 'pip_B', 'pip_R', 'pip_G', 'generic', 'color']
+2026-04-12 13:23:52 | INFO     | Training 'with_stats' model on 719 rows (2000 epochs)
+2026-04-12 13:25:46 | INFO     | Training 'with_stats' complete
+2026-04-12 13:25:46 | INFO     | Training 'no_stats' model on 559 rows (2000 epochs)
+2026-04-12 13:27:21 | INFO     | Training 'no_stats' complete
+2026-04-12 13:27:21 | SUCCESS  | Saved model to output/synth_with_stats.pkl
+2026-04-12 13:27:21 | SUCCESS  | Saved model to output/synth_no_stats.pkl
+2026-04-12 13:27:21 | INFO     | Training complete — models saved to output
+2026-04-12 13:27:21 | INFO     | [3/5] stage 'train' done
+2026-04-12 13:27:21 | INFO     | [4/5] stage 'sample' starting
+2026-04-12 13:27:21 | INFO     | Target: 300 total rows — 169 with stats (56.3%), 131 without (43.7%)
+2026-04-12 13:27:21 | DEBUG    | Loading model from output/synth_with_stats.pkl
+2026-04-12 13:27:21 | DEBUG    | Loading model from output/synth_no_stats.pkl
+2026-04-12 13:27:21 | INFO     | Sampling 169 'with_stats' rows
+2026-04-12 13:27:21 | DEBUG    | 'with_stats' shape: 169 rows x 12 columns
+2026-04-12 13:27:21 | INFO     | Sampling 131 'no_stats' rows
+2026-04-12 13:27:21 | DEBUG    | 'no_stats' shape: 131 rows x 10 columns
+2026-04-12 13:27:21 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-12 13:27:21 | DEBUG    | CMC — range: 1–10, mean: 4.1
+2026-04-12 13:27:21 | DEBUG    | Color distribution:
+color
+B            37
+G            20
+W            17
+colorless    17
+U            16
+R            12
+RG           10
+WB            7
+BG            7
+UB            6
+WU            4
+UR            3
+WUR           3
+WG            3
+WR            2
+BR            2
+UG            2
+WUB           1
+2026-04-12 13:27:21 | INFO     | Enforcing mana invariants (clip pips, derive cmc and color)
+2026-04-12 13:27:21 | DEBUG    | CMC — range: 0–8, mean: 3.1
+2026-04-12 13:27:21 | DEBUG    | Color distribution:
+color
+colorless    34
+U            19
+B            17
+G            12
+W            11
+R             9
+WB            5
+WR            4
+BG            4
+BR            3
+WU            3
+UR            2
+WG            2
+WBG           2
+UB            2
+WUG           1
+WUB           1
+2026-04-12 13:27:21 | INFO     | Reconstructing power/toughness from per-cmc ratios
+2026-04-12 13:27:21 | DEBUG    | Stats reconstructed — power range: 0–15, toughness range: 1–15
+2026-04-12 13:27:21 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-12 13:27:21 | DEBUG    | Top mana costs in sample: {'{3}': 10, '{3}{B}': 7, '{2}{B}': 7, '{G}': 6, '{4}{B}': 5}
+2026-04-12 13:27:21 | INFO     | Reconstructing mana cost strings from pip/generic components
+2026-04-12 13:27:21 | DEBUG    | Top mana costs in sample: {'{0}': 17, '{1}': 7, '{2}{G}': 6, '{2}': 5, '{2}{B}': 5}
+2026-04-12 13:27:21 | INFO     | Merged 300 synthetic rows (169 with stats, 131 without)
+2026-04-12 13:27:21 | SUCCESS  | Saved 300 synthetic rows to data/synthetic/cards_synthetic.csv
+2026-04-12 13:27:21 | INFO     | [4/5] stage 'sample' done
+2026-04-12 13:27:21 | INFO     | [5/5] stage 'validate' starting
+2026-04-12 13:27:21 | INFO     | Validating 300 synthetic rows
+2026-04-12 13:27:21 | DEBUG    | All required columns present
+2026-04-12 13:27:21 | DEBUG    | Column 'card_type' — no nulls
+2026-04-12 13:27:21 | DEBUG    | Column 'subtype' — no nulls
+2026-04-12 13:27:21 | DEBUG    | Column 'mana_cost' — no nulls
+2026-04-12 13:27:21 | DEBUG    | Column 'cmc' — no nulls
+2026-04-12 13:27:21 | DEBUG    | Column 'color' — no nulls
+2026-04-12 13:27:21 | DEBUG    | Column 'rarity' — no nulls
+2026-04-12 13:27:21 | DEBUG    | Column 'rarity' — all values within expected set
+2026-04-12 13:27:21 | DEBUG    | Column 'card_type' — all values within expected set
+2026-04-12 13:27:21 | DEBUG    | Column 'cmc' — all values in [0, 16]
+2026-04-12 13:27:21 | DEBUG    | Column 'power' — all values in [0, 20]
+2026-04-12 13:27:21 | DEBUG    | Column 'toughness' — all values in [0, 20]
+2026-04-12 13:27:21 | DEBUG    | Stats symmetry OK — power and toughness always co-present
+2026-04-12 13:27:21 | WARNING  | 18 cards (6.0%) have a subtype not seen with their card_type in training (src/mystic_forge/stages/validate.py:120)
+2026-04-12 13:27:21 | DEBUG    | Top invalid combinations:
+card_type     subtype  
+Enchantment   Gate         3
+Sorcery       Equipment    2
+Instant       Equipment    2
+Planeswalker  Room         1
+Sorcery       Room         1
+Artifact      Class        1
+Enchantment   Equipment    1
+Instant       Case         1
+              Other        1
+Planeswalker  none         1
+2026-04-12 13:27:21 | WARNING  | Domain rules — 18 violation(s) found (src/mystic_forge/stages/validate.py:255)
+2026-04-12 13:27:21 | INFO     | Comparing distributions against training baseline
+2026-04-12 13:27:21 | INFO     | Color distribution — max drift vs training: 8.7%
+2026-04-12 13:27:21 | DEBUG    | Color — synthetic:
+color
+B            0.180000
+BG           0.036667
+BR           0.016667
+BRG          0.000000
+G            0.106667
+R            0.070000
+RG           0.033333
+U            0.116667
+UB           0.026667
+UBG          0.000000
+UG           0.006667
+UR           0.016667
+W            0.093333
+WB           0.040000
+WBG          0.006667
+WG           0.016667
+WR           0.020000
+WRG          0.000000
+WU           0.023333
+WUB          0.006667
+WUBRG        0.000000
+WUG          0.003333
+WUR          0.010000
+colorless    0.170000
+training:
+color
+B            0.149452
+BG           0.012520
+BR           0.012520
+BRG          0.000782
+G            0.147887
+R            0.157277
+RG           0.010955
+U            0.147887
+UB           0.010172
+UBG          0.001565
+UG           0.011737
+UR           0.011737
+W            0.155712
+WB           0.013302
+WBG          0.000000
+WG           0.010172
+WR           0.011737
+WRG          0.001565
+WU           0.011737
+WUB          0.000000
+WUBRG        0.002347
+WUG          0.000782
+WUR          0.000000
+colorless    0.118153
+2026-04-12 13:27:21 | INFO     | Rarity distribution — max drift vs training: 9.2%
+2026-04-12 13:27:21 | DEBUG    | Rarity — synthetic:
+rarity
+common      0.230000
+mythic      0.123333
+rare        0.233333
+uncommon    0.413333
+training:
+rarity
+common      0.321596
+mythic      0.071205
+rare        0.242567
+uncommon    0.364632
+2026-04-12 13:27:21 | INFO     | Card type distribution — max drift vs training: 5.6%
+2026-04-12 13:27:21 | DEBUG    | Card type — synthetic:
+card_type
+Artifact        0.076667
+Creature        0.536667
+Enchantment     0.163333
+Instant         0.110000
+Land            0.030000
+Planeswalker    0.006667
+Sorcery         0.076667
+training:
+card_type
+Artifact        0.053991
+Creature        0.558685
+Enchantment     0.107199
+Instant         0.117371
+Land            0.064163
+Planeswalker    0.006260
+Sorcery         0.092332
+2026-04-12 13:27:21 | INFO     | Subtype distribution — max drift vs training: 4.7%
+2026-04-12 13:27:21 | DEBUG    | Subtype — synthetic:
+subtype
+Angel        0.016667
+Aura         0.023333
+Avatar       0.010000
+Bat          0.006667
+Beast        0.013333
+Bird         0.006667
+Case         0.013333
+Cat          0.010000
+Class        0.010000
+Clue         0.010000
+Construct    0.006667
+Demon        0.013333
+Dinosaur     0.010000
+Dog          0.000000
+Dragon       0.026667
+Elemental    0.026667
+Elf          0.006667
+Equipment    0.020000
+Frog         0.003333
+Gate         0.013333
+Giant        0.000000
+Goblin       0.010000
+Golem        0.013333
+Human        0.050000
+Insect       0.003333
+Lizard       0.013333
+Merfolk      0.023333
+Mouse        0.006667
+Nightmare    0.013333
+Other        0.120000
+Otter        0.003333
+Rabbit       0.013333
+Raccoon      0.016667
+Rat          0.010000
+Room         0.026667
+Skeleton     0.000000
+Sphinx       0.000000
+Spider       0.003333
+Spirit       0.010000
+Squirrel     0.003333
+Toy          0.006667
+Vampire      0.073333
+Vehicle      0.013333
+Wall         0.010000
+Zombie       0.016667
+none         0.293333
+training:
+subtype
+Angel        0.014085
+Aura         0.029734
+Avatar       0.003912
+Bat          0.008607
+Beast        0.009390
+Bird         0.014085
+Case         0.009390
+Cat          0.014867
+Class        0.007825
+Clue         0.006260
+Construct    0.004695
+Demon        0.006260
+Dinosaur     0.004695
+Dog          0.004695
+Dragon       0.012520
+Elemental    0.015649
+Elf          0.025039
+Equipment    0.018779
+Frog         0.014085
+Gate         0.007825
+Giant        0.004695
+Goblin       0.016432
+Golem        0.005477
+Human        0.092332
+Insect       0.007042
+Lizard       0.017997
+Merfolk      0.009390
+Mouse        0.010955
+Nightmare    0.012520
+Other        0.123631
+Otter        0.009390
+Rabbit       0.011737
+Raccoon      0.008607
+Rat          0.012520
+Room         0.017997
+Skeleton     0.003912
+Sphinx       0.003912
+Spider       0.003912
+Spirit       0.014867
+Squirrel     0.009390
+Toy          0.005477
+Vampire      0.026604
+Vehicle      0.003912
+Wall         0.003912
+Zombie       0.011737
+none         0.319249
+2026-04-12 13:27:21 | INFO     | CMC — synthetic mean: 3.67 (±2.10), training mean: 3.00 (±1.74)
+2026-04-12 13:27:21 | INFO     | Power — synthetic mean: 3.91 (±2.82), training mean: 2.82 (±1.69)
+2026-04-12 13:27:21 | INFO     | Toughness — synthetic mean: 3.69 (±2.24), training mean: 2.99 (±1.72)
+2026-04-12 13:27:21 | INFO     | Stats ratio — synthetic: 56.3%, training: 56.3%
+2026-04-12 13:27:21 | INFO     | [5/5] stage 'validate' done
+2026-04-12 13:27:21 | SUCCESS  | === pipeline complete ===

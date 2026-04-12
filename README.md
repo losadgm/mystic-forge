@@ -6,18 +6,19 @@ Fetches real Magic: The Gathering cards from [mtgjson.com](https://mtgjson.com),
 
 ## Pipeline
 
-The pipeline runs four stages in sequence:
+The pipeline runs five stages in sequence:
 
 ```
-fetch → preprocess → train → sample
+fetch → preprocess → train → sample → validate
 ```
 
 | Stage | What it does |
 |---|---|
 | **fetch** | Downloads card data from mtgjson.com for a configured list of sets. Deduplicates by card name and saves to `data/raw/cards_seed.csv`. |
-| **preprocess** | Selects relevant columns, parses the type line into `card_type` + `subtype`, parses mana cost into `cmc` + `color_identity`, engineers `power_per_cmc` and `toughness_per_cmc` ratios, and saves to `data/processed/cards_clean.csv`. |
-| **train** | Splits cards into two subsets (with/without power & toughness) and trains one CTGAN model per subset. The stats model learns ratio-based distributions so power/toughness stay consistent with CMC. Models are saved to `output/`. |
-| **sample** | Loads both models, samples rows proportional to the original stats/no-stats split, reconstructs integer power/toughness from ratios, merges and shuffles, then saves to `data/synthetic/cards_synthetic.csv`. |
+| **preprocess** | Selects relevant columns, parses the type line into `card_type` + `subtype`, parses mana cost into `cmc` + `pip_W/U/B/R/G` + `generic`, engineers `power_per_cmc` and `toughness_per_cmc` ratios, filters out cards with `{X}`, hybrid, or non-numeric stats, and saves to `data/processed/cards_clean.csv`. |
+| **train** | Splits cards into two subsets (with/without power & toughness) and trains one CopulaGAN model per subset. The stats model learns ratio-based distributions so power/toughness stay consistent with CMC. `cmc` and `color` are excluded from training as they are deterministic from the pip columns. Models are saved to `output/`. |
+| **sample** | Loads both models, samples rows proportional to the original stats/no-stats split, enforces structural mana invariants, reconstructs `power`/`toughness` from ratios and `mana_cost` from pip components, merges and saves to `data/synthetic/cards_synthetic.csv`. |
+| **validate** | Read-only QA stage. Checks domain rules (required columns, null counts, value ranges, stats symmetry) and compares synthetic distributions against the training baseline (color, rarity, card type, subtype, CMC, power, toughness). All findings are logged; warnings indicate degraded output quality. |
 
 ## Usage
 
@@ -38,8 +39,9 @@ src/mystic_forge/
     stages/
         fetch.py         # FetchStage — mtgjson download
         preprocess.py    # PreprocessStage — feature engineering
-        train.py         # TrainStage — CTGAN training
-        sample.py        # SampleStage — synthetic sampling
+        train.py         # TrainStage — CopulaGAN training
+        sample.py        # SampleStage — raw synthetic sampling
+        validate.py      # ValidateStage — invariant enforcement + final output
 
 data/
     raw/                 # cards_seed.csv (fetched)

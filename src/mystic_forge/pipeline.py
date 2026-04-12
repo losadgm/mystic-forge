@@ -10,6 +10,7 @@ class Context:
     """Shared state that flows through every pipeline stage."""
     raw: pd.DataFrame | None = None
     clean: pd.DataFrame | None = None
+    synthetic: pd.DataFrame | None = None
     meta: dict = field(default_factory=dict)
 
 

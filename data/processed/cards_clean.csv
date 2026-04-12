@@ -1,1329 +1,1279 @@
-name,power,toughness,rarity,card_type,subtype,cmc,color_identity,power_per_cmc,toughness_per_cmc
-Sire of Seven Deaths,7.0,7.0,mythic,Creature,Eldrazi,7,colorless,1.0,1.0
-"Arahbo, the First Fang",2.0,2.0,rare,Creature,Cat,3,W,0.67,0.67
-Armasaur Guide,4.0,4.0,common,Creature,Dinosaur,5,W,0.8,0.8
-Cat Collector,3.0,2.0,uncommon,Creature,Human,3,W,1.0,0.67
-Celestial Armor,,,rare,Artifact,Equipment,3,W,,
-Claws Out,,,uncommon,Instant,,5,W,,
-Crystal Barricade,0.0,4.0,rare,Creature,Wall,2,W,0.0,2.0
-Dauntless Veteran,2.0,2.0,uncommon,Creature,Human,3,W,0.67,0.67
-Dazzling Angel,2.0,3.0,common,Creature,Angel,3,W,0.67,1.0
-Divine Resilience,,,uncommon,Instant,,1,W,,
-Exemplar of Light,3.0,3.0,rare,Creature,Angel,4,W,0.75,0.75
-Felidar Savior,2.0,3.0,common,Creature,Cat,4,W,0.5,0.75
-Fleeting Flight,,,common,Instant,,1,W,,
-Guarded Heir,1.0,1.0,uncommon,Creature,Human,6,W,0.17,0.17
-Hare Apparent,2.0,2.0,common,Creature,Rabbit,2,W,1.0,1.0
-Helpful Hunter,1.0,1.0,common,Creature,Cat,2,W,0.5,0.5
-Herald of Eternal Dawn,6.0,6.0,mythic,Creature,Angel,7,W,0.86,0.86
-Inspiring Paladin,3.0,3.0,common,Creature,Human,3,W,1.0,1.0
-Joust Through,,,uncommon,Instant,,1,W,,
-Luminous Rebuke,,,common,Instant,,5,W,,
-Prideful Parent,2.0,2.0,common,Creature,Cat,3,W,0.67,0.67
-Raise the Past,,,rare,Sorcery,,4,W,,
-Skyknight Squire,1.0,1.0,rare,Creature,Cat,2,W,0.5,0.5
-Squad Rallier,3.0,4.0,common,Creature,Human,4,W,0.75,1.0
-Sun-Blessed Healer,3.0,1.0,uncommon,Creature,Human,2,W,1.5,0.5
-Twinblade Blessing,,,uncommon,Enchantment,Aura,3,W,,
-Valkyrie's Call,,,mythic,Enchantment,,5,W,,
-Vanguard Seraph,3.0,3.0,common,Creature,Angel,4,W,0.75,0.75
-Arcane Epiphany,,,uncommon,Instant,,5,U,,
-Archmage of Runes,3.0,6.0,rare,Creature,Giant,5,U,0.6,1.2
-Bigfin Bouncer,3.0,2.0,common,Creature,Shark,4,U,0.75,0.5
-Cephalid Inkmage,2.0,2.0,uncommon,Creature,Octopus,3,U,0.67,0.67
-Clinquant Skymage,1.0,1.0,uncommon,Creature,Bird,4,U,0.25,0.25
-Curator of Destinies,5.0,5.0,rare,Creature,Sphinx,6,U,0.83,0.83
-Drake Hatcher,1.0,3.0,rare,Creature,Human,2,U,0.5,1.5
-Elementalist Adept,2.0,1.0,common,Creature,Human,2,U,1.0,0.5
-Erudite Wizard,2.0,3.0,common,Creature,Human,3,U,0.67,1.0
-Faebloom Trick,,,uncommon,Instant,,3,U,,
-Grappling Kraken,5.0,6.0,uncommon,Creature,Kraken,6,U,0.83,1.0
-High Fae Trickster,4.0,2.0,rare,Creature,Faerie,4,U,1.0,0.5
-Homunculus Horde,2.0,2.0,rare,Creature,Homunculus,4,U,0.5,0.5
-Icewind Elemental,3.0,4.0,common,Creature,Elemental,5,U,0.6,0.8
-Inspiration from Beyond,,,uncommon,Sorcery,,3,U,,
-"Kaito, Cunning Infiltrator",,,mythic,Planeswalker,Kaito,3,U,,
-"Kiora, the Rising Tide",3.0,2.0,rare,Creature,Merfolk,3,U,1.0,0.67
-Lunar Insight,,,rare,Sorcery,,3,U,,
-Mischievous Mystic,2.0,1.0,uncommon,Creature,Human,2,U,1.0,0.5
-Refute,,,common,Instant,,3,U,,
-Rune-Sealed Wall,0.0,6.0,uncommon,Creature,Wall,3,U,0.0,2.0
-Skyship Buccaneer,4.0,3.0,uncommon,Creature,Human,5,U,0.8,0.6
-Sphinx of Forgotten Lore,3.0,3.0,mythic,Creature,Sphinx,4,U,0.75,0.75
-Strix Lookout,1.0,2.0,common,Creature,Bird,2,U,0.5,1.0
-Uncharted Voyage,,,common,Instant,,4,U,,
-Abyssal Harvester,3.0,2.0,rare,Creature,Demon,3,B,1.0,0.67
-Arbiter of Woe,5.0,4.0,uncommon,Creature,Demon,6,B,0.83,0.67
-Billowing Shriekmass,2.0,3.0,uncommon,Creature,Spirit,4,B,0.5,0.75
-Blasphemous Edict,,,rare,Sorcery,,5,B,,
-Bloodthirsty Conqueror,5.0,5.0,mythic,Creature,Vampire,5,B,1.0,1.0
-Crypt Feaster,3.0,4.0,common,Creature,Zombie,4,B,0.75,1.0
-Gutless Plunderer,2.0,2.0,common,Creature,Skeleton,3,B,0.67,0.67
-High-Society Hunter,5.0,3.0,rare,Creature,Vampire,5,B,1.0,0.6
-Hungry Ghoul,2.0,2.0,common,Creature,Zombie,2,B,1.0,1.0
-Infernal Vessel,2.0,1.0,uncommon,Creature,Human,3,B,0.67,0.33
-Infestation Sage,1.0,1.0,common,Creature,Elf,1,B,1.0,1.0
-Midnight Snack,,,uncommon,Enchantment,,3,B,,
-Nine-Lives Familiar,1.0,1.0,rare,Creature,Cat,3,B,0.33,0.33
-Revenge of the Rats,,,uncommon,Sorcery,,4,B,,
-Sanguine Syphoner,1.0,3.0,common,Creature,Vampire,2,B,0.5,1.5
-Seeker's Folly,,,uncommon,Sorcery,,3,B,,
-Soul-Shackled Zombie,4.0,2.0,common,Creature,Zombie,4,B,1.0,0.5
-Stab,,,common,Instant,,1,B,,
-"Tinybones, Bauble Burglar",1.0,3.0,rare,Creature,Skeleton,2,B,0.5,1.5
-Tragic Banshee,5.0,3.0,uncommon,Creature,Spirit,5,B,1.0,0.6
-Vampire Gourmand,2.0,2.0,uncommon,Creature,Vampire,2,B,1.0,1.0
-Vampire Soulcaller,3.0,2.0,common,Creature,Vampire,5,B,0.6,0.4
-Vengeful Bloodwitch,1.0,1.0,uncommon,Creature,Vampire,2,B,0.5,0.5
-"Zul Ashur, Lich Lord",2.0,2.0,rare,Creature,Zombie,2,B,1.0,1.0
-Battlesong Berserker,3.0,4.0,uncommon,Creature,Human,4,R,0.75,1.0
-Boltwave,,,uncommon,Sorcery,,1,R,,
-Bulk Up,,,uncommon,Instant,,2,R,,
-"Chandra, Flameshaper",,,mythic,Planeswalker,Chandra,7,R,,
-Courageous Goblin,2.0,2.0,common,Creature,Goblin,2,R,1.0,1.0
-Crackling Cyclops,0.0,4.0,common,Creature,Cyclops,3,R,0.0,1.33
-Dragon Trainer,1.0,1.0,uncommon,Creature,Human,5,R,0.2,0.2
-Electroduplicate,,,rare,Sorcery,,3,R,,
-Fiery Annihilation,,,uncommon,Instant,,3,R,,
-Goblin Boarders,3.0,2.0,common,Creature,Goblin,3,R,1.0,0.67
-Goblin Negotiation,,,uncommon,Sorcery,,2,R,,
-Gorehorn Raider,4.0,4.0,common,Creature,Minotaur,5,R,0.8,0.8
-Incinerating Blast,,,common,Sorcery,,5,R,,
-"Kellan, Planar Trailblazer",2.0,1.0,rare,Creature,Human,1,R,2.0,1.0
-Rite of the Dragoncaller,,,mythic,Enchantment,,6,R,,
-Searslicer Goblin,2.0,1.0,rare,Creature,Goblin,2,R,1.0,0.5
-Slumbering Cerberus,4.0,2.0,uncommon,Creature,Dog,2,R,2.0,1.0
-Sower of Chaos,4.0,3.0,common,Creature,Devil,4,R,1.0,0.75
-Strongbox Raider,5.0,2.0,uncommon,Creature,Orc,4,R,1.25,0.5
-Twinflame Tyrant,3.0,5.0,mythic,Creature,Dragon,5,R,0.6,1.0
-Ambush Wolf,4.0,2.0,common,Creature,Wolf,3,G,1.33,0.67
-Apothecary Stomper,4.0,4.0,common,Creature,Elephant,6,G,0.67,0.67
-Beast-Kin Ranger,3.0,3.0,common,Creature,Elf,3,G,1.0,1.0
-Cackling Prowler,4.0,3.0,common,Creature,Hyena,4,G,1.0,0.75
-Eager Trufflesnout,4.0,2.0,uncommon,Creature,Boar,3,G,1.33,0.67
-Elfsworn Giant,5.0,3.0,common,Creature,Giant,5,G,1.0,0.6
-Elvish Regrower,4.0,3.0,uncommon,Creature,Elf,4,G,1.0,0.75
-Felling Blow,,,uncommon,Sorcery,,3,G,,
-"Loot, Exuberant Explorer",1.0,4.0,rare,Creature,Beast,3,G,0.33,1.33
-Mossborn Hydra,0.0,0.0,rare,Creature,Elemental,3,G,0.0,0.0
-Needletooth Pack,4.0,5.0,uncommon,Creature,Dinosaur,5,G,0.8,1.0
-Preposterous Proportions,,,rare,Sorcery,,7,G,,
-Quakestrider Ceratops,12.0,8.0,uncommon,Creature,Dinosaur,6,G,2.0,1.33
-Quilled Greatwurm,7.0,7.0,mythic,Creature,Wurm,6,G,1.17,1.17
-Spinner of Souls,4.0,3.0,rare,Creature,Spider,3,G,1.33,1.0
-Sylvan Scavenging,,,rare,Enchantment,,3,G,,
-Treetop Snarespinner,1.0,4.0,common,Creature,Spider,4,G,0.25,1.0
-"Alesha, Who Laughs at Fate",2.0,2.0,rare,Creature,Human,3,BR,0.67,0.67
-Anthem of Champions,,,rare,Enchantment,,2,WG,,
-Ashroot Animist,4.0,4.0,rare,Creature,Lizard,4,RG,1.0,1.0
-Dreadwing Scavenger,2.0,2.0,uncommon,Creature,Nightmare,3,UB,0.67,0.67
-"Elenda, Saint of Dusk",4.0,4.0,rare,Creature,Vampire,4,WB,1.0,1.0
-Fiendish Panda,3.0,2.0,uncommon,Creature,Bear,4,WB,0.75,0.5
-"Koma, World-Eater",8.0,12.0,rare,Creature,Serpent,7,UG,1.14,1.71
-"Kykar, Zephyr Awakener",3.0,4.0,rare,Creature,Bird,4,WU,0.75,1.0
-"Niv-Mizzet, Visionary",5.0,5.0,mythic,Creature,Dragon,6,UR,0.83,0.83
-Perforating Artist,3.0,2.0,uncommon,Creature,Devil,3,BR,1.0,0.67
-Wardens of the Cycle,3.0,4.0,uncommon,Creature,Elf,4,BG,0.75,1.0
-"Zimone, Paradox Sculptor",1.0,4.0,mythic,Creature,Human,4,UG,0.25,1.0
-Banner of Kinship,,,rare,Artifact,,5,colorless,,
-Fishing Pole,,,uncommon,Artifact,Equipment,1,colorless,,
-Leyline Axe,,,rare,Artifact,Equipment,4,colorless,,
-Quick-Draw Katana,,,common,Artifact,Equipment,2,colorless,,
-Ravenous Amulet,,,uncommon,Artifact,,2,colorless,,
-Scrawling Crawler,3.0,2.0,rare,Creature,Phyrexian,3,colorless,1.0,0.67
-Soulstone Sanctuary,,,rare,Land,,0,colorless,,
-"Ajani, Caller of the Pride",,,mythic,Planeswalker,Ajani,3,W,,
-Ajani's Pridemate,2.0,2.0,uncommon,Creature,Cat,2,W,1.0,1.0
-Angel of Finality,3.0,4.0,uncommon,Creature,Angel,4,W,0.75,1.0
-Authority of the Consuls,,,rare,Enchantment,,1,W,,
-Banishing Light,,,common,Enchantment,,3,W,,
-Cathar Commando,3.0,1.0,common,Creature,Human,2,W,1.5,0.5
-Day of Judgment,,,rare,Sorcery,,4,W,,
-"Giada, Font of Hope",2.0,2.0,rare,Creature,Angel,2,W,1.0,1.0
-Healer's Hawk,1.0,1.0,common,Creature,Bird,1,W,1.0,1.0
-Make Your Move,,,common,Instant,,3,W,,
-Mischievous Pup,3.0,1.0,uncommon,Creature,Dog,3,W,1.0,0.33
-Resolute Reinforcements,1.0,1.0,uncommon,Creature,Human,2,W,0.5,0.5
-Savannah Lions,2.0,1.0,uncommon,Creature,Cat,1,W,2.0,1.0
-Serra Angel,4.0,4.0,uncommon,Creature,Angel,5,W,0.8,0.8
-Stroke of Midnight,,,uncommon,Instant,,3,W,,
-Youthful Valkyrie,1.0,3.0,uncommon,Creature,Angel,2,W,0.5,1.5
-Aegis Turtle,0.0,5.0,common,Creature,Turtle,1,U,0.0,5.0
-Aetherize,,,uncommon,Instant,,4,U,,
-Brineborn Cutthroat,2.0,1.0,uncommon,Creature,Merfolk,2,U,1.0,0.5
-Essence Scatter,,,uncommon,Instant,,2,U,,
-Extravagant Replication,,,rare,Enchantment,,6,U,,
-Fleeting Distraction,,,common,Instant,,1,U,,
-Imprisoned in the Moon,,,uncommon,Enchantment,Aura,3,U,,
-Lightshell Duo,3.0,4.0,common,Creature,Rat,4,U,0.75,1.0
-Micromancer,3.0,3.0,uncommon,Creature,Human,4,U,0.75,0.75
-Mocking Sprite,2.0,1.0,common,Creature,Faerie,3,U,0.67,0.33
-An Offer You Can't Refuse,,,uncommon,Instant,,1,U,,
-Omniscience,,,mythic,Enchantment,,10,U,,
-Run Away Together,,,common,Instant,,2,U,,
-Self-Reflection,,,uncommon,Sorcery,,6,U,,
-Spectral Sailor,1.0,1.0,uncommon,Creature,Spirit,1,U,1.0,1.0
-Think Twice,,,common,Instant,,2,U,,
-Time Stop,,,rare,Instant,,6,U,,
-Tolarian Terror,5.0,5.0,common,Creature,Serpent,7,U,0.71,0.71
-Witness Protection,,,common,Enchantment,Aura,1,U,,
-Bake into a Pie,,,common,Instant,,4,B,,
-Burglar Rat,1.0,1.0,common,Creature,Rat,2,B,0.5,0.5
-Diregraf Ghoul,2.0,2.0,uncommon,Creature,Zombie,1,B,2.0,2.0
-Eaten Alive,,,common,Sorcery,,1,B,,
-Exsanguinate,,,uncommon,Sorcery,,2,B,,
-Fake Your Own Death,,,common,Instant,,2,B,,
-Hero's Downfall,,,uncommon,Instant,,3,B,,
-"Liliana, Dreadhorde General",,,mythic,Planeswalker,Liliana,6,B,,
-Macabre Waltz,,,common,Sorcery,,2,B,,
-Marauding Blight-Priest,3.0,2.0,common,Creature,Vampire,3,B,1.0,0.67
-Painful Quandary,,,rare,Enchantment,,5,B,,
-Phyrexian Arena,,,rare,Enchantment,,3,B,,
-Pilfer,,,common,Sorcery,,2,B,,
-Reassembling Skeleton,1.0,1.0,uncommon,Creature,Skeleton,2,B,0.5,0.5
-Rise of the Dark Realms,,,mythic,Sorcery,,9,B,,
-Rune-Scarred Demon,6.0,6.0,rare,Creature,Demon,7,B,0.86,0.86
-Stromkirk Bloodthief,2.0,2.0,uncommon,Creature,Vampire,3,B,0.67,0.67
-Vampire Nighthawk,2.0,3.0,uncommon,Creature,Vampire,3,B,0.67,1.0
-Zombify,,,uncommon,Sorcery,,4,B,,
-Abrade,,,uncommon,Instant,,2,R,,
-Axgard Cavalry,2.0,2.0,common,Creature,Dwarf,2,R,1.0,1.0
-Brass's Bounty,,,rare,Sorcery,,7,R,,
-Brazen Scourge,3.0,3.0,uncommon,Creature,Gremlin,3,R,1.0,1.0
-Burst Lightning,,,common,Instant,,1,R,,
-"Drakuseth, Maw of Flames",7.0,7.0,rare,Creature,Dragon,7,R,1.0,1.0
-"Etali, Primal Storm",6.0,6.0,rare,Creature,Elder,6,R,1.0,1.0
-Fanatical Firebrand,1.0,1.0,common,Creature,Goblin,1,R,1.0,1.0
-Firebrand Archer,2.0,1.0,common,Creature,Human,2,R,1.0,0.5
-Firespitter Whelp,2.0,2.0,uncommon,Creature,Dragon,3,R,0.67,0.67
-Flamewake Phoenix,2.0,2.0,rare,Creature,Phoenix,3,R,0.67,0.67
-Frenzied Goblin,1.0,1.0,uncommon,Creature,Goblin,1,R,1.0,1.0
-Goblin Surprise,,,common,Instant,,3,R,,
-Heartfire Immolator,2.0,2.0,uncommon,Creature,Human,2,R,1.0,1.0
-Hidetsugu's Second Rite,,,uncommon,Instant,,4,R,,
-Involuntary Employment,,,common,Sorcery,,4,R,,
-"Krenko, Mob Boss",3.0,3.0,rare,Creature,Goblin,4,R,0.75,0.75
-Seismic Rupture,,,uncommon,Sorcery,,3,R,,
-Shivan Dragon,5.0,5.0,uncommon,Creature,Dragon,6,R,0.83,0.83
-Slagstorm,,,rare,Sorcery,,3,R,,
-Spitfire Lagac,3.0,4.0,common,Creature,Lizard,4,R,0.75,1.0
-Sure Strike,,,common,Instant,,2,R,,
-Thrill of Possibility,,,common,Instant,,2,R,,
-Affectionate Indrik,4.0,4.0,uncommon,Creature,Beast,6,G,0.67,0.67
-Bite Down,,,common,Instant,,2,G,,
-Blanchwood Armor,,,uncommon,Enchantment,Aura,3,G,,
-Broken Wings,,,common,Instant,,3,G,,
-Bushwhack,,,common,Sorcery,,1,G,,
-Doubling Season,,,mythic,Enchantment,,5,G,,
-"Dwynen, Gilt-Leaf Daen",3.0,4.0,uncommon,Creature,Elf,4,G,0.75,1.0
-Dwynen's Elite,2.0,2.0,common,Creature,Elf,2,G,1.0,1.0
-Elvish Archdruid,2.0,2.0,rare,Creature,Elf,3,G,0.67,0.67
-Garruk's Uprising,,,uncommon,Enchantment,,3,G,,
-Genesis Wave,,,rare,Sorcery,,3,G,,
-"Ghalta, Primal Hunger",12.0,12.0,rare,Creature,Elder,12,G,1.0,1.0
-Giant Growth,,,common,Instant,,1,G,,
-Gnarlid Colony,2.0,2.0,common,Creature,Beast,2,G,1.0,1.0
-Grow from the Ashes,,,common,Sorcery,,3,G,,
-Inspiring Call,,,uncommon,Instant,,3,G,,
-Llanowar Elves,1.0,1.0,common,Creature,Elf,1,G,1.0,1.0
-Mild-Mannered Librarian,1.0,1.0,uncommon,Creature,Human,1,G,1.0,1.0
-Nessian Hornbeetle,2.0,2.0,uncommon,Creature,Insect,2,G,1.0,1.0
-Overrun,,,uncommon,Sorcery,,5,G,,
-Reclamation Sage,2.0,1.0,uncommon,Creature,Elf,3,G,0.67,0.33
-Scavenging Ooze,2.0,2.0,rare,Creature,Ooze,2,G,1.0,1.0
-Snakeskin Veil,,,uncommon,Instant,,1,G,,
-Vivien Reid,,,mythic,Planeswalker,Vivien,5,G,,
-Wary Thespian,3.0,1.0,common,Creature,Cat,2,G,1.5,0.5
-Wildwood Scourge,0.0,0.0,uncommon,Creature,Hydra,1,G,0.0,0.0
-"Balmor, Battlemage Captain",1.0,3.0,uncommon,Creature,Bird,2,UR,0.5,1.5
-Consuming Aberration,,,rare,Creature,Horror,5,UB,,
-Empyrean Eagle,2.0,3.0,uncommon,Creature,Bird,3,WU,0.67,1.0
-Good-Fortune Unicorn,2.0,2.0,uncommon,Creature,Unicorn,3,WG,0.67,0.67
-Heroic Reinforcements,,,uncommon,Sorcery,,4,WR,,
-"Lathril, Blade of the Elves",2.0,3.0,rare,Creature,Elf,4,BG,0.5,0.75
-"Muldrotha, the Gravetide",6.0,6.0,mythic,Creature,Elemental,6,UBG,1.0,1.0
-Progenitus,10.0,10.0,mythic,Creature,Hydra,10,WUBRG,1.0,1.0
-"Ruby, Daring Tracker",1.0,2.0,uncommon,Creature,Human,2,RG,0.5,1.0
-Swiftblade Vindicator,1.0,1.0,rare,Creature,Human,2,WR,0.5,0.5
-"Tatyova, Benthic Druid",3.0,3.0,uncommon,Creature,Merfolk,5,UG,0.6,0.6
-Thousand-Year Storm,,,rare,Enchantment,,6,UR,,
-Adventuring Gear,,,uncommon,Artifact,Equipment,1,colorless,,
-Burnished Hart,2.0,2.0,uncommon,Creature,Elk,3,colorless,0.67,0.67
-Campus Guide,2.0,1.0,common,Creature,Golem,2,colorless,1.0,0.5
-Gleaming Barrier,0.0,4.0,common,Creature,Wall,2,colorless,0.0,2.0
-Goldvein Pick,,,common,Artifact,Equipment,2,colorless,,
-Heraldic Banner,,,uncommon,Artifact,,3,colorless,,
-Juggernaut,5.0,3.0,uncommon,Creature,Juggernaut,4,colorless,1.25,0.75
-Meteor Golem,3.0,3.0,uncommon,Creature,Golem,7,colorless,0.43,0.43
-Solemn Simulacrum,2.0,2.0,rare,Creature,Golem,4,colorless,0.5,0.5
-Swiftfoot Boots,,,uncommon,Artifact,Equipment,2,colorless,,
-Bloodfell Caves,,,common,Land,,0,colorless,,
-Blossoming Sands,,,common,Land,,0,colorless,,
-Dismal Backwater,,,common,Land,,0,colorless,,
-Evolving Wilds,,,common,Land,,0,colorless,,
-Jungle Hollow,,,common,Land,,0,colorless,,
-Rogue's Passage,,,uncommon,Land,,0,colorless,,
-Rugged Highlands,,,common,Land,,0,colorless,,
-Scoured Barrens,,,common,Land,,0,colorless,,
-Secluded Courtyard,,,uncommon,Land,,0,colorless,,
-Swiftwater Cliffs,,,common,Land,,0,colorless,,
-Thornwood Falls,,,common,Land,,0,colorless,,
-Tranquil Cove,,,common,Land,,0,colorless,,
-Wind-Scarred Crag,,,common,Land,,0,colorless,,
-Plains,,,common,Land,Plains,0,colorless,,
-Island,,,common,Land,Island,0,colorless,,
-Swamp,,,common,Land,Swamp,0,colorless,,
-Mountain,,,common,Land,Mountain,0,colorless,,
-Forest,,,common,Land,Forest,0,colorless,,
-Adamant Will,,,common,Instant,,2,W,,
-Ancestor Dragon,5.0,6.0,rare,Creature,Dragon,6,W,0.83,1.0
-Angelic Edict,,,common,Sorcery,,5,W,,
-Bishop's Soldier,2.0,2.0,common,Creature,Vampire,2,W,1.0,1.0
-Deadly Riposte,,,common,Instant,,2,W,,
-Elspeth's Smite,,,uncommon,Instant,,1,W,,
-Herald of Faith,4.0,3.0,uncommon,Creature,Angel,5,W,0.8,0.6
-Ingenious Leonin,4.0,4.0,uncommon,Creature,Cat,5,W,0.8,0.8
-Inspiring Overseer,2.0,1.0,common,Creature,Angel,3,W,0.67,0.33
-Jazal Goldmane,4.0,4.0,rare,Creature,Cat,4,W,1.0,1.0
-Leonin Skyhunter,2.0,2.0,uncommon,Creature,Cat,2,W,1.0,1.0
-Leonin Vanguard,1.0,1.0,uncommon,Creature,Cat,1,W,1.0,1.0
-Moment of Triumph,,,common,Instant,,1,W,,
-Pacifism,,,common,Enchantment,Aura,2,W,,
-Prayer of Binding,,,uncommon,Enchantment,,4,W,,
-Twinblade Paladin,3.0,3.0,uncommon,Creature,Human,4,W,0.75,0.75
-Burrog Befuddler,2.0,1.0,common,Creature,Frog,2,U,1.0,0.5
-Cancel,,,common,Instant,,3,U,,
-Corsair Captain,2.0,2.0,rare,Creature,Human,3,U,0.67,0.67
-Eaten by Piranhas,,,uncommon,Enchantment,Aura,2,U,,
-Exclusion Mage,2.0,2.0,uncommon,Creature,Human,3,U,0.67,0.67
-Into the Roil,,,common,Instant,,2,U,,
-Kitesail Corsair,2.0,1.0,common,Creature,Human,2,U,1.0,0.5
-Mystic Archaeologist,2.0,1.0,rare,Creature,Human,2,U,1.0,0.5
-Opt,,,common,Instant,,1,U,,
-Quick Study,,,common,Instant,,3,U,,
-Starlight Snare,,,common,Enchantment,Aura,3,U,,
-Storm Fleet Spy,2.0,2.0,uncommon,Creature,Human,3,U,0.67,0.67
-Bloodtithe Collector,3.0,4.0,uncommon,Creature,Vampire,5,B,0.6,0.8
-Cemetery Recruitment,,,common,Sorcery,,2,B,,
-Crossway Troublemakers,5.0,5.0,rare,Creature,Vampire,6,B,0.83,0.83
-Crow of Dark Tidings,2.0,1.0,common,Creature,Zombie,3,B,0.67,0.33
-Deadly Plot,,,uncommon,Instant,,4,B,,
-Death Baron,2.0,2.0,rare,Creature,Zombie,3,B,0.67,0.67
-Highborn Vampire,4.0,3.0,common,Creature,Vampire,4,B,1.0,0.75
-Maalfeld Twins,4.0,4.0,uncommon,Creature,Zombie,6,B,0.67,0.67
-Moment of Craving,,,common,Instant,,2,B,,
-Offer Immortality,,,common,Instant,,2,B,,
-Skeleton Archer,3.0,3.0,common,Creature,Skeleton,4,B,0.75,0.75
-Suspicious Shambler,4.0,2.0,common,Creature,Zombie,4,B,1.0,0.5
-Undying Malice,,,common,Instant,,1,B,,
-Untamed Hunger,,,common,Enchantment,Aura,3,B,,
-Vampire Interloper,2.0,1.0,common,Creature,Vampire,2,B,1.0,0.5
-Vampire Neonate,0.0,3.0,common,Creature,Vampire,1,B,0.0,3.0
-Vampire Spawn,2.0,3.0,common,Creature,Vampire,3,B,0.67,1.0
-Battle-Rattle Shaman,2.0,2.0,uncommon,Creature,Goblin,4,R,0.5,0.5
-Carnelian Orb of Dragonkind,,,common,Artifact,,3,R,,
-Dragon Fodder,,,common,Sorcery,,2,R,,
-Dragonlord's Servant,1.0,3.0,uncommon,Creature,Goblin,2,R,0.5,1.5
-Dropkick Bomber,2.0,3.0,rare,Creature,Goblin,3,R,0.67,1.0
-Fire Elemental,5.0,4.0,common,Creature,Elemental,5,R,1.0,0.8
-Goblin Oriflamme,,,uncommon,Enchantment,,2,R,,
-Goblin Smuggler,2.0,2.0,common,Creature,Goblin,3,R,0.67,0.67
-Kargan Dragonrider,2.0,2.0,common,Creature,Human,2,R,1.0,1.0
-Kindled Fury,,,common,Instant,,1,R,,
-Raging Redcap,1.0,2.0,common,Creature,Goblin,3,R,0.33,0.67
-Rapacious Dragon,3.0,3.0,common,Creature,Dragon,5,R,0.6,0.6
-Scorching Dragonfire,,,common,Instant,,2,R,,
-Seize the Spoils,,,common,Sorcery,,3,R,,
-Skyraker Giant,4.0,3.0,common,Creature,Giant,4,R,1.0,0.75
-Swab Goblin,2.0,2.0,common,Creature,Goblin,2,R,1.0,1.0
-Terror of Mount Velus,5.0,5.0,rare,Creature,Dragon,7,R,0.71,0.71
-Volley Veteran,4.0,2.0,uncommon,Creature,Goblin,4,R,1.0,0.5
-Aggressive Mammoth,8.0,8.0,rare,Creature,Elephant,6,G,1.33,1.33
-Bear Cub,2.0,2.0,common,Creature,Bear,2,G,1.0,1.0
-Biogenic Upgrade,,,uncommon,Sorcery,,6,G,,
-Druid of the Cowl,1.0,3.0,common,Creature,Elf,2,G,0.5,1.5
-Joraga Invocation,,,uncommon,Sorcery,,6,G,,
-Magnigoth Sentry,4.0,4.0,common,Creature,Treefolk,4,G,1.0,1.0
-New Horizons,,,common,Enchantment,Aura,3,G,,
-Tajuru Pathwarden,5.0,4.0,common,Creature,Elf,5,G,1.0,0.8
-Thornweald Archer,2.0,1.0,common,Creature,Elf,2,G,1.0,0.5
-Thrashing Brontodon,3.0,4.0,uncommon,Creature,Dinosaur,3,G,1.0,1.33
-Wildheart Invoker,4.0,3.0,common,Creature,Elf,4,G,1.0,0.75
-Goblin Firebomb,,,common,Artifact,,1,colorless,,
-Pirate's Cutlass,,,common,Artifact,Equipment,3,colorless,,
-Uncharted Haven,,,common,Land,,0,colorless,,
-Angelic Destiny,,,mythic,Enchantment,Aura,4,W,,
-Archway Angel,3.0,4.0,uncommon,Creature,Angel,6,W,0.5,0.67
-Ballyrush Banneret,2.0,1.0,common,Creature,Kithkin,2,W,1.0,0.5
-Charming Prince,2.0,2.0,rare,Creature,Human,2,W,1.0,1.0
-Crusader of Odric,,,common,Creature,Human,3,W,,
-Dawnwing Marshal,2.0,2.0,uncommon,Creature,Cat,2,W,1.0,1.0
-Devout Decree,,,uncommon,Sorcery,,2,W,,
-Disenchant,,,common,Instant,,2,W,,
-Felidar Cub,2.0,2.0,common,Creature,Cat,2,W,1.0,1.0
-Felidar Retreat,,,rare,Enchantment,,4,W,,
-Fumigate,,,rare,Sorcery,,5,W,,
-Knight of Grace,2.0,2.0,uncommon,Creature,Human,2,W,1.0,1.0
-"Linden, the Steadfast Queen",3.0,3.0,rare,Creature,Human,3,W,1.0,1.0
-Mentor of the Meek,2.0,2.0,rare,Creature,Human,3,W,0.67,0.67
-Regal Caracal,3.0,3.0,rare,Creature,Cat,5,W,0.6,0.6
-Release the Dogs,,,uncommon,Sorcery,,4,W,,
-Stasis Snare,,,uncommon,Enchantment,,3,W,,
-"Syr Alin, the Lion's Claw",4.0,4.0,uncommon,Creature,Human,5,W,0.8,0.8
-Valorous Stance,,,uncommon,Instant,,2,W,,
-"Zetalpa, Primal Dawn",4.0,8.0,rare,Creature,Elder,8,W,0.5,1.0
-Arcanis the Omnipotent,3.0,4.0,rare,Creature,Wizard,6,U,0.5,0.67
-Chart a Course,,,uncommon,Sorcery,,2,U,,
-Dictate of Kruphix,,,rare,Enchantment,,3,U,,
-Dive Down,,,common,Instant,,1,U,,
-Finale of Revelation,,,mythic,Sorcery,,2,U,,
-Flashfreeze,,,uncommon,Instant,,2,U,,
-Fog Bank,0.0,2.0,uncommon,Creature,Wall,2,U,0.0,1.0
-Gateway Sneak,1.0,3.0,uncommon,Creature,Vedalken,3,U,0.33,1.0
-Harbinger of the Tides,2.0,2.0,rare,Creature,Merfolk,2,U,1.0,1.0
-Mystical Teachings,,,uncommon,Instant,,4,U,,
-River's Rebuke,,,rare,Sorcery,,6,U,,
-Shipwreck Dowser,3.0,3.0,uncommon,Creature,Merfolk,5,U,0.6,0.6
-Sphinx of the Final Word,5.0,5.0,mythic,Creature,Sphinx,7,U,0.71,0.71
-Tempest Djinn,0.0,4.0,rare,Creature,Djinn,3,U,0.0,1.33
-Unsummon,,,common,Instant,,1,U,,
-Voracious Greatshark,5.0,4.0,rare,Creature,Shark,5,U,1.0,0.8
-Deathmark,,,uncommon,Sorcery,,1,B,,
-Demonic Pact,,,mythic,Enchantment,,4,B,,
-Desecration Demon,6.0,6.0,rare,Creature,Demon,4,B,1.5,1.5
-Dread Summons,,,rare,Sorcery,,2,B,,
-Driver of the Dead,3.0,2.0,common,Creature,Vampire,4,B,0.75,0.5
-Duress,,,common,Sorcery,,1,B,,
-Kalastria Highborn,2.0,2.0,rare,Creature,Vampire,2,B,1.0,1.0
-Knight of Malice,2.0,2.0,uncommon,Creature,Human,2,B,1.0,1.0
-Midnight Reaper,3.0,2.0,rare,Creature,Zombie,3,B,1.0,0.67
-Myojin of Night's Reach,5.0,2.0,rare,Creature,Spirit,8,B,0.62,0.25
-Nullpriest of Oblivion,2.0,1.0,rare,Creature,Vampire,2,B,1.0,0.5
-Pulse Tracker,1.0,1.0,common,Creature,Vampire,1,B,1.0,1.0
-Sanguine Indulgence,,,common,Sorcery,,4,B,,
-Tribute to Hunger,,,uncommon,Instant,,3,B,,
-Vampiric Rites,,,uncommon,Enchantment,,1,B,,
-Vile Entomber,2.0,2.0,uncommon,Creature,Zombie,4,B,0.5,0.5
-Wishclaw Talisman,,,rare,Artifact,,2,B,,
-Ball Lightning,6.0,1.0,rare,Creature,Elemental,3,R,2.0,0.33
-Bolt Bend,,,uncommon,Instant,,4,R,,
-Crash Through,,,common,Sorcery,,1,R,,
-Dragon Mage,5.0,5.0,uncommon,Creature,Dragon,7,R,0.71,0.71
-Dragonmaster Outcast,1.0,1.0,mythic,Creature,Human,1,R,1.0,1.0
-Ghitu Lavarunner,1.0,2.0,common,Creature,Human,1,R,1.0,2.0
-Giant Cindermaw,4.0,3.0,uncommon,Creature,Dinosaur,3,R,1.33,1.0
-Harmless Offering,,,rare,Sorcery,,3,R,,
-Hoarding Dragon,4.0,4.0,uncommon,Creature,Dragon,5,R,0.8,0.8
-"Lathliss, Dragon Queen",6.0,6.0,rare,Creature,Dragon,6,R,1.0,1.0
-Mindsparker,3.0,2.0,uncommon,Creature,Elemental,3,R,1.0,0.67
-Obliterating Bolt,,,uncommon,Sorcery,,2,R,,
-Ravenous Giant,5.0,5.0,uncommon,Creature,Giant,4,R,1.25,1.25
-Redcap Gutter-Dweller,3.0,3.0,rare,Creature,Goblin,4,R,0.75,0.75
-Stromkirk Noble,1.0,1.0,rare,Creature,Vampire,1,R,1.0,1.0
-Taurean Mauler,2.0,2.0,rare,Creature,Shapeshifter,3,R,0.67,0.67
-Viashino Pyromancer,2.0,1.0,common,Creature,Lizard,2,R,1.0,0.5
-Circuitous Route,,,uncommon,Sorcery,,4,G,,
-Fierce Empath,1.0,1.0,common,Creature,Elf,3,G,0.33,0.33
-"Fynn, the Fangbearer",1.0,3.0,uncommon,Creature,Human,2,G,0.5,1.5
-Gnarlback Rhino,4.0,4.0,uncommon,Creature,Rhino,4,G,1.0,1.0
-Heroes' Bane,0.0,0.0,rare,Creature,Hydra,5,G,0.0,0.0
-Mold Adder,1.0,1.0,uncommon,Creature,Fungus,1,G,1.0,1.0
-Ordeal of Nylea,,,uncommon,Enchantment,Aura,2,G,,
-Predator Ooze,1.0,1.0,rare,Creature,Ooze,3,G,0.33,0.33
-Primal Might,,,rare,Sorcery,,1,G,,
-Primeval Bounty,,,mythic,Enchantment,,6,G,,
-Rampaging Baloths,6.0,6.0,rare,Creature,Beast,6,G,1.0,1.0
-Springbloom Druid,1.0,1.0,common,Creature,Elf,3,G,0.33,0.33
-"Surrak, the Hunt Caller",5.0,4.0,rare,Creature,Human,4,G,1.25,1.0
-Venom Connoisseur,2.0,2.0,uncommon,Creature,Human,2,G,1.0,1.0
-Vizier of the Menagerie,3.0,4.0,mythic,Creature,Snake,4,G,0.75,1.0
-Wildborn Preserver,2.0,2.0,rare,Creature,Elf,2,G,1.0,1.0
-"Aurelia, the Warleader",3.0,4.0,mythic,Creature,Angel,6,WR,0.5,0.67
-"Ayli, Eternal Pilgrim",2.0,3.0,rare,Creature,Kor,2,WB,1.0,1.5
-Cloudblazer,2.0,2.0,uncommon,Creature,Human,5,WU,0.4,0.4
-Deadly Brew,,,uncommon,Sorcery,,2,BG,,
-Drogskol Reaver,3.0,5.0,rare,Creature,Spirit,7,WU,0.43,0.71
-Dryad Militant,2.0,1.0,uncommon,Creature,Dryad,1,WG,2.0,1.0
-Enigma Drake,,4.0,uncommon,Creature,Drake,3,UR,,
-"Garna, Bloodfist of Keld",4.0,3.0,uncommon,Creature,Human,4,BR,1.0,0.75
-"Halana and Alena, Partners",2.0,3.0,rare,Creature,Human,4,RG,0.5,0.75
-Immersturm Predator,3.0,3.0,rare,Creature,Vampire,4,BR,0.75,0.75
-Maelstrom Pulse,,,rare,Sorcery,,3,BG,,
-Mortify,,,uncommon,Instant,,3,WB,,
-"Ovika, Enigma Goliath",6.0,6.0,rare,Creature,Phyrexian,7,UR,0.86,0.86
-Prime Speaker Zegana,1.0,1.0,rare,Creature,Merfolk,6,UG,0.17,0.17
-Savage Ventmaw,4.0,4.0,uncommon,Creature,Dragon,6,RG,0.67,0.67
-Teach by Example,,,uncommon,Instant,,2,UR,,
-Trygon Predator,2.0,3.0,uncommon,Creature,Beast,3,UG,0.67,1.0
-Wilt-Leaf Liege,4.0,4.0,rare,Creature,Elf,4,WG,1.0,1.0
-Basilisk Collar,,,rare,Artifact,Equipment,1,colorless,,
-Cultivator's Caravan,5.0,5.0,rare,Artifact,Vehicle,3,colorless,1.67,1.67
-Darksteel Colossus,11.0,11.0,mythic,Creature,Golem,11,colorless,1.0,1.0
-Diamond Mare,1.0,3.0,uncommon,Creature,Horse,2,colorless,0.5,1.5
-Feldon's Cane,,,uncommon,Artifact,,1,colorless,,
-Fireshrieker,,,uncommon,Artifact,Equipment,3,colorless,,
-Gate Colossus,8.0,8.0,uncommon,Creature,Construct,8,colorless,1.0,1.0
-Mazemind Tome,,,rare,Artifact,,2,colorless,,
-Pyromancer's Goggles,,,mythic,Artifact,,5,colorless,,
-"Ramos, Dragon Engine",4.0,4.0,mythic,Creature,Dragon,6,colorless,0.67,0.67
-Sorcerous Spyglass,,,uncommon,Artifact,,2,colorless,,
-Soul-Guide Lantern,,,uncommon,Artifact,,1,colorless,,
-Steel Hellkite,5.0,5.0,rare,Creature,Dragon,6,colorless,0.83,0.83
-Three Tree Mascot,2.0,1.0,common,Creature,Shapeshifter,2,colorless,1.0,0.5
-Azorius Guildgate,,,common,Land,Gate,0,colorless,,
-Boros Guildgate,,,common,Land,Gate,0,colorless,,
-Crawling Barrens,,,rare,Land,,0,colorless,,
-Cryptic Caves,,,uncommon,Land,,0,colorless,,
-Demolition Field,,,uncommon,Land,,0,colorless,,
-Dimir Guildgate,,,common,Land,Gate,0,colorless,,
-Golgari Guildgate,,,common,Land,Gate,0,colorless,,
-Gruul Guildgate,,,common,Land,Gate,0,colorless,,
-Izzet Guildgate,,,common,Land,Gate,0,colorless,,
-Orzhov Guildgate,,,common,Land,Gate,0,colorless,,
-Rakdos Guildgate,,,common,Land,Gate,0,colorless,,
-Selesnya Guildgate,,,common,Land,Gate,0,colorless,,
-Simic Guildgate,,,common,Land,Gate,0,colorless,,
-Temple of Abandon,,,rare,Land,,0,colorless,,
-Temple of Deceit,,,rare,Land,,0,colorless,,
-Temple of Enlightenment,,,rare,Land,,0,colorless,,
-Temple of Epiphany,,,rare,Land,,0,colorless,,
-Temple of Malady,,,rare,Land,,0,colorless,,
-Temple of Malice,,,rare,Land,,0,colorless,,
-Temple of Mystery,,,rare,Land,,0,colorless,,
-Temple of Plenty,,,rare,Land,,0,colorless,,
-Temple of Silence,,,rare,Land,,0,colorless,,
-Temple of Triumph,,,rare,Land,,0,colorless,,
-Angel of Vitality,2.0,2.0,uncommon,Creature,Angel,3,W,0.67,0.67
-Lyra Dawnbringer,5.0,5.0,mythic,Creature,Angel,5,W,1.0,1.0
-Make a Stand,,,uncommon,Instant,,3,W,,
-Confiscate,,,uncommon,Enchantment,Aura,6,U,,
-Negate,,,common,Instant,,2,U,,
-Rite of Replication,,,rare,Sorcery,,4,U,,
-Feed the Swarm,,,common,Sorcery,,2,B,,
-Gatekeeper of Malakir,2.0,2.0,uncommon,Creature,Vampire,2,B,1.0,1.0
-Massacre Wurm,6.0,5.0,mythic,Creature,Phyrexian,6,B,1.0,0.83
-Gratuitous Violence,,,rare,Enchantment,,5,R,,
-Guttersnipe,2.0,2.0,uncommon,Creature,Goblin,3,R,0.67,0.67
-Impact Tremors,,,common,Enchantment,,2,R,,
-Gigantosaurus,10.0,10.0,rare,Creature,Dinosaur,5,G,2.0,2.0
-Imperious Perfect,2.0,2.0,uncommon,Creature,Elf,3,G,0.67,0.67
-Pelakka Wurm,7.0,7.0,uncommon,Creature,Wurm,7,G,1.0,1.0
-Boros Charm,,,uncommon,Instant,,2,WR,,
-Unflinching Courage,,,uncommon,Enchantment,Aura,3,WG,,
-Adaptive Automaton,2.0,2.0,rare,Creature,Construct,3,colorless,0.67,0.67
-Expedition Map,,,common,Artifact,,1,colorless,,
-Gilded Lotus,,,rare,Artifact,,5,colorless,,
-Hedron Archive,,,uncommon,Artifact,,4,colorless,,
-Maze's End,,,mythic,Land,,0,colorless,,
-Hinterland Sanctifier,1.0,2.0,common,Creature,Rabbit,1,W,1.0,2.0
-Case of the Shattered Pact,,,uncommon,Enchantment,Case,2,colorless,,
-Absolving Lammasu,4.0,3.0,uncommon,Creature,Lammasu,5,W,0.8,0.6
-Assemble the Players,,,rare,Enchantment,,2,W,,
-Aurelia's Vindicator,4.0,2.0,mythic,Creature,Angel,4,W,1.0,0.5
-Auspicious Arrival,,,common,Instant,,2,W,,
-Call a Surprise Witness,,,uncommon,Sorcery,,2,W,,
-Case File Auditor,1.0,4.0,uncommon,Creature,Human,3,W,0.33,1.33
-Case of the Gateway Express,,,uncommon,Enchantment,Case,2,W,,
-Case of the Pilfered Proof,,,uncommon,Enchantment,Case,2,W,,
-Case of the Uneaten Feast,,,rare,Enchantment,Case,1,W,,
-Defenestrated Phantom,4.0,3.0,common,Creature,Spirit,6,W,0.67,0.5
-"Delney, Streetwise Lookout",2.0,2.0,mythic,Creature,Human,3,W,0.67,0.67
-Doorkeeper Thrull,1.0,2.0,rare,Creature,Thrull,2,W,0.5,1.0
-Due Diligence,,,common,Enchantment,Aura,3,W,,
-Essence of Antiquity,1.0,10.0,uncommon,Creature,Golem,5,W,0.2,2.0
-Forum Familiar,1.0,1.0,uncommon,Creature,Cat,1,W,1.0,1.0
-Griffnaut Tracker,3.0,2.0,common,Creature,Human,4,W,0.75,0.5
-Haazda Vigilante,4.0,4.0,common,Creature,Giant,5,W,0.8,0.8
-Inside Source,1.0,1.0,common,Creature,Human,3,W,0.33,0.33
-Karlov Watchdog,3.0,2.0,uncommon,Creature,Dog,4,W,0.75,0.5
-Krovod Haunch,,,uncommon,Artifact,Food,1,W,,
-Makeshift Binding,,,common,Enchantment,,3,W,,
-Marketwatch Phantom,2.0,2.0,common,Creature,Spirit,2,W,1.0,1.0
-Museum Nightwatch,3.0,2.0,common,Creature,Centaur,4,W,0.75,0.5
-Neighborhood Guardian,2.0,2.0,uncommon,Creature,Unicorn,2,W,1.0,1.0
-No Witnesses,,,rare,Sorcery,,4,W,,
-Not on My Watch,,,uncommon,Instant,,2,W,,
-Novice Inspector,1.0,2.0,common,Creature,Human,1,W,1.0,2.0
-On the Job,,,common,Instant,,4,W,,
-Perimeter Enforcer,1.0,1.0,uncommon,Creature,Human,2,W,0.5,0.5
-Sanctuary Wall,0.0,4.0,uncommon,Creature,Wall,2,W,0.0,2.0
-Seasoned Consultant,1.0,3.0,common,Creature,Human,2,W,0.5,1.5
-Tenth District Hero,2.0,3.0,rare,Creature,Human,2,W,1.0,1.5
-Unyielding Gatekeeper,3.0,2.0,rare,Creature,Elephant,2,W,1.5,1.0
-Wojek Investigator,2.0,4.0,rare,Creature,Angel,3,W,0.67,1.33
-Wrench,,,uncommon,Artifact,Clue,1,W,,
-Agency Outfitter,4.0,3.0,uncommon,Creature,Sphinx,6,U,0.67,0.5
-Behind the Mask,,,common,Instant,,1,U,,
-Benthic Criminologists,4.0,5.0,common,Creature,Merfolk,5,U,0.8,1.0
-Bubble Smuggler,2.0,1.0,common,Creature,Octopus,2,U,1.0,0.5
-Burden of Proof,,,uncommon,Enchantment,Aura,2,U,,
-Candlestick,,,uncommon,Artifact,Clue,1,U,,
-Case of the Filched Falcon,,,uncommon,Enchantment,Case,1,U,,
-Case of the Ransacked Lab,,,rare,Enchantment,Case,3,U,,
-Cold Case Cracker,3.0,3.0,common,Creature,Spirit,4,U,0.75,0.75
-Conspiracy Unraveler,6.0,6.0,mythic,Creature,Sphinx,7,U,0.86,0.86
-Coveted Falcon,1.0,4.0,rare,Creature,Bird,3,U,0.33,1.33
-Crimestopper Sprite,2.0,2.0,common,Creature,Faerie,3,U,0.67,0.67
-Cryptic Coat,,,rare,Artifact,Equipment,3,U,,
-Curious Inquiry,,,uncommon,Enchantment,Aura,1,U,,
-Deduce,,,common,Instant,,2,U,,
-Dramatic Accusation,,,common,Enchantment,Aura,3,U,,
-Eliminate the Impossible,,,uncommon,Instant,,2,U,,
-Exit Specialist,2.0,1.0,uncommon,Creature,Human,2,U,1.0,0.5
-Fae Flight,,,uncommon,Enchantment,Aura,2,U,,
-Forensic Gadgeteer,2.0,3.0,rare,Creature,Vedalken,3,U,0.67,1.0
-Forensic Researcher,1.0,3.0,uncommon,Creature,Merfolk,3,U,0.33,1.0
-Furtive Courier,3.0,2.0,uncommon,Creature,Merfolk,3,U,1.0,0.67
-Hotshot Investigators,4.0,4.0,common,Creature,Vedalken,6,U,0.67,0.67
-Intrude on the Mind,,,mythic,Instant,,5,U,,
-Jaded Analyst,3.0,2.0,common,Creature,Human,2,U,1.5,1.0
-Living Conundrum,2.0,5.0,uncommon,Creature,Elemental,5,U,0.4,1.0
-Lost in the Maze,,,rare,Enchantment,,2,U,,
-Mistway Spy,1.0,1.0,uncommon,Creature,Merfolk,1,U,1.0,1.0
-Out Cold,,,common,Instant,,4,U,,
-Proft's Eidetic Memory,,,rare,Enchantment,,2,U,,
-Projektor Inspector,3.0,2.0,common,Creature,Human,3,U,1.0,0.67
-Reasonable Doubt,,,common,Instant,,2,U,,
-Reenact the Crime,,,rare,Instant,,4,U,,
-Steamcore Scholar,2.0,2.0,rare,Creature,Weird,3,U,0.67,0.67
-Sudden Setback,,,uncommon,Instant,,4,U,,
-Surveillance Monitor,3.0,3.0,uncommon,Creature,Vedalken,4,U,0.75,0.75
-Unauthorized Exit,,,common,Instant,,2,U,,
-Agency Coroner,3.0,6.0,common,Creature,Ogre,5,B,0.6,1.2
-Alley Assailant,3.0,3.0,common,Creature,Vampire,3,B,1.0,1.0
-Barbed Servitor,1.0,1.0,rare,Creature,Construct,4,B,0.25,0.25
-Basilica Stalker,3.0,4.0,common,Creature,Vampire,6,B,0.5,0.67
-Case of the Gorgon's Kiss,,,uncommon,Enchantment,Case,1,B,,
-Case of the Stashed Skeleton,,,rare,Enchantment,Case,2,B,,
-Cerebral Confiscation,,,common,Sorcery,,3,B,,
-Clandestine Meddler,3.0,2.0,uncommon,Creature,Vampire,3,B,1.0,0.67
-Deadly Cover-Up,,,rare,Sorcery,,5,B,,
-Extract a Confession,,,common,Sorcery,,2,B,,
-Festerleech,1.0,1.0,uncommon,Creature,Zombie,1,B,1.0,1.0
-Homicide Investigator,2.0,2.0,rare,Creature,Human,2,B,1.0,1.0
-Hunted Bonebrute,6.0,2.0,rare,Creature,Skeleton,3,B,2.0,0.67
-Illicit Masquerade,,,rare,Enchantment,,4,B,,
-It Doesn't Add Up,,,uncommon,Instant,,5,B,,
-Lead Pipe,,,uncommon,Artifact,Clue,1,B,,
-Leering Onlooker,1.0,3.0,uncommon,Creature,Vampire,2,B,0.5,1.5
-Long Goodbye,,,uncommon,Instant,,2,B,,
-Macabre Reconstruction,,,common,Sorcery,,4,B,,
-"Massacre Girl, Known Killer",4.0,4.0,mythic,Creature,Human,4,B,1.0,1.0
-Murder,,,common,Instant,,3,B,,
-Nightdrinker Moroii,4.0,2.0,uncommon,Creature,Vampire,4,B,1.0,0.5
-Outrageous Robbery,,,rare,Instant,,2,B,,
-Persuasive Interrogators,5.0,6.0,uncommon,Creature,Gorgon,6,B,0.83,1.0
-Polygraph Orb,,,uncommon,Artifact,,5,B,,
-Presumed Dead,,,uncommon,Instant,,2,B,,
-Repeat Offender,2.0,1.0,common,Creature,Human,2,B,1.0,0.5
-Rot Farm Mortipede,3.0,4.0,common,Creature,Insect,4,B,0.75,1.0
-Slice from the Shadows,,,common,Instant,,1,B,,
-Slimy Dualleech,2.0,4.0,uncommon,Creature,Leech,4,B,0.5,1.0
-Snarling Gorehound,1.0,1.0,common,Creature,Dog,1,B,1.0,1.0
-Soul Enervation,,,uncommon,Enchantment,,4,B,,
-Toxin Analysis,,,common,Instant,,1,B,,
-Undercity Eliminator,3.0,3.0,uncommon,Creature,Gorgon,5,B,0.6,0.6
-Unscrupulous Agent,1.0,1.0,common,Creature,Elf,2,B,0.5,0.5
-Vein Ripper,6.0,5.0,mythic,Creature,Vampire,6,B,1.0,0.83
-Anzrag's Rampage,,,rare,Sorcery,,5,R,,
-Bolrac-Clan Basher,3.0,2.0,uncommon,Creature,Cyclops,6,R,0.5,0.33
-Case of the Burning Masks,,,uncommon,Enchantment,Case,3,R,,
-Case of the Crimson Pulse,,,rare,Enchantment,Case,3,R,,
-Caught Red-Handed,,,uncommon,Instant,,5,R,,
-The Chase Is On,,,common,Instant,,3,R,,
-Concealed Weapon,,,uncommon,Artifact,Equipment,2,R,,
-Connecting the Dots,,,rare,Enchantment,,2,R,,
-Convenient Target,,,uncommon,Enchantment,Aura,1,R,,
-Cornered Crook,5.0,4.0,uncommon,Creature,Lizard,5,R,1.0,0.8
-Crime Novelist,1.0,3.0,uncommon,Creature,Goblin,3,R,0.33,1.0
-Demand Answers,,,common,Instant,,2,R,,
-Expedited Inheritance,,,mythic,Enchantment,,2,R,,
-Expose the Culprit,,,uncommon,Instant,,2,R,,
-Felonious Rage,,,common,Instant,,1,R,,
-Frantic Scapegoat,1.0,1.0,uncommon,Creature,Goat,1,R,1.0,1.0
-Fugitive Codebreaker,2.0,1.0,rare,Creature,Goblin,2,R,1.0,0.5
-Galvanize,,,common,Instant,,2,R,,
-Gearbane Orangutan,2.0,2.0,common,Creature,Ape,3,R,0.67,0.67
-Goblin Maskmaker,1.0,2.0,common,Creature,Goblin,1,R,1.0,2.0
-Harried Dronesmith,2.0,3.0,uncommon,Creature,Human,4,R,0.5,0.75
-Incinerator of the Guilty,6.0,6.0,mythic,Creature,Dragon,6,R,1.0,1.0
-Innocent Bystander,2.0,1.0,common,Creature,Goblin,2,R,1.0,0.5
-Knife,,,uncommon,Artifact,Clue,1,R,,
-"Krenko, Baron of Tin Street",3.0,3.0,rare,Creature,Goblin,3,R,1.0,1.0
-Krenko's Buzzcrusher,4.0,4.0,rare,Creature,Insect,4,R,1.0,1.0
-Lamplight Phoenix,3.0,3.0,rare,Creature,Phoenix,3,R,1.0,1.0
-Offender at Large,5.0,4.0,common,Creature,Giant,5,R,1.0,0.8
-Person of Interest,2.0,2.0,common,Creature,Human,4,R,0.5,0.5
-Pyrotechnic Performer,3.0,2.0,rare,Creature,Lizard,2,R,1.5,1.0
-Reckless Detective,0.0,3.0,uncommon,Creature,Devil,2,R,0.0,1.5
-Red Herring,2.0,2.0,common,Creature,Clue,2,R,1.0,1.0
-Rubblebelt Braggart,5.0,5.0,common,Creature,Lizard,5,R,1.0,1.0
-Shock,,,common,Instant,,1,R,,
-Suspicious Detonation,,,common,Sorcery,,5,R,,
-Torch the Witness,,,uncommon,Sorcery,,1,R,,
-Vengeful Tracker,2.0,2.0,uncommon,Creature,Human,2,R,1.0,1.0
-Aftermath Analyst,1.0,3.0,uncommon,Creature,Elf,2,G,0.5,1.5
-Airtight Alibi,,,common,Enchantment,Aura,3,G,,
-Analyze the Pollen,,,rare,Sorcery,,1,G,,
-Archdruid's Charm,,,rare,Instant,,3,G,,
-Audience with Trostani,,,rare,Sorcery,,3,G,,
-Axebane Ferox,4.0,4.0,rare,Creature,Beast,4,G,1.0,1.0
-Bite Down on Crime,,,common,Sorcery,,4,G,,
-Case of the Locked Hothouse,,,rare,Enchantment,Case,4,G,,
-Case of the Trampled Garden,,,uncommon,Enchantment,Case,3,G,,
-Chalk Outline,,,uncommon,Enchantment,,4,G,,
-Culvert Ambusher,4.0,5.0,uncommon,Creature,Wurm,5,G,0.8,1.0
-Fanatical Strength,,,common,Instant,,2,G,,
-Flourishing Bloom-Kin,0.0,0.0,uncommon,Creature,Plant,2,G,0.0,0.0
-Get a Leg Up,,,uncommon,Instant,,1,G,,
-Glint Weaver,3.0,3.0,uncommon,Creature,Spider,7,G,0.43,0.43
-Greenbelt Radical,4.0,4.0,uncommon,Creature,Centaur,4,G,1.0,1.0
-Hard-Hitting Question,,,uncommon,Sorcery,,1,G,,
-Hedge Whisperer,0.0,3.0,uncommon,Creature,Elf,1,G,0.0,3.0
-Hide in Plain Sight,,,rare,Sorcery,,4,G,,
-A Killer Among Us,,,uncommon,Enchantment,,5,G,,
-Loxodon Eavesdropper,3.0,3.0,common,Creature,Elephant,4,G,0.75,0.75
-Nervous Gardener,2.0,2.0,common,Creature,Dryad,2,G,1.0,1.0
-Pick Your Poison,,,common,Sorcery,,1,G,,
-Pompous Gadabout,4.0,2.0,uncommon,Creature,Human,3,G,1.33,0.67
-The Pride of Hull Clade,2.0,15.0,mythic,Creature,Crocodile,11,G,0.18,1.36
-Rope,,,uncommon,Artifact,Clue,1,G,,
-Rubblebelt Maverick,1.0,1.0,common,Creature,Human,1,G,1.0,1.0
-Sample Collector,2.0,3.0,uncommon,Creature,Troll,3,G,0.67,1.0
-Sharp-Eyed Rookie,2.0,2.0,rare,Creature,Human,2,G,1.0,1.0
-Slime Against Humanity,,,common,Sorcery,,3,G,,
-They Went This Way,,,common,Sorcery,,3,G,,
-Topiary Panther,6.0,5.0,common,Creature,Plant,6,G,1.0,0.83
-Tunnel Tipster,1.0,1.0,common,Creature,Mole,2,G,0.5,0.5
-Undergrowth Recon,,,mythic,Enchantment,,3,G,,
-Vengeful Creeper,5.0,5.0,common,Creature,Plant,5,G,1.0,1.0
-Vitu-Ghazi Inspector,1.0,3.0,common,Creature,Elf,2,G,0.5,1.5
-"Agrus Kos, Spirit of Justice",2.0,4.0,mythic,Creature,Spirit,4,WR,0.5,1.0
-"Alquist Proft, Master Sleuth",3.0,3.0,mythic,Creature,Human,3,WU,1.0,1.0
-"Anzrag, the Quake-Mole",8.0,4.0,mythic,Creature,Mole,4,RG,2.0,1.0
-Assassin's Trophy,,,rare,Instant,,2,BG,,
-"Aurelia, the Law Above",4.0,4.0,rare,Creature,Angel,5,WR,0.8,0.8
-Blood Spatter Analysis,,,rare,Enchantment,,2,BR,,
-Break Out,,,uncommon,Sorcery,,2,RG,,
-Buried in the Garden,,,uncommon,Enchantment,Aura,4,WG,,
-Coerced to Kill,,,uncommon,Enchantment,Aura,5,UB,,
-Crowd-Control Warden,4.0,4.0,common,Creature,Centaur,5,WG,0.8,0.8
-Curious Cadaver,3.0,1.0,uncommon,Creature,Zombie,4,UB,0.75,0.25
-Deadly Complication,,,uncommon,Sorcery,,3,BR,,
-Detective's Satchel,,,uncommon,Artifact,,4,UR,,
-Dog Walker,3.0,1.0,common,Creature,Human,2,WR,1.5,0.5
-Doppelgang,,,rare,Sorcery,,2,UG,,
-Drag the Canal,,,rare,Instant,,2,UB,,
-"Etrata, Deadly Fugitive",1.0,4.0,mythic,Creature,Vampire,3,UB,0.33,1.33
-Evidence Examiner,2.0,2.0,uncommon,Creature,Merfolk,2,UG,1.0,1.0
-"Ezrim, Agency Chief",5.0,5.0,rare,Creature,Archon,5,WU,1.0,1.0
-Faerie Snoop,1.0,4.0,common,Creature,Faerie,3,UB,0.33,1.33
-Gadget Technician,3.0,2.0,common,Creature,Goblin,4,UR,0.75,0.5
-Gleaming Geardrake,1.0,1.0,uncommon,Creature,Drake,2,UR,0.5,0.5
-Granite Witness,3.0,2.0,common,Creature,Gargoyle,4,WU,0.75,0.5
-Ill-Timed Explosion,,,rare,Sorcery,,4,UR,,
-Insidious Roots,,,uncommon,Enchantment,,2,BG,,
-"Izoni, Center of the Web",5.0,4.0,rare,Creature,Elf,6,BG,0.83,0.67
-"Judith, Carnage Connoisseur",3.0,4.0,rare,Creature,Human,5,BR,0.6,0.8
-"Kaya, Spirits' Justice",,,mythic,Planeswalker,Kaya,4,WB,,
-"Kellan, Inquisitive Prodigy // Tail the Suspect",3.0,4.0,rare,Creature,Human,4,UG,0.75,1.0
-Kraul Whipcracker,3.0,2.0,uncommon,Creature,Insect,2,BG,1.5,1.0
-"Kylox, Visionary Inventor",4.0,4.0,rare,Creature,Lizard,7,UR,0.57,0.57
-Kylox's Voltstrider,4.0,4.0,mythic,Artifact,Vehicle,3,UR,1.33,1.33
-"Lazav, Wearer of Faces",2.0,3.0,rare,Creature,Shapeshifter,2,UB,1.0,1.5
-Leyline of the Guildpact,,,rare,Enchantment,,4,WUBRG,,
-Lightning Helix,,,uncommon,Instant,,2,WR,,
-Meddling Youths,4.0,5.0,uncommon,Creature,Human,5,WR,0.8,1.0
-"Niv-Mizzet, Guildpact",6.0,6.0,rare,Creature,Dragon,5,WUBRG,1.2,1.2
-No More Lies,,,uncommon,Instant,,2,WU,,
-Officious Interrogation,,,rare,Instant,,2,WU,,
-Private Eye,3.0,3.0,uncommon,Creature,Homunculus,3,WU,1.0,1.0
-"Rakdos, Patron of Chaos",6.0,6.0,mythic,Creature,Demon,6,BR,1.0,1.0
-Rakish Scoundrel,3.0,3.0,common,Creature,Elf,4,BG,0.75,0.75
-Relive the Past,,,rare,Sorcery,,7,WG,,
-Repulsive Mutation,,,uncommon,Instant,,2,UG,,
-Riftburst Hellion,6.0,7.0,common,Creature,Hellion,7,RG,0.86,1.0
-Rune-Brand Juggler,2.0,2.0,uncommon,Creature,Human,2,BR,1.0,1.0
-Sanguine Savior,2.0,1.0,common,Creature,Vampire,3,WB,0.67,0.33
-Shady Informant,4.0,2.0,common,Creature,Ogre,5,BR,0.8,0.4
-Soul Search,,,uncommon,Sorcery,,2,WB,,
-Sumala Sentry,1.0,3.0,uncommon,Creature,Elf,2,WG,0.5,1.5
-"Teysa, Opulent Oligarch",2.0,3.0,rare,Creature,Human,3,WB,0.67,1.0
-Tin Street Gossip,4.0,4.0,uncommon,Creature,Lizard,4,RG,1.0,1.0
-"Tolsimir, Midnight's Light",3.0,2.0,rare,Creature,Elf,5,WG,0.6,0.4
-Treacherous Greed,,,rare,Instant,,3,WB,,
-"Trostani, Three Whispers",4.0,4.0,mythic,Creature,Dryad,3,WG,1.33,1.33
-Undercover Crocodelf,5.0,5.0,common,Creature,Elf,6,UG,0.83,0.83
-Urgent Necropsy,,,mythic,Instant,,4,BG,,
-"Vannifar, Evolved Enigma",3.0,4.0,mythic,Creature,Elf,4,UG,0.75,1.0
-Warleader's Call,,,rare,Enchantment,,3,WR,,
-Wispdrinker Vampire,2.0,4.0,uncommon,Creature,Vampire,4,WB,0.5,1.0
-Worldsoul's Rage,,,rare,Sorcery,,2,RG,,
-"Yarus, Roar of the Old Gods",4.0,4.0,rare,Creature,Centaur,4,RG,1.0,1.0
-Cease // Desist,,,uncommon,Instant,,2,BG,,
-Flotsam // Jetsam,,,uncommon,Instant,,2,UG,,
-Fuss // Bother,,,uncommon,Instant,,3,WR,,
-Hustle // Bustle,,,uncommon,Instant,,1,UR,,
-Push // Pull,,,uncommon,Sorcery,,2,WB,,
-Cryptex,,,rare,Artifact,,2,colorless,,
-Gravestone Strider,1.0,3.0,common,Creature,Golem,2,colorless,0.5,1.5
-Lumbering Laundry,4.0,5.0,uncommon,Creature,Golem,5,colorless,0.8,1.0
-Magnetic Snuffler,4.0,4.0,uncommon,Creature,Construct,5,colorless,0.8,0.8
-Magnifying Glass,,,common,Artifact,,3,colorless,,
-Sanitation Automaton,2.0,1.0,common,Creature,Construct,2,colorless,1.0,0.5
-Thinking Cap,,,common,Artifact,Equipment,1,colorless,,
-Branch of Vitu-Ghazi,,,uncommon,Land,,0,colorless,,
-Commercial District,,,rare,Land,Mountain,0,colorless,,
-Elegant Parlor,,,rare,Land,Mountain,0,colorless,,
-Escape Tunnel,,,common,Land,,0,colorless,,
-Hedge Maze,,,rare,Land,Forest,0,colorless,,
-Lush Portico,,,rare,Land,Forest,0,colorless,,
-Meticulous Archive,,,rare,Land,Plains,0,colorless,,
-Public Thoroughfare,,,common,Land,,0,colorless,,
-Raucous Theater,,,rare,Land,Swamp,0,colorless,,
-Scene of the Crime,,,uncommon,Artifact,Clue,0,colorless,,
-Shadowy Backstreet,,,rare,Land,Plains,0,colorless,,
-Thundering Falls,,,rare,Land,Island,0,colorless,,
-Undercity Sewers,,,rare,Land,Island,0,colorless,,
-Underground Mortuary,,,rare,Land,Swamp,0,colorless,,
-"Melek, Reforged Researcher",,,mythic,Creature,Weird,5,UR,,
-"Tomik, Wielder of Law",2.0,4.0,mythic,Creature,Human,3,WB,0.67,1.33
-"Voja, Jaws of the Conclave",5.0,5.0,mythic,Creature,Wolf,5,WRG,1.0,1.0
-"Beza, the Bounding Spring",4.0,5.0,mythic,Creature,Elemental,4,W,1.0,1.25
-Brave-Kin Duo,1.0,1.0,common,Creature,Rabbit,1,W,1.0,1.0
-Brightblade Stoat,2.0,2.0,uncommon,Creature,Weasel,2,W,1.0,1.0
-Builder's Talent,,,uncommon,Enchantment,Class,2,W,,
-Caretaker's Talent,,,rare,Enchantment,Class,3,W,,
-Carrot Cake,,,common,Artifact,Food,2,W,,
-Crumb and Get It,,,common,Instant,,1,W,,
-Dawn's Truce,,,rare,Instant,,2,W,,
-Dewdrop Cure,,,uncommon,Sorcery,,3,W,,
-Driftgloom Coyote,3.0,4.0,uncommon,Creature,Elemental,5,W,0.6,0.8
-Essence Channeler,2.0,1.0,rare,Creature,Bat,2,W,1.0,0.5
-Feather of Flight,,,uncommon,Enchantment,Aura,2,W,,
-Flowerfoot Swordmaster,1.0,2.0,uncommon,Creature,Mouse,1,W,1.0,2.0
-Harvestrite Host,3.0,3.0,uncommon,Creature,Rabbit,3,W,1.0,1.0
-Hop to It,,,uncommon,Sorcery,,3,W,,
-Intrepid Rabbit,3.0,2.0,common,Creature,Rabbit,3,W,1.0,0.67
-Jackdaw Savior,3.0,1.0,rare,Creature,Bird,3,W,1.0,0.33
-Jolly Gerbils,2.0,3.0,uncommon,Creature,Hamster,2,W,1.0,1.5
-Lifecreed Duo,1.0,2.0,common,Creature,Bat,2,W,0.5,1.0
-Mabel's Mettle,,,uncommon,Instant,,2,W,,
-Mouse Trapper,3.0,2.0,uncommon,Creature,Mouse,3,W,1.0,0.67
-Nettle Guard,3.0,1.0,common,Creature,Mouse,2,W,1.5,0.5
-Parting Gust,,,uncommon,Instant,,2,W,,
-Pileated Provisioner,3.0,4.0,common,Creature,Bird,5,W,0.6,0.8
-Rabbit Response,,,common,Instant,,4,W,,
-Repel Calamity,,,uncommon,Instant,,2,W,,
-Salvation Swan,3.0,3.0,rare,Creature,Bird,4,W,0.75,0.75
-Season of the Burrow,,,mythic,Sorcery,,5,W,,
-Seasoned Warrenguard,1.0,2.0,uncommon,Creature,Rabbit,1,W,1.0,2.0
-Shrike Force,1.0,3.0,uncommon,Creature,Bird,3,W,0.33,1.0
-Sonar Strike,,,common,Instant,,2,W,,
-Star Charter,3.0,1.0,uncommon,Creature,Bat,4,W,0.75,0.25
-Starfall Invocation,,,rare,Sorcery,,5,W,,
-Thistledown Players,3.0,3.0,common,Creature,Mouse,3,W,1.0,1.0
-Valley Questcaller,2.0,3.0,rare,Creature,Rabbit,2,W,1.0,1.5
-Warren Elder,2.0,2.0,common,Creature,Rabbit,2,W,1.0,1.0
-Warren Warleader,4.0,4.0,mythic,Creature,Rabbit,4,W,1.0,1.0
-Wax-Wane Witness,2.0,4.0,common,Creature,Bat,4,W,0.5,1.0
-Whiskervale Forerunner,3.0,4.0,rare,Creature,Mouse,4,W,0.75,1.0
-Azure Beastbinder,1.0,3.0,rare,Creature,Rat,2,U,0.5,1.5
-Bellowing Crier,2.0,1.0,common,Creature,Frog,2,U,1.0,0.5
-Calamitous Tide,,,uncommon,Sorcery,,6,U,,
-Daring Waverider,4.0,4.0,uncommon,Creature,Otter,6,U,0.67,0.67
-Dazzling Denial,,,common,Instant,,2,U,,
-Dire Downdraft,,,common,Instant,,4,U,,
-Dour Port-Mage,1.0,3.0,rare,Creature,Frog,2,U,0.5,1.5
-Eddymurk Crab,5.0,5.0,uncommon,Creature,Elemental,7,U,0.71,0.71
-"Eluge, the Shoreless Sea",,,mythic,Creature,Elemental,4,U,,
-Finch Formation,2.0,2.0,common,Creature,Bird,3,U,0.67,0.67
-Gossip's Talent,,,uncommon,Enchantment,Class,2,U,,
-Into the Flood Maw,,,uncommon,Instant,,1,U,,
-Kitnap,,,rare,Enchantment,Aura,4,U,,
-"Kitsa, Otterball Elite",1.0,3.0,mythic,Creature,Otter,2,U,0.5,1.5
-Knightfisher,4.0,5.0,uncommon,Creature,Bird,5,U,0.8,1.0
-Long River Lurker,2.0,3.0,uncommon,Creature,Frog,3,U,0.67,1.0
-Long River's Pull,,,uncommon,Instant,,2,U,,
-Mind Spiral,,,common,Sorcery,,5,U,,
-Mindwhisker,3.0,2.0,uncommon,Creature,Rat,3,U,1.0,0.67
-Mockingbird,1.0,1.0,rare,Creature,Bird,1,U,1.0,1.0
-Nightwhorl Hermit,1.0,4.0,common,Creature,Rat,3,U,0.33,1.33
-Otterball Antics,,,uncommon,Sorcery,,2,U,,
-Pearl of Wisdom,,,common,Sorcery,,3,U,,
-Plumecreed Escort,2.0,1.0,uncommon,Creature,Bird,2,U,1.0,0.5
-Portent of Calamity,,,rare,Sorcery,,1,U,,
-Season of Weaving,,,mythic,Sorcery,,6,U,,
-Shore Up,,,common,Instant,,1,U,,
-Shoreline Looter,1.0,1.0,uncommon,Creature,Rat,2,U,0.5,0.5
-Skyskipper Duo,3.0,3.0,common,Creature,Bird,5,U,0.6,0.6
-Spellgyre,,,uncommon,Instant,,4,U,,
-Splash Lasher,3.0,3.0,uncommon,Creature,Frog,4,U,0.75,0.75
-Splash Portal,,,uncommon,Sorcery,,1,U,,
-Stormchaser's Talent,,,rare,Enchantment,Class,1,U,,
-Sugar Coat,,,uncommon,Enchantment,Aura,3,U,,
-Thought Shucker,1.0,3.0,common,Creature,Rat,2,U,0.5,1.5
-Thundertrap Trainer,1.0,2.0,rare,Creature,Otter,2,U,0.5,1.0
-Valley Floodcaller,2.0,2.0,rare,Creature,Otter,3,U,0.67,0.67
-Waterspout Warden,3.0,2.0,common,Creature,Frog,3,U,1.0,0.67
-Wishing Well,,,rare,Artifact,,4,U,,
-Agate-Blade Assassin,1.0,3.0,common,Creature,Lizard,2,B,0.5,1.5
-Bandit's Talent,,,uncommon,Enchantment,Class,2,B,,
-Bonebind Orator,2.0,2.0,common,Creature,Squirrel,2,B,1.0,1.0
-Bonecache Overseer,1.0,1.0,uncommon,Creature,Squirrel,1,B,1.0,1.0
-Coiling Rebirth,,,rare,Sorcery,,5,B,,
-Consumed by Greed,,,uncommon,Instant,,3,B,,
-Cruelclaw's Heist,,,rare,Sorcery,,2,B,,
-Daggerfang Duo,3.0,2.0,common,Creature,Rat,3,B,1.0,0.67
-Darkstar Augur,2.0,3.0,rare,Creature,Bat,3,B,0.67,1.0
-Diresight,,,common,Sorcery,,3,B,,
-Downwind Ambusher,4.0,2.0,uncommon,Creature,Skunk,4,B,1.0,0.5
-Early Winter,,,common,Instant,,5,B,,
-Feed the Cycle,,,uncommon,Instant,,2,B,,
-Fell,,,uncommon,Sorcery,,2,B,,
-Glidedive Duo,3.0,3.0,common,Creature,Bat,5,B,0.6,0.6
-Hazel's Nocturne,,,uncommon,Instant,,4,B,,
-Huskburster Swarm,6.0,6.0,uncommon,Creature,Elemental,8,B,0.75,0.75
-Iridescent Vinelasher,1.0,2.0,rare,Creature,Lizard,1,B,1.0,2.0
-"Maha, Its Feathers Night",6.0,5.0,mythic,Creature,Elemental,5,B,1.2,1.0
-Moonstone Harbinger,1.0,3.0,uncommon,Creature,Bat,3,B,0.33,1.0
-Nocturnal Hunger,,,common,Instant,,3,B,,
-Osteomancer Adept,2.0,2.0,rare,Creature,Squirrel,2,B,1.0,1.0
-Persistent Marshstalker,3.0,1.0,uncommon,Creature,Rat,2,B,1.5,0.5
-Psychic Whorl,,,common,Sorcery,,3,B,,
-Ravine Raider,1.0,1.0,common,Creature,Lizard,1,B,1.0,1.0
-Rottenmouth Viper,6.0,6.0,mythic,Creature,Elemental,6,B,1.0,1.0
-Ruthless Negotiation,,,uncommon,Sorcery,,1,B,,
-Savor,,,common,Instant,,2,B,,
-Scales of Shale,,,common,Instant,,3,B,,
-Scavenger's Talent,,,rare,Enchantment,Class,1,B,,
-Season of Loss,,,mythic,Sorcery,,5,B,,
-Sinister Monolith,,,uncommon,Artifact,,4,B,,
-Stargaze,,,uncommon,Sorcery,,2,B,,
-Starlit Soothsayer,2.0,2.0,common,Creature,Bat,3,B,0.67,0.67
-Starscape Cleric,2.0,1.0,uncommon,Creature,Bat,2,B,1.0,0.5
-Thornplate Intimidator,4.0,3.0,common,Creature,Rat,4,B,1.0,0.75
-Thought-Stalker Warlock,2.0,2.0,uncommon,Creature,Lizard,3,B,0.67,0.67
-Valley Rotcaller,1.0,3.0,rare,Creature,Squirrel,2,B,0.5,1.5
-"Wick, the Whorled Mind",2.0,4.0,rare,Creature,Rat,4,B,0.5,1.0
-Wick's Patrol,5.0,3.0,uncommon,Creature,Rat,6,B,0.83,0.5
-Agate Assault,,,common,Sorcery,,3,R,,
-Alania's Pathmaker,4.0,2.0,common,Creature,Otter,4,R,1.0,0.5
-Artist's Talent,,,rare,Enchantment,Class,2,R,,
-Blacksmith's Talent,,,uncommon,Enchantment,Class,1,R,,
-Blooming Blast,,,uncommon,Instant,,2,R,,
-Brambleguard Captain,2.0,3.0,uncommon,Creature,Mouse,4,R,0.5,0.75
-Brazen Collector,2.0,1.0,uncommon,Creature,Raccoon,2,R,1.0,0.5
-Byway Barterer,3.0,3.0,rare,Creature,Raccoon,3,R,1.0,1.0
-Conduct Electricity,,,common,Instant,,5,R,,
-Coruscation Mage,2.0,2.0,uncommon,Creature,Otter,2,R,1.0,1.0
-"Dragonhawk, Fate's Tempest",5.0,5.0,mythic,Creature,Bird,5,R,1.0,1.0
-Emberheart Challenger,2.0,2.0,rare,Creature,Mouse,2,R,1.0,1.0
-Festival of Embers,,,rare,Enchantment,,5,R,,
-Flamecache Gecko,2.0,2.0,uncommon,Creature,Lizard,2,R,1.0,1.0
-Frilled Sparkshooter,3.0,3.0,common,Creature,Lizard,4,R,0.75,0.75
-Harnesser of Storms,1.0,4.0,uncommon,Creature,Otter,3,R,0.33,1.33
-Heartfire Hero,1.0,1.0,uncommon,Creature,Mouse,1,R,1.0,1.0
-A-Heartfire Hero,0.0,1.0,uncommon,Creature,Mouse,1,R,0.0,1.0
-Hearthborn Battler,2.0,3.0,rare,Creature,Lizard,3,R,0.67,1.0
-Hired Claw,1.0,2.0,rare,Creature,Lizard,1,R,1.0,2.0
-Hoarder's Overflow,,,uncommon,Enchantment,,2,R,,
-Kindlespark Duo,1.0,3.0,common,Creature,Lizard,3,R,0.33,1.0
-Manifold Mouse,1.0,2.0,rare,Creature,Mouse,2,R,0.5,1.0
-Might of the Meek,,,common,Instant,,1,R,,
-Playful Shove,,,uncommon,Sorcery,,2,R,,
-Quaketusk Boar,5.0,5.0,uncommon,Creature,Elemental,5,R,1.0,1.0
-Rabid Gnaw,,,uncommon,Instant,,2,R,,
-Raccoon Rallier,2.0,2.0,common,Creature,Raccoon,2,R,1.0,1.0
-Reptilian Recruiter,4.0,2.0,uncommon,Creature,Lizard,5,R,0.8,0.4
-Roughshod Duo,3.0,2.0,common,Creature,Mouse,3,R,1.0,0.67
-Sazacap's Brew,,,common,Instant,,2,R,,
-Season of the Bold,,,mythic,Sorcery,,5,R,,
-Steampath Charger,2.0,1.0,common,Creature,Lizard,2,R,1.0,0.5
-Stormsplitter,1.0,4.0,mythic,Creature,Otter,4,R,0.25,1.0
-Sunspine Lynx,5.0,4.0,rare,Creature,Elemental,4,R,1.25,1.0
-Take Out the Trash,,,common,Instant,,2,R,,
-Teapot Slinger,3.0,4.0,uncommon,Creature,Raccoon,4,R,0.75,1.0
-Valley Flamecaller,3.0,3.0,rare,Creature,Lizard,3,R,1.0,1.0
-Valley Rally,,,uncommon,Instant,,3,R,,
-War Squeak,,,common,Enchantment,Aura,1,R,,
-Whiskerquill Scribe,2.0,2.0,common,Creature,Mouse,2,R,1.0,1.0
-Wildfire Howl,,,uncommon,Sorcery,,3,R,,
-Bakersbane Duo,2.0,2.0,common,Creature,Squirrel,2,G,1.0,1.0
-Bark-Knuckle Boxer,3.0,2.0,uncommon,Creature,Raccoon,2,G,1.5,1.0
-Brambleguard Veteran,3.0,4.0,uncommon,Creature,Raccoon,3,G,1.0,1.33
-Bushy Bodyguard,2.0,1.0,uncommon,Creature,Squirrel,2,G,1.0,0.5
-Cache Grab,,,common,Instant,,2,G,,
-Clifftop Lookout,1.0,2.0,uncommon,Creature,Frog,3,G,0.33,0.67
-Curious Forager,3.0,2.0,uncommon,Creature,Squirrel,3,G,1.0,0.67
-Druid of the Spade,2.0,3.0,common,Creature,Rabbit,3,G,0.67,1.0
-Fecund Greenshell,4.0,6.0,rare,Creature,Elemental,5,G,0.8,1.2
-For the Common Good,,,rare,Sorcery,,1,G,,
-Galewind Moose,6.0,6.0,uncommon,Creature,Elemental,6,G,1.0,1.0
-Hazardroot Herbalist,1.0,4.0,uncommon,Creature,Rabbit,3,G,0.33,1.33
-Heaped Harvest,,,common,Artifact,Food,3,G,,
-High Stride,,,common,Instant,,1,G,,
-Hivespine Wolverine,5.0,4.0,uncommon,Creature,Elemental,5,G,1.0,0.8
-Honored Dreyleader,1.0,1.0,uncommon,Creature,Squirrel,3,G,0.33,0.33
-Hunter's Talent,,,uncommon,Enchantment,Class,2,G,,
-Innkeeper's Talent,,,rare,Enchantment,Class,2,G,,
-Keen-Eyed Curator,3.0,3.0,rare,Creature,Raccoon,2,G,1.5,1.5
-Longstalk Brawl,,,common,Sorcery,,1,G,,
-"Lumra, Bellow of the Woods",,,mythic,Creature,Elemental,6,G,,
-Mistbreath Elder,2.0,2.0,rare,Creature,Frog,1,G,2.0,2.0
-Overprotect,,,uncommon,Instant,,2,G,,
-Pawpatch Formation,,,uncommon,Instant,,2,G,,
-Pawpatch Recruit,2.0,1.0,rare,Creature,Rabbit,1,G,2.0,1.0
-Peerless Recycling,,,uncommon,Instant,,2,G,,
-Polliwallop,,,common,Instant,,4,G,,
-Rust-Shield Rampager,4.0,4.0,common,Creature,Raccoon,4,G,1.0,1.0
-Scrapshooter,4.0,4.0,rare,Creature,Raccoon,3,G,1.33,1.33
-Season of Gathering,,,mythic,Sorcery,,6,G,,
-Stickytongue Sentinel,3.0,3.0,common,Creature,Frog,3,G,1.0,1.0
-Stocking the Pantry,,,uncommon,Enchantment,,1,G,,
-Sunshower Druid,0.0,2.0,common,Creature,Frog,1,G,0.0,2.0
-Tender Wildguide,2.0,2.0,rare,Creature,Possum,2,G,1.0,1.0
-Thornvault Forager,2.0,2.0,rare,Creature,Squirrel,2,G,1.0,1.0
-Three Tree Rootweaver,1.0,3.0,common,Creature,Mole,2,G,0.5,1.5
-Three Tree Scribe,2.0,3.0,uncommon,Creature,Frog,2,G,1.0,1.5
-Treeguard Duo,3.0,4.0,common,Creature,Frog,4,G,0.75,1.0
-Treetop Sentries,2.0,4.0,common,Creature,Squirrel,4,G,0.5,1.0
-Valley Mightcaller,1.0,1.0,rare,Creature,Frog,1,G,1.0,1.0
-Wear Down,,,uncommon,Sorcery,,2,G,,
-"Alania, Divergent Storm",3.0,5.0,rare,Creature,Otter,5,UR,0.6,1.0
-"Baylen, the Haymaker",4.0,3.0,rare,Creature,Rabbit,3,WRG,1.33,1.0
-Burrowguard Mentor,,,uncommon,Creature,Rabbit,2,WG,,
-"Camellia, the Seedmiser",3.0,3.0,rare,Creature,Squirrel,3,BG,1.0,1.0
-Cindering Cutthroat,3.0,2.0,common,Creature,Lizard,3,BR,1.0,0.67
-"Clement, the Worrywort",3.0,3.0,rare,Creature,Frog,3,UG,1.0,1.0
-Corpseberry Cultivator,2.0,3.0,common,Creature,Squirrel,3,BG,0.67,1.0
-Dreamdew Entrancer,3.0,4.0,rare,Creature,Frog,4,UG,0.75,1.0
-"Finneas, Ace Archer",2.0,2.0,rare,Creature,Rabbit,2,WG,1.0,1.0
-Fireglass Mentor,2.0,1.0,uncommon,Creature,Lizard,2,BR,1.0,0.5
-"Gev, Scaled Scorch",3.0,2.0,rare,Creature,Lizard,2,BR,1.5,1.0
-"Glarb, Calamity's Augur",2.0,4.0,mythic,Creature,Frog,3,UBG,0.67,1.33
-Head of the Homestead,3.0,2.0,common,Creature,Rabbit,5,WG,0.6,0.4
-"Helga, Skittish Seer",1.0,3.0,mythic,Creature,Frog,3,WUG,0.33,1.0
-"Hugs, Grisly Guardian",5.0,5.0,mythic,Creature,Badger,4,RG,1.25,1.25
-The Infamous Cruelclaw,3.0,3.0,mythic,Creature,Weasel,3,BR,1.0,1.0
-Junkblade Bruiser,4.0,5.0,common,Creature,Raccoon,5,RG,0.8,1.0
-"Kastral, the Windcrested",4.0,5.0,rare,Creature,Bird,5,WU,0.8,1.0
-Lilysplash Mentor,4.0,4.0,uncommon,Creature,Frog,4,UG,1.0,1.0
-Lunar Convocation,,,rare,Enchantment,,2,WB,,
-"Mabel, Heir to Cragflame",3.0,3.0,rare,Creature,Mouse,3,WR,1.0,1.0
-Mind Drill Assailant,2.0,5.0,common,Creature,Rat,4,UB,0.5,1.25
-Moonrise Cleric,2.0,3.0,common,Creature,Bat,3,WB,0.67,1.0
-"Muerra, Trash Tactician",2.0,4.0,rare,Creature,Raccoon,3,RG,0.67,1.33
-Plumecreed Mentor,2.0,3.0,uncommon,Creature,Bird,3,WU,0.67,1.0
-Pond Prophet,1.0,1.0,common,Creature,Frog,2,UG,0.5,0.5
-"Ral, Crackling Wit",,,mythic,Planeswalker,Ral,4,UR,,
-Seedglaive Mentor,3.0,2.0,uncommon,Creature,Mouse,3,WR,1.0,0.67
-Seedpod Squire,3.0,3.0,common,Creature,Bird,4,WU,0.75,0.75
-Starseer Mentor,3.0,5.0,uncommon,Creature,Bat,5,WB,0.6,1.0
-Stormcatch Mentor,1.0,1.0,uncommon,Creature,Otter,2,UR,0.5,0.5
-Tempest Angler,2.0,2.0,common,Creature,Otter,3,UR,0.67,0.67
-Tidecaller Mentor,3.0,3.0,uncommon,Creature,Rat,3,UB,1.0,1.0
-Veteran Guardmouse,3.0,4.0,common,Creature,Mouse,4,WR,0.75,1.0
-Vinereap Mentor,3.0,2.0,uncommon,Creature,Squirrel,2,BG,1.5,1.0
-"Vren, the Relentless",3.0,4.0,rare,Creature,Rat,4,UB,0.75,1.0
-Wandertale Mentor,2.0,2.0,uncommon,Creature,Raccoon,2,RG,1.0,1.0
-"Ygra, Eater of All",6.0,6.0,mythic,Creature,Elemental,5,BG,1.2,1.2
-"Zoraline, Cosmos Caller",3.0,3.0,rare,Creature,Bat,3,WB,1.0,1.0
-Barkform Harvester,2.0,3.0,common,Creature,Shapeshifter,3,colorless,0.67,1.0
-Bumbleflower's Sharepot,,,common,Artifact,,2,colorless,,
-Fountainport Bell,,,common,Artifact,,1,colorless,,
-Heirloom Epic,,,uncommon,Artifact,,1,colorless,,
-Patchwork Banner,,,uncommon,Artifact,,3,colorless,,
-Short Bow,,,uncommon,Artifact,Equipment,2,colorless,,
-Starforged Sword,,,uncommon,Artifact,Equipment,4,colorless,,
-Tangle Tumbler,6.0,6.0,uncommon,Artifact,Vehicle,3,colorless,2.0,2.0
-Fabled Passage,,,rare,Land,,0,colorless,,
-Fountainport,,,rare,Land,,0,colorless,,
-Hidden Grotto,,,common,Land,,0,colorless,,
-Lilypad Village,,,uncommon,Land,,0,colorless,,
-Lupinflower Village,,,uncommon,Land,,0,colorless,,
-Mudflat Village,,,uncommon,Land,,0,colorless,,
-Oakhollow Village,,,uncommon,Land,,0,colorless,,
-Rockface Village,,,uncommon,Land,,0,colorless,,
-Three Tree City,,,rare,Land,,0,colorless,,
-"Bria, Riptide Rogue",3.0,3.0,mythic,Creature,Otter,4,UR,0.75,0.75
-"Byrke, Long Ear of the Law",4.0,4.0,mythic,Creature,Rabbit,6,WG,0.67,0.67
-Serra Redeemer,2.0,4.0,rare,Creature,Angel,5,W,0.4,0.8
-Charmed Sleep,,,common,Enchantment,Aura,3,U,,
-Mind Spring,,,rare,Sorcery,,2,U,,
-Thieving Otter,2.0,2.0,common,Creature,Otter,3,U,0.67,0.67
-Flame Lash,,,common,Instant,,4,R,,
-Colossification,,,rare,Enchantment,Aura,7,G,,
-Rabid Bite,,,common,Sorcery,,2,G,,
-Sword of Vengeance,,,rare,Artifact,Equipment,3,colorless,,
-Acrobatic Cheerleader,2.0,2.0,common,Creature,Human,2,W,1.0,1.0
-Cult Healer,3.0,3.0,common,Creature,Human,3,W,1.0,1.0
-Dazzling Theater // Prop Room,,,rare,Enchantment,Room,4,W,,
-Dollmaker's Shop // Porcelain Gallery,,,mythic,Enchantment,Room,2,W,,
-Emerge from the Cocoon,,,common,Sorcery,,5,W,,
-Enduring Innocence,2.0,1.0,rare,Creature,Sheep,3,W,0.67,0.33
-Ethereal Armor,,,uncommon,Enchantment,Aura,1,W,,
-Exorcise,,,uncommon,Sorcery,,2,W,,
-Fear of Abduction,5.0,5.0,uncommon,Creature,Nightmare,6,W,0.83,0.83
-Fear of Immobility,4.0,4.0,common,Creature,Nightmare,5,W,0.8,0.8
-Fear of Surveillance,2.0,2.0,common,Creature,Nightmare,2,W,1.0,1.0
-Friendly Ghost,2.0,4.0,common,Creature,Spirit,4,W,0.5,1.0
-Ghostly Dancers,2.0,5.0,rare,Creature,Spirit,5,W,0.4,1.0
-Glimmer Seeker,3.0,3.0,uncommon,Creature,Human,3,W,1.0,1.0
-Grand Entryway // Elegant Rotunda,,,common,Enchantment,Room,2,W,,
-Hardened Escort,2.0,4.0,common,Creature,Human,3,W,0.67,1.33
-Jump Scare,,,common,Instant,,1,W,,
-Leyline of Hope,,,rare,Enchantment,,4,W,,
-Lionheart Glimmer,2.0,5.0,uncommon,Creature,Cat,5,W,0.4,1.0
-Living Phone,2.0,1.0,common,Creature,Toy,3,W,0.67,0.33
-Optimistic Scavenger,1.0,1.0,uncommon,Creature,Human,1,W,1.0,1.0
-Orphans of the Wheat,2.0,1.0,uncommon,Creature,Human,2,W,1.0,0.5
-Overlord of the Mistmoors,6.0,6.0,mythic,Creature,Avatar,7,W,0.86,0.86
-Patched Plaything,4.0,3.0,uncommon,Creature,Toy,3,W,1.33,1.0
-Possessed Goat,1.0,1.0,common,Creature,Goat,1,W,1.0,1.0
-Reluctant Role Model,2.0,2.0,rare,Creature,Human,2,W,1.0,1.0
-Savior of the Small,3.0,4.0,uncommon,Creature,Kor,4,W,0.75,1.0
-Seized from Slumber,,,common,Instant,,5,W,,
-Shardmage's Rescue,,,uncommon,Enchantment,Aura,1,W,,
-Sheltered by Ghosts,,,uncommon,Enchantment,Aura,2,W,,
-Shepherding Spirits,4.0,5.0,common,Creature,Spirit,6,W,0.67,0.83
-Split Up,,,rare,Sorcery,,3,W,,
-Splitskin Doll,2.0,1.0,uncommon,Creature,Toy,2,W,1.0,0.5
-Surgical Suite // Hospital Room,,,uncommon,Enchantment,Room,2,W,,
-"Toby, Beastie Befriender",1.0,1.0,rare,Creature,Human,3,W,0.33,0.33
-Trapped in the Screen,,,common,Enchantment,,3,W,,
-Unidentified Hovership,2.0,2.0,rare,Artifact,Vehicle,3,W,0.67,0.67
-Unsettling Twins,2.0,2.0,common,Creature,Human,4,W,0.5,0.5
-Unwanted Remake,,,uncommon,Instant,,1,W,,
-Veteran Survivor,2.0,1.0,uncommon,Creature,Human,1,W,2.0,1.0
-The Wandering Rescuer,3.0,4.0,mythic,Creature,Human,5,W,0.6,0.8
-Abhorrent Oculus,5.0,5.0,mythic,Creature,Eye,3,U,1.67,1.67
-Bottomless Pool // Locker Room,,,uncommon,Enchantment,Room,1,U,,
-Central Elevator // Promising Stairs,,,rare,Enchantment,Room,4,U,,
-Clammy Prowler,2.0,5.0,common,Creature,Horror,4,U,0.5,1.25
-Creeping Peeper,2.0,1.0,common,Creature,Eye,2,U,1.0,0.5
-Cursed Windbreaker,,,uncommon,Artifact,Equipment,3,U,,
-Daggermaw Megalodon,5.0,7.0,common,Creature,Shark,6,U,0.83,1.17
-Don't Make a Sound,,,common,Instant,,2,U,,
-Duskmourn's Domination,,,uncommon,Enchantment,Aura,6,U,,
-Enduring Curiosity,4.0,3.0,rare,Creature,Cat,4,U,1.0,0.75
-Enter the Enigma,,,common,Sorcery,,1,U,,
-Entity Tracker,2.0,3.0,rare,Creature,Human,3,U,0.67,1.0
-Erratic Apparition,1.0,3.0,common,Creature,Spirit,3,U,0.33,1.0
-Fear of Failed Tests,2.0,7.0,uncommon,Creature,Nightmare,5,U,0.4,1.4
-Fear of Falling,4.0,4.0,uncommon,Creature,Nightmare,5,U,0.8,0.8
-Fear of Impostors,3.0,2.0,uncommon,Creature,Nightmare,3,U,1.0,0.67
-Fear of Isolation,2.0,3.0,uncommon,Creature,Nightmare,2,U,1.0,1.5
-Floodpits Drowner,2.0,1.0,uncommon,Creature,Merfolk,2,U,1.0,0.5
-Get Out,,,uncommon,Instant,,2,U,,
-Ghostly Keybearer,3.0,3.0,uncommon,Creature,Spirit,4,U,0.75,0.75
-Glimmerburst,,,common,Instant,,4,U,,
-Leyline of Transformation,,,rare,Enchantment,,4,U,,
-Marina Vendrell's Grimoire,,,rare,Artifact,,6,U,,
-Meat Locker // Drowned Diner,,,common,Enchantment,Room,3,U,,
-The Mindskinner,10.0,1.0,rare,Creature,Nightmare,3,U,3.33,0.33
-Mirror Room // Fractured Realm,,,mythic,Enchantment,Room,3,U,,
-Overlord of the Floodpits,5.0,3.0,mythic,Creature,Avatar,5,U,1.0,0.6
-Paranormal Analyst,1.0,3.0,uncommon,Creature,Human,2,U,0.5,1.5
-Piranha Fly,2.0,1.0,common,Creature,Fish,2,U,1.0,0.5
-Scrabbling Skullcrab,0.0,3.0,uncommon,Creature,Crab,1,U,0.0,3.0
-Silent Hallcreeper,1.0,1.0,rare,Creature,Horror,2,U,0.5,0.5
-Stalked Researcher,3.0,3.0,common,Creature,Human,2,U,1.5,1.5
-"Stay Hidden, Stay Silent",,,uncommon,Enchantment,Aura,2,U,,
-The Tale of Tamiyo,,,rare,Enchantment,Saga,3,U,,
-Tunnel Surveyor,2.0,2.0,common,Creature,Human,3,U,0.67,0.67
-Twist Reality,,,common,Instant,,3,U,,
-Unable to Scream,,,common,Enchantment,Aura,1,U,,
-Underwater Tunnel // Slimy Aquarium,,,common,Enchantment,Room,1,U,,
-Unnerving Grasp,,,uncommon,Sorcery,,3,U,,
-Unwilling Vessel,3.0,2.0,uncommon,Creature,Human,3,U,1.0,0.67
-Vanish from Sight,,,common,Instant,,4,U,,
-Appendage Amalgam,3.0,2.0,common,Creature,Horror,3,B,1.0,0.67
-Balemurk Leech,2.0,2.0,common,Creature,Leech,2,B,1.0,1.0
-Cackling Slasher,3.0,3.0,common,Creature,Human,4,B,0.75,0.75
-Come Back Wrong,,,rare,Sorcery,,3,B,,
-Commune with Evil,,,uncommon,Sorcery,,3,B,,
-Cracked Skull,,,common,Enchantment,Aura,3,B,,
-Cynical Loner,3.0,1.0,uncommon,Creature,Human,2,B,1.5,0.5
-Dashing Bloodsucker,2.0,5.0,uncommon,Creature,Vampire,4,B,0.5,1.25
-Defiled Crypt // Cadaver Lab,,,uncommon,Enchantment,Room,4,B,,
-Demonic Counsel,,,rare,Sorcery,,2,B,,
-Derelict Attic // Widow's Walk,,,common,Enchantment,Room,3,B,,
-Doomsday Excruciator,6.0,6.0,rare,Creature,Demon,6,B,1.0,1.0
-Enduring Tenacity,4.0,3.0,rare,Creature,Snake,4,B,1.0,0.75
-Fanatic of the Harrowing,2.0,2.0,common,Creature,Human,4,B,0.5,0.5
-Fear of Lost Teeth,1.0,1.0,common,Creature,Nightmare,1,B,1.0,1.0
-Fear of the Dark,5.0,5.0,common,Creature,Nightmare,5,B,1.0,1.0
-Final Vengeance,,,common,Sorcery,,1,B,,
-Funeral Room // Awakening Hall,,,mythic,Enchantment,Room,3,B,,
-Give In to Violence,,,common,Instant,,2,B,,
-Grievous Wound,,,rare,Enchantment,Aura,5,B,,
-Innocuous Rat,1.0,1.0,common,Creature,Rat,2,B,0.5,0.5
-Killer's Mask,,,uncommon,Artifact,Equipment,3,B,,
-Let's Play a Game,,,uncommon,Sorcery,,4,B,,
-Leyline of the Void,,,rare,Enchantment,,4,B,,
-Live or Die,,,uncommon,Instant,,5,B,,
-Meathook Massacre II,,,mythic,Enchantment,,4,B,,
-Miasma Demon,5.0,4.0,uncommon,Creature,Demon,6,B,0.83,0.67
-Nowhere to Run,,,uncommon,Enchantment,,2,B,,
-Osseous Sticktwister,2.0,2.0,uncommon,Creature,Scarecrow,2,B,1.0,1.0
-Overlord of the Balemurk,5.0,5.0,mythic,Creature,Avatar,5,B,1.0,1.0
-Popular Egotist,3.0,2.0,uncommon,Creature,Human,3,B,1.0,0.67
-Resurrected Cultist,4.0,1.0,common,Creature,Human,3,B,1.33,0.33
-Spectral Snatcher,6.0,5.0,common,Creature,Spirit,6,B,1.0,0.83
-Sporogenic Infection,,,uncommon,Enchantment,Aura,2,B,,
-Unholy Annex // Ritual Chamber,,,rare,Enchantment,Room,3,B,,
-Unstoppable Slasher,2.0,3.0,rare,Creature,Zombie,3,B,0.67,1.0
-"Valgavoth, Terror Eater",9.0,9.0,mythic,Creature,Elder,9,B,1.0,1.0
-Valgavoth's Faithful,1.0,1.0,uncommon,Creature,Human,1,B,1.0,1.0
-Vile Mutilator,6.0,5.0,uncommon,Creature,Demon,7,B,0.86,0.71
-Winter's Intervention,,,common,Instant,,2,B,,
-Withering Torment,,,uncommon,Instant,,3,B,,
-Bedhead Beastie,5.0,6.0,common,Creature,Beast,6,R,0.83,1.0
-Betrayer's Bargain,,,uncommon,Instant,,2,R,,
-Boilerbilges Ripper,4.0,4.0,common,Creature,Human,5,R,0.8,0.8
-Chainsaw,,,rare,Artifact,Equipment,2,R,,
-Charred Foyer // Warped Space,,,mythic,Enchantment,Room,4,R,,
-Clockwork Percussionist,1.0,1.0,common,Creature,Monkey,1,R,1.0,1.0
-Cursed Recording,,,rare,Artifact,,4,R,,
-Diversion Specialist,4.0,3.0,uncommon,Creature,Human,4,R,1.0,0.75
-Enduring Courage,3.0,3.0,rare,Creature,Dog,4,R,0.75,0.75
-Fear of Being Hunted,4.0,2.0,uncommon,Creature,Nightmare,3,R,1.33,0.67
-Fear of Burning Alive,4.0,4.0,uncommon,Creature,Nightmare,6,R,0.67,0.67
-Fear of Missing Out,2.0,3.0,rare,Creature,Nightmare,2,R,1.0,1.5
-Glassworks // Shattered Yard,,,common,Enchantment,Room,3,R,,
-Grab the Prize,,,common,Sorcery,,2,R,,
-Hand That Feeds,2.0,2.0,common,Creature,Mutant,2,R,1.0,1.0
-Impossible Inferno,,,common,Instant,,5,R,,
-Infernal Phantom,2.0,3.0,uncommon,Creature,Spirit,4,R,0.5,0.75
-Irreverent Gremlin,2.0,2.0,uncommon,Creature,Gremlin,2,R,1.0,1.0
-Leyline of Resonance,,,rare,Enchantment,,4,R,,
-A-Leyline of Resonance,,,rare,Enchantment,,4,R,,
-Most Valuable Slayer,2.0,4.0,common,Creature,Human,4,R,0.5,1.0
-"Norin, Swift Survivalist",2.0,1.0,uncommon,Creature,Human,1,R,2.0,1.0
-Overlord of the Boilerbilges,5.0,5.0,mythic,Creature,Avatar,6,R,0.83,0.83
-Painter's Studio // Defaced Gallery,,,uncommon,Enchantment,Room,3,R,,
-Piggy Bank,3.0,2.0,uncommon,Creature,Boar,2,R,1.5,1.0
-Pyroclasm,,,uncommon,Sorcery,,2,R,,
-Ragged Playmate,2.0,2.0,common,Creature,Toy,2,R,1.0,1.0
-Rampaging Soulrager,1.0,4.0,common,Creature,Spirit,3,R,0.33,1.33
-Razorkin Hordecaller,4.0,4.0,uncommon,Creature,Human,5,R,0.8,0.8
-Razorkin Needlehead,2.0,2.0,rare,Creature,Human,2,R,1.0,1.0
-Ripchain Razorkin,5.0,3.0,common,Creature,Human,4,R,1.25,0.75
-The Rollercrusher Ride,,,mythic,Enchantment,,3,R,,
-Screaming Nemesis,3.0,3.0,mythic,Creature,Spirit,3,R,1.0,1.0
-Ticket Booth // Tunnel of Hate,,,common,Enchantment,Room,3,R,,
-Trial of Agony,,,uncommon,Sorcery,,1,R,,
-Turn Inside Out,,,common,Instant,,1,R,,
-Untimely Malfunction,,,uncommon,Instant,,2,R,,
-Vengeful Possession,,,uncommon,Sorcery,,3,R,,
-Vicious Clown,2.0,3.0,common,Creature,Human,3,R,0.67,1.0
-Violent Urge,,,uncommon,Instant,,1,R,,
-Waltz of Rage,,,rare,Sorcery,,5,R,,
-"Altanak, the Thrice-Called",9.0,9.0,uncommon,Creature,Insect,7,G,1.29,1.29
-Anthropede,3.0,4.0,common,Creature,Insect,4,G,0.75,1.0
-Balustrade Wurm,5.0,5.0,rare,Creature,Wurm,5,G,1.0,1.0
-Bashful Beastie,5.0,4.0,common,Creature,Beast,5,G,1.0,0.8
-Break Down the Door,,,uncommon,Instant,,3,G,,
-Cathartic Parting,,,uncommon,Sorcery,,2,G,,
-Cautious Survivor,4.0,4.0,common,Creature,Elf,4,G,1.0,1.0
-Coordinated Clobbering,,,uncommon,Sorcery,,1,G,,
-Cryptid Inspector,2.0,3.0,common,Creature,Elf,3,G,0.67,1.0
-Defiant Survivor,3.0,2.0,uncommon,Creature,Human,3,G,1.0,0.67
-Enduring Vitality,3.0,3.0,rare,Creature,Elk,3,G,1.0,1.0
-Fear of Exposure,5.0,4.0,uncommon,Creature,Nightmare,3,G,1.67,1.33
-Flesh Burrower,2.0,2.0,common,Creature,Insect,2,G,1.0,1.0
-Frantic Strength,,,common,Enchantment,Aura,3,G,,
-Grasping Longneck,4.0,2.0,common,Creature,Horror,3,G,1.33,0.67
-Greenhouse // Rickety Gazebo,,,uncommon,Enchantment,Room,3,G,,
-Hauntwoods Shrieker,3.0,3.0,mythic,Creature,Beast,3,G,1.0,1.0
-Hedge Shredder,5.0,5.0,rare,Artifact,Vehicle,4,G,1.25,1.25
-Horrid Vigor,,,common,Instant,,2,G,,
-House Cartographer,2.0,2.0,uncommon,Creature,Human,2,G,1.0,1.0
-Insidious Fungus,1.0,2.0,uncommon,Creature,Fungus,1,G,1.0,2.0
-"Kona, Rescue Beastie",4.0,3.0,rare,Creature,Beast,4,G,1.0,0.75
-"A-Kona, Rescue Beastie",4.0,3.0,rare,Creature,Beast,5,G,0.8,0.6
-Leyline of Mutation,,,rare,Enchantment,,4,G,,
-Manifest Dread,,,common,Sorcery,,2,G,,
-Moldering Gym // Weight Room,,,common,Enchantment,Room,3,G,,
-Monstrous Emergence,,,common,Sorcery,,2,G,,
-Omnivorous Flytrap,2.0,4.0,rare,Creature,Plant,3,G,0.67,1.33
-Overgrown Zealot,0.0,4.0,uncommon,Creature,Elf,2,G,0.0,2.0
-Overlord of the Hauntwoods,6.0,5.0,mythic,Creature,Avatar,5,G,1.2,1.0
-Patchwork Beastie,3.0,3.0,uncommon,Creature,Beast,1,G,3.0,3.0
-Rootwise Survivor,3.0,4.0,uncommon,Creature,Human,5,G,0.6,0.8
-Say Its Name,,,common,Sorcery,,2,G,,
-Slavering Branchsnapper,7.0,6.0,common,Creature,Lizard,6,G,1.17,1.0
-Spineseeker Centipede,2.0,1.0,common,Creature,Insect,3,G,0.67,0.33
-Threats Around Every Corner,,,uncommon,Enchantment,,4,G,,
-Twitching Doll,2.0,2.0,rare,Creature,Spider,2,G,1.0,1.0
-"Tyvar, the Pummeler",3.0,3.0,mythic,Creature,Elf,3,G,1.0,1.0
-Under the Skin,,,uncommon,Sorcery,,3,G,,
-Valgavoth's Onslaught,,,rare,Sorcery,,1,G,,
-Walk-In Closet // Forgotten Cellar,,,mythic,Enchantment,Room,3,G,,
-Wary Watchdog,3.0,1.0,common,Creature,Dog,2,G,1.5,0.5
-Wickerfolk Thresher,5.0,4.0,uncommon,Creature,Scarecrow,4,G,1.25,1.0
-"Arabella, Abandoned Doll",1.0,3.0,uncommon,Creature,Toy,2,WR,0.5,1.5
-Baseball Bat,,,uncommon,Artifact,Equipment,2,WG,,
-Beastie Beatdown,,,uncommon,Sorcery,,2,RG,,
-Broodspinner,2.0,3.0,uncommon,Creature,Spider,2,BG,1.0,1.5
-Disturbing Mirth,,,uncommon,Enchantment,,2,BR,,
-Drag to the Roots,,,uncommon,Instant,,4,BG,,
-Fear of Infinity,2.0,2.0,uncommon,Creature,Nightmare,3,UB,0.67,0.67
-Gremlin Tamer,2.0,2.0,uncommon,Creature,Human,2,WU,1.0,1.0
-Growing Dread,,,uncommon,Enchantment,,2,UG,,
-Inquisitive Glimmer,2.0,3.0,uncommon,Creature,Fox,2,WU,1.0,1.5
-Intruding Soulrager,2.0,2.0,uncommon,Creature,Spirit,2,UR,1.0,1.0
-The Jolly Balloon Man,1.0,4.0,rare,Creature,Human,3,WR,0.33,1.33
-"Kaito, Bane of Nightmares",,,mythic,Planeswalker,Kaito,4,UB,,
-Marina Vendrell,3.0,5.0,rare,Creature,Human,5,WUBRG,0.6,1.0
-Midnight Mayhem,,,uncommon,Sorcery,,4,WR,,
-"Nashi, Searcher in the Dark",2.0,2.0,rare,Creature,Rat,2,UB,1.0,1.0
-"Niko, Light of Hope",3.0,4.0,mythic,Creature,Human,4,WU,0.75,1.0
-Oblivious Bookworm,2.0,3.0,uncommon,Creature,Human,2,UG,1.0,1.5
-Peer Past the Veil,,,rare,Instant,,4,RG,,
-Restricted Office // Lecture Hall,,,rare,Enchantment,Room,4,W,,
-"Rip, Spawn Hunter",4.0,4.0,rare,Creature,Human,4,WG,1.0,1.0
-Rite of the Moth,,,uncommon,Sorcery,,4,WB,,
-Roaring Furnace // Steaming Sauna,,,rare,Enchantment,Room,2,R,,
-Sawblade Skinripper,3.0,2.0,uncommon,Creature,Human,3,BR,1.0,0.67
-Shrewd Storyteller,3.0,3.0,uncommon,Creature,Human,3,WG,1.0,1.0
-Shroudstomper,5.0,5.0,uncommon,Creature,Elemental,7,WB,0.71,0.71
-Skullsnap Nuisance,1.0,4.0,uncommon,Creature,Insect,2,UB,0.5,2.0
-Smoky Lounge // Misty Salon,,,uncommon,Enchantment,Room,3,R,,
-The Swarmweaver,2.0,3.0,rare,Creature,Scarecrow,4,BG,0.5,0.75
-Undead Sprinter,2.0,2.0,rare,Creature,Zombie,2,BR,1.0,1.0
-"Victor, Valgavoth's Seneschal",3.0,3.0,rare,Creature,Human,3,WB,1.0,1.0
-Wildfire Wickerfolk,3.0,2.0,uncommon,Creature,Scarecrow,2,RG,1.5,1.0
-"Winter, Misanthropic Guide",3.0,4.0,rare,Creature,Human,4,BRG,0.75,1.0
-"Zimone, All-Questioning",1.0,1.0,rare,Creature,Human,3,UG,0.33,0.33
-Attack-in-the-Box,2.0,4.0,uncommon,Creature,Toy,3,colorless,0.67,1.33
-Bear Trap,,,common,Artifact,,1,colorless,,
-Conductive Machete,,,uncommon,Artifact,Equipment,4,colorless,,
-Dissection Tools,,,rare,Artifact,Equipment,5,colorless,,
-Found Footage,,,common,Artifact,Clue,1,colorless,,
-Friendly Teddy,2.0,2.0,common,Creature,Bear,2,colorless,1.0,1.0
-Ghost Vacuum,,,rare,Artifact,,1,colorless,,
-Glimmerlight,,,common,Artifact,Equipment,2,colorless,,
-Haunted Screen,,,uncommon,Artifact,,3,colorless,,
-Keys to the House,,,uncommon,Artifact,,1,colorless,,
-Malevolent Chandelier,4.0,4.0,common,Creature,Construct,6,colorless,0.67,0.67
-"Marvin, Murderous Mimic",2.0,2.0,rare,Creature,Toy,2,colorless,1.0,1.0
-Saw,,,uncommon,Artifact,Equipment,2,colorless,,
-Abandoned Campground,,,common,Land,,0,colorless,,
-Blazemire Verge,,,rare,Land,,0,colorless,,
-Bleeding Woods,,,common,Land,,0,colorless,,
-Etched Cornfield,,,common,Land,,0,colorless,,
-Floodfarm Verge,,,rare,Land,,0,colorless,,
-Gloomlake Verge,,,rare,Land,,0,colorless,,
-Hushwood Verge,,,rare,Land,,0,colorless,,
-Lakeside Shack,,,common,Land,,0,colorless,,
-Murky Sewer,,,common,Land,,0,colorless,,
-Neglected Manor,,,common,Land,,0,colorless,,
-Peculiar Lighthouse,,,common,Land,,0,colorless,,
-Raucous Carnival,,,common,Land,,0,colorless,,
-Razortrap Gorge,,,common,Land,,0,colorless,,
-Strangled Cemetery,,,common,Land,,0,colorless,,
-Terramorphic Expanse,,,common,Land,,0,colorless,,
-Thornspire Verge,,,rare,Land,,0,colorless,,
-Valgavoth's Lair,,,rare,Enchantment,,0,colorless,,
+name,power,toughness,rarity,card_type,subtype,cmc,pip_W,pip_U,pip_B,pip_R,pip_G,generic,color,power_per_cmc,toughness_per_cmc
+Sire of Seven Deaths,7.0,7.0,mythic,Creature,Other,7,0,0,0,0,0,7,colorless,1.0,1.0
+"Arahbo, the First Fang",2.0,2.0,rare,Creature,Cat,3,1,0,0,0,0,2,W,0.67,0.67
+Armasaur Guide,4.0,4.0,common,Creature,Dinosaur,5,1,0,0,0,0,4,W,0.8,0.8
+Cat Collector,3.0,2.0,uncommon,Creature,Human,3,1,0,0,0,0,2,W,1.0,0.67
+Celestial Armor,,,rare,Artifact,Equipment,3,1,0,0,0,0,2,W,,
+Claws Out,,,uncommon,Instant,none,5,2,0,0,0,0,3,W,,
+Crystal Barricade,0.0,4.0,rare,Creature,Wall,2,1,0,0,0,0,1,W,0.0,2.0
+Dauntless Veteran,2.0,2.0,uncommon,Creature,Human,3,2,0,0,0,0,1,W,0.67,0.67
+Dazzling Angel,2.0,3.0,common,Creature,Angel,3,1,0,0,0,0,2,W,0.67,1.0
+Divine Resilience,,,uncommon,Instant,none,1,1,0,0,0,0,0,W,,
+Exemplar of Light,3.0,3.0,rare,Creature,Angel,4,2,0,0,0,0,2,W,0.75,0.75
+Felidar Savior,2.0,3.0,common,Creature,Cat,4,1,0,0,0,0,3,W,0.5,0.75
+Fleeting Flight,,,common,Instant,none,1,1,0,0,0,0,0,W,,
+Guarded Heir,1.0,1.0,uncommon,Creature,Human,6,1,0,0,0,0,5,W,0.17,0.17
+Hare Apparent,2.0,2.0,common,Creature,Rabbit,2,1,0,0,0,0,1,W,1.0,1.0
+Helpful Hunter,1.0,1.0,common,Creature,Cat,2,1,0,0,0,0,1,W,0.5,0.5
+Herald of Eternal Dawn,6.0,6.0,mythic,Creature,Angel,7,3,0,0,0,0,4,W,0.86,0.86
+Inspiring Paladin,3.0,3.0,common,Creature,Human,3,1,0,0,0,0,2,W,1.0,1.0
+Joust Through,,,uncommon,Instant,none,1,1,0,0,0,0,0,W,,
+Luminous Rebuke,,,common,Instant,none,5,1,0,0,0,0,4,W,,
+Prideful Parent,2.0,2.0,common,Creature,Cat,3,1,0,0,0,0,2,W,0.67,0.67
+Raise the Past,,,rare,Sorcery,none,4,2,0,0,0,0,2,W,,
+Skyknight Squire,1.0,1.0,rare,Creature,Cat,2,1,0,0,0,0,1,W,0.5,0.5
+Squad Rallier,3.0,4.0,common,Creature,Human,4,1,0,0,0,0,3,W,0.75,1.0
+Sun-Blessed Healer,3.0,1.0,uncommon,Creature,Human,2,1,0,0,0,0,1,W,1.5,0.5
+Twinblade Blessing,,,uncommon,Enchantment,Aura,3,2,0,0,0,0,1,W,,
+Valkyrie's Call,,,mythic,Enchantment,none,5,2,0,0,0,0,3,W,,
+Vanguard Seraph,3.0,3.0,common,Creature,Angel,4,1,0,0,0,0,3,W,0.75,0.75
+Arcane Epiphany,,,uncommon,Instant,none,5,0,2,0,0,0,3,U,,
+Archmage of Runes,3.0,6.0,rare,Creature,Giant,5,0,2,0,0,0,3,U,0.6,1.2
+Bigfin Bouncer,3.0,2.0,common,Creature,Other,4,0,1,0,0,0,3,U,0.75,0.5
+Cephalid Inkmage,2.0,2.0,uncommon,Creature,Other,3,0,1,0,0,0,2,U,0.67,0.67
+Clinquant Skymage,1.0,1.0,uncommon,Creature,Bird,4,0,1,0,0,0,3,U,0.25,0.25
+Curator of Destinies,5.0,5.0,rare,Creature,Sphinx,6,0,2,0,0,0,4,U,0.83,0.83
+Drake Hatcher,1.0,3.0,rare,Creature,Human,2,0,1,0,0,0,1,U,0.5,1.5
+Elementalist Adept,2.0,1.0,common,Creature,Human,2,0,1,0,0,0,1,U,1.0,0.5
+Erudite Wizard,2.0,3.0,common,Creature,Human,3,0,1,0,0,0,2,U,0.67,1.0
+Faebloom Trick,,,uncommon,Instant,none,3,0,1,0,0,0,2,U,,
+Grappling Kraken,5.0,6.0,uncommon,Creature,Other,6,0,2,0,0,0,4,U,0.83,1.0
+High Fae Trickster,4.0,2.0,rare,Creature,Other,4,0,1,0,0,0,3,U,1.0,0.5
+Homunculus Horde,2.0,2.0,rare,Creature,Other,4,0,1,0,0,0,3,U,0.5,0.5
+Icewind Elemental,3.0,4.0,common,Creature,Elemental,5,0,1,0,0,0,4,U,0.6,0.8
+Inspiration from Beyond,,,uncommon,Sorcery,none,3,0,1,0,0,0,2,U,,
+"Kaito, Cunning Infiltrator",,,mythic,Planeswalker,Other,3,0,2,0,0,0,1,U,,
+"Kiora, the Rising Tide",3.0,2.0,rare,Creature,Merfolk,3,0,1,0,0,0,2,U,1.0,0.67
+Lunar Insight,,,rare,Sorcery,none,3,0,1,0,0,0,2,U,,
+Mischievous Mystic,2.0,1.0,uncommon,Creature,Human,2,0,1,0,0,0,1,U,1.0,0.5
+Refute,,,common,Instant,none,3,0,2,0,0,0,1,U,,
+Rune-Sealed Wall,0.0,6.0,uncommon,Creature,Wall,3,0,1,0,0,0,2,U,0.0,2.0
+Skyship Buccaneer,4.0,3.0,uncommon,Creature,Human,5,0,2,0,0,0,3,U,0.8,0.6
+Sphinx of Forgotten Lore,3.0,3.0,mythic,Creature,Sphinx,4,0,2,0,0,0,2,U,0.75,0.75
+Strix Lookout,1.0,2.0,common,Creature,Bird,2,0,1,0,0,0,1,U,0.5,1.0
+Uncharted Voyage,,,common,Instant,none,4,0,1,0,0,0,3,U,,
+Abyssal Harvester,3.0,2.0,rare,Creature,Demon,3,0,0,2,0,0,1,B,1.0,0.67
+Arbiter of Woe,5.0,4.0,uncommon,Creature,Demon,6,0,0,2,0,0,4,B,0.83,0.67
+Billowing Shriekmass,2.0,3.0,uncommon,Creature,Spirit,4,0,0,1,0,0,3,B,0.5,0.75
+Blasphemous Edict,,,rare,Sorcery,none,5,0,0,2,0,0,3,B,,
+Bloodthirsty Conqueror,5.0,5.0,mythic,Creature,Vampire,5,0,0,2,0,0,3,B,1.0,1.0
+Crypt Feaster,3.0,4.0,common,Creature,Zombie,4,0,0,1,0,0,3,B,0.75,1.0
+Gutless Plunderer,2.0,2.0,common,Creature,Skeleton,3,0,0,1,0,0,2,B,0.67,0.67
+High-Society Hunter,5.0,3.0,rare,Creature,Vampire,5,0,0,2,0,0,3,B,1.0,0.6
+Hungry Ghoul,2.0,2.0,common,Creature,Zombie,2,0,0,1,0,0,1,B,1.0,1.0
+Infernal Vessel,2.0,1.0,uncommon,Creature,Human,3,0,0,1,0,0,2,B,0.67,0.33
+Infestation Sage,1.0,1.0,common,Creature,Elf,1,0,0,1,0,0,0,B,1.0,1.0
+Midnight Snack,,,uncommon,Enchantment,none,3,0,0,1,0,0,2,B,,
+Nine-Lives Familiar,1.0,1.0,rare,Creature,Cat,3,0,0,2,0,0,1,B,0.33,0.33
+Revenge of the Rats,,,uncommon,Sorcery,none,4,0,0,2,0,0,2,B,,
+Sanguine Syphoner,1.0,3.0,common,Creature,Vampire,2,0,0,1,0,0,1,B,0.5,1.5
+Seeker's Folly,,,uncommon,Sorcery,none,3,0,0,1,0,0,2,B,,
+Soul-Shackled Zombie,4.0,2.0,common,Creature,Zombie,4,0,0,1,0,0,3,B,1.0,0.5
+Stab,,,common,Instant,none,1,0,0,1,0,0,0,B,,
+"Tinybones, Bauble Burglar",1.0,3.0,rare,Creature,Skeleton,2,0,0,1,0,0,1,B,0.5,1.5
+Tragic Banshee,5.0,3.0,uncommon,Creature,Spirit,5,0,0,1,0,0,4,B,1.0,0.6
+Vampire Gourmand,2.0,2.0,uncommon,Creature,Vampire,2,0,0,1,0,0,1,B,1.0,1.0
+Vampire Soulcaller,3.0,2.0,common,Creature,Vampire,5,0,0,1,0,0,4,B,0.6,0.4
+Vengeful Bloodwitch,1.0,1.0,uncommon,Creature,Vampire,2,0,0,1,0,0,1,B,0.5,0.5
+"Zul Ashur, Lich Lord",2.0,2.0,rare,Creature,Zombie,2,0,0,1,0,0,1,B,1.0,1.0
+Battlesong Berserker,3.0,4.0,uncommon,Creature,Human,4,0,0,0,1,0,3,R,0.75,1.0
+Boltwave,,,uncommon,Sorcery,none,1,0,0,0,1,0,0,R,,
+Bulk Up,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+"Chandra, Flameshaper",,,mythic,Planeswalker,Other,7,0,0,0,2,0,5,R,,
+Courageous Goblin,2.0,2.0,common,Creature,Goblin,2,0,0,0,1,0,1,R,1.0,1.0
+Crackling Cyclops,0.0,4.0,common,Creature,Other,3,0,0,0,1,0,2,R,0.0,1.33
+Dragon Trainer,1.0,1.0,uncommon,Creature,Human,5,0,0,0,2,0,3,R,0.2,0.2
+Electroduplicate,,,rare,Sorcery,none,3,0,0,0,1,0,2,R,,
+Fiery Annihilation,,,uncommon,Instant,none,3,0,0,0,1,0,2,R,,
+Goblin Boarders,3.0,2.0,common,Creature,Goblin,3,0,0,0,1,0,2,R,1.0,0.67
+Gorehorn Raider,4.0,4.0,common,Creature,Other,5,0,0,0,1,0,4,R,0.8,0.8
+Incinerating Blast,,,common,Sorcery,none,5,0,0,0,1,0,4,R,,
+"Kellan, Planar Trailblazer",2.0,1.0,rare,Creature,Human,1,0,0,0,1,0,0,R,2.0,1.0
+Rite of the Dragoncaller,,,mythic,Enchantment,none,6,0,0,0,2,0,4,R,,
+Searslicer Goblin,2.0,1.0,rare,Creature,Goblin,2,0,0,0,1,0,1,R,1.0,0.5
+Slumbering Cerberus,4.0,2.0,uncommon,Creature,Dog,2,0,0,0,1,0,1,R,2.0,1.0
+Sower of Chaos,4.0,3.0,common,Creature,Other,4,0,0,0,1,0,3,R,1.0,0.75
+Strongbox Raider,5.0,2.0,uncommon,Creature,Other,4,0,0,0,2,0,2,R,1.25,0.5
+Twinflame Tyrant,3.0,5.0,mythic,Creature,Dragon,5,0,0,0,2,0,3,R,0.6,1.0
+Ambush Wolf,4.0,2.0,common,Creature,Other,3,0,0,0,0,1,2,G,1.33,0.67
+Apothecary Stomper,4.0,4.0,common,Creature,Other,6,0,0,0,0,2,4,G,0.67,0.67
+Beast-Kin Ranger,3.0,3.0,common,Creature,Elf,3,0,0,0,0,1,2,G,1.0,1.0
+Cackling Prowler,4.0,3.0,common,Creature,Other,4,0,0,0,0,1,3,G,1.0,0.75
+Eager Trufflesnout,4.0,2.0,uncommon,Creature,Other,3,0,0,0,0,1,2,G,1.33,0.67
+Elfsworn Giant,5.0,3.0,common,Creature,Giant,5,0,0,0,0,2,3,G,1.0,0.6
+Elvish Regrower,4.0,3.0,uncommon,Creature,Elf,4,0,0,0,0,2,2,G,1.0,0.75
+Felling Blow,,,uncommon,Sorcery,none,3,0,0,0,0,1,2,G,,
+"Loot, Exuberant Explorer",1.0,4.0,rare,Creature,Beast,3,0,0,0,0,1,2,G,0.33,1.33
+Mossborn Hydra,0.0,0.0,rare,Creature,Elemental,3,0,0,0,0,1,2,G,0.0,0.0
+Needletooth Pack,4.0,5.0,uncommon,Creature,Dinosaur,5,0,0,0,0,2,3,G,0.8,1.0
+Preposterous Proportions,,,rare,Sorcery,none,7,0,0,0,0,2,5,G,,
+Quakestrider Ceratops,12.0,8.0,uncommon,Creature,Dinosaur,6,0,0,0,0,3,3,G,2.0,1.33
+Quilled Greatwurm,7.0,7.0,mythic,Creature,Other,6,0,0,0,0,2,4,G,1.17,1.17
+Spinner of Souls,4.0,3.0,rare,Creature,Spider,3,0,0,0,0,1,2,G,1.33,1.0
+Sylvan Scavenging,,,rare,Enchantment,none,3,0,0,0,0,2,1,G,,
+Treetop Snarespinner,1.0,4.0,common,Creature,Spider,4,0,0,0,0,1,3,G,0.25,1.0
+"Alesha, Who Laughs at Fate",2.0,2.0,rare,Creature,Human,3,0,0,1,1,0,1,BR,0.67,0.67
+Anthem of Champions,,,rare,Enchantment,none,2,1,0,0,0,1,0,WG,,
+Ashroot Animist,4.0,4.0,rare,Creature,Lizard,4,0,0,0,1,1,2,RG,1.0,1.0
+Dreadwing Scavenger,2.0,2.0,uncommon,Creature,Nightmare,3,0,1,1,0,0,1,UB,0.67,0.67
+"Elenda, Saint of Dusk",4.0,4.0,rare,Creature,Vampire,4,1,0,1,0,0,2,WB,1.0,1.0
+Fiendish Panda,3.0,2.0,uncommon,Creature,Other,4,1,0,1,0,0,2,WB,0.75,0.5
+"Koma, World-Eater",8.0,12.0,rare,Creature,Other,7,0,2,0,0,2,3,UG,1.14,1.71
+"Kykar, Zephyr Awakener",3.0,4.0,rare,Creature,Bird,4,1,1,0,0,0,2,WU,0.75,1.0
+"Niv-Mizzet, Visionary",5.0,5.0,mythic,Creature,Dragon,6,0,1,0,1,0,4,UR,0.83,0.83
+Perforating Artist,3.0,2.0,uncommon,Creature,Other,3,0,0,1,1,0,1,BR,1.0,0.67
+Wardens of the Cycle,3.0,4.0,uncommon,Creature,Elf,4,0,0,1,0,2,1,BG,0.75,1.0
+"Zimone, Paradox Sculptor",1.0,4.0,mythic,Creature,Human,4,0,1,0,0,1,2,UG,0.25,1.0
+Banner of Kinship,,,rare,Artifact,none,5,0,0,0,0,0,5,colorless,,
+Fishing Pole,,,uncommon,Artifact,Equipment,1,0,0,0,0,0,1,colorless,,
+Leyline Axe,,,rare,Artifact,Equipment,4,0,0,0,0,0,4,colorless,,
+Quick-Draw Katana,,,common,Artifact,Equipment,2,0,0,0,0,0,2,colorless,,
+Ravenous Amulet,,,uncommon,Artifact,none,2,0,0,0,0,0,2,colorless,,
+Scrawling Crawler,3.0,2.0,rare,Creature,Other,3,0,0,0,0,0,3,colorless,1.0,0.67
+Soulstone Sanctuary,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+"Ajani, Caller of the Pride",,,mythic,Planeswalker,Other,3,2,0,0,0,0,1,W,,
+Ajani's Pridemate,2.0,2.0,uncommon,Creature,Cat,2,1,0,0,0,0,1,W,1.0,1.0
+Angel of Finality,3.0,4.0,uncommon,Creature,Angel,4,1,0,0,0,0,3,W,0.75,1.0
+Authority of the Consuls,,,rare,Enchantment,none,1,1,0,0,0,0,0,W,,
+Banishing Light,,,common,Enchantment,none,3,1,0,0,0,0,2,W,,
+Cathar Commando,3.0,1.0,common,Creature,Human,2,1,0,0,0,0,1,W,1.5,0.5
+Day of Judgment,,,rare,Sorcery,none,4,2,0,0,0,0,2,W,,
+"Giada, Font of Hope",2.0,2.0,rare,Creature,Angel,2,1,0,0,0,0,1,W,1.0,1.0
+Healer's Hawk,1.0,1.0,common,Creature,Bird,1,1,0,0,0,0,0,W,1.0,1.0
+Make Your Move,,,common,Instant,none,3,1,0,0,0,0,2,W,,
+Mischievous Pup,3.0,1.0,uncommon,Creature,Dog,3,1,0,0,0,0,2,W,1.0,0.33
+Resolute Reinforcements,1.0,1.0,uncommon,Creature,Human,2,1,0,0,0,0,1,W,0.5,0.5
+Savannah Lions,2.0,1.0,uncommon,Creature,Cat,1,1,0,0,0,0,0,W,2.0,1.0
+Serra Angel,4.0,4.0,uncommon,Creature,Angel,5,2,0,0,0,0,3,W,0.8,0.8
+Stroke of Midnight,,,uncommon,Instant,none,3,1,0,0,0,0,2,W,,
+Youthful Valkyrie,1.0,3.0,uncommon,Creature,Angel,2,1,0,0,0,0,1,W,0.5,1.5
+Aegis Turtle,0.0,5.0,common,Creature,Other,1,0,1,0,0,0,0,U,0.0,5.0
+Aetherize,,,uncommon,Instant,none,4,0,1,0,0,0,3,U,,
+Brineborn Cutthroat,2.0,1.0,uncommon,Creature,Merfolk,2,0,1,0,0,0,1,U,1.0,0.5
+Essence Scatter,,,uncommon,Instant,none,2,0,1,0,0,0,1,U,,
+Extravagant Replication,,,rare,Enchantment,none,6,0,2,0,0,0,4,U,,
+Fleeting Distraction,,,common,Instant,none,1,0,1,0,0,0,0,U,,
+Imprisoned in the Moon,,,uncommon,Enchantment,Aura,3,0,1,0,0,0,2,U,,
+Lightshell Duo,3.0,4.0,common,Creature,Rat,4,0,1,0,0,0,3,U,0.75,1.0
+Micromancer,3.0,3.0,uncommon,Creature,Human,4,0,1,0,0,0,3,U,0.75,0.75
+Mocking Sprite,2.0,1.0,common,Creature,Other,3,0,1,0,0,0,2,U,0.67,0.33
+An Offer You Can't Refuse,,,uncommon,Instant,none,1,0,1,0,0,0,0,U,,
+Omniscience,,,mythic,Enchantment,none,10,0,3,0,0,0,7,U,,
+Run Away Together,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Self-Reflection,,,uncommon,Sorcery,none,6,0,2,0,0,0,4,U,,
+Spectral Sailor,1.0,1.0,uncommon,Creature,Spirit,1,0,1,0,0,0,0,U,1.0,1.0
+Think Twice,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Time Stop,,,rare,Instant,none,6,0,2,0,0,0,4,U,,
+Tolarian Terror,5.0,5.0,common,Creature,Other,7,0,1,0,0,0,6,U,0.71,0.71
+Witness Protection,,,common,Enchantment,Aura,1,0,1,0,0,0,0,U,,
+Bake into a Pie,,,common,Instant,none,4,0,0,2,0,0,2,B,,
+Burglar Rat,1.0,1.0,common,Creature,Rat,2,0,0,1,0,0,1,B,0.5,0.5
+Diregraf Ghoul,2.0,2.0,uncommon,Creature,Zombie,1,0,0,1,0,0,0,B,2.0,2.0
+Eaten Alive,,,common,Sorcery,none,1,0,0,1,0,0,0,B,,
+Fake Your Own Death,,,common,Instant,none,2,0,0,1,0,0,1,B,,
+Hero's Downfall,,,uncommon,Instant,none,3,0,0,2,0,0,1,B,,
+"Liliana, Dreadhorde General",,,mythic,Planeswalker,Other,6,0,0,2,0,0,4,B,,
+Macabre Waltz,,,common,Sorcery,none,2,0,0,1,0,0,1,B,,
+Marauding Blight-Priest,3.0,2.0,common,Creature,Vampire,3,0,0,1,0,0,2,B,1.0,0.67
+Painful Quandary,,,rare,Enchantment,none,5,0,0,2,0,0,3,B,,
+Phyrexian Arena,,,rare,Enchantment,none,3,0,0,2,0,0,1,B,,
+Pilfer,,,common,Sorcery,none,2,0,0,1,0,0,1,B,,
+Reassembling Skeleton,1.0,1.0,uncommon,Creature,Skeleton,2,0,0,1,0,0,1,B,0.5,0.5
+Rise of the Dark Realms,,,mythic,Sorcery,none,9,0,0,2,0,0,7,B,,
+Rune-Scarred Demon,6.0,6.0,rare,Creature,Demon,7,0,0,2,0,0,5,B,0.86,0.86
+Stromkirk Bloodthief,2.0,2.0,uncommon,Creature,Vampire,3,0,0,1,0,0,2,B,0.67,0.67
+Vampire Nighthawk,2.0,3.0,uncommon,Creature,Vampire,3,0,0,2,0,0,1,B,0.67,1.0
+Zombify,,,uncommon,Sorcery,none,4,0,0,1,0,0,3,B,,
+Abrade,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+Axgard Cavalry,2.0,2.0,common,Creature,Other,2,0,0,0,1,0,1,R,1.0,1.0
+Brass's Bounty,,,rare,Sorcery,none,7,0,0,0,1,0,6,R,,
+Brazen Scourge,3.0,3.0,uncommon,Creature,Other,3,0,0,0,2,0,1,R,1.0,1.0
+Burst Lightning,,,common,Instant,none,1,0,0,0,1,0,0,R,,
+"Drakuseth, Maw of Flames",7.0,7.0,rare,Creature,Dragon,7,0,0,0,3,0,4,R,1.0,1.0
+"Etali, Primal Storm",6.0,6.0,rare,Creature,Other,6,0,0,0,2,0,4,R,1.0,1.0
+Fanatical Firebrand,1.0,1.0,common,Creature,Goblin,1,0,0,0,1,0,0,R,1.0,1.0
+Firebrand Archer,2.0,1.0,common,Creature,Human,2,0,0,0,1,0,1,R,1.0,0.5
+Firespitter Whelp,2.0,2.0,uncommon,Creature,Dragon,3,0,0,0,1,0,2,R,0.67,0.67
+Flamewake Phoenix,2.0,2.0,rare,Creature,Other,3,0,0,0,2,0,1,R,0.67,0.67
+Frenzied Goblin,1.0,1.0,uncommon,Creature,Goblin,1,0,0,0,1,0,0,R,1.0,1.0
+Goblin Surprise,,,common,Instant,none,3,0,0,0,1,0,2,R,,
+Heartfire Immolator,2.0,2.0,uncommon,Creature,Human,2,0,0,0,1,0,1,R,1.0,1.0
+Hidetsugu's Second Rite,,,uncommon,Instant,none,4,0,0,0,1,0,3,R,,
+Involuntary Employment,,,common,Sorcery,none,4,0,0,0,1,0,3,R,,
+"Krenko, Mob Boss",3.0,3.0,rare,Creature,Goblin,4,0,0,0,2,0,2,R,0.75,0.75
+Seismic Rupture,,,uncommon,Sorcery,none,3,0,0,0,1,0,2,R,,
+Shivan Dragon,5.0,5.0,uncommon,Creature,Dragon,6,0,0,0,2,0,4,R,0.83,0.83
+Slagstorm,,,rare,Sorcery,none,3,0,0,0,2,0,1,R,,
+Spitfire Lagac,3.0,4.0,common,Creature,Lizard,4,0,0,0,1,0,3,R,0.75,1.0
+Sure Strike,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Thrill of Possibility,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Affectionate Indrik,4.0,4.0,uncommon,Creature,Beast,6,0,0,0,0,1,5,G,0.67,0.67
+Bite Down,,,common,Instant,none,2,0,0,0,0,1,1,G,,
+Blanchwood Armor,,,uncommon,Enchantment,Aura,3,0,0,0,0,1,2,G,,
+Broken Wings,,,common,Instant,none,3,0,0,0,0,1,2,G,,
+Bushwhack,,,common,Sorcery,none,1,0,0,0,0,1,0,G,,
+Doubling Season,,,mythic,Enchantment,none,5,0,0,0,0,1,4,G,,
+"Dwynen, Gilt-Leaf Daen",3.0,4.0,uncommon,Creature,Elf,4,0,0,0,0,2,2,G,0.75,1.0
+Dwynen's Elite,2.0,2.0,common,Creature,Elf,2,0,0,0,0,1,1,G,1.0,1.0
+Elvish Archdruid,2.0,2.0,rare,Creature,Elf,3,0,0,0,0,2,1,G,0.67,0.67
+Garruk's Uprising,,,uncommon,Enchantment,none,3,0,0,0,0,1,2,G,,
+"Ghalta, Primal Hunger",12.0,12.0,rare,Creature,Other,12,0,0,0,0,2,10,G,1.0,1.0
+Giant Growth,,,common,Instant,none,1,0,0,0,0,1,0,G,,
+Gnarlid Colony,2.0,2.0,common,Creature,Beast,2,0,0,0,0,1,1,G,1.0,1.0
+Grow from the Ashes,,,common,Sorcery,none,3,0,0,0,0,1,2,G,,
+Inspiring Call,,,uncommon,Instant,none,3,0,0,0,0,1,2,G,,
+Llanowar Elves,1.0,1.0,common,Creature,Elf,1,0,0,0,0,1,0,G,1.0,1.0
+Mild-Mannered Librarian,1.0,1.0,uncommon,Creature,Human,1,0,0,0,0,1,0,G,1.0,1.0
+Nessian Hornbeetle,2.0,2.0,uncommon,Creature,Insect,2,0,0,0,0,1,1,G,1.0,1.0
+Overrun,,,uncommon,Sorcery,none,5,0,0,0,0,3,2,G,,
+Reclamation Sage,2.0,1.0,uncommon,Creature,Elf,3,0,0,0,0,1,2,G,0.67,0.33
+Scavenging Ooze,2.0,2.0,rare,Creature,Other,2,0,0,0,0,1,1,G,1.0,1.0
+Snakeskin Veil,,,uncommon,Instant,none,1,0,0,0,0,1,0,G,,
+Vivien Reid,,,mythic,Planeswalker,Other,5,0,0,0,0,2,3,G,,
+Wary Thespian,3.0,1.0,common,Creature,Cat,2,0,0,0,0,1,1,G,1.5,0.5
+"Balmor, Battlemage Captain",1.0,3.0,uncommon,Creature,Bird,2,0,1,0,1,0,0,UR,0.5,1.5
+Empyrean Eagle,2.0,3.0,uncommon,Creature,Bird,3,1,1,0,0,0,1,WU,0.67,1.0
+Good-Fortune Unicorn,2.0,2.0,uncommon,Creature,Other,3,1,0,0,0,1,1,WG,0.67,0.67
+Heroic Reinforcements,,,uncommon,Sorcery,none,4,1,0,0,1,0,2,WR,,
+"Lathril, Blade of the Elves",2.0,3.0,rare,Creature,Elf,4,0,0,1,0,1,2,BG,0.5,0.75
+"Muldrotha, the Gravetide",6.0,6.0,mythic,Creature,Elemental,6,0,1,1,0,1,3,UBG,1.0,1.0
+Progenitus,10.0,10.0,mythic,Creature,Other,10,2,2,2,2,2,0,WUBRG,1.0,1.0
+"Ruby, Daring Tracker",1.0,2.0,uncommon,Creature,Human,2,0,0,0,1,1,0,RG,0.5,1.0
+Swiftblade Vindicator,1.0,1.0,rare,Creature,Human,2,1,0,0,1,0,0,WR,0.5,0.5
+"Tatyova, Benthic Druid",3.0,3.0,uncommon,Creature,Merfolk,5,0,1,0,0,1,3,UG,0.6,0.6
+Thousand-Year Storm,,,rare,Enchantment,none,6,0,1,0,1,0,4,UR,,
+Adventuring Gear,,,uncommon,Artifact,Equipment,1,0,0,0,0,0,1,colorless,,
+Burnished Hart,2.0,2.0,uncommon,Creature,Other,3,0,0,0,0,0,3,colorless,0.67,0.67
+Campus Guide,2.0,1.0,common,Creature,Golem,2,0,0,0,0,0,2,colorless,1.0,0.5
+Gleaming Barrier,0.0,4.0,common,Creature,Wall,2,0,0,0,0,0,2,colorless,0.0,2.0
+Goldvein Pick,,,common,Artifact,Equipment,2,0,0,0,0,0,2,colorless,,
+Heraldic Banner,,,uncommon,Artifact,none,3,0,0,0,0,0,3,colorless,,
+Juggernaut,5.0,3.0,uncommon,Creature,Other,4,0,0,0,0,0,4,colorless,1.25,0.75
+Meteor Golem,3.0,3.0,uncommon,Creature,Golem,7,0,0,0,0,0,7,colorless,0.43,0.43
+Solemn Simulacrum,2.0,2.0,rare,Creature,Golem,4,0,0,0,0,0,4,colorless,0.5,0.5
+Swiftfoot Boots,,,uncommon,Artifact,Equipment,2,0,0,0,0,0,2,colorless,,
+Bloodfell Caves,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Blossoming Sands,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Dismal Backwater,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Evolving Wilds,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Jungle Hollow,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Rogue's Passage,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Rugged Highlands,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Scoured Barrens,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Secluded Courtyard,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Swiftwater Cliffs,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Thornwood Falls,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Tranquil Cove,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Wind-Scarred Crag,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Plains,,,common,Land,Other,0,0,0,0,0,0,0,colorless,,
+Island,,,common,Land,Other,0,0,0,0,0,0,0,colorless,,
+Swamp,,,common,Land,Other,0,0,0,0,0,0,0,colorless,,
+Mountain,,,common,Land,Other,0,0,0,0,0,0,0,colorless,,
+Forest,,,common,Land,Other,0,0,0,0,0,0,0,colorless,,
+Adamant Will,,,common,Instant,none,2,1,0,0,0,0,1,W,,
+Ancestor Dragon,5.0,6.0,rare,Creature,Dragon,6,2,0,0,0,0,4,W,0.83,1.0
+Angelic Edict,,,common,Sorcery,none,5,1,0,0,0,0,4,W,,
+Bishop's Soldier,2.0,2.0,common,Creature,Vampire,2,1,0,0,0,0,1,W,1.0,1.0
+Deadly Riposte,,,common,Instant,none,2,1,0,0,0,0,1,W,,
+Elspeth's Smite,,,uncommon,Instant,none,1,1,0,0,0,0,0,W,,
+Herald of Faith,4.0,3.0,uncommon,Creature,Angel,5,2,0,0,0,0,3,W,0.8,0.6
+Ingenious Leonin,4.0,4.0,uncommon,Creature,Cat,5,1,0,0,0,0,4,W,0.8,0.8
+Inspiring Overseer,2.0,1.0,common,Creature,Angel,3,1,0,0,0,0,2,W,0.67,0.33
+Jazal Goldmane,4.0,4.0,rare,Creature,Cat,4,2,0,0,0,0,2,W,1.0,1.0
+Leonin Skyhunter,2.0,2.0,uncommon,Creature,Cat,2,2,0,0,0,0,0,W,1.0,1.0
+Leonin Vanguard,1.0,1.0,uncommon,Creature,Cat,1,1,0,0,0,0,0,W,1.0,1.0
+Moment of Triumph,,,common,Instant,none,1,1,0,0,0,0,0,W,,
+Pacifism,,,common,Enchantment,Aura,2,1,0,0,0,0,1,W,,
+Prayer of Binding,,,uncommon,Enchantment,none,4,1,0,0,0,0,3,W,,
+Twinblade Paladin,3.0,3.0,uncommon,Creature,Human,4,1,0,0,0,0,3,W,0.75,0.75
+Burrog Befuddler,2.0,1.0,common,Creature,Frog,2,0,1,0,0,0,1,U,1.0,0.5
+Cancel,,,common,Instant,none,3,0,2,0,0,0,1,U,,
+Corsair Captain,2.0,2.0,rare,Creature,Human,3,0,1,0,0,0,2,U,0.67,0.67
+Eaten by Piranhas,,,uncommon,Enchantment,Aura,2,0,1,0,0,0,1,U,,
+Exclusion Mage,2.0,2.0,uncommon,Creature,Human,3,0,1,0,0,0,2,U,0.67,0.67
+Into the Roil,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Kitesail Corsair,2.0,1.0,common,Creature,Human,2,0,1,0,0,0,1,U,1.0,0.5
+Mystic Archaeologist,2.0,1.0,rare,Creature,Human,2,0,1,0,0,0,1,U,1.0,0.5
+Opt,,,common,Instant,none,1,0,1,0,0,0,0,U,,
+Quick Study,,,common,Instant,none,3,0,1,0,0,0,2,U,,
+Starlight Snare,,,common,Enchantment,Aura,3,0,1,0,0,0,2,U,,
+Storm Fleet Spy,2.0,2.0,uncommon,Creature,Human,3,0,1,0,0,0,2,U,0.67,0.67
+Bloodtithe Collector,3.0,4.0,uncommon,Creature,Vampire,5,0,0,1,0,0,4,B,0.6,0.8
+Cemetery Recruitment,,,common,Sorcery,none,2,0,0,1,0,0,1,B,,
+Crossway Troublemakers,5.0,5.0,rare,Creature,Vampire,6,0,0,1,0,0,5,B,0.83,0.83
+Crow of Dark Tidings,2.0,1.0,common,Creature,Zombie,3,0,0,1,0,0,2,B,0.67,0.33
+Deadly Plot,,,uncommon,Instant,none,4,0,0,1,0,0,3,B,,
+Death Baron,2.0,2.0,rare,Creature,Zombie,3,0,0,2,0,0,1,B,0.67,0.67
+Highborn Vampire,4.0,3.0,common,Creature,Vampire,4,0,0,1,0,0,3,B,1.0,0.75
+Maalfeld Twins,4.0,4.0,uncommon,Creature,Zombie,6,0,0,1,0,0,5,B,0.67,0.67
+Moment of Craving,,,common,Instant,none,2,0,0,1,0,0,1,B,,
+Offer Immortality,,,common,Instant,none,2,0,0,1,0,0,1,B,,
+Skeleton Archer,3.0,3.0,common,Creature,Skeleton,4,0,0,1,0,0,3,B,0.75,0.75
+Suspicious Shambler,4.0,2.0,common,Creature,Zombie,4,0,0,1,0,0,3,B,1.0,0.5
+Undying Malice,,,common,Instant,none,1,0,0,1,0,0,0,B,,
+Untamed Hunger,,,common,Enchantment,Aura,3,0,0,1,0,0,2,B,,
+Vampire Interloper,2.0,1.0,common,Creature,Vampire,2,0,0,1,0,0,1,B,1.0,0.5
+Vampire Neonate,0.0,3.0,common,Creature,Vampire,1,0,0,1,0,0,0,B,0.0,3.0
+Vampire Spawn,2.0,3.0,common,Creature,Vampire,3,0,0,1,0,0,2,B,0.67,1.0
+Battle-Rattle Shaman,2.0,2.0,uncommon,Creature,Goblin,4,0,0,0,1,0,3,R,0.5,0.5
+Carnelian Orb of Dragonkind,,,common,Artifact,none,3,0,0,0,1,0,2,R,,
+Dragon Fodder,,,common,Sorcery,none,2,0,0,0,1,0,1,R,,
+Dragonlord's Servant,1.0,3.0,uncommon,Creature,Goblin,2,0,0,0,1,0,1,R,0.5,1.5
+Dropkick Bomber,2.0,3.0,rare,Creature,Goblin,3,0,0,0,1,0,2,R,0.67,1.0
+Fire Elemental,5.0,4.0,common,Creature,Elemental,5,0,0,0,2,0,3,R,1.0,0.8
+Goblin Oriflamme,,,uncommon,Enchantment,none,2,0,0,0,1,0,1,R,,
+Goblin Smuggler,2.0,2.0,common,Creature,Goblin,3,0,0,0,1,0,2,R,0.67,0.67
+Kargan Dragonrider,2.0,2.0,common,Creature,Human,2,0,0,0,1,0,1,R,1.0,1.0
+Kindled Fury,,,common,Instant,none,1,0,0,0,1,0,0,R,,
+Raging Redcap,1.0,2.0,common,Creature,Goblin,3,0,0,0,1,0,2,R,0.33,0.67
+Rapacious Dragon,3.0,3.0,common,Creature,Dragon,5,0,0,0,1,0,4,R,0.6,0.6
+Scorching Dragonfire,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Seize the Spoils,,,common,Sorcery,none,3,0,0,0,1,0,2,R,,
+Skyraker Giant,4.0,3.0,common,Creature,Giant,4,0,0,0,2,0,2,R,1.0,0.75
+Swab Goblin,2.0,2.0,common,Creature,Goblin,2,0,0,0,1,0,1,R,1.0,1.0
+Terror of Mount Velus,5.0,5.0,rare,Creature,Dragon,7,0,0,0,2,0,5,R,0.71,0.71
+Volley Veteran,4.0,2.0,uncommon,Creature,Goblin,4,0,0,0,1,0,3,R,1.0,0.5
+Aggressive Mammoth,8.0,8.0,rare,Creature,Other,6,0,0,0,0,3,3,G,1.33,1.33
+Bear Cub,2.0,2.0,common,Creature,Other,2,0,0,0,0,1,1,G,1.0,1.0
+Biogenic Upgrade,,,uncommon,Sorcery,none,6,0,0,0,0,2,4,G,,
+Druid of the Cowl,1.0,3.0,common,Creature,Elf,2,0,0,0,0,1,1,G,0.5,1.5
+Joraga Invocation,,,uncommon,Sorcery,none,6,0,0,0,0,2,4,G,,
+Magnigoth Sentry,4.0,4.0,common,Creature,Other,4,0,0,0,0,1,3,G,1.0,1.0
+New Horizons,,,common,Enchantment,Aura,3,0,0,0,0,1,2,G,,
+Tajuru Pathwarden,5.0,4.0,common,Creature,Elf,5,0,0,0,0,1,4,G,1.0,0.8
+Thornweald Archer,2.0,1.0,common,Creature,Elf,2,0,0,0,0,1,1,G,1.0,0.5
+Thrashing Brontodon,3.0,4.0,uncommon,Creature,Dinosaur,3,0,0,0,0,2,1,G,1.0,1.33
+Wildheart Invoker,4.0,3.0,common,Creature,Elf,4,0,0,0,0,2,2,G,1.0,0.75
+Goblin Firebomb,,,common,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Pirate's Cutlass,,,common,Artifact,Equipment,3,0,0,0,0,0,3,colorless,,
+Uncharted Haven,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Angelic Destiny,,,mythic,Enchantment,Aura,4,2,0,0,0,0,2,W,,
+Archway Angel,3.0,4.0,uncommon,Creature,Angel,6,1,0,0,0,0,5,W,0.5,0.67
+Ballyrush Banneret,2.0,1.0,common,Creature,Other,2,1,0,0,0,0,1,W,1.0,0.5
+Charming Prince,2.0,2.0,rare,Creature,Human,2,1,0,0,0,0,1,W,1.0,1.0
+Dawnwing Marshal,2.0,2.0,uncommon,Creature,Cat,2,1,0,0,0,0,1,W,1.0,1.0
+Devout Decree,,,uncommon,Sorcery,none,2,1,0,0,0,0,1,W,,
+Disenchant,,,common,Instant,none,2,1,0,0,0,0,1,W,,
+Felidar Cub,2.0,2.0,common,Creature,Cat,2,1,0,0,0,0,1,W,1.0,1.0
+Felidar Retreat,,,rare,Enchantment,none,4,1,0,0,0,0,3,W,,
+Fumigate,,,rare,Sorcery,none,5,2,0,0,0,0,3,W,,
+Knight of Grace,2.0,2.0,uncommon,Creature,Human,2,1,0,0,0,0,1,W,1.0,1.0
+"Linden, the Steadfast Queen",3.0,3.0,rare,Creature,Human,3,3,0,0,0,0,0,W,1.0,1.0
+Mentor of the Meek,2.0,2.0,rare,Creature,Human,3,1,0,0,0,0,2,W,0.67,0.67
+Regal Caracal,3.0,3.0,rare,Creature,Cat,5,2,0,0,0,0,3,W,0.6,0.6
+Release the Dogs,,,uncommon,Sorcery,none,4,1,0,0,0,0,3,W,,
+Stasis Snare,,,uncommon,Enchantment,none,3,2,0,0,0,0,1,W,,
+"Syr Alin, the Lion's Claw",4.0,4.0,uncommon,Creature,Human,5,2,0,0,0,0,3,W,0.8,0.8
+Valorous Stance,,,uncommon,Instant,none,2,1,0,0,0,0,1,W,,
+"Zetalpa, Primal Dawn",4.0,8.0,rare,Creature,Other,8,2,0,0,0,0,6,W,0.5,1.0
+Arcanis the Omnipotent,3.0,4.0,rare,Creature,Other,6,0,3,0,0,0,3,U,0.5,0.67
+Chart a Course,,,uncommon,Sorcery,none,2,0,1,0,0,0,1,U,,
+Dictate of Kruphix,,,rare,Enchantment,none,3,0,2,0,0,0,1,U,,
+Dive Down,,,common,Instant,none,1,0,1,0,0,0,0,U,,
+Flashfreeze,,,uncommon,Instant,none,2,0,1,0,0,0,1,U,,
+Fog Bank,0.0,2.0,uncommon,Creature,Wall,2,0,1,0,0,0,1,U,0.0,1.0
+Gateway Sneak,1.0,3.0,uncommon,Creature,Other,3,0,1,0,0,0,2,U,0.33,1.0
+Harbinger of the Tides,2.0,2.0,rare,Creature,Merfolk,2,0,2,0,0,0,0,U,1.0,1.0
+Mystical Teachings,,,uncommon,Instant,none,4,0,1,0,0,0,3,U,,
+River's Rebuke,,,rare,Sorcery,none,6,0,2,0,0,0,4,U,,
+Shipwreck Dowser,3.0,3.0,uncommon,Creature,Merfolk,5,0,2,0,0,0,3,U,0.6,0.6
+Sphinx of the Final Word,5.0,5.0,mythic,Creature,Sphinx,7,0,2,0,0,0,5,U,0.71,0.71
+Tempest Djinn,0.0,4.0,rare,Creature,Other,3,0,3,0,0,0,0,U,0.0,1.33
+Unsummon,,,common,Instant,none,1,0,1,0,0,0,0,U,,
+Voracious Greatshark,5.0,4.0,rare,Creature,Other,5,0,2,0,0,0,3,U,1.0,0.8
+Deathmark,,,uncommon,Sorcery,none,1,0,0,1,0,0,0,B,,
+Demonic Pact,,,mythic,Enchantment,none,4,0,0,2,0,0,2,B,,
+Desecration Demon,6.0,6.0,rare,Creature,Demon,4,0,0,2,0,0,2,B,1.5,1.5
+Driver of the Dead,3.0,2.0,common,Creature,Vampire,4,0,0,1,0,0,3,B,0.75,0.5
+Duress,,,common,Sorcery,none,1,0,0,1,0,0,0,B,,
+Kalastria Highborn,2.0,2.0,rare,Creature,Vampire,2,0,0,2,0,0,0,B,1.0,1.0
+Knight of Malice,2.0,2.0,uncommon,Creature,Human,2,0,0,1,0,0,1,B,1.0,1.0
+Midnight Reaper,3.0,2.0,rare,Creature,Zombie,3,0,0,1,0,0,2,B,1.0,0.67
+Myojin of Night's Reach,5.0,2.0,rare,Creature,Spirit,8,0,0,3,0,0,5,B,0.62,0.25
+Nullpriest of Oblivion,2.0,1.0,rare,Creature,Vampire,2,0,0,1,0,0,1,B,1.0,0.5
+Pulse Tracker,1.0,1.0,common,Creature,Vampire,1,0,0,1,0,0,0,B,1.0,1.0
+Sanguine Indulgence,,,common,Sorcery,none,4,0,0,1,0,0,3,B,,
+Tribute to Hunger,,,uncommon,Instant,none,3,0,0,1,0,0,2,B,,
+Vampiric Rites,,,uncommon,Enchantment,none,1,0,0,1,0,0,0,B,,
+Vile Entomber,2.0,2.0,uncommon,Creature,Zombie,4,0,0,2,0,0,2,B,0.5,0.5
+Wishclaw Talisman,,,rare,Artifact,none,2,0,0,1,0,0,1,B,,
+Ball Lightning,6.0,1.0,rare,Creature,Elemental,3,0,0,0,3,0,0,R,2.0,0.33
+Bolt Bend,,,uncommon,Instant,none,4,0,0,0,1,0,3,R,,
+Crash Through,,,common,Sorcery,none,1,0,0,0,1,0,0,R,,
+Dragon Mage,5.0,5.0,uncommon,Creature,Dragon,7,0,0,0,2,0,5,R,0.71,0.71
+Dragonmaster Outcast,1.0,1.0,mythic,Creature,Human,1,0,0,0,1,0,0,R,1.0,1.0
+Ghitu Lavarunner,1.0,2.0,common,Creature,Human,1,0,0,0,1,0,0,R,1.0,2.0
+Giant Cindermaw,4.0,3.0,uncommon,Creature,Dinosaur,3,0,0,0,1,0,2,R,1.33,1.0
+Harmless Offering,,,rare,Sorcery,none,3,0,0,0,1,0,2,R,,
+Hoarding Dragon,4.0,4.0,uncommon,Creature,Dragon,5,0,0,0,2,0,3,R,0.8,0.8
+"Lathliss, Dragon Queen",6.0,6.0,rare,Creature,Dragon,6,0,0,0,2,0,4,R,1.0,1.0
+Mindsparker,3.0,2.0,uncommon,Creature,Elemental,3,0,0,0,2,0,1,R,1.0,0.67
+Obliterating Bolt,,,uncommon,Sorcery,none,2,0,0,0,1,0,1,R,,
+Ravenous Giant,5.0,5.0,uncommon,Creature,Giant,4,0,0,0,2,0,2,R,1.25,1.25
+Redcap Gutter-Dweller,3.0,3.0,rare,Creature,Goblin,4,0,0,0,2,0,2,R,0.75,0.75
+Stromkirk Noble,1.0,1.0,rare,Creature,Vampire,1,0,0,0,1,0,0,R,1.0,1.0
+Taurean Mauler,2.0,2.0,rare,Creature,Other,3,0,0,0,1,0,2,R,0.67,0.67
+Viashino Pyromancer,2.0,1.0,common,Creature,Lizard,2,0,0,0,1,0,1,R,1.0,0.5
+Circuitous Route,,,uncommon,Sorcery,none,4,0,0,0,0,1,3,G,,
+Fierce Empath,1.0,1.0,common,Creature,Elf,3,0,0,0,0,1,2,G,0.33,0.33
+"Fynn, the Fangbearer",1.0,3.0,uncommon,Creature,Human,2,0,0,0,0,1,1,G,0.5,1.5
+Gnarlback Rhino,4.0,4.0,uncommon,Creature,Other,4,0,0,0,0,2,2,G,1.0,1.0
+Heroes' Bane,0.0,0.0,rare,Creature,Other,5,0,0,0,0,2,3,G,0.0,0.0
+Mold Adder,1.0,1.0,uncommon,Creature,Other,1,0,0,0,0,1,0,G,1.0,1.0
+Ordeal of Nylea,,,uncommon,Enchantment,Aura,2,0,0,0,0,1,1,G,,
+Predator Ooze,1.0,1.0,rare,Creature,Other,3,0,0,0,0,3,0,G,0.33,0.33
+Primeval Bounty,,,mythic,Enchantment,none,6,0,0,0,0,1,5,G,,
+Rampaging Baloths,6.0,6.0,rare,Creature,Beast,6,0,0,0,0,2,4,G,1.0,1.0
+Springbloom Druid,1.0,1.0,common,Creature,Elf,3,0,0,0,0,1,2,G,0.33,0.33
+"Surrak, the Hunt Caller",5.0,4.0,rare,Creature,Human,4,0,0,0,0,2,2,G,1.25,1.0
+Venom Connoisseur,2.0,2.0,uncommon,Creature,Human,2,0,0,0,0,1,1,G,1.0,1.0
+Vizier of the Menagerie,3.0,4.0,mythic,Creature,Other,4,0,0,0,0,1,3,G,0.75,1.0
+Wildborn Preserver,2.0,2.0,rare,Creature,Elf,2,0,0,0,0,1,1,G,1.0,1.0
+"Aurelia, the Warleader",3.0,4.0,mythic,Creature,Angel,6,2,0,0,2,0,2,WR,0.5,0.67
+"Ayli, Eternal Pilgrim",2.0,3.0,rare,Creature,Other,2,1,0,1,0,0,0,WB,1.0,1.5
+Cloudblazer,2.0,2.0,uncommon,Creature,Human,5,1,1,0,0,0,3,WU,0.4,0.4
+Deadly Brew,,,uncommon,Sorcery,none,2,0,0,1,0,1,0,BG,,
+Drogskol Reaver,3.0,5.0,rare,Creature,Spirit,7,1,1,0,0,0,5,WU,0.43,0.71
+"Garna, Bloodfist of Keld",4.0,3.0,uncommon,Creature,Human,4,0,0,1,2,0,1,BR,1.0,0.75
+"Halana and Alena, Partners",2.0,3.0,rare,Creature,Human,4,0,0,0,1,1,2,RG,0.5,0.75
+Immersturm Predator,3.0,3.0,rare,Creature,Vampire,4,0,0,1,1,0,2,BR,0.75,0.75
+Maelstrom Pulse,,,rare,Sorcery,none,3,0,0,1,0,1,1,BG,,
+Mortify,,,uncommon,Instant,none,3,1,0,1,0,0,1,WB,,
+"Ovika, Enigma Goliath",6.0,6.0,rare,Creature,Other,7,0,1,0,1,0,5,UR,0.86,0.86
+Prime Speaker Zegana,1.0,1.0,rare,Creature,Merfolk,6,0,2,0,0,2,2,UG,0.17,0.17
+Savage Ventmaw,4.0,4.0,uncommon,Creature,Dragon,6,0,0,0,1,1,4,RG,0.67,0.67
+Trygon Predator,2.0,3.0,uncommon,Creature,Beast,3,0,1,0,0,1,1,UG,0.67,1.0
+Basilisk Collar,,,rare,Artifact,Equipment,1,0,0,0,0,0,1,colorless,,
+Cultivator's Caravan,5.0,5.0,rare,Artifact,Vehicle,3,0,0,0,0,0,3,colorless,1.67,1.67
+Darksteel Colossus,11.0,11.0,mythic,Creature,Golem,11,0,0,0,0,0,11,colorless,1.0,1.0
+Diamond Mare,1.0,3.0,uncommon,Creature,Other,2,0,0,0,0,0,2,colorless,0.5,1.5
+Feldon's Cane,,,uncommon,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Fireshrieker,,,uncommon,Artifact,Equipment,3,0,0,0,0,0,3,colorless,,
+Gate Colossus,8.0,8.0,uncommon,Creature,Construct,8,0,0,0,0,0,8,colorless,1.0,1.0
+Mazemind Tome,,,rare,Artifact,none,2,0,0,0,0,0,2,colorless,,
+Pyromancer's Goggles,,,mythic,Artifact,none,5,0,0,0,0,0,5,colorless,,
+"Ramos, Dragon Engine",4.0,4.0,mythic,Creature,Dragon,6,0,0,0,0,0,6,colorless,0.67,0.67
+Sorcerous Spyglass,,,uncommon,Artifact,none,2,0,0,0,0,0,2,colorless,,
+Soul-Guide Lantern,,,uncommon,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Steel Hellkite,5.0,5.0,rare,Creature,Dragon,6,0,0,0,0,0,6,colorless,0.83,0.83
+Three Tree Mascot,2.0,1.0,common,Creature,Other,2,0,0,0,0,0,2,colorless,1.0,0.5
+Azorius Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Boros Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Crawling Barrens,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Cryptic Caves,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Demolition Field,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Dimir Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Golgari Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Gruul Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Izzet Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Orzhov Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Rakdos Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Selesnya Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Simic Guildgate,,,common,Land,Gate,0,0,0,0,0,0,0,colorless,,
+Temple of Abandon,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Deceit,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Enlightenment,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Epiphany,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Malady,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Malice,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Mystery,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Plenty,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Silence,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Temple of Triumph,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Angel of Vitality,2.0,2.0,uncommon,Creature,Angel,3,1,0,0,0,0,2,W,0.67,0.67
+Lyra Dawnbringer,5.0,5.0,mythic,Creature,Angel,5,2,0,0,0,0,3,W,1.0,1.0
+Make a Stand,,,uncommon,Instant,none,3,1,0,0,0,0,2,W,,
+Confiscate,,,uncommon,Enchantment,Aura,6,0,2,0,0,0,4,U,,
+Negate,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Rite of Replication,,,rare,Sorcery,none,4,0,2,0,0,0,2,U,,
+Feed the Swarm,,,common,Sorcery,none,2,0,0,1,0,0,1,B,,
+Gatekeeper of Malakir,2.0,2.0,uncommon,Creature,Vampire,2,0,0,2,0,0,0,B,1.0,1.0
+Massacre Wurm,6.0,5.0,mythic,Creature,Other,6,0,0,3,0,0,3,B,1.0,0.83
+Gratuitous Violence,,,rare,Enchantment,none,5,0,0,0,3,0,2,R,,
+Guttersnipe,2.0,2.0,uncommon,Creature,Goblin,3,0,0,0,1,0,2,R,0.67,0.67
+Impact Tremors,,,common,Enchantment,none,2,0,0,0,1,0,1,R,,
+Gigantosaurus,10.0,10.0,rare,Creature,Dinosaur,5,0,0,0,0,5,0,G,2.0,2.0
+Imperious Perfect,2.0,2.0,uncommon,Creature,Elf,3,0,0,0,0,1,2,G,0.67,0.67
+Pelakka Wurm,7.0,7.0,uncommon,Creature,Other,7,0,0,0,0,3,4,G,1.0,1.0
+Boros Charm,,,uncommon,Instant,none,2,1,0,0,1,0,0,WR,,
+Unflinching Courage,,,uncommon,Enchantment,Aura,3,1,0,0,0,1,1,WG,,
+Adaptive Automaton,2.0,2.0,rare,Creature,Construct,3,0,0,0,0,0,3,colorless,0.67,0.67
+Expedition Map,,,common,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Gilded Lotus,,,rare,Artifact,none,5,0,0,0,0,0,5,colorless,,
+Hedron Archive,,,uncommon,Artifact,none,4,0,0,0,0,0,4,colorless,,
+Maze's End,,,mythic,Land,none,0,0,0,0,0,0,0,colorless,,
+Hinterland Sanctifier,1.0,2.0,common,Creature,Rabbit,1,1,0,0,0,0,0,W,1.0,2.0
+Case of the Shattered Pact,,,uncommon,Enchantment,Case,2,0,0,0,0,0,2,colorless,,
+Absolving Lammasu,4.0,3.0,uncommon,Creature,Other,5,1,0,0,0,0,4,W,0.8,0.6
+Assemble the Players,,,rare,Enchantment,none,2,1,0,0,0,0,1,W,,
+Aurelia's Vindicator,4.0,2.0,mythic,Creature,Angel,4,2,0,0,0,0,2,W,1.0,0.5
+Auspicious Arrival,,,common,Instant,none,2,1,0,0,0,0,1,W,,
+Call a Surprise Witness,,,uncommon,Sorcery,none,2,1,0,0,0,0,1,W,,
+Case File Auditor,1.0,4.0,uncommon,Creature,Human,3,1,0,0,0,0,2,W,0.33,1.33
+Case of the Gateway Express,,,uncommon,Enchantment,Case,2,1,0,0,0,0,1,W,,
+Case of the Pilfered Proof,,,uncommon,Enchantment,Case,2,1,0,0,0,0,1,W,,
+Case of the Uneaten Feast,,,rare,Enchantment,Case,1,1,0,0,0,0,0,W,,
+Defenestrated Phantom,4.0,3.0,common,Creature,Spirit,6,2,0,0,0,0,4,W,0.67,0.5
+"Delney, Streetwise Lookout",2.0,2.0,mythic,Creature,Human,3,1,0,0,0,0,2,W,0.67,0.67
+Doorkeeper Thrull,1.0,2.0,rare,Creature,Other,2,1,0,0,0,0,1,W,0.5,1.0
+Due Diligence,,,common,Enchantment,Aura,3,1,0,0,0,0,2,W,,
+Essence of Antiquity,1.0,10.0,uncommon,Creature,Golem,5,2,0,0,0,0,3,W,0.2,2.0
+Forum Familiar,1.0,1.0,uncommon,Creature,Cat,1,1,0,0,0,0,0,W,1.0,1.0
+Griffnaut Tracker,3.0,2.0,common,Creature,Human,4,1,0,0,0,0,3,W,0.75,0.5
+Haazda Vigilante,4.0,4.0,common,Creature,Giant,5,1,0,0,0,0,4,W,0.8,0.8
+Inside Source,1.0,1.0,common,Creature,Human,3,1,0,0,0,0,2,W,0.33,0.33
+Karlov Watchdog,3.0,2.0,uncommon,Creature,Dog,4,1,0,0,0,0,3,W,0.75,0.5
+Krovod Haunch,,,uncommon,Artifact,Other,1,1,0,0,0,0,0,W,,
+Makeshift Binding,,,common,Enchantment,none,3,1,0,0,0,0,2,W,,
+Marketwatch Phantom,2.0,2.0,common,Creature,Spirit,2,1,0,0,0,0,1,W,1.0,1.0
+Museum Nightwatch,3.0,2.0,common,Creature,Other,4,1,0,0,0,0,3,W,0.75,0.5
+Neighborhood Guardian,2.0,2.0,uncommon,Creature,Other,2,1,0,0,0,0,1,W,1.0,1.0
+No Witnesses,,,rare,Sorcery,none,4,2,0,0,0,0,2,W,,
+Not on My Watch,,,uncommon,Instant,none,2,1,0,0,0,0,1,W,,
+Novice Inspector,1.0,2.0,common,Creature,Human,1,1,0,0,0,0,0,W,1.0,2.0
+On the Job,,,common,Instant,none,4,2,0,0,0,0,2,W,,
+Perimeter Enforcer,1.0,1.0,uncommon,Creature,Human,2,1,0,0,0,0,1,W,0.5,0.5
+Sanctuary Wall,0.0,4.0,uncommon,Creature,Wall,2,1,0,0,0,0,1,W,0.0,2.0
+Seasoned Consultant,1.0,3.0,common,Creature,Human,2,1,0,0,0,0,1,W,0.5,1.5
+Tenth District Hero,2.0,3.0,rare,Creature,Human,2,1,0,0,0,0,1,W,1.0,1.5
+Unyielding Gatekeeper,3.0,2.0,rare,Creature,Other,2,1,0,0,0,0,1,W,1.5,1.0
+Wojek Investigator,2.0,4.0,rare,Creature,Angel,3,1,0,0,0,0,2,W,0.67,1.33
+Wrench,,,uncommon,Artifact,Clue,1,1,0,0,0,0,0,W,,
+Agency Outfitter,4.0,3.0,uncommon,Creature,Sphinx,6,0,2,0,0,0,4,U,0.67,0.5
+Behind the Mask,,,common,Instant,none,1,0,1,0,0,0,0,U,,
+Benthic Criminologists,4.0,5.0,common,Creature,Merfolk,5,0,1,0,0,0,4,U,0.8,1.0
+Bubble Smuggler,2.0,1.0,common,Creature,Other,2,0,1,0,0,0,1,U,1.0,0.5
+Burden of Proof,,,uncommon,Enchantment,Aura,2,0,1,0,0,0,1,U,,
+Candlestick,,,uncommon,Artifact,Clue,1,0,1,0,0,0,0,U,,
+Case of the Filched Falcon,,,uncommon,Enchantment,Case,1,0,1,0,0,0,0,U,,
+Case of the Ransacked Lab,,,rare,Enchantment,Case,3,0,1,0,0,0,2,U,,
+Cold Case Cracker,3.0,3.0,common,Creature,Spirit,4,0,1,0,0,0,3,U,0.75,0.75
+Conspiracy Unraveler,6.0,6.0,mythic,Creature,Sphinx,7,0,2,0,0,0,5,U,0.86,0.86
+Coveted Falcon,1.0,4.0,rare,Creature,Bird,3,0,2,0,0,0,1,U,0.33,1.33
+Crimestopper Sprite,2.0,2.0,common,Creature,Other,3,0,1,0,0,0,2,U,0.67,0.67
+Cryptic Coat,,,rare,Artifact,Equipment,3,0,1,0,0,0,2,U,,
+Curious Inquiry,,,uncommon,Enchantment,Aura,1,0,1,0,0,0,0,U,,
+Deduce,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Dramatic Accusation,,,common,Enchantment,Aura,3,0,1,0,0,0,2,U,,
+Eliminate the Impossible,,,uncommon,Instant,none,2,0,1,0,0,0,1,U,,
+Exit Specialist,2.0,1.0,uncommon,Creature,Human,2,0,1,0,0,0,1,U,1.0,0.5
+Fae Flight,,,uncommon,Enchantment,Aura,2,0,1,0,0,0,1,U,,
+Forensic Gadgeteer,2.0,3.0,rare,Creature,Other,3,0,1,0,0,0,2,U,0.67,1.0
+Forensic Researcher,1.0,3.0,uncommon,Creature,Merfolk,3,0,1,0,0,0,2,U,0.33,1.0
+Furtive Courier,3.0,2.0,uncommon,Creature,Merfolk,3,0,1,0,0,0,2,U,1.0,0.67
+Hotshot Investigators,4.0,4.0,common,Creature,Other,6,0,1,0,0,0,5,U,0.67,0.67
+Intrude on the Mind,,,mythic,Instant,none,5,0,2,0,0,0,3,U,,
+Jaded Analyst,3.0,2.0,common,Creature,Human,2,0,1,0,0,0,1,U,1.5,1.0
+Living Conundrum,2.0,5.0,uncommon,Creature,Elemental,5,0,1,0,0,0,4,U,0.4,1.0
+Mistway Spy,1.0,1.0,uncommon,Creature,Merfolk,1,0,1,0,0,0,0,U,1.0,1.0
+Out Cold,,,common,Instant,none,4,0,1,0,0,0,3,U,,
+Proft's Eidetic Memory,,,rare,Enchantment,none,2,0,1,0,0,0,1,U,,
+Projektor Inspector,3.0,2.0,common,Creature,Human,3,0,1,0,0,0,2,U,1.0,0.67
+Reasonable Doubt,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Reenact the Crime,,,rare,Instant,none,4,0,3,0,0,0,1,U,,
+Steamcore Scholar,2.0,2.0,rare,Creature,Other,3,0,1,0,0,0,2,U,0.67,0.67
+Sudden Setback,,,uncommon,Instant,none,4,0,2,0,0,0,2,U,,
+Surveillance Monitor,3.0,3.0,uncommon,Creature,Other,4,0,1,0,0,0,3,U,0.75,0.75
+Unauthorized Exit,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Agency Coroner,3.0,6.0,common,Creature,Other,5,0,0,1,0,0,4,B,0.6,1.2
+Alley Assailant,3.0,3.0,common,Creature,Vampire,3,0,0,1,0,0,2,B,1.0,1.0
+Barbed Servitor,1.0,1.0,rare,Creature,Construct,4,0,0,1,0,0,3,B,0.25,0.25
+Basilica Stalker,3.0,4.0,common,Creature,Vampire,6,0,0,1,0,0,5,B,0.5,0.67
+Case of the Gorgon's Kiss,,,uncommon,Enchantment,Case,1,0,0,1,0,0,0,B,,
+Case of the Stashed Skeleton,,,rare,Enchantment,Case,2,0,0,1,0,0,1,B,,
+Cerebral Confiscation,,,common,Sorcery,none,3,0,0,1,0,0,2,B,,
+Clandestine Meddler,3.0,2.0,uncommon,Creature,Vampire,3,0,0,1,0,0,2,B,1.0,0.67
+Deadly Cover-Up,,,rare,Sorcery,none,5,0,0,2,0,0,3,B,,
+Extract a Confession,,,common,Sorcery,none,2,0,0,1,0,0,1,B,,
+Festerleech,1.0,1.0,uncommon,Creature,Zombie,1,0,0,1,0,0,0,B,1.0,1.0
+Homicide Investigator,2.0,2.0,rare,Creature,Human,2,0,0,1,0,0,1,B,1.0,1.0
+Hunted Bonebrute,6.0,2.0,rare,Creature,Skeleton,3,0,0,1,0,0,2,B,2.0,0.67
+Illicit Masquerade,,,rare,Enchantment,none,4,0,0,1,0,0,3,B,,
+It Doesn't Add Up,,,uncommon,Instant,none,5,0,0,2,0,0,3,B,,
+Lead Pipe,,,uncommon,Artifact,Clue,1,0,0,1,0,0,0,B,,
+Leering Onlooker,1.0,3.0,uncommon,Creature,Vampire,2,0,0,1,0,0,1,B,0.5,1.5
+Long Goodbye,,,uncommon,Instant,none,2,0,0,1,0,0,1,B,,
+Macabre Reconstruction,,,common,Sorcery,none,4,0,0,1,0,0,3,B,,
+"Massacre Girl, Known Killer",4.0,4.0,mythic,Creature,Human,4,0,0,2,0,0,2,B,1.0,1.0
+Murder,,,common,Instant,none,3,0,0,2,0,0,1,B,,
+Nightdrinker Moroii,4.0,2.0,uncommon,Creature,Vampire,4,0,0,1,0,0,3,B,1.0,0.5
+Persuasive Interrogators,5.0,6.0,uncommon,Creature,Other,6,0,0,2,0,0,4,B,0.83,1.0
+Polygraph Orb,,,uncommon,Artifact,none,5,0,0,1,0,0,4,B,,
+Presumed Dead,,,uncommon,Instant,none,2,0,0,1,0,0,1,B,,
+Repeat Offender,2.0,1.0,common,Creature,Human,2,0,0,1,0,0,1,B,1.0,0.5
+Rot Farm Mortipede,3.0,4.0,common,Creature,Insect,4,0,0,1,0,0,3,B,0.75,1.0
+Slimy Dualleech,2.0,4.0,uncommon,Creature,Other,4,0,0,1,0,0,3,B,0.5,1.0
+Snarling Gorehound,1.0,1.0,common,Creature,Dog,1,0,0,1,0,0,0,B,1.0,1.0
+Soul Enervation,,,uncommon,Enchantment,none,4,0,0,1,0,0,3,B,,
+Toxin Analysis,,,common,Instant,none,1,0,0,1,0,0,0,B,,
+Undercity Eliminator,3.0,3.0,uncommon,Creature,Other,5,0,0,2,0,0,3,B,0.6,0.6
+Unscrupulous Agent,1.0,1.0,common,Creature,Elf,2,0,0,1,0,0,1,B,0.5,0.5
+Vein Ripper,6.0,5.0,mythic,Creature,Vampire,6,0,0,3,0,0,3,B,1.0,0.83
+Anzrag's Rampage,,,rare,Sorcery,none,5,0,0,0,2,0,3,R,,
+Bolrac-Clan Basher,3.0,2.0,uncommon,Creature,Other,6,0,0,0,2,0,4,R,0.5,0.33
+Case of the Burning Masks,,,uncommon,Enchantment,Case,3,0,0,0,2,0,1,R,,
+Case of the Crimson Pulse,,,rare,Enchantment,Case,3,0,0,0,1,0,2,R,,
+Caught Red-Handed,,,uncommon,Instant,none,5,0,0,0,1,0,4,R,,
+The Chase Is On,,,common,Instant,none,3,0,0,0,1,0,2,R,,
+Concealed Weapon,,,uncommon,Artifact,Equipment,2,0,0,0,1,0,1,R,,
+Connecting the Dots,,,rare,Enchantment,none,2,0,0,0,1,0,1,R,,
+Convenient Target,,,uncommon,Enchantment,Aura,1,0,0,0,1,0,0,R,,
+Cornered Crook,5.0,4.0,uncommon,Creature,Lizard,5,0,0,0,1,0,4,R,1.0,0.8
+Crime Novelist,1.0,3.0,uncommon,Creature,Goblin,3,0,0,0,1,0,2,R,0.33,1.0
+Demand Answers,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Expedited Inheritance,,,mythic,Enchantment,none,2,0,0,0,2,0,0,R,,
+Expose the Culprit,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+Felonious Rage,,,common,Instant,none,1,0,0,0,1,0,0,R,,
+Frantic Scapegoat,1.0,1.0,uncommon,Creature,Other,1,0,0,0,1,0,0,R,1.0,1.0
+Fugitive Codebreaker,2.0,1.0,rare,Creature,Goblin,2,0,0,0,1,0,1,R,1.0,0.5
+Galvanize,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Gearbane Orangutan,2.0,2.0,common,Creature,Other,3,0,0,0,1,0,2,R,0.67,0.67
+Goblin Maskmaker,1.0,2.0,common,Creature,Goblin,1,0,0,0,1,0,0,R,1.0,2.0
+Harried Dronesmith,2.0,3.0,uncommon,Creature,Human,4,0,0,0,1,0,3,R,0.5,0.75
+Incinerator of the Guilty,6.0,6.0,mythic,Creature,Dragon,6,0,0,0,2,0,4,R,1.0,1.0
+Innocent Bystander,2.0,1.0,common,Creature,Goblin,2,0,0,0,1,0,1,R,1.0,0.5
+Knife,,,uncommon,Artifact,Clue,1,0,0,0,1,0,0,R,,
+"Krenko, Baron of Tin Street",3.0,3.0,rare,Creature,Goblin,3,0,0,0,1,0,2,R,1.0,1.0
+Krenko's Buzzcrusher,4.0,4.0,rare,Creature,Insect,4,0,0,0,2,0,2,R,1.0,1.0
+Lamplight Phoenix,3.0,3.0,rare,Creature,Other,3,0,0,0,2,0,1,R,1.0,1.0
+Offender at Large,5.0,4.0,common,Creature,Giant,5,0,0,0,1,0,4,R,1.0,0.8
+Person of Interest,2.0,2.0,common,Creature,Human,4,0,0,0,1,0,3,R,0.5,0.5
+Pyrotechnic Performer,3.0,2.0,rare,Creature,Lizard,2,0,0,0,1,0,1,R,1.5,1.0
+Reckless Detective,0.0,3.0,uncommon,Creature,Other,2,0,0,0,1,0,1,R,0.0,1.5
+Red Herring,2.0,2.0,common,Creature,Clue,2,0,0,0,1,0,1,R,1.0,1.0
+Rubblebelt Braggart,5.0,5.0,common,Creature,Lizard,5,0,0,0,1,0,4,R,1.0,1.0
+Shock,,,common,Instant,none,1,0,0,0,1,0,0,R,,
+Suspicious Detonation,,,common,Sorcery,none,5,0,0,0,1,0,4,R,,
+Vengeful Tracker,2.0,2.0,uncommon,Creature,Human,2,0,0,0,1,0,1,R,1.0,1.0
+Aftermath Analyst,1.0,3.0,uncommon,Creature,Elf,2,0,0,0,0,1,1,G,0.5,1.5
+Airtight Alibi,,,common,Enchantment,Aura,3,0,0,0,0,1,2,G,,
+Analyze the Pollen,,,rare,Sorcery,none,1,0,0,0,0,1,0,G,,
+Archdruid's Charm,,,rare,Instant,none,3,0,0,0,0,3,0,G,,
+Audience with Trostani,,,rare,Sorcery,none,3,0,0,0,0,1,2,G,,
+Axebane Ferox,4.0,4.0,rare,Creature,Beast,4,0,0,0,0,2,2,G,1.0,1.0
+Bite Down on Crime,,,common,Sorcery,none,4,0,0,0,0,1,3,G,,
+Case of the Locked Hothouse,,,rare,Enchantment,Case,4,0,0,0,0,1,3,G,,
+Case of the Trampled Garden,,,uncommon,Enchantment,Case,3,0,0,0,0,1,2,G,,
+Chalk Outline,,,uncommon,Enchantment,none,4,0,0,0,0,1,3,G,,
+Culvert Ambusher,4.0,5.0,uncommon,Creature,Other,5,0,0,0,0,2,3,G,0.8,1.0
+Fanatical Strength,,,common,Instant,none,2,0,0,0,0,1,1,G,,
+Flourishing Bloom-Kin,0.0,0.0,uncommon,Creature,Other,2,0,0,0,0,1,1,G,0.0,0.0
+Get a Leg Up,,,uncommon,Instant,none,1,0,0,0,0,1,0,G,,
+Glint Weaver,3.0,3.0,uncommon,Creature,Spider,7,0,0,0,0,2,5,G,0.43,0.43
+Greenbelt Radical,4.0,4.0,uncommon,Creature,Other,4,0,0,0,0,1,3,G,1.0,1.0
+Hard-Hitting Question,,,uncommon,Sorcery,none,1,0,0,0,0,1,0,G,,
+Hedge Whisperer,0.0,3.0,uncommon,Creature,Elf,1,0,0,0,0,1,0,G,0.0,3.0
+Hide in Plain Sight,,,rare,Sorcery,none,4,0,0,0,0,1,3,G,,
+A Killer Among Us,,,uncommon,Enchantment,none,5,0,0,0,0,1,4,G,,
+Loxodon Eavesdropper,3.0,3.0,common,Creature,Other,4,0,0,0,0,1,3,G,0.75,0.75
+Nervous Gardener,2.0,2.0,common,Creature,Other,2,0,0,0,0,1,1,G,1.0,1.0
+Pick Your Poison,,,common,Sorcery,none,1,0,0,0,0,1,0,G,,
+Pompous Gadabout,4.0,2.0,uncommon,Creature,Human,3,0,0,0,0,1,2,G,1.33,0.67
+The Pride of Hull Clade,2.0,15.0,mythic,Creature,Other,11,0,0,0,0,1,10,G,0.18,1.36
+Rope,,,uncommon,Artifact,Clue,1,0,0,0,0,1,0,G,,
+Rubblebelt Maverick,1.0,1.0,common,Creature,Human,1,0,0,0,0,1,0,G,1.0,1.0
+Sample Collector,2.0,3.0,uncommon,Creature,Other,3,0,0,0,0,1,2,G,0.67,1.0
+Sharp-Eyed Rookie,2.0,2.0,rare,Creature,Human,2,0,0,0,0,1,1,G,1.0,1.0
+Slime Against Humanity,,,common,Sorcery,none,3,0,0,0,0,1,2,G,,
+They Went This Way,,,common,Sorcery,none,3,0,0,0,0,1,2,G,,
+Topiary Panther,6.0,5.0,common,Creature,Other,6,0,0,0,0,2,4,G,1.0,0.83
+Tunnel Tipster,1.0,1.0,common,Creature,Other,2,0,0,0,0,1,1,G,0.5,0.5
+Undergrowth Recon,,,mythic,Enchantment,none,3,0,0,0,0,2,1,G,,
+Vengeful Creeper,5.0,5.0,common,Creature,Other,5,0,0,0,0,1,4,G,1.0,1.0
+Vitu-Ghazi Inspector,1.0,3.0,common,Creature,Elf,2,0,0,0,0,1,1,G,0.5,1.5
+"Agrus Kos, Spirit of Justice",2.0,4.0,mythic,Creature,Spirit,4,1,0,0,1,0,2,WR,0.5,1.0
+"Alquist Proft, Master Sleuth",3.0,3.0,mythic,Creature,Human,3,1,1,0,0,0,1,WU,1.0,1.0
+"Anzrag, the Quake-Mole",8.0,4.0,mythic,Creature,Other,4,0,0,0,1,1,2,RG,2.0,1.0
+Assassin's Trophy,,,rare,Instant,none,2,0,0,1,0,1,0,BG,,
+"Aurelia, the Law Above",4.0,4.0,rare,Creature,Angel,5,1,0,0,1,0,3,WR,0.8,0.8
+Blood Spatter Analysis,,,rare,Enchantment,none,2,0,0,1,1,0,0,BR,,
+Break Out,,,uncommon,Sorcery,none,2,0,0,0,1,1,0,RG,,
+Buried in the Garden,,,uncommon,Enchantment,Aura,4,1,0,0,0,1,2,WG,,
+Coerced to Kill,,,uncommon,Enchantment,Aura,5,0,1,1,0,0,3,UB,,
+Crowd-Control Warden,4.0,4.0,common,Creature,Other,5,1,0,0,0,1,3,WG,0.8,0.8
+Curious Cadaver,3.0,1.0,uncommon,Creature,Zombie,4,0,1,1,0,0,2,UB,0.75,0.25
+Deadly Complication,,,uncommon,Sorcery,none,3,0,0,1,1,0,1,BR,,
+Detective's Satchel,,,uncommon,Artifact,none,4,0,1,0,1,0,2,UR,,
+Dog Walker,3.0,1.0,common,Creature,Human,2,1,0,0,1,0,0,WR,1.5,0.5
+Drag the Canal,,,rare,Instant,none,2,0,1,1,0,0,0,UB,,
+"Etrata, Deadly Fugitive",1.0,4.0,mythic,Creature,Vampire,3,0,1,1,0,0,1,UB,0.33,1.33
+Evidence Examiner,2.0,2.0,uncommon,Creature,Merfolk,2,0,1,0,0,1,0,UG,1.0,1.0
+"Ezrim, Agency Chief",5.0,5.0,rare,Creature,Other,5,2,2,0,0,0,1,WU,1.0,1.0
+Faerie Snoop,1.0,4.0,common,Creature,Other,3,0,1,1,0,0,1,UB,0.33,1.33
+Gadget Technician,3.0,2.0,common,Creature,Goblin,4,0,1,0,1,0,2,UR,0.75,0.5
+Gleaming Geardrake,1.0,1.0,uncommon,Creature,Other,2,0,1,0,1,0,0,UR,0.5,0.5
+Granite Witness,3.0,2.0,common,Creature,Other,4,1,1,0,0,0,2,WU,0.75,0.5
+Ill-Timed Explosion,,,rare,Sorcery,none,4,0,1,0,1,0,2,UR,,
+Insidious Roots,,,uncommon,Enchantment,none,2,0,0,1,0,1,0,BG,,
+"Izoni, Center of the Web",5.0,4.0,rare,Creature,Elf,6,0,0,1,0,1,4,BG,0.83,0.67
+"Judith, Carnage Connoisseur",3.0,4.0,rare,Creature,Human,5,0,0,1,1,0,3,BR,0.6,0.8
+"Kaya, Spirits' Justice",,,mythic,Planeswalker,Other,4,1,0,1,0,0,2,WB,,
+"Kellan, Inquisitive Prodigy // Tail the Suspect",3.0,4.0,rare,Creature,Human,4,0,1,0,0,1,2,UG,0.75,1.0
+Kraul Whipcracker,3.0,2.0,uncommon,Creature,Insect,2,0,0,1,0,1,0,BG,1.5,1.0
+"Kylox, Visionary Inventor",4.0,4.0,rare,Creature,Lizard,7,0,1,0,1,0,5,UR,0.57,0.57
+Kylox's Voltstrider,4.0,4.0,mythic,Artifact,Vehicle,3,0,1,0,1,0,1,UR,1.33,1.33
+"Lazav, Wearer of Faces",2.0,3.0,rare,Creature,Other,2,0,1,1,0,0,0,UB,1.0,1.5
+Lightning Helix,,,uncommon,Instant,none,2,1,0,0,1,0,0,WR,,
+Meddling Youths,4.0,5.0,uncommon,Creature,Human,5,1,0,0,1,0,3,WR,0.8,1.0
+"Niv-Mizzet, Guildpact",6.0,6.0,rare,Creature,Dragon,5,1,1,1,1,1,0,WUBRG,1.2,1.2
+No More Lies,,,uncommon,Instant,none,2,1,1,0,0,0,0,WU,,
+Officious Interrogation,,,rare,Instant,none,2,1,1,0,0,0,0,WU,,
+Private Eye,3.0,3.0,uncommon,Creature,Other,3,1,1,0,0,0,1,WU,1.0,1.0
+"Rakdos, Patron of Chaos",6.0,6.0,mythic,Creature,Demon,6,0,0,1,1,0,4,BR,1.0,1.0
+Rakish Scoundrel,3.0,3.0,common,Creature,Elf,4,0,0,1,0,1,2,BG,0.75,0.75
+Relive the Past,,,rare,Sorcery,none,7,1,0,0,0,1,5,WG,,
+Riftburst Hellion,6.0,7.0,common,Creature,Other,7,0,0,0,1,1,5,RG,0.86,1.0
+Rune-Brand Juggler,2.0,2.0,uncommon,Creature,Human,2,0,0,1,1,0,0,BR,1.0,1.0
+Sanguine Savior,2.0,1.0,common,Creature,Vampire,3,1,0,1,0,0,1,WB,0.67,0.33
+Shady Informant,4.0,2.0,common,Creature,Other,5,0,0,1,1,0,3,BR,0.8,0.4
+Soul Search,,,uncommon,Sorcery,none,2,1,0,1,0,0,0,WB,,
+Sumala Sentry,1.0,3.0,uncommon,Creature,Elf,2,1,0,0,0,1,0,WG,0.5,1.5
+"Teysa, Opulent Oligarch",2.0,3.0,rare,Creature,Human,3,1,0,1,0,0,1,WB,0.67,1.0
+Tin Street Gossip,4.0,4.0,uncommon,Creature,Lizard,4,0,0,0,1,1,2,RG,1.0,1.0
+"Tolsimir, Midnight's Light",3.0,2.0,rare,Creature,Elf,5,2,0,0,0,1,2,WG,0.6,0.4
+Treacherous Greed,,,rare,Instant,none,3,1,0,1,0,0,1,WB,,
+Undercover Crocodelf,5.0,5.0,common,Creature,Elf,6,0,1,0,0,1,4,UG,0.83,0.83
+Urgent Necropsy,,,mythic,Instant,none,4,0,0,1,0,1,2,BG,,
+"Vannifar, Evolved Enigma",3.0,4.0,mythic,Creature,Elf,4,0,1,0,0,1,2,UG,0.75,1.0
+Warleader's Call,,,rare,Enchantment,none,3,1,0,0,1,0,1,WR,,
+Wispdrinker Vampire,2.0,4.0,uncommon,Creature,Vampire,4,1,0,1,0,0,2,WB,0.5,1.0
+"Yarus, Roar of the Old Gods",4.0,4.0,rare,Creature,Other,4,0,0,0,1,1,2,RG,1.0,1.0
+Cryptex,,,rare,Artifact,none,2,0,0,0,0,0,2,colorless,,
+Gravestone Strider,1.0,3.0,common,Creature,Golem,2,0,0,0,0,0,2,colorless,0.5,1.5
+Lumbering Laundry,4.0,5.0,uncommon,Creature,Golem,5,0,0,0,0,0,5,colorless,0.8,1.0
+Magnetic Snuffler,4.0,4.0,uncommon,Creature,Construct,5,0,0,0,0,0,5,colorless,0.8,0.8
+Magnifying Glass,,,common,Artifact,none,3,0,0,0,0,0,3,colorless,,
+Sanitation Automaton,2.0,1.0,common,Creature,Construct,2,0,0,0,0,0,2,colorless,1.0,0.5
+Thinking Cap,,,common,Artifact,Equipment,1,0,0,0,0,0,1,colorless,,
+Branch of Vitu-Ghazi,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Commercial District,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Elegant Parlor,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Escape Tunnel,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Hedge Maze,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Lush Portico,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Meticulous Archive,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Public Thoroughfare,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Raucous Theater,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Scene of the Crime,,,uncommon,Artifact,Clue,0,0,0,0,0,0,0,colorless,,
+Shadowy Backstreet,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Thundering Falls,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Undercity Sewers,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+Underground Mortuary,,,rare,Land,Other,0,0,0,0,0,0,0,colorless,,
+"Tomik, Wielder of Law",2.0,4.0,mythic,Creature,Human,3,1,0,1,0,0,1,WB,0.67,1.33
+"Voja, Jaws of the Conclave",5.0,5.0,mythic,Creature,Other,5,1,0,0,1,1,2,WRG,1.0,1.0
+"Beza, the Bounding Spring",4.0,5.0,mythic,Creature,Elemental,4,2,0,0,0,0,2,W,1.0,1.25
+Brave-Kin Duo,1.0,1.0,common,Creature,Rabbit,1,1,0,0,0,0,0,W,1.0,1.0
+Brightblade Stoat,2.0,2.0,uncommon,Creature,Other,2,1,0,0,0,0,1,W,1.0,1.0
+Builder's Talent,,,uncommon,Enchantment,Class,2,1,0,0,0,0,1,W,,
+Caretaker's Talent,,,rare,Enchantment,Class,3,1,0,0,0,0,2,W,,
+Carrot Cake,,,common,Artifact,Other,2,1,0,0,0,0,1,W,,
+Crumb and Get It,,,common,Instant,none,1,1,0,0,0,0,0,W,,
+Dawn's Truce,,,rare,Instant,none,2,1,0,0,0,0,1,W,,
+Dewdrop Cure,,,uncommon,Sorcery,none,3,1,0,0,0,0,2,W,,
+Driftgloom Coyote,3.0,4.0,uncommon,Creature,Elemental,5,2,0,0,0,0,3,W,0.6,0.8
+Essence Channeler,2.0,1.0,rare,Creature,Bat,2,1,0,0,0,0,1,W,1.0,0.5
+Feather of Flight,,,uncommon,Enchantment,Aura,2,1,0,0,0,0,1,W,,
+Flowerfoot Swordmaster,1.0,2.0,uncommon,Creature,Mouse,1,1,0,0,0,0,0,W,1.0,2.0
+Harvestrite Host,3.0,3.0,uncommon,Creature,Rabbit,3,1,0,0,0,0,2,W,1.0,1.0
+Hop to It,,,uncommon,Sorcery,none,3,1,0,0,0,0,2,W,,
+Intrepid Rabbit,3.0,2.0,common,Creature,Rabbit,3,1,0,0,0,0,2,W,1.0,0.67
+Jackdaw Savior,3.0,1.0,rare,Creature,Bird,3,1,0,0,0,0,2,W,1.0,0.33
+Jolly Gerbils,2.0,3.0,uncommon,Creature,Other,2,1,0,0,0,0,1,W,1.0,1.5
+Lifecreed Duo,1.0,2.0,common,Creature,Bat,2,1,0,0,0,0,1,W,0.5,1.0
+Mabel's Mettle,,,uncommon,Instant,none,2,1,0,0,0,0,1,W,,
+Mouse Trapper,3.0,2.0,uncommon,Creature,Mouse,3,1,0,0,0,0,2,W,1.0,0.67
+Nettle Guard,3.0,1.0,common,Creature,Mouse,2,1,0,0,0,0,1,W,1.5,0.5
+Parting Gust,,,uncommon,Instant,none,2,2,0,0,0,0,0,W,,
+Pileated Provisioner,3.0,4.0,common,Creature,Bird,5,1,0,0,0,0,4,W,0.6,0.8
+Rabbit Response,,,common,Instant,none,4,2,0,0,0,0,2,W,,
+Repel Calamity,,,uncommon,Instant,none,2,1,0,0,0,0,1,W,,
+Salvation Swan,3.0,3.0,rare,Creature,Bird,4,1,0,0,0,0,3,W,0.75,0.75
+Season of the Burrow,,,mythic,Sorcery,none,5,2,0,0,0,0,3,W,,
+Seasoned Warrenguard,1.0,2.0,uncommon,Creature,Rabbit,1,1,0,0,0,0,0,W,1.0,2.0
+Shrike Force,1.0,3.0,uncommon,Creature,Bird,3,1,0,0,0,0,2,W,0.33,1.0
+Sonar Strike,,,common,Instant,none,2,1,0,0,0,0,1,W,,
+Star Charter,3.0,1.0,uncommon,Creature,Bat,4,1,0,0,0,0,3,W,0.75,0.25
+Starfall Invocation,,,rare,Sorcery,none,5,2,0,0,0,0,3,W,,
+Thistledown Players,3.0,3.0,common,Creature,Mouse,3,1,0,0,0,0,2,W,1.0,1.0
+Valley Questcaller,2.0,3.0,rare,Creature,Rabbit,2,1,0,0,0,0,1,W,1.0,1.5
+Warren Elder,2.0,2.0,common,Creature,Rabbit,2,1,0,0,0,0,1,W,1.0,1.0
+Warren Warleader,4.0,4.0,mythic,Creature,Rabbit,4,2,0,0,0,0,2,W,1.0,1.0
+Wax-Wane Witness,2.0,4.0,common,Creature,Bat,4,1,0,0,0,0,3,W,0.5,1.0
+Whiskervale Forerunner,3.0,4.0,rare,Creature,Mouse,4,1,0,0,0,0,3,W,0.75,1.0
+Azure Beastbinder,1.0,3.0,rare,Creature,Rat,2,0,1,0,0,0,1,U,0.5,1.5
+Bellowing Crier,2.0,1.0,common,Creature,Frog,2,0,1,0,0,0,1,U,1.0,0.5
+Calamitous Tide,,,uncommon,Sorcery,none,6,0,2,0,0,0,4,U,,
+Daring Waverider,4.0,4.0,uncommon,Creature,Otter,6,0,2,0,0,0,4,U,0.67,0.67
+Dazzling Denial,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Dire Downdraft,,,common,Instant,none,4,0,1,0,0,0,3,U,,
+Dour Port-Mage,1.0,3.0,rare,Creature,Frog,2,0,1,0,0,0,1,U,0.5,1.5
+Eddymurk Crab,5.0,5.0,uncommon,Creature,Elemental,7,0,2,0,0,0,5,U,0.71,0.71
+Finch Formation,2.0,2.0,common,Creature,Bird,3,0,1,0,0,0,2,U,0.67,0.67
+Gossip's Talent,,,uncommon,Enchantment,Class,2,0,1,0,0,0,1,U,,
+Into the Flood Maw,,,uncommon,Instant,none,1,0,1,0,0,0,0,U,,
+Kitnap,,,rare,Enchantment,Aura,4,0,2,0,0,0,2,U,,
+"Kitsa, Otterball Elite",1.0,3.0,mythic,Creature,Otter,2,0,1,0,0,0,1,U,0.5,1.5
+Knightfisher,4.0,5.0,uncommon,Creature,Bird,5,0,2,0,0,0,3,U,0.8,1.0
+Long River Lurker,2.0,3.0,uncommon,Creature,Frog,3,0,1,0,0,0,2,U,0.67,1.0
+Long River's Pull,,,uncommon,Instant,none,2,0,2,0,0,0,0,U,,
+Mind Spiral,,,common,Sorcery,none,5,0,1,0,0,0,4,U,,
+Mindwhisker,3.0,2.0,uncommon,Creature,Rat,3,0,1,0,0,0,2,U,1.0,0.67
+Nightwhorl Hermit,1.0,4.0,common,Creature,Rat,3,0,1,0,0,0,2,U,0.33,1.33
+Otterball Antics,,,uncommon,Sorcery,none,2,0,1,0,0,0,1,U,,
+Pearl of Wisdom,,,common,Sorcery,none,3,0,1,0,0,0,2,U,,
+Plumecreed Escort,2.0,1.0,uncommon,Creature,Bird,2,0,1,0,0,0,1,U,1.0,0.5
+Season of Weaving,,,mythic,Sorcery,none,6,0,2,0,0,0,4,U,,
+Shore Up,,,common,Instant,none,1,0,1,0,0,0,0,U,,
+Shoreline Looter,1.0,1.0,uncommon,Creature,Rat,2,0,1,0,0,0,1,U,0.5,0.5
+Skyskipper Duo,3.0,3.0,common,Creature,Bird,5,0,1,0,0,0,4,U,0.6,0.6
+Spellgyre,,,uncommon,Instant,none,4,0,2,0,0,0,2,U,,
+Splash Lasher,3.0,3.0,uncommon,Creature,Frog,4,0,1,0,0,0,3,U,0.75,0.75
+Splash Portal,,,uncommon,Sorcery,none,1,0,1,0,0,0,0,U,,
+Stormchaser's Talent,,,rare,Enchantment,Class,1,0,1,0,0,0,0,U,,
+Sugar Coat,,,uncommon,Enchantment,Aura,3,0,1,0,0,0,2,U,,
+Thought Shucker,1.0,3.0,common,Creature,Rat,2,0,1,0,0,0,1,U,0.5,1.5
+Thundertrap Trainer,1.0,2.0,rare,Creature,Otter,2,0,1,0,0,0,1,U,0.5,1.0
+Valley Floodcaller,2.0,2.0,rare,Creature,Otter,3,0,1,0,0,0,2,U,0.67,0.67
+Waterspout Warden,3.0,2.0,common,Creature,Frog,3,0,1,0,0,0,2,U,1.0,0.67
+Wishing Well,,,rare,Artifact,none,4,0,1,0,0,0,3,U,,
+Agate-Blade Assassin,1.0,3.0,common,Creature,Lizard,2,0,0,1,0,0,1,B,0.5,1.5
+Bandit's Talent,,,uncommon,Enchantment,Class,2,0,0,1,0,0,1,B,,
+Bonebind Orator,2.0,2.0,common,Creature,Squirrel,2,0,0,1,0,0,1,B,1.0,1.0
+Bonecache Overseer,1.0,1.0,uncommon,Creature,Squirrel,1,0,0,1,0,0,0,B,1.0,1.0
+Coiling Rebirth,,,rare,Sorcery,none,5,0,0,2,0,0,3,B,,
+Consumed by Greed,,,uncommon,Instant,none,3,0,0,2,0,0,1,B,,
+Cruelclaw's Heist,,,rare,Sorcery,none,2,0,0,2,0,0,0,B,,
+Daggerfang Duo,3.0,2.0,common,Creature,Rat,3,0,0,1,0,0,2,B,1.0,0.67
+Darkstar Augur,2.0,3.0,rare,Creature,Bat,3,0,0,1,0,0,2,B,0.67,1.0
+Diresight,,,common,Sorcery,none,3,0,0,1,0,0,2,B,,
+Downwind Ambusher,4.0,2.0,uncommon,Creature,Other,4,0,0,1,0,0,3,B,1.0,0.5
+Early Winter,,,common,Instant,none,5,0,0,1,0,0,4,B,,
+Feed the Cycle,,,uncommon,Instant,none,2,0,0,1,0,0,1,B,,
+Fell,,,uncommon,Sorcery,none,2,0,0,1,0,0,1,B,,
+Glidedive Duo,3.0,3.0,common,Creature,Bat,5,0,0,1,0,0,4,B,0.6,0.6
+Hazel's Nocturne,,,uncommon,Instant,none,4,0,0,1,0,0,3,B,,
+Huskburster Swarm,6.0,6.0,uncommon,Creature,Elemental,8,0,0,1,0,0,7,B,0.75,0.75
+Iridescent Vinelasher,1.0,2.0,rare,Creature,Lizard,1,0,0,1,0,0,0,B,1.0,2.0
+"Maha, Its Feathers Night",6.0,5.0,mythic,Creature,Elemental,5,0,0,2,0,0,3,B,1.2,1.0
+Moonstone Harbinger,1.0,3.0,uncommon,Creature,Bat,3,0,0,1,0,0,2,B,0.33,1.0
+Nocturnal Hunger,,,common,Instant,none,3,0,0,1,0,0,2,B,,
+Osteomancer Adept,2.0,2.0,rare,Creature,Squirrel,2,0,0,1,0,0,1,B,1.0,1.0
+Persistent Marshstalker,3.0,1.0,uncommon,Creature,Rat,2,0,0,1,0,0,1,B,1.5,0.5
+Psychic Whorl,,,common,Sorcery,none,3,0,0,1,0,0,2,B,,
+Ravine Raider,1.0,1.0,common,Creature,Lizard,1,0,0,1,0,0,0,B,1.0,1.0
+Rottenmouth Viper,6.0,6.0,mythic,Creature,Elemental,6,0,0,1,0,0,5,B,1.0,1.0
+Ruthless Negotiation,,,uncommon,Sorcery,none,1,0,0,1,0,0,0,B,,
+Savor,,,common,Instant,none,2,0,0,1,0,0,1,B,,
+Scales of Shale,,,common,Instant,none,3,0,0,1,0,0,2,B,,
+Scavenger's Talent,,,rare,Enchantment,Class,1,0,0,1,0,0,0,B,,
+Season of Loss,,,mythic,Sorcery,none,5,0,0,2,0,0,3,B,,
+Sinister Monolith,,,uncommon,Artifact,none,4,0,0,1,0,0,3,B,,
+Starlit Soothsayer,2.0,2.0,common,Creature,Bat,3,0,0,1,0,0,2,B,0.67,0.67
+Starscape Cleric,2.0,1.0,uncommon,Creature,Bat,2,0,0,1,0,0,1,B,1.0,0.5
+Thornplate Intimidator,4.0,3.0,common,Creature,Rat,4,0,0,1,0,0,3,B,1.0,0.75
+Thought-Stalker Warlock,2.0,2.0,uncommon,Creature,Lizard,3,0,0,1,0,0,2,B,0.67,0.67
+Valley Rotcaller,1.0,3.0,rare,Creature,Squirrel,2,0,0,1,0,0,1,B,0.5,1.5
+"Wick, the Whorled Mind",2.0,4.0,rare,Creature,Rat,4,0,0,1,0,0,3,B,0.5,1.0
+Wick's Patrol,5.0,3.0,uncommon,Creature,Rat,6,0,0,2,0,0,4,B,0.83,0.5
+Agate Assault,,,common,Sorcery,none,3,0,0,0,1,0,2,R,,
+Alania's Pathmaker,4.0,2.0,common,Creature,Otter,4,0,0,0,1,0,3,R,1.0,0.5
+Artist's Talent,,,rare,Enchantment,Class,2,0,0,0,1,0,1,R,,
+Blacksmith's Talent,,,uncommon,Enchantment,Class,1,0,0,0,1,0,0,R,,
+Blooming Blast,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+Brambleguard Captain,2.0,3.0,uncommon,Creature,Mouse,4,0,0,0,1,0,3,R,0.5,0.75
+Brazen Collector,2.0,1.0,uncommon,Creature,Raccoon,2,0,0,0,1,0,1,R,1.0,0.5
+Byway Barterer,3.0,3.0,rare,Creature,Raccoon,3,0,0,0,1,0,2,R,1.0,1.0
+Conduct Electricity,,,common,Instant,none,5,0,0,0,1,0,4,R,,
+Coruscation Mage,2.0,2.0,uncommon,Creature,Otter,2,0,0,0,1,0,1,R,1.0,1.0
+"Dragonhawk, Fate's Tempest",5.0,5.0,mythic,Creature,Bird,5,0,0,0,2,0,3,R,1.0,1.0
+Emberheart Challenger,2.0,2.0,rare,Creature,Mouse,2,0,0,0,1,0,1,R,1.0,1.0
+Festival of Embers,,,rare,Enchantment,none,5,0,0,0,1,0,4,R,,
+Flamecache Gecko,2.0,2.0,uncommon,Creature,Lizard,2,0,0,0,1,0,1,R,1.0,1.0
+Frilled Sparkshooter,3.0,3.0,common,Creature,Lizard,4,0,0,0,1,0,3,R,0.75,0.75
+Harnesser of Storms,1.0,4.0,uncommon,Creature,Otter,3,0,0,0,1,0,2,R,0.33,1.33
+Heartfire Hero,1.0,1.0,uncommon,Creature,Mouse,1,0,0,0,1,0,0,R,1.0,1.0
+A-Heartfire Hero,0.0,1.0,uncommon,Creature,Mouse,1,0,0,0,1,0,0,R,0.0,1.0
+Hearthborn Battler,2.0,3.0,rare,Creature,Lizard,3,0,0,0,1,0,2,R,0.67,1.0
+Hired Claw,1.0,2.0,rare,Creature,Lizard,1,0,0,0,1,0,0,R,1.0,2.0
+Hoarder's Overflow,,,uncommon,Enchantment,none,2,0,0,0,1,0,1,R,,
+Kindlespark Duo,1.0,3.0,common,Creature,Lizard,3,0,0,0,1,0,2,R,0.33,1.0
+Manifold Mouse,1.0,2.0,rare,Creature,Mouse,2,0,0,0,1,0,1,R,0.5,1.0
+Might of the Meek,,,common,Instant,none,1,0,0,0,1,0,0,R,,
+Playful Shove,,,uncommon,Sorcery,none,2,0,0,0,1,0,1,R,,
+Quaketusk Boar,5.0,5.0,uncommon,Creature,Elemental,5,0,0,0,2,0,3,R,1.0,1.0
+Rabid Gnaw,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+Raccoon Rallier,2.0,2.0,common,Creature,Raccoon,2,0,0,0,1,0,1,R,1.0,1.0
+Reptilian Recruiter,4.0,2.0,uncommon,Creature,Lizard,5,0,0,0,2,0,3,R,0.8,0.4
+Roughshod Duo,3.0,2.0,common,Creature,Mouse,3,0,0,0,1,0,2,R,1.0,0.67
+Sazacap's Brew,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Season of the Bold,,,mythic,Sorcery,none,5,0,0,0,2,0,3,R,,
+Steampath Charger,2.0,1.0,common,Creature,Lizard,2,0,0,0,1,0,1,R,1.0,0.5
+Stormsplitter,1.0,4.0,mythic,Creature,Otter,4,0,0,0,1,0,3,R,0.25,1.0
+Sunspine Lynx,5.0,4.0,rare,Creature,Elemental,4,0,0,0,2,0,2,R,1.25,1.0
+Take Out the Trash,,,common,Instant,none,2,0,0,0,1,0,1,R,,
+Teapot Slinger,3.0,4.0,uncommon,Creature,Raccoon,4,0,0,0,1,0,3,R,0.75,1.0
+Valley Flamecaller,3.0,3.0,rare,Creature,Lizard,3,0,0,0,1,0,2,R,1.0,1.0
+Valley Rally,,,uncommon,Instant,none,3,0,0,0,1,0,2,R,,
+War Squeak,,,common,Enchantment,Aura,1,0,0,0,1,0,0,R,,
+Whiskerquill Scribe,2.0,2.0,common,Creature,Mouse,2,0,0,0,1,0,1,R,1.0,1.0
+Wildfire Howl,,,uncommon,Sorcery,none,3,0,0,0,2,0,1,R,,
+Bakersbane Duo,2.0,2.0,common,Creature,Squirrel,2,0,0,0,0,1,1,G,1.0,1.0
+Bark-Knuckle Boxer,3.0,2.0,uncommon,Creature,Raccoon,2,0,0,0,0,1,1,G,1.5,1.0
+Brambleguard Veteran,3.0,4.0,uncommon,Creature,Raccoon,3,0,0,0,0,2,1,G,1.0,1.33
+Bushy Bodyguard,2.0,1.0,uncommon,Creature,Squirrel,2,0,0,0,0,1,1,G,1.0,0.5
+Cache Grab,,,common,Instant,none,2,0,0,0,0,1,1,G,,
+Clifftop Lookout,1.0,2.0,uncommon,Creature,Frog,3,0,0,0,0,1,2,G,0.33,0.67
+Curious Forager,3.0,2.0,uncommon,Creature,Squirrel,3,0,0,0,0,1,2,G,1.0,0.67
+Druid of the Spade,2.0,3.0,common,Creature,Rabbit,3,0,0,0,0,1,2,G,0.67,1.0
+Fecund Greenshell,4.0,6.0,rare,Creature,Elemental,5,0,0,0,0,2,3,G,0.8,1.2
+Galewind Moose,6.0,6.0,uncommon,Creature,Elemental,6,0,0,0,0,2,4,G,1.0,1.0
+Hazardroot Herbalist,1.0,4.0,uncommon,Creature,Rabbit,3,0,0,0,0,1,2,G,0.33,1.33
+Heaped Harvest,,,common,Artifact,Other,3,0,0,0,0,1,2,G,,
+High Stride,,,common,Instant,none,1,0,0,0,0,1,0,G,,
+Hivespine Wolverine,5.0,4.0,uncommon,Creature,Elemental,5,0,0,0,0,2,3,G,1.0,0.8
+Honored Dreyleader,1.0,1.0,uncommon,Creature,Squirrel,3,0,0,0,0,1,2,G,0.33,0.33
+Hunter's Talent,,,uncommon,Enchantment,Class,2,0,0,0,0,1,1,G,,
+Innkeeper's Talent,,,rare,Enchantment,Class,2,0,0,0,0,1,1,G,,
+Keen-Eyed Curator,3.0,3.0,rare,Creature,Raccoon,2,0,0,0,0,2,0,G,1.5,1.5
+Longstalk Brawl,,,common,Sorcery,none,1,0,0,0,0,1,0,G,,
+Mistbreath Elder,2.0,2.0,rare,Creature,Frog,1,0,0,0,0,1,0,G,2.0,2.0
+Overprotect,,,uncommon,Instant,none,2,0,0,0,0,1,1,G,,
+Pawpatch Formation,,,uncommon,Instant,none,2,0,0,0,0,1,1,G,,
+Pawpatch Recruit,2.0,1.0,rare,Creature,Rabbit,1,0,0,0,0,1,0,G,2.0,1.0
+Peerless Recycling,,,uncommon,Instant,none,2,0,0,0,0,1,1,G,,
+Polliwallop,,,common,Instant,none,4,0,0,0,0,1,3,G,,
+Rust-Shield Rampager,4.0,4.0,common,Creature,Raccoon,4,0,0,0,0,1,3,G,1.0,1.0
+Scrapshooter,4.0,4.0,rare,Creature,Raccoon,3,0,0,0,0,2,1,G,1.33,1.33
+Season of Gathering,,,mythic,Sorcery,none,6,0,0,0,0,2,4,G,,
+Stickytongue Sentinel,3.0,3.0,common,Creature,Frog,3,0,0,0,0,1,2,G,1.0,1.0
+Stocking the Pantry,,,uncommon,Enchantment,none,1,0,0,0,0,1,0,G,,
+Sunshower Druid,0.0,2.0,common,Creature,Frog,1,0,0,0,0,1,0,G,0.0,2.0
+Tender Wildguide,2.0,2.0,rare,Creature,Other,2,0,0,0,0,1,1,G,1.0,1.0
+Thornvault Forager,2.0,2.0,rare,Creature,Squirrel,2,0,0,0,0,1,1,G,1.0,1.0
+Three Tree Rootweaver,1.0,3.0,common,Creature,Other,2,0,0,0,0,1,1,G,0.5,1.5
+Three Tree Scribe,2.0,3.0,uncommon,Creature,Frog,2,0,0,0,0,1,1,G,1.0,1.5
+Treeguard Duo,3.0,4.0,common,Creature,Frog,4,0,0,0,0,1,3,G,0.75,1.0
+Treetop Sentries,2.0,4.0,common,Creature,Squirrel,4,0,0,0,0,1,3,G,0.5,1.0
+Valley Mightcaller,1.0,1.0,rare,Creature,Frog,1,0,0,0,0,1,0,G,1.0,1.0
+Wear Down,,,uncommon,Sorcery,none,2,0,0,0,0,1,1,G,,
+"Alania, Divergent Storm",3.0,5.0,rare,Creature,Otter,5,0,1,0,1,0,3,UR,0.6,1.0
+"Baylen, the Haymaker",4.0,3.0,rare,Creature,Rabbit,3,1,0,0,1,1,0,WRG,1.33,1.0
+"Camellia, the Seedmiser",3.0,3.0,rare,Creature,Squirrel,3,0,0,1,0,1,1,BG,1.0,1.0
+"Clement, the Worrywort",3.0,3.0,rare,Creature,Frog,3,0,1,0,0,1,1,UG,1.0,1.0
+Dreamdew Entrancer,3.0,4.0,rare,Creature,Frog,4,0,1,0,0,1,2,UG,0.75,1.0
+"Finneas, Ace Archer",2.0,2.0,rare,Creature,Rabbit,2,1,0,0,0,1,0,WG,1.0,1.0
+Fireglass Mentor,2.0,1.0,uncommon,Creature,Lizard,2,0,0,1,1,0,0,BR,1.0,0.5
+"Gev, Scaled Scorch",3.0,2.0,rare,Creature,Lizard,2,0,0,1,1,0,0,BR,1.5,1.0
+"Glarb, Calamity's Augur",2.0,4.0,mythic,Creature,Frog,3,0,1,1,0,1,0,UBG,0.67,1.33
+"Helga, Skittish Seer",1.0,3.0,mythic,Creature,Frog,3,1,1,0,0,1,0,WUG,0.33,1.0
+The Infamous Cruelclaw,3.0,3.0,mythic,Creature,Other,3,0,0,1,1,0,1,BR,1.0,1.0
+"Kastral, the Windcrested",4.0,5.0,rare,Creature,Bird,5,1,1,0,0,0,3,WU,0.8,1.0
+Lilysplash Mentor,4.0,4.0,uncommon,Creature,Frog,4,0,1,0,0,1,2,UG,1.0,1.0
+Lunar Convocation,,,rare,Enchantment,none,2,1,0,1,0,0,0,WB,,
+"Mabel, Heir to Cragflame",3.0,3.0,rare,Creature,Mouse,3,1,0,0,1,0,1,WR,1.0,1.0
+"Muerra, Trash Tactician",2.0,4.0,rare,Creature,Raccoon,3,0,0,0,1,1,1,RG,0.67,1.33
+Plumecreed Mentor,2.0,3.0,uncommon,Creature,Bird,3,1,1,0,0,0,1,WU,0.67,1.0
+"Ral, Crackling Wit",,,mythic,Planeswalker,Other,4,0,1,0,1,0,2,UR,,
+Seedglaive Mentor,3.0,2.0,uncommon,Creature,Mouse,3,1,0,0,1,0,1,WR,1.0,0.67
+Starseer Mentor,3.0,5.0,uncommon,Creature,Bat,5,1,0,1,0,0,3,WB,0.6,1.0
+Stormcatch Mentor,1.0,1.0,uncommon,Creature,Otter,2,0,1,0,1,0,0,UR,0.5,0.5
+Tidecaller Mentor,3.0,3.0,uncommon,Creature,Rat,3,0,1,1,0,0,1,UB,1.0,1.0
+Vinereap Mentor,3.0,2.0,uncommon,Creature,Squirrel,2,0,0,1,0,1,0,BG,1.5,1.0
+"Vren, the Relentless",3.0,4.0,rare,Creature,Rat,4,0,1,1,0,0,2,UB,0.75,1.0
+Wandertale Mentor,2.0,2.0,uncommon,Creature,Raccoon,2,0,0,0,1,1,0,RG,1.0,1.0
+"Ygra, Eater of All",6.0,6.0,mythic,Creature,Elemental,5,0,0,1,0,1,3,BG,1.2,1.2
+"Zoraline, Cosmos Caller",3.0,3.0,rare,Creature,Bat,3,1,0,1,0,0,1,WB,1.0,1.0
+Barkform Harvester,2.0,3.0,common,Creature,Other,3,0,0,0,0,0,3,colorless,0.67,1.0
+Bumbleflower's Sharepot,,,common,Artifact,none,2,0,0,0,0,0,2,colorless,,
+Fountainport Bell,,,common,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Heirloom Epic,,,uncommon,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Patchwork Banner,,,uncommon,Artifact,none,3,0,0,0,0,0,3,colorless,,
+Short Bow,,,uncommon,Artifact,Equipment,2,0,0,0,0,0,2,colorless,,
+Starforged Sword,,,uncommon,Artifact,Equipment,4,0,0,0,0,0,4,colorless,,
+Tangle Tumbler,6.0,6.0,uncommon,Artifact,Vehicle,3,0,0,0,0,0,3,colorless,2.0,2.0
+Fabled Passage,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Fountainport,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Hidden Grotto,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Lilypad Village,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Lupinflower Village,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Mudflat Village,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Oakhollow Village,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Rockface Village,,,uncommon,Land,none,0,0,0,0,0,0,0,colorless,,
+Three Tree City,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+"Bria, Riptide Rogue",3.0,3.0,mythic,Creature,Otter,4,0,1,0,1,0,2,UR,0.75,0.75
+"Byrke, Long Ear of the Law",4.0,4.0,mythic,Creature,Rabbit,6,1,0,0,0,1,4,WG,0.67,0.67
+Serra Redeemer,2.0,4.0,rare,Creature,Angel,5,2,0,0,0,0,3,W,0.4,0.8
+Charmed Sleep,,,common,Enchantment,Aura,3,0,2,0,0,0,1,U,,
+Thieving Otter,2.0,2.0,common,Creature,Otter,3,0,1,0,0,0,2,U,0.67,0.67
+Flame Lash,,,common,Instant,none,4,0,0,0,1,0,3,R,,
+Colossification,,,rare,Enchantment,Aura,7,0,0,0,0,2,5,G,,
+Rabid Bite,,,common,Sorcery,none,2,0,0,0,0,1,1,G,,
+Sword of Vengeance,,,rare,Artifact,Equipment,3,0,0,0,0,0,3,colorless,,
+Acrobatic Cheerleader,2.0,2.0,common,Creature,Human,2,1,0,0,0,0,1,W,1.0,1.0
+Cult Healer,3.0,3.0,common,Creature,Human,3,1,0,0,0,0,2,W,1.0,1.0
+Dazzling Theater // Prop Room,,,rare,Enchantment,Room,4,1,0,0,0,0,3,W,,
+Dollmaker's Shop // Porcelain Gallery,,,mythic,Enchantment,Room,2,1,0,0,0,0,1,W,,
+Emerge from the Cocoon,,,common,Sorcery,none,5,1,0,0,0,0,4,W,,
+Enduring Innocence,2.0,1.0,rare,Creature,Other,3,2,0,0,0,0,1,W,0.67,0.33
+Ethereal Armor,,,uncommon,Enchantment,Aura,1,1,0,0,0,0,0,W,,
+Exorcise,,,uncommon,Sorcery,none,2,1,0,0,0,0,1,W,,
+Fear of Abduction,5.0,5.0,uncommon,Creature,Nightmare,6,2,0,0,0,0,4,W,0.83,0.83
+Fear of Immobility,4.0,4.0,common,Creature,Nightmare,5,1,0,0,0,0,4,W,0.8,0.8
+Fear of Surveillance,2.0,2.0,common,Creature,Nightmare,2,1,0,0,0,0,1,W,1.0,1.0
+Friendly Ghost,2.0,4.0,common,Creature,Spirit,4,1,0,0,0,0,3,W,0.5,1.0
+Ghostly Dancers,2.0,5.0,rare,Creature,Spirit,5,2,0,0,0,0,3,W,0.4,1.0
+Glimmer Seeker,3.0,3.0,uncommon,Creature,Human,3,1,0,0,0,0,2,W,1.0,1.0
+Grand Entryway // Elegant Rotunda,,,common,Enchantment,Room,2,1,0,0,0,0,1,W,,
+Hardened Escort,2.0,4.0,common,Creature,Human,3,1,0,0,0,0,2,W,0.67,1.33
+Jump Scare,,,common,Instant,none,1,1,0,0,0,0,0,W,,
+Leyline of Hope,,,rare,Enchantment,none,4,2,0,0,0,0,2,W,,
+Lionheart Glimmer,2.0,5.0,uncommon,Creature,Cat,5,2,0,0,0,0,3,W,0.4,1.0
+Living Phone,2.0,1.0,common,Creature,Toy,3,1,0,0,0,0,2,W,0.67,0.33
+Optimistic Scavenger,1.0,1.0,uncommon,Creature,Human,1,1,0,0,0,0,0,W,1.0,1.0
+Orphans of the Wheat,2.0,1.0,uncommon,Creature,Human,2,1,0,0,0,0,1,W,1.0,0.5
+Overlord of the Mistmoors,6.0,6.0,mythic,Creature,Avatar,7,2,0,0,0,0,5,W,0.86,0.86
+Patched Plaything,4.0,3.0,uncommon,Creature,Toy,3,1,0,0,0,0,2,W,1.33,1.0
+Possessed Goat,1.0,1.0,common,Creature,Other,1,1,0,0,0,0,0,W,1.0,1.0
+Reluctant Role Model,2.0,2.0,rare,Creature,Human,2,1,0,0,0,0,1,W,1.0,1.0
+Savior of the Small,3.0,4.0,uncommon,Creature,Other,4,1,0,0,0,0,3,W,0.75,1.0
+Seized from Slumber,,,common,Instant,none,5,1,0,0,0,0,4,W,,
+Shardmage's Rescue,,,uncommon,Enchantment,Aura,1,1,0,0,0,0,0,W,,
+Sheltered by Ghosts,,,uncommon,Enchantment,Aura,2,1,0,0,0,0,1,W,,
+Shepherding Spirits,4.0,5.0,common,Creature,Spirit,6,2,0,0,0,0,4,W,0.67,0.83
+Split Up,,,rare,Sorcery,none,3,2,0,0,0,0,1,W,,
+Splitskin Doll,2.0,1.0,uncommon,Creature,Toy,2,1,0,0,0,0,1,W,1.0,0.5
+Surgical Suite // Hospital Room,,,uncommon,Enchantment,Room,2,1,0,0,0,0,1,W,,
+"Toby, Beastie Befriender",1.0,1.0,rare,Creature,Human,3,1,0,0,0,0,2,W,0.33,0.33
+Trapped in the Screen,,,common,Enchantment,none,3,1,0,0,0,0,2,W,,
+Unidentified Hovership,2.0,2.0,rare,Artifact,Vehicle,3,2,0,0,0,0,1,W,0.67,0.67
+Unsettling Twins,2.0,2.0,common,Creature,Human,4,1,0,0,0,0,3,W,0.5,0.5
+Unwanted Remake,,,uncommon,Instant,none,1,1,0,0,0,0,0,W,,
+Veteran Survivor,2.0,1.0,uncommon,Creature,Human,1,1,0,0,0,0,0,W,2.0,1.0
+The Wandering Rescuer,3.0,4.0,mythic,Creature,Human,5,2,0,0,0,0,3,W,0.6,0.8
+Abhorrent Oculus,5.0,5.0,mythic,Creature,Other,3,0,1,0,0,0,2,U,1.67,1.67
+Bottomless Pool // Locker Room,,,uncommon,Enchantment,Room,1,0,1,0,0,0,0,U,,
+Central Elevator // Promising Stairs,,,rare,Enchantment,Room,4,0,1,0,0,0,3,U,,
+Clammy Prowler,2.0,5.0,common,Creature,Other,4,0,1,0,0,0,3,U,0.5,1.25
+Creeping Peeper,2.0,1.0,common,Creature,Other,2,0,1,0,0,0,1,U,1.0,0.5
+Cursed Windbreaker,,,uncommon,Artifact,Equipment,3,0,1,0,0,0,2,U,,
+Daggermaw Megalodon,5.0,7.0,common,Creature,Other,6,0,2,0,0,0,4,U,0.83,1.17
+Don't Make a Sound,,,common,Instant,none,2,0,1,0,0,0,1,U,,
+Duskmourn's Domination,,,uncommon,Enchantment,Aura,6,0,2,0,0,0,4,U,,
+Enduring Curiosity,4.0,3.0,rare,Creature,Cat,4,0,2,0,0,0,2,U,1.0,0.75
+Enter the Enigma,,,common,Sorcery,none,1,0,1,0,0,0,0,U,,
+Entity Tracker,2.0,3.0,rare,Creature,Human,3,0,1,0,0,0,2,U,0.67,1.0
+Erratic Apparition,1.0,3.0,common,Creature,Spirit,3,0,1,0,0,0,2,U,0.33,1.0
+Fear of Failed Tests,2.0,7.0,uncommon,Creature,Nightmare,5,0,1,0,0,0,4,U,0.4,1.4
+Fear of Falling,4.0,4.0,uncommon,Creature,Nightmare,5,0,2,0,0,0,3,U,0.8,0.8
+Fear of Impostors,3.0,2.0,uncommon,Creature,Nightmare,3,0,2,0,0,0,1,U,1.0,0.67
+Fear of Isolation,2.0,3.0,uncommon,Creature,Nightmare,2,0,1,0,0,0,1,U,1.0,1.5
+Floodpits Drowner,2.0,1.0,uncommon,Creature,Merfolk,2,0,1,0,0,0,1,U,1.0,0.5
+Get Out,,,uncommon,Instant,none,2,0,2,0,0,0,0,U,,
+Ghostly Keybearer,3.0,3.0,uncommon,Creature,Spirit,4,0,1,0,0,0,3,U,0.75,0.75
+Glimmerburst,,,common,Instant,none,4,0,1,0,0,0,3,U,,
+Leyline of Transformation,,,rare,Enchantment,none,4,0,2,0,0,0,2,U,,
+Marina Vendrell's Grimoire,,,rare,Artifact,none,6,0,1,0,0,0,5,U,,
+Meat Locker // Drowned Diner,,,common,Enchantment,Room,3,0,1,0,0,0,2,U,,
+The Mindskinner,10.0,1.0,rare,Creature,Nightmare,3,0,3,0,0,0,0,U,3.33,0.33
+Mirror Room // Fractured Realm,,,mythic,Enchantment,Room,3,0,1,0,0,0,2,U,,
+Overlord of the Floodpits,5.0,3.0,mythic,Creature,Avatar,5,0,2,0,0,0,3,U,1.0,0.6
+Paranormal Analyst,1.0,3.0,uncommon,Creature,Human,2,0,1,0,0,0,1,U,0.5,1.5
+Piranha Fly,2.0,1.0,common,Creature,Other,2,0,1,0,0,0,1,U,1.0,0.5
+Scrabbling Skullcrab,0.0,3.0,uncommon,Creature,Other,1,0,1,0,0,0,0,U,0.0,3.0
+Silent Hallcreeper,1.0,1.0,rare,Creature,Other,2,0,1,0,0,0,1,U,0.5,0.5
+Stalked Researcher,3.0,3.0,common,Creature,Human,2,0,1,0,0,0,1,U,1.5,1.5
+"Stay Hidden, Stay Silent",,,uncommon,Enchantment,Aura,2,0,1,0,0,0,1,U,,
+The Tale of Tamiyo,,,rare,Enchantment,Other,3,0,1,0,0,0,2,U,,
+Tunnel Surveyor,2.0,2.0,common,Creature,Human,3,0,1,0,0,0,2,U,0.67,0.67
+Twist Reality,,,common,Instant,none,3,0,2,0,0,0,1,U,,
+Unable to Scream,,,common,Enchantment,Aura,1,0,1,0,0,0,0,U,,
+Underwater Tunnel // Slimy Aquarium,,,common,Enchantment,Room,1,0,1,0,0,0,0,U,,
+Unnerving Grasp,,,uncommon,Sorcery,none,3,0,1,0,0,0,2,U,,
+Unwilling Vessel,3.0,2.0,uncommon,Creature,Human,3,0,1,0,0,0,2,U,1.0,0.67
+Vanish from Sight,,,common,Instant,none,4,0,1,0,0,0,3,U,,
+Appendage Amalgam,3.0,2.0,common,Creature,Other,3,0,0,1,0,0,2,B,1.0,0.67
+Balemurk Leech,2.0,2.0,common,Creature,Other,2,0,0,1,0,0,1,B,1.0,1.0
+Cackling Slasher,3.0,3.0,common,Creature,Human,4,0,0,1,0,0,3,B,0.75,0.75
+Come Back Wrong,,,rare,Sorcery,none,3,0,0,1,0,0,2,B,,
+Commune with Evil,,,uncommon,Sorcery,none,3,0,0,1,0,0,2,B,,
+Cracked Skull,,,common,Enchantment,Aura,3,0,0,1,0,0,2,B,,
+Cynical Loner,3.0,1.0,uncommon,Creature,Human,2,0,0,1,0,0,1,B,1.5,0.5
+Dashing Bloodsucker,2.0,5.0,uncommon,Creature,Vampire,4,0,0,1,0,0,3,B,0.5,1.25
+Defiled Crypt // Cadaver Lab,,,uncommon,Enchantment,Room,4,0,0,1,0,0,3,B,,
+Demonic Counsel,,,rare,Sorcery,none,2,0,0,1,0,0,1,B,,
+Derelict Attic // Widow's Walk,,,common,Enchantment,Room,3,0,0,1,0,0,2,B,,
+Doomsday Excruciator,6.0,6.0,rare,Creature,Demon,6,0,0,6,0,0,0,B,1.0,1.0
+Enduring Tenacity,4.0,3.0,rare,Creature,Other,4,0,0,2,0,0,2,B,1.0,0.75
+Fanatic of the Harrowing,2.0,2.0,common,Creature,Human,4,0,0,1,0,0,3,B,0.5,0.5
+Fear of Lost Teeth,1.0,1.0,common,Creature,Nightmare,1,0,0,1,0,0,0,B,1.0,1.0
+Fear of the Dark,5.0,5.0,common,Creature,Nightmare,5,0,0,1,0,0,4,B,1.0,1.0
+Final Vengeance,,,common,Sorcery,none,1,0,0,1,0,0,0,B,,
+Funeral Room // Awakening Hall,,,mythic,Enchantment,Room,3,0,0,1,0,0,2,B,,
+Give In to Violence,,,common,Instant,none,2,0,0,1,0,0,1,B,,
+Grievous Wound,,,rare,Enchantment,Aura,5,0,0,2,0,0,3,B,,
+Innocuous Rat,1.0,1.0,common,Creature,Rat,2,0,0,1,0,0,1,B,0.5,0.5
+Killer's Mask,,,uncommon,Artifact,Equipment,3,0,0,1,0,0,2,B,,
+Let's Play a Game,,,uncommon,Sorcery,none,4,0,0,1,0,0,3,B,,
+Leyline of the Void,,,rare,Enchantment,none,4,0,0,2,0,0,2,B,,
+Live or Die,,,uncommon,Instant,none,5,0,0,2,0,0,3,B,,
+Miasma Demon,5.0,4.0,uncommon,Creature,Demon,6,0,0,2,0,0,4,B,0.83,0.67
+Nowhere to Run,,,uncommon,Enchantment,none,2,0,0,1,0,0,1,B,,
+Osseous Sticktwister,2.0,2.0,uncommon,Creature,Other,2,0,0,1,0,0,1,B,1.0,1.0
+Overlord of the Balemurk,5.0,5.0,mythic,Creature,Avatar,5,0,0,2,0,0,3,B,1.0,1.0
+Popular Egotist,3.0,2.0,uncommon,Creature,Human,3,0,0,1,0,0,2,B,1.0,0.67
+Resurrected Cultist,4.0,1.0,common,Creature,Human,3,0,0,1,0,0,2,B,1.33,0.33
+Spectral Snatcher,6.0,5.0,common,Creature,Spirit,6,0,0,2,0,0,4,B,1.0,0.83
+Sporogenic Infection,,,uncommon,Enchantment,Aura,2,0,0,1,0,0,1,B,,
+Unholy Annex // Ritual Chamber,,,rare,Enchantment,Room,3,0,0,1,0,0,2,B,,
+Unstoppable Slasher,2.0,3.0,rare,Creature,Zombie,3,0,0,1,0,0,2,B,0.67,1.0
+"Valgavoth, Terror Eater",9.0,9.0,mythic,Creature,Other,9,0,0,3,0,0,6,B,1.0,1.0
+Valgavoth's Faithful,1.0,1.0,uncommon,Creature,Human,1,0,0,1,0,0,0,B,1.0,1.0
+Vile Mutilator,6.0,5.0,uncommon,Creature,Demon,7,0,0,2,0,0,5,B,0.86,0.71
+Winter's Intervention,,,common,Instant,none,2,0,0,1,0,0,1,B,,
+Withering Torment,,,uncommon,Instant,none,3,0,0,1,0,0,2,B,,
+Bedhead Beastie,5.0,6.0,common,Creature,Beast,6,0,0,0,2,0,4,R,0.83,1.0
+Betrayer's Bargain,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+Boilerbilges Ripper,4.0,4.0,common,Creature,Human,5,0,0,0,1,0,4,R,0.8,0.8
+Chainsaw,,,rare,Artifact,Equipment,2,0,0,0,1,0,1,R,,
+Charred Foyer // Warped Space,,,mythic,Enchantment,Room,4,0,0,0,1,0,3,R,,
+Clockwork Percussionist,1.0,1.0,common,Creature,Other,1,0,0,0,1,0,0,R,1.0,1.0
+Cursed Recording,,,rare,Artifact,none,4,0,0,0,2,0,2,R,,
+Diversion Specialist,4.0,3.0,uncommon,Creature,Human,4,0,0,0,1,0,3,R,1.0,0.75
+Enduring Courage,3.0,3.0,rare,Creature,Dog,4,0,0,0,2,0,2,R,0.75,0.75
+Fear of Being Hunted,4.0,2.0,uncommon,Creature,Nightmare,3,0,0,0,2,0,1,R,1.33,0.67
+Fear of Burning Alive,4.0,4.0,uncommon,Creature,Nightmare,6,0,0,0,2,0,4,R,0.67,0.67
+Fear of Missing Out,2.0,3.0,rare,Creature,Nightmare,2,0,0,0,1,0,1,R,1.0,1.5
+Glassworks // Shattered Yard,,,common,Enchantment,Room,3,0,0,0,1,0,2,R,,
+Grab the Prize,,,common,Sorcery,none,2,0,0,0,1,0,1,R,,
+Hand That Feeds,2.0,2.0,common,Creature,Other,2,0,0,0,1,0,1,R,1.0,1.0
+Impossible Inferno,,,common,Instant,none,5,0,0,0,1,0,4,R,,
+Infernal Phantom,2.0,3.0,uncommon,Creature,Spirit,4,0,0,0,1,0,3,R,0.5,0.75
+Irreverent Gremlin,2.0,2.0,uncommon,Creature,Other,2,0,0,0,1,0,1,R,1.0,1.0
+Leyline of Resonance,,,rare,Enchantment,none,4,0,0,0,2,0,2,R,,
+A-Leyline of Resonance,,,rare,Enchantment,none,4,0,0,0,2,0,2,R,,
+Most Valuable Slayer,2.0,4.0,common,Creature,Human,4,0,0,0,1,0,3,R,0.5,1.0
+"Norin, Swift Survivalist",2.0,1.0,uncommon,Creature,Human,1,0,0,0,1,0,0,R,2.0,1.0
+Overlord of the Boilerbilges,5.0,5.0,mythic,Creature,Avatar,6,0,0,0,2,0,4,R,0.83,0.83
+Painter's Studio // Defaced Gallery,,,uncommon,Enchantment,Room,3,0,0,0,1,0,2,R,,
+Piggy Bank,3.0,2.0,uncommon,Creature,Other,2,0,0,0,1,0,1,R,1.5,1.0
+Pyroclasm,,,uncommon,Sorcery,none,2,0,0,0,1,0,1,R,,
+Ragged Playmate,2.0,2.0,common,Creature,Toy,2,0,0,0,1,0,1,R,1.0,1.0
+Rampaging Soulrager,1.0,4.0,common,Creature,Spirit,3,0,0,0,1,0,2,R,0.33,1.33
+Razorkin Hordecaller,4.0,4.0,uncommon,Creature,Human,5,0,0,0,1,0,4,R,0.8,0.8
+Razorkin Needlehead,2.0,2.0,rare,Creature,Human,2,0,0,0,2,0,0,R,1.0,1.0
+Ripchain Razorkin,5.0,3.0,common,Creature,Human,4,0,0,0,1,0,3,R,1.25,0.75
+Screaming Nemesis,3.0,3.0,mythic,Creature,Spirit,3,0,0,0,1,0,2,R,1.0,1.0
+Ticket Booth // Tunnel of Hate,,,common,Enchantment,Room,3,0,0,0,1,0,2,R,,
+Trial of Agony,,,uncommon,Sorcery,none,1,0,0,0,1,0,0,R,,
+Turn Inside Out,,,common,Instant,none,1,0,0,0,1,0,0,R,,
+Untimely Malfunction,,,uncommon,Instant,none,2,0,0,0,1,0,1,R,,
+Vengeful Possession,,,uncommon,Sorcery,none,3,0,0,0,1,0,2,R,,
+Vicious Clown,2.0,3.0,common,Creature,Human,3,0,0,0,1,0,2,R,0.67,1.0
+Violent Urge,,,uncommon,Instant,none,1,0,0,0,1,0,0,R,,
+Waltz of Rage,,,rare,Sorcery,none,5,0,0,0,2,0,3,R,,
+"Altanak, the Thrice-Called",9.0,9.0,uncommon,Creature,Insect,7,0,0,0,0,2,5,G,1.29,1.29
+Anthropede,3.0,4.0,common,Creature,Insect,4,0,0,0,0,1,3,G,0.75,1.0
+Balustrade Wurm,5.0,5.0,rare,Creature,Other,5,0,0,0,0,2,3,G,1.0,1.0
+Bashful Beastie,5.0,4.0,common,Creature,Beast,5,0,0,0,0,1,4,G,1.0,0.8
+Break Down the Door,,,uncommon,Instant,none,3,0,0,0,0,1,2,G,,
+Cathartic Parting,,,uncommon,Sorcery,none,2,0,0,0,0,1,1,G,,
+Cautious Survivor,4.0,4.0,common,Creature,Elf,4,0,0,0,0,1,3,G,1.0,1.0
+Coordinated Clobbering,,,uncommon,Sorcery,none,1,0,0,0,0,1,0,G,,
+Cryptid Inspector,2.0,3.0,common,Creature,Elf,3,0,0,0,0,1,2,G,0.67,1.0
+Defiant Survivor,3.0,2.0,uncommon,Creature,Human,3,0,0,0,0,1,2,G,1.0,0.67
+Enduring Vitality,3.0,3.0,rare,Creature,Other,3,0,0,0,0,2,1,G,1.0,1.0
+Fear of Exposure,5.0,4.0,uncommon,Creature,Nightmare,3,0,0,0,0,1,2,G,1.67,1.33
+Flesh Burrower,2.0,2.0,common,Creature,Insect,2,0,0,0,0,1,1,G,1.0,1.0
+Frantic Strength,,,common,Enchantment,Aura,3,0,0,0,0,1,2,G,,
+Grasping Longneck,4.0,2.0,common,Creature,Other,3,0,0,0,0,1,2,G,1.33,0.67
+Greenhouse // Rickety Gazebo,,,uncommon,Enchantment,Room,3,0,0,0,0,1,2,G,,
+Hauntwoods Shrieker,3.0,3.0,mythic,Creature,Beast,3,0,0,0,0,2,1,G,1.0,1.0
+Hedge Shredder,5.0,5.0,rare,Artifact,Vehicle,4,0,0,0,0,2,2,G,1.25,1.25
+Horrid Vigor,,,common,Instant,none,2,0,0,0,0,1,1,G,,
+House Cartographer,2.0,2.0,uncommon,Creature,Human,2,0,0,0,0,1,1,G,1.0,1.0
+Insidious Fungus,1.0,2.0,uncommon,Creature,Other,1,0,0,0,0,1,0,G,1.0,2.0
+"Kona, Rescue Beastie",4.0,3.0,rare,Creature,Beast,4,0,0,0,0,1,3,G,1.0,0.75
+"A-Kona, Rescue Beastie",4.0,3.0,rare,Creature,Beast,5,0,0,0,0,1,4,G,0.8,0.6
+Leyline of Mutation,,,rare,Enchantment,none,4,0,0,0,0,2,2,G,,
+Manifest Dread,,,common,Sorcery,none,2,0,0,0,0,1,1,G,,
+Moldering Gym // Weight Room,,,common,Enchantment,Room,3,0,0,0,0,1,2,G,,
+Monstrous Emergence,,,common,Sorcery,none,2,0,0,0,0,1,1,G,,
+Omnivorous Flytrap,2.0,4.0,rare,Creature,Other,3,0,0,0,0,1,2,G,0.67,1.33
+Overgrown Zealot,0.0,4.0,uncommon,Creature,Elf,2,0,0,0,0,1,1,G,0.0,2.0
+Overlord of the Hauntwoods,6.0,5.0,mythic,Creature,Avatar,5,0,0,0,0,2,3,G,1.2,1.0
+Patchwork Beastie,3.0,3.0,uncommon,Creature,Beast,1,0,0,0,0,1,0,G,3.0,3.0
+Rootwise Survivor,3.0,4.0,uncommon,Creature,Human,5,0,0,0,0,2,3,G,0.6,0.8
+Say Its Name,,,common,Sorcery,none,2,0,0,0,0,1,1,G,,
+Slavering Branchsnapper,7.0,6.0,common,Creature,Lizard,6,0,0,0,0,2,4,G,1.17,1.0
+Spineseeker Centipede,2.0,1.0,common,Creature,Insect,3,0,0,0,0,1,2,G,0.67,0.33
+Threats Around Every Corner,,,uncommon,Enchantment,none,4,0,0,0,0,1,3,G,,
+Twitching Doll,2.0,2.0,rare,Creature,Spider,2,0,0,0,0,1,1,G,1.0,1.0
+"Tyvar, the Pummeler",3.0,3.0,mythic,Creature,Elf,3,0,0,0,0,2,1,G,1.0,1.0
+Under the Skin,,,uncommon,Sorcery,none,3,0,0,0,0,1,2,G,,
+Walk-In Closet // Forgotten Cellar,,,mythic,Enchantment,Room,3,0,0,0,0,1,2,G,,
+Wary Watchdog,3.0,1.0,common,Creature,Dog,2,0,0,0,0,1,1,G,1.5,0.5
+Wickerfolk Thresher,5.0,4.0,uncommon,Creature,Other,4,0,0,0,0,1,3,G,1.25,1.0
+"Arabella, Abandoned Doll",1.0,3.0,uncommon,Creature,Toy,2,1,0,0,1,0,0,WR,0.5,1.5
+Baseball Bat,,,uncommon,Artifact,Equipment,2,1,0,0,0,1,0,WG,,
+Beastie Beatdown,,,uncommon,Sorcery,none,2,0,0,0,1,1,0,RG,,
+Broodspinner,2.0,3.0,uncommon,Creature,Spider,2,0,0,1,0,1,0,BG,1.0,1.5
+Disturbing Mirth,,,uncommon,Enchantment,none,2,0,0,1,1,0,0,BR,,
+Drag to the Roots,,,uncommon,Instant,none,4,0,0,1,0,1,2,BG,,
+Fear of Infinity,2.0,2.0,uncommon,Creature,Nightmare,3,0,1,1,0,0,1,UB,0.67,0.67
+Gremlin Tamer,2.0,2.0,uncommon,Creature,Human,2,1,1,0,0,0,0,WU,1.0,1.0
+Growing Dread,,,uncommon,Enchantment,none,2,0,1,0,0,1,0,UG,,
+Inquisitive Glimmer,2.0,3.0,uncommon,Creature,Other,2,1,1,0,0,0,0,WU,1.0,1.5
+Intruding Soulrager,2.0,2.0,uncommon,Creature,Spirit,2,0,1,0,1,0,0,UR,1.0,1.0
+The Jolly Balloon Man,1.0,4.0,rare,Creature,Human,3,1,0,0,1,0,1,WR,0.33,1.33
+"Kaito, Bane of Nightmares",,,mythic,Planeswalker,Other,4,0,1,1,0,0,2,UB,,
+Marina Vendrell,3.0,5.0,rare,Creature,Human,5,1,1,1,1,1,0,WUBRG,0.6,1.0
+Midnight Mayhem,,,uncommon,Sorcery,none,4,1,0,0,1,0,2,WR,,
+"Nashi, Searcher in the Dark",2.0,2.0,rare,Creature,Rat,2,0,1,1,0,0,0,UB,1.0,1.0
+"Niko, Light of Hope",3.0,4.0,mythic,Creature,Human,4,1,1,0,0,0,2,WU,0.75,1.0
+Oblivious Bookworm,2.0,3.0,uncommon,Creature,Human,2,0,1,0,0,1,0,UG,1.0,1.5
+Peer Past the Veil,,,rare,Instant,none,4,0,0,0,1,1,2,RG,,
+Restricted Office // Lecture Hall,,,rare,Enchantment,Room,4,2,0,0,0,0,2,W,,
+"Rip, Spawn Hunter",4.0,4.0,rare,Creature,Human,4,1,0,0,0,1,2,WG,1.0,1.0
+Rite of the Moth,,,uncommon,Sorcery,none,4,1,0,2,0,0,1,WB,,
+Roaring Furnace // Steaming Sauna,,,rare,Enchantment,Room,2,0,0,0,1,0,1,R,,
+Sawblade Skinripper,3.0,2.0,uncommon,Creature,Human,3,0,0,1,1,0,1,BR,1.0,0.67
+Shrewd Storyteller,3.0,3.0,uncommon,Creature,Human,3,1,0,0,0,1,1,WG,1.0,1.0
+Shroudstomper,5.0,5.0,uncommon,Creature,Elemental,7,2,0,2,0,0,3,WB,0.71,0.71
+Skullsnap Nuisance,1.0,4.0,uncommon,Creature,Insect,2,0,1,1,0,0,0,UB,0.5,2.0
+Smoky Lounge // Misty Salon,,,uncommon,Enchantment,Room,3,0,0,0,1,0,2,R,,
+The Swarmweaver,2.0,3.0,rare,Creature,Other,4,0,0,1,0,1,2,BG,0.5,0.75
+Undead Sprinter,2.0,2.0,rare,Creature,Zombie,2,0,0,1,1,0,0,BR,1.0,1.0
+"Victor, Valgavoth's Seneschal",3.0,3.0,rare,Creature,Human,3,1,0,1,0,0,1,WB,1.0,1.0
+Wildfire Wickerfolk,3.0,2.0,uncommon,Creature,Other,2,0,0,0,1,1,0,RG,1.5,1.0
+"Winter, Misanthropic Guide",3.0,4.0,rare,Creature,Human,4,0,0,1,1,1,1,BRG,0.75,1.0
+"Zimone, All-Questioning",1.0,1.0,rare,Creature,Human,3,0,1,0,0,1,1,UG,0.33,0.33
+Attack-in-the-Box,2.0,4.0,uncommon,Creature,Toy,3,0,0,0,0,0,3,colorless,0.67,1.33
+Bear Trap,,,common,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Conductive Machete,,,uncommon,Artifact,Equipment,4,0,0,0,0,0,4,colorless,,
+Dissection Tools,,,rare,Artifact,Equipment,5,0,0,0,0,0,5,colorless,,
+Found Footage,,,common,Artifact,Clue,1,0,0,0,0,0,1,colorless,,
+Friendly Teddy,2.0,2.0,common,Creature,Other,2,0,0,0,0,0,2,colorless,1.0,1.0
+Ghost Vacuum,,,rare,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Glimmerlight,,,common,Artifact,Equipment,2,0,0,0,0,0,2,colorless,,
+Haunted Screen,,,uncommon,Artifact,none,3,0,0,0,0,0,3,colorless,,
+Keys to the House,,,uncommon,Artifact,none,1,0,0,0,0,0,1,colorless,,
+Malevolent Chandelier,4.0,4.0,common,Creature,Construct,6,0,0,0,0,0,6,colorless,0.67,0.67
+"Marvin, Murderous Mimic",2.0,2.0,rare,Creature,Toy,2,0,0,0,0,0,2,colorless,1.0,1.0
+Saw,,,uncommon,Artifact,Equipment,2,0,0,0,0,0,2,colorless,,
+Abandoned Campground,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Blazemire Verge,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Bleeding Woods,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Etched Cornfield,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Floodfarm Verge,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Gloomlake Verge,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Hushwood Verge,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Lakeside Shack,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Murky Sewer,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Neglected Manor,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Peculiar Lighthouse,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Raucous Carnival,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Razortrap Gorge,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Strangled Cemetery,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Terramorphic Expanse,,,common,Land,none,0,0,0,0,0,0,0,colorless,,
+Thornspire Verge,,,rare,Land,none,0,0,0,0,0,0,0,colorless,,
+Valgavoth's Lair,,,rare,Enchantment,none,0,0,0,0,0,0,0,colorless,,

@@ -64,7 +64,7 @@ def build_dataframe(cards: list[dict]) -> pd.DataFrame:
     The same card can appear in multiple sets with identical stats, so we keep
     only the first occurrence (preserving list order, which reflects SETS order).
     """
-    logger.debug("Building DataFrame from {:,} cards", len(cards))
+    logger.debug("Building DataFrame from {:,} raw card records", len(cards))
     df = pd.DataFrame([{
         "name":      c.get("name"),
         "type":      c.get("type"),
@@ -79,13 +79,22 @@ def build_dataframe(cards: list[dict]) -> pd.DataFrame:
     before = len(df)
     df = df.drop_duplicates(subset=["name"], keep="first").reset_index(drop=True)
     duplicates = before - len(df)
-    if duplicates:
-        logger.debug("Dropped {:,} duplicate card name(s) — {:,} unique cards remain", duplicates, len(df))
-
+    logger.info(
+        "Deduplicated by name: {:,} duplicate(s) dropped — {:,} unique cards",
+        duplicates, len(df),
+    )
     logger.debug("DataFrame shape: {} rows x {} columns", *df.shape)
-    null_pct = df.isna().mean()
-    for col, pct in null_pct[null_pct > 0.5].items():
-        logger.warning("Column '{}' is {:.0%} null after fetch", col, pct)
+
+    # Warn only for columns that should always be populated.
+    # power/toughness/text/mana_cost being sparse is expected (non-creature cards).
+    always_populated = ["name", "type", "rarity"]
+    for col in always_populated:
+        if col not in df.columns:
+            continue
+        pct = df[col].isna().mean()
+        if pct > 0:
+            logger.warning("Column '{}' is {:.0%} null after fetch — data may be incomplete", col, pct)
+
     return df
 
 
